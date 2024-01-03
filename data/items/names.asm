@@ -169,7 +169,7 @@ ItemNames::
 	li "NORMAL BOX"
 	li "GORGEOUS BOX"
 	li "SUN STONE"
-	li "POLKADOT BOW"
+	li "Silk Scarf"
 	li "TERU-SAMA"
 	li "UP-GRADE"
 	li "BERRY"
