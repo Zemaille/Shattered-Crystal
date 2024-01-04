@@ -1224,11 +1224,11 @@ TwisterDescription:
 
 RainDanceDescription:
 	db   "Boosts water-type"
-	next "moves for 5 turns.@"
+	next "moves.@"
 
 SunnyDayDescription:
 	db   "Boosts fire-type"
-	next "moves for 5 turns.@"
+	next "moves.@"
 
 CrunchDescription:
 	db   "An attack that may"
@@ -1271,5 +1271,5 @@ BeatUpDescription:
 	next "in the attack.@"
 
 HailDescription:
-	db   "Sharply increases"
-	next "user's SPCL.ATK.@"
+	db   "Inflicts damage"
+	next "every turn.@"
