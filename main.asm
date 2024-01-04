@@ -22,9 +22,15 @@ INCLUDE "engine/math/sine.asm"
 INCLUDE "engine/predef.asm"
 INCLUDE "engine/gfx/color.asm"
 
+
 SECTION "Time Of Day Images", ROMX
 
 INCLUDE "gfx/timeofday_images.asm"
+
+
+SECTION "Battle Weather Images", ROMX
+
+INCLUDE "gfx/weather_images.asm"
 
 
 SECTION "bank3", ROMX
