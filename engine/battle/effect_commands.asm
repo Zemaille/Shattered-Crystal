@@ -2570,6 +2570,7 @@ PlayerAttackDamage:
 	ld b, a
 	ld c, [hl]
 
+	call HailDefBoost
 	ld a, [wEnemyScreens]
 	bit SCREENS_REFLECT, a
 	jr z, .physicalcrit
@@ -2810,6 +2811,7 @@ EnemyAttackDamage:
 	ld b, a
 	ld c, [hl]
 
+	call HailDefBoost
 	ld a, [wPlayerScreens]
 	bit SCREENS_REFLECT, a
 	jr z, .physicalcrit
@@ -6747,3 +6749,34 @@ SandstormSpDefBoost:
 	ld b, h
 	ld c, l
 	ret
+
+HailDefBoost: 
+; First, check if Sandstorm is active.
+	ld a, [wBattleWeather]
+	cp WEATHER_HAIL
+	ret nz
+
+; Then, check the opponent's types.
+	ld hl, wEnemyMonType1
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .ok
+	ld hl, wBattleMonType1
+.ok
+	ld a, [hli]
+	cp ICE
+	jr z, .start_boost
+	ld a, [hl]
+	cp ICE
+	ret nz
+
+.start_boost
+	ld h, b
+	ld l, c
+	srl b
+	rr c
+	add hl, bc
+	ld b, h
+	ld c, l
+	ret
+
