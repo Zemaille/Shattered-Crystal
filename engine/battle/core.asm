@@ -242,17 +242,23 @@ BattleTurn:
 GetTimeOfDayImage:
 	ld a, [wTimeOfDay]
 	cp MORN_F
-	jr z, .DayImage
+	jr z, .MornImage
 	cp DAY_F
 	jr z, .DayImage
 	cp NITE_F
 	jr z, .NightImage
+
+.MornImage
+ ld de, MornBattleImage
+ lb bc, PAL_BATTLE_OB_YELLOW, 4
+ jr .done	
+ 
 .DayImage
  ld de, DayBattleImage
  lb bc, PAL_BATTLE_OB_YELLOW, 4
  jr .done	
 	
- .NightImage
+.NightImage
  ld de, NightBattleImage
  lb bc, PAL_BATTLE_OB_BLUE, 4
 
@@ -273,6 +279,7 @@ GetTimeOfDayImage:
 	ld [hli], a
 	dec c
 	ld a, c
+	ld a, c
 	ld [hli], a
 	ld a, b
 	ld [hli], a
@@ -282,10 +289,10 @@ GetTimeOfDayImage:
 .TimeOfDayImageOAMData
 ; positions are backwards since
 ; we load them in reverse order
-	db $88, $1c ; y/x - bottom right
-	db $88, $14 ; y/x - bottom left
-	db $80, $1c ; y/x - top right
-	db $80, $14 ; y/x - top left
+	db $88, $32 ; y/x - bottom right
+	db $88, $2a ; y/x - bottom left
+	db $80, $32 ; y/x - top right
+	db $80, $2a ; y/x - top left
 
 Stubbed_Increments5_a89a:
 	ret
