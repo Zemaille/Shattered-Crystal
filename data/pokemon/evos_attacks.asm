@@ -2148,7 +2148,7 @@ TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, HAIL
+	db 1, HIDDEN_POWER
 	db 7, RAGE
 	db 13, WATER_GUN
 	db 20, BITE
