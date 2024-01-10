@@ -366,74 +366,6 @@ Unused_PlaceEnemyHPLevel:
 .egg
 	ret
 
-PlaceStatusString:
-; Return nz if the status is not OK
-	push de
-	inc de
-	inc de
-	ld a, [de]
-	ld b, a
-	inc de
-	ld a, [de]
-	or b
-	pop de
-	jr nz, PlaceNonFaintStatus
-	push de
-	ld de, FntString
-	call CopyStatusString
-	pop de
-	ld a, TRUE
-	and a
-	ret
-
-FntString:
-	db "FNT@"
-
-CopyStatusString:
-	ld a, [de]
-	inc de
-	ld [hli], a
-	ld a, [de]
-	inc de
-	ld [hli], a
-	ld a, [de]
-	ld [hl], a
-	ret
-
-PlaceNonFaintStatus:
-	push de
-	ld a, [de]
-	ld de, PsnString
-	bit PSN, a
-	jr nz, .place
-	ld de, BrnString
-	bit BRN, a
-	jr nz, .place
-	ld de, FrzString
-	bit FRZ, a
-	jr nz, .place
-	ld de, ParString
-	bit PAR, a
-	jr nz, .place
-	ld de, SlpString
-	and SLP_MASK
-	jr z, .no_status
-
-.place
-	call CopyStatusString
-	ld a, TRUE
-	and a
-
-.no_status
-	pop de
-	ret
-
-SlpString: db "SLP@"
-PsnString: db "PSN@"
-BrnString: db "BRN@"
-FrzString: db "FRZ@"
-ParString: db "PAR@"
-
 ListMoves:
 ; List moves at hl, spaced every [wListMovesLineSpacing] tiles.
 	ld de, wListMoves_MoveIndicesBuffer
@@ -545,4 +477,93 @@ GetStatusConditionIndex:
 .psn
 	inc a ; 1
 	ld d, a
+	ret
+
+Player_CheckToxicStatus:
+	ld a, [wPlayerSubStatus5]
+	bit SUBSTATUS_TOXIC, a
+	ret z
+	scf ; if we are Toxic'd set carry flag
+	ret
+
+Enemy_CheckToxicStatus:
+	ld a, [wEnemySubStatus5]
+	bit SUBSTATUS_TOXIC, a
+	ret z
+	scf ; if we are Toxic'd set carry flag
+	ret
+
+Player_LoadNonFaintStatus:
+	ld bc, 0	
+	call Player_CheckToxicStatus
+	jr nc, .player_check_status_nottoxic
+	ld a, 7 ; status condition index for Toxic
+	jr .player_loadgfx ; yes, we are toxic
+.player_check_status_nottoxic
+	ld de, wBattleMonStatus
+	call GetStatusConditionIndex
+	and a
+	ret z ; .no_status
+	cp $6 ; status condition index for FNT
+	ret z
+.player_loadgfx
+	push af ; status index
+; Load Player Status Tiles GFX into VRAM
+	ld hl, StatusIconGFX
+	ld bc, 2 * LEN_2BPP_TILE
+	call AddNTimes
+	ld d, h
+	ld e, l
+	ld hl, vTiles2 tile $70
+	lb bc, BANK(StatusIconGFX), 2
+	call Request2bpp
+	pop de ; status index, needs to be in 'd'
+	push de ; status condition index
+	farcall LoadPlayerStatusIconPalette
+	pop af
+	cp 6
+	jr z, .player_fnt
+	ld c, a
+	ret
+.player_fnt
+	xor a
+	ld c, a
+	ret
+
+Enemy_LoadNonFaintStatus:
+	ld bc, 0
+	call Enemy_CheckToxicStatus
+	jr nc, .enemy_check_nontoxic
+	ld a, 7 ; status condition index for Toxic
+	jr .enemy_loadgfx ; yes, we are toxic
+.enemy_check_nontoxic
+	ld de, wEnemyMonStatus
+	call GetStatusConditionIndex
+	and a ; could also use c but this was a local call, so a is not clobbered
+	ret z ; .no_status
+	cp $6 ; faint
+	ret z
+.enemy_loadgfx
+; Load Enemy Status Tiles GFX into VRAM
+	push af ; status condition index
+	ld hl, EnemyStatusIconGFX
+	ld bc, 2 * LEN_2BPP_TILE
+	call AddNTimes
+	ld d, h
+	ld e, l
+	ld hl, vTiles2 tile $72
+	lb bc, BANK(EnemyStatusIconGFX), 2
+	call Request2bpp
+
+	pop de ; status condition index, needs to be in 'd'
+	push de ; status condition index
+	farcall LoadEnemyStatusIconPalette
+	pop af ; status condition index
+	cp 6 ; index 6 means the mon is fainted
+	jr z, .enemy_fnt
+	ld c, a ; status condition index
+	ret
+.enemy_fnt
+	xor a ; status condition index
+	ld c, a
 	ret
