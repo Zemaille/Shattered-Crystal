@@ -3581,6 +3581,8 @@ OfferSwitch:
 	call ClearPalettes
 	call DelayFrame
 	call _LoadHPBar
+	call GetBattleMonBackpic
+	call WaitBGMap
 	pop af
 	ld [wCurPartyMon], a
 	xor a
@@ -3593,6 +3595,8 @@ OfferSwitch:
 	call ClearPalettes
 	call DelayFrame
 	call _LoadHPBar
+	call GetBattleMonBackpic
+	call WaitBGMap
 
 .said_no
 	pop af
@@ -5172,6 +5176,8 @@ BattleMenuPKMN_Loop:
 	call DelayFrame
 	call _LoadHPBar
 	call CloseWindow
+	call GetBattleMonBackpic
+	call WaitBGMap
 	call LoadTilemapToTempTilemap
 	call GetMemSGBLayout
 	call SetPalettes
@@ -5259,6 +5265,8 @@ TryPlayerSwitch:
 	call DelayFrame
 	call ClearSprites
 	call _LoadHPBar
+	call GetBattleMonBackpic
+	call WaitBGMap
 	call CloseWindow
 	call GetMemSGBLayout
 	call SetPalettes
@@ -8038,7 +8046,18 @@ PlaceExpBar:
 .next
 	add $8
 	jr z, .loop2
-	add $54 ; tile to the left of small exp bar tile
+	push hl
+	push af
+	hlcoord 9, 0 ; coord of HP bar label, usually 0,9
+	ld a, [hl]
+	ld b, $62
+	cp $e8 ; if we are in stats screen
+	jr nz, .inbattle
+	ld b, $54
+.inbattle
+	pop af
+	pop hl
+	add b
 	jr .skip
 
 .loop2
