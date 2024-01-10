@@ -196,6 +196,7 @@ NewPokedexOrder:
 	db PILOSWINE
 	db TEDDIURSA
 	db URSARING
+	db URSALUNA
 	db PHANPY
 	db DONPHAN
 	db MANTINE
