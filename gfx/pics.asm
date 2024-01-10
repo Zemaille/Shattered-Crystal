@@ -712,6 +712,9 @@ UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 SECTION "Pics 19", ROMX
 UrsalunaFrontpic:    INCBIN "gfx/pokemon/ursaluna/front.animated.2bpp.lz"
 UrsalunaBackpic:     INCBIN "gfx/pokemon/ursaluna/back.2bpp.lz"
+SuicasaurFrontpic:   INCBIN "gfx/pokemon/suicasaur/front.animated.2bpp.lz"
+SuicasaurBackpic:    INCBIN "gfx/pokemon/suicasaur/back.2bpp.lz"
+
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,

@@ -216,6 +216,7 @@ AlphabeticalPokedexOrder:
 	db STARYU
 	db STEELIX
 	db SUDOWOODO
+	db SUICASAUR
 	db SUICUNE
 	db SUNFLORA
 	db SUNKERN

@@ -510,6 +510,8 @@ PokemonPicPointers::
 	dba CelebiBackpic
 	dba UrsalunaFrontpic
 	dba UrsalunaBackpic
+	dba SuicasaurFrontpic
+	dba SuicasaurBackpic
 	assert_table_length NUM_POKEMON
 	dba EggPic
 	dbw -1, -1 ; unused

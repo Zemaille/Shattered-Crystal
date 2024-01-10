@@ -243,6 +243,7 @@ NewPokedexOrder:
 	db RAIKOU
 	db ENTEI
 	db SUICUNE
+	db SUICASAUR
 	db DRATINI
 	db DRAGONAIR
 	db DRAGONITE

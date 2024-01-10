@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, URSALUNA
-	db 2, URSALUNA
-	db 3, URSALUNA
-	db 3, URSALUNA
-	db 2, URSALUNA
-	db 3, URSALUNA
-	db 3, URSALUNA
+	db 2, SUICASAUR
+	db 2, SUICASAUR
+	db 3, SUICASAUR
+	db 3, SUICASAUR
+	db 2, SUICASAUR
+	db 3, SUICASAUR
+	db 3, SUICASAUR
 	; day
-	db 2, URSALUNA
-	db 2, URSALUNA
-	db 3, URSALUNA
-	db 3, URSALUNA
-	db 2, URSALUNA
-	db 3, URSALUNA
-	db 3, URSALUNA
+	db 2, SUICASAUR
+	db 2, SUICASAUR
+	db 3, SUICASAUR
+	db 3, SUICASAUR
+	db 2, SUICASAUR
+	db 3, SUICASAUR
+	db 3, SUICASAUR
 	; nite
-	db 2, URSALUNA
-	db 2, URSALUNA
-	db 3, URSALUNA
-	db 3, URSALUNA
-	db 2, URSALUNA
-	db 3, URSALUNA
-	db 3, URSALUNA
+	db 2, SUICASAUR
+	db 2, SUICASAUR
+	db 3, SUICASAUR
+	db 3, SUICASAUR
+	db 2, SUICASAUR
+	db 3, SUICASAUR
+	db 3, SUICASAUR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

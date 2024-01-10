@@ -252,10 +252,10 @@ PokemonNames::
 	db "HO-OH@@@@@"
 	db "CELEBI@@@@"
 	db "Ursaluna@@"
+	db "Suicasaur@"
 	assert_table_length NUM_POKEMON
 	db "Egg@@@@@@@"
 	assert_table_length EGG
-	db "?????@@@@@"
 	db "?????@@@@@"
 	db "?????@@@@@"
 	assert_table_length $100
