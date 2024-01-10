@@ -1667,6 +1667,7 @@ MrMimeEvosAttacks:
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
+	db EVOLVE_ITEM, METAL_COAT, SCIZOR
 	db EVOLVE_TRADE, METAL_COAT, SCIZOR
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
@@ -1674,7 +1675,7 @@ ScytherEvosAttacks:
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
 	db 18, FALSE_SWIPE
-	db 24, AGILITY
+	db 24, LEECH_LIFE
 	db 30, WING_ATTACK
 	db 36, SLASH
 	db 42, SWORDS_DANCE
@@ -2149,12 +2150,13 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
+	db 1, BUBBLE
 	db 7, RAGE
-	db 13, WATER_GUN
+	db 13, CLAMP
 	db 20, BITE
-	db 27, SCARY_FACE
-	db 35, SLASH
-	db 43, SCREECH
+	db 27, SLASH
+	db 35, CRUNCH
+	db 43, WATERFALL
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -2165,11 +2167,11 @@ CroconawEvosAttacks:
 	db 1, LEER
 	db 1, RAGE
 	db 7, RAGE
-	db 13, WATER_GUN
+	db 13, CLAMP
 	db 21, BITE
-	db 28, SCARY_FACE
-	db 37, SLASH
-	db 45, SCREECH
+	db 28, SLASH
+	db 37, CRUNCH
+	db 45, WATERFALL
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -2182,9 +2184,9 @@ FeraligatrEvosAttacks:
 	db 7, RAGE
 	db 13, WATER_GUN
 	db 21, BITE
-	db 28, SCARY_FACE
-	db 38, SLASH
-	db 47, SCREECH
+	db 28, SLASH
+	db 38, CRUNCH
+	db 47, WATERFALL
 	db 58, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -2694,8 +2696,8 @@ SlowkingEvosAttacks:
 MisdreavusEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, PSYWAVE
-	db 6, SPITE
+	db 1, LICK
+	db 6, CONFUSION
 	db 12, CONFUSE_RAY
 	db 19, MEAN_LOOK
 	db 27, PSYBEAM
@@ -2841,7 +2843,7 @@ ScizorEvosAttacks:
 	db 6, FOCUS_ENERGY
 	db 12, PURSUIT
 	db 18, FALSE_SWIPE
-	db 24, AGILITY
+	db 24, LEECH_LIFE
 	db 30, METAL_CLAW
 	db 36, SLASH
 	db 42, SWORDS_DANCE

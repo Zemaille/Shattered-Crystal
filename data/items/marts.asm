@@ -35,7 +35,10 @@ Marts:
 	assert_table_length NUM_MARTS
 
 MartCherrygrove:
-	db 4 ; # items
+	db 7 ; # items
+	db MASTER_BALL
+	db METAL_COAT
+	db LUCKY_EGG
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL

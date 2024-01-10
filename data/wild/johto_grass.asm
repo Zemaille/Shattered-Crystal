@@ -1265,29 +1265,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, LEDYBA
-	db 3, CATERPIE
-	db 4, CATERPIE
-	db 4, PIDGEY
-	db 3, WEEDLE
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 3, SNORLAX
+	db 3, SNORLAX
+	db 4, SNORLAX
+	db 4, MISDREAVUS
+	db 3, MISDREAVUS
+	db 4, ODDISH
+	db 4, ODDISH
 	; day
-	db 3, PIDGEY
-	db 3, CATERPIE
-	db 4, CATERPIE
-	db 4, PIDGEY
-	db 3, WEEDLE
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 3, SNORLAX
+	db 3, SNORLAX
+	db 4, SNORLAX
+	db 4, MISDREAVUS
+	db 3, MISDREAVUS
+	db 4, ODDISH
+	db 4, ODDISH
 	; nite
-	db 3, SPINARAK
-	db 3, HOOTHOOT
-	db 4, POLIWAG
-	db 4, HOOTHOOT
-	db 3, ZUBAT
-	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 3, SNORLAX
+	db 3, SNORLAX
+	db 4, SNORLAX
+	db 4, MISDREAVUS
+	db 3, MISDREAVUS
+	db 4, ODDISH
+	db 4, ODDISH
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
