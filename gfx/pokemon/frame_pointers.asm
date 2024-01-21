@@ -12,8 +12,8 @@ FramesPointers:
 	dw CaterpieFrames
 	dw MetapodFrames
 	dw ButterfreeFrames
-	dw WeedleFrames
-	dw KakunaFrames
+	dw FennekinFrames
+	dw BraixenFrames
 	dw BeedrillFrames
 	dw PidgeyFrames
 	dw PidgeottoFrames

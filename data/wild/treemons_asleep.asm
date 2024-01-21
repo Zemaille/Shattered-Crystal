@@ -4,8 +4,8 @@ AsleepTreeMonsNite:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
+	db FENNEKIN
+	db BRAIXEN
 	db BEEDRILL
 	db SPEAROW
 	db EKANS

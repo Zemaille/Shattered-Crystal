@@ -346,16 +346,16 @@ JohtoGrassWildMons:
 	db 14, LEDYBA
 	db 13, PIDGEY
 	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, FENNEKIN
+	db 10, FENNEKIN
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, PIDGEY
 	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, FENNEKIN
+	db 10, FENNEKIN
 	; nite
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
@@ -566,17 +566,17 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, CATERPIE
-	db 5, WEEDLE
+	db 5, FENNEKIN
 	db 7, METAPOD
-	db 7, KAKUNA
+	db 7, BRAIXEN
 	db 7, PIDGEY
 	db 6, PARAS
 	db 6, PARAS
 	; day
 	db 5, CATERPIE
-	db 5, WEEDLE
+	db 5, FENNEKIN
 	db 7, METAPOD
-	db 7, KAKUNA
+	db 7, BRAIXEN
 	db 7, PIDGEY
 	db 6, PARAS
 	db 6, PARAS
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, SUICASAUR
-	db 2, SUICASAUR
-	db 3, SUICASAUR
-	db 3, SUICASAUR
-	db 2, SUICASAUR
-	db 3, SUICASAUR
-	db 3, SUICASAUR
+	db 2, BRAIXEN
+	db 2, BRAIXEN
+	db 3, BRAIXEN
+	db 3, BRAIXEN
+	db 2, BRAIXEN
+	db 3, BRAIXEN
+	db 3, BRAIXEN
 	; day
-	db 2, SUICASAUR
-	db 2, SUICASAUR
-	db 3, SUICASAUR
-	db 3, SUICASAUR
-	db 2, SUICASAUR
-	db 3, SUICASAUR
-	db 3, SUICASAUR
+	db 2, BRAIXEN
+	db 2, BRAIXEN
+	db 3, BRAIXEN
+	db 3, BRAIXEN
+	db 2, BRAIXEN
+	db 3, BRAIXEN
+	db 3, BRAIXEN
 	; nite
-	db 2, SUICASAUR
-	db 2, SUICASAUR
-	db 3, SUICASAUR
-	db 3, SUICASAUR
-	db 2, SUICASAUR
-	db 3, SUICASAUR
-	db 3, SUICASAUR
+	db 2, BRAIXEN
+	db 2, BRAIXEN
+	db 3, BRAIXEN
+	db 3, BRAIXEN
+	db 2, BRAIXEN
+	db 3, BRAIXEN
+	db 3, BRAIXEN
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1269,7 +1269,7 @@ JohtoGrassWildMons:
 	db 3, CATERPIE
 	db 4, CATERPIE
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, FENNEKIN
 	db 4, HOPPIP
 	db 4, HOPPIP
 	; day
@@ -1277,7 +1277,7 @@ JohtoGrassWildMons:
 	db 3, CATERPIE
 	db 4, CATERPIE
 	db 4, PIDGEY
-	db 3, WEEDLE
+	db 3, FENNEKIN
 	db 4, HOPPIP
 	db 4, HOPPIP
 	; nite
@@ -1297,7 +1297,7 @@ JohtoGrassWildMons:
 	db 4, CATERPIE
 	db 5, BELLSPROUT
 	db 5, PIDGEY
-	db 4, WEEDLE
+	db 4, FENNEKIN
 	db 5, HOPPIP
 	db 5, HOPPIP
 	; day
@@ -1305,7 +1305,7 @@ JohtoGrassWildMons:
 	db 4, CATERPIE
 	db 5, BELLSPROUT
 	db 5, PIDGEY
-	db 4, WEEDLE
+	db 4, FENNEKIN
 	db 5, HOPPIP
 	db 5, HOPPIP
 	; nite

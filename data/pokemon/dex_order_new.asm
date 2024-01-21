@@ -28,8 +28,8 @@ NewPokedexOrder:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
+	db FENNEKIN
+	db BRAIXEN
 	db BEEDRILL
 	db LEDYBA
 	db LEDIAN

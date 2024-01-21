@@ -102,7 +102,7 @@ AlphabeticalPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db KADABRA
-	db KAKUNA
+	db BRAIXEN
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER
@@ -245,7 +245,7 @@ AlphabeticalPokedexOrder:
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE
-	db WEEDLE
+	db FENNEKIN
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF
