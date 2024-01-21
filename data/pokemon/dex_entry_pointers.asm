@@ -19,7 +19,7 @@ PokedexDataPointerTable:
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry
-	dw RattataPokedexEntry
+	dw HonchkrowPokedexEntry
 	dw RaticatePokedexEntry
 	dw SpearowPokedexEntry
 	dw FearowPokedexEntry

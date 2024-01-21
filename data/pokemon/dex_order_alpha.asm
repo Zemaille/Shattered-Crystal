@@ -183,7 +183,7 @@ AlphabeticalPokedexOrder:
 	db RAIKOU
 	db RAPIDASH
 	db RATICATE
-	db RATTATA
+	db HONCHKROW
 	db REMORAID
 	db RHYDON
 	db RHYHORN

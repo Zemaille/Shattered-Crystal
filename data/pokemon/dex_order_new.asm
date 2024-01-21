@@ -18,7 +18,7 @@ NewPokedexOrder:
 	db FEAROW
 	db HOOTHOOT
 	db NOCTOWL
-	db RATTATA
+	db HONCHKROW
 	db RATICATE
 	db SENTRET
 	db FURRET

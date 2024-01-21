@@ -42,7 +42,7 @@ PidgeyEggMoves:
 	db FORESIGHT
 	db -1 ; end
 
-RattataEggMoves:
+HonchkrowEggMoves:
 	db SCREECH
 	db FLAME_WHEEL
 	db FURY_SWIPES

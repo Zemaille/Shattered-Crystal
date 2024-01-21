@@ -1,5 +1,5 @@
 	db "FOX@" ; species name
-	dw 104, 207 ; height, weight
+	dw 411, 860 ; height, weight
 
 	db   "PLACEHOLDER"
 	next "PLACEHOLDER"

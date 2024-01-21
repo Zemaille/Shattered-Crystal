@@ -164,7 +164,7 @@ Pokered_MonIndices:
 	db BLISSEY ; MISSINGNO.
 	db PONYTA
 	db RAPIDASH
-	db RATTATA
+	db HONCHKROW
 	db RATICATE
 	db NIDORINO
 	db NIDORINA

@@ -18,7 +18,7 @@ AnimationPointers:
 	dw PidgeyAnimation
 	dw PidgeottoAnimation
 	dw PidgeotAnimation
-	dw RattataAnimation
+	dw HonchkrowAnimation
 	dw RaticateAnimation
 	dw SpearowAnimation
 	dw FearowAnimation
