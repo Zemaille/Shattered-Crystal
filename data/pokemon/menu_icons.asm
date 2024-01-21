@@ -16,7 +16,7 @@ MonMenuIcons:
 	db ICON_MOTH        ; BUTTERFREE
 	db ICON_CATERPILLAR ; FENNEKIN
 	db ICON_CATERPILLAR ; BRAIXEN
-	db ICON_BUG         ; BEEDRILL
+	db ICON_BUG         ; DELPHOX
 	db ICON_BIRD        ; PIDGEY
 	db ICON_BIRD        ; PIDGEOTTO
 	db ICON_BIRD        ; PIDGEOT

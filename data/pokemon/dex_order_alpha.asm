@@ -13,7 +13,7 @@ AlphabeticalPokedexOrder:
 	db ARTICUNO
 	db AZUMARILL
 	db BAYLEEF
-	db BEEDRILL
+	db DELPHOX
 	db BELLOSSOM
 	db BELLSPROUT
 	db BLASTOISE

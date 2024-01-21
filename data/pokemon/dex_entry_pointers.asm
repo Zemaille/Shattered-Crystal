@@ -15,7 +15,7 @@ PokedexDataPointerTable:
 	dw ButterfreePokedexEntry
 	dw FennekinPokedexEntry
 	dw BraixenPokedexEntry
-	dw BeedrillPokedexEntry
+	dw DelphoxPokedexEntry
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry

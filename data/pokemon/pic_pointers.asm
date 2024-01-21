@@ -31,8 +31,8 @@ PokemonPicPointers::
 	dba FennekinBackpic
 	dba BraixenFrontpic
 	dba BraixenBackpic
-	dba BeedrillFrontpic
-	dba BeedrillBackpic
+	dba DelphoxFrontpic
+	dba DelphoxBackpic
 	dba PidgeyFrontpic
 	dba PidgeyBackpic
 	dba PidgeottoFrontpic

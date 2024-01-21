@@ -6,7 +6,7 @@ AsleepTreeMonsNite:
 	db BUTTERFREE
 	db FENNEKIN
 	db BRAIXEN
-	db BEEDRILL
+	db DELPHOX
 	db SPEAROW
 	db EKANS
 	db EXEGGCUTE

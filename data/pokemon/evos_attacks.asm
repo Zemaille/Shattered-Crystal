@@ -202,13 +202,13 @@ FennekinEvosAttacks:
 	db 0 ; no more level-up moves
 
 BraixenEvosAttacks:
-	db EVOLVE_LEVEL, 10, BEEDRILL
+	db EVOLVE_LEVEL, 10, DELPHOX
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 7, HARDEN
 	db 0 ; no more level-up moves
 
-BeedrillEvosAttacks:
+DelphoxEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_ATTACK
 	db 10, FURY_ATTACK

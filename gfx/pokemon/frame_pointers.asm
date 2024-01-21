@@ -14,7 +14,7 @@ FramesPointers:
 	dw ButterfreeFrames
 	dw FennekinFrames
 	dw BraixenFrames
-	dw BeedrillFrames
+	dw DelphoxFrames
 	dw PidgeyFrames
 	dw PidgeottoFrames
 	dw PidgeotFrames

@@ -5,7 +5,7 @@ ContestMons:
 	db 10, METAPOD,     9, 18
 	db 10, BRAIXEN,      9, 18
 	db  5, BUTTERFREE, 12, 15
-	db  5, BEEDRILL,   12, 15
+	db  5, DELPHOX,   12, 15
 	db 10, VENONAT,    10, 16
 	db 10, PARAS,      10, 17
 	db  5, SCYTHER,    13, 14

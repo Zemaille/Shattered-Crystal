@@ -14,7 +14,7 @@ PokemonNames::
 	db "Butterfree"
 	db "Fennekin@@"
 	db "Braixen@@@"
-	db "BEEDRILL@@"
+	db "Delphox@@@"
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"

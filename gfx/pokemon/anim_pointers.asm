@@ -14,7 +14,7 @@ AnimationPointers:
 	dw ButterfreeAnimation
 	dw FennekinAnimation
 	dw BraixenAnimation
-	dw BeedrillAnimation
+	dw DelphoxAnimation
 	dw PidgeyAnimation
 	dw PidgeottoAnimation
 	dw PidgeotAnimation

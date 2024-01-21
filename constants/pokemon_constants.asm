@@ -33,7 +33,7 @@
 	const BUTTERFREE ; 0c
 	const FENNEKIN     ; 0d
 	const BRAIXEN     ; 0e
-	const BEEDRILL   ; 0f
+	const DELPHOX   ; 0f
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12

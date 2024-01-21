@@ -16,7 +16,7 @@ EvosAttacksPointers::
 	dw ButterfreeEvosAttacks
 	dw FennekinEvosAttacks
 	dw BraixenEvosAttacks
-	dw BeedrillEvosAttacks
+	dw DelphoxEvosAttacks
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks

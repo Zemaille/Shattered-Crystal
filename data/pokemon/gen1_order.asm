@@ -113,7 +113,7 @@ Pokered_MonIndices:
 	db POLIWRATH
 	db FENNEKIN
 	db BRAIXEN
-	db BEEDRILL
+	db DELPHOX
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
 	db PRIMEAPE

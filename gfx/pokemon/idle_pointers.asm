@@ -14,7 +14,7 @@ AnimationIdlePointers:
 	dw ButterfreeAnimationIdle
 	dw FennekinAnimationIdle
 	dw BraixenAnimationIdle
-	dw BeedrillAnimationIdle
+	dw DelphoxAnimationIdle
 	dw PidgeyAnimationIdle
 	dw PidgeottoAnimationIdle
 	dw PidgeotAnimationIdle

@@ -14,7 +14,7 @@ BitmasksPointers:
 	dw ButterfreeBitmasks
 	dw FennekinBitmasks
 	dw BraixenBitmasks
-	dw BeedrillBitmasks
+	dw DelphoxBitmasks
 	dw PidgeyBitmasks
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks

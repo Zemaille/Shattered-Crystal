@@ -30,7 +30,7 @@ NewPokedexOrder:
 	db BUTTERFREE
 	db FENNEKIN
 	db BRAIXEN
-	db BEEDRILL
+	db DELPHOX
 	db LEDYBA
 	db LEDIAN
 	db SPINARAK
