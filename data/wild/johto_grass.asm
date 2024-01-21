@@ -290,24 +290,24 @@ JohtoGrassWildMons:
 	db 15, HONCHKROW
 	db 14, ZUBAT
 	db 15, HONCHKROW
-	db 15, RATICATE
-	db 15, RATICATE
+	db 15, MAMOSWINE
+	db 15, MAMOSWINE
 	; day
 	db 13, HONCHKROW
 	db 14, KOFFING
 	db 15, HONCHKROW
 	db 14, ZUBAT
 	db 15, HONCHKROW
-	db 15, RATICATE
-	db 15, RATICATE
+	db 15, MAMOSWINE
+	db 15, MAMOSWINE
 	; nite
 	db 13, HONCHKROW
 	db 14, KOFFING
 	db 15, HONCHKROW
 	db 14, ZUBAT
 	db 15, HONCHKROW
-	db 15, RATICATE
-	db 15, RATICATE
+	db 15, MAMOSWINE
+	db 15, MAMOSWINE
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_B1F
@@ -484,7 +484,7 @@ JohtoGrassWildMons:
 	db 22, ZUBAT
 	db 22, GOLBAT
 	db 22, ZUBAT
-	db 21, RATICATE
+	db 21, MAMOSWINE
 	db 20, GEODUDE
 	db 23, ONIX
 	db 23, ONIX
@@ -492,7 +492,7 @@ JohtoGrassWildMons:
 	db 22, ZUBAT
 	db 22, GOLBAT
 	db 22, ZUBAT
-	db 21, RATICATE
+	db 21, MAMOSWINE
 	db 20, GEODUDE
 	db 23, ONIX
 	db 23, ONIX
@@ -500,7 +500,7 @@ JohtoGrassWildMons:
 	db 22, ZUBAT
 	db 22, GOLBAT
 	db 22, QUAGSIRE
-	db 21, RATICATE
+	db 21, MAMOSWINE
 	db 20, GEODUDE
 	db 23, ONIX
 	db 23, ONIX
@@ -598,24 +598,24 @@ JohtoGrassWildMons:
 	db 14, MACHOP
 	db 13, GOLBAT
 	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 16, MAMOSWINE
+	db 16, MAMOSWINE
 	; day
 	db 14, HONCHKROW
 	db 13, ZUBAT
 	db 14, MACHOP
 	db 13, GOLBAT
 	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 16, MAMOSWINE
+	db 16, MAMOSWINE
 	; nite
 	db 14, HONCHKROW
 	db 13, ZUBAT
 	db 14, MARILL
 	db 13, GOLBAT
 	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 16, MAMOSWINE
+	db 16, MAMOSWINE
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_INSIDE
@@ -624,7 +624,7 @@ JohtoGrassWildMons:
 	db 13, GEODUDE
 	db 14, HONCHKROW
 	db 15, MACHOP
-	db 14, RATICATE
+	db 14, MAMOSWINE
 	db 15, ZUBAT
 	db 15, GOLBAT
 	db 15, GOLBAT
@@ -632,14 +632,14 @@ JohtoGrassWildMons:
 	db 13, GEODUDE
 	db 14, HONCHKROW
 	db 15, MACHOP
-	db 14, RATICATE
+	db 14, MAMOSWINE
 	db 15, ZUBAT
 	db 15, GOLBAT
 	db 15, GOLBAT
 	; nite
 	db 13, GEODUDE
 	db 14, HONCHKROW
-	db 15, RATICATE
+	db 15, MAMOSWINE
 	db 14, ZUBAT
 	db 15, MARILL
 	db 15, GOLBAT
@@ -652,7 +652,7 @@ JohtoGrassWildMons:
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
-	db 30, RATICATE
+	db 30, MAMOSWINE
 	db 28, MACHOP
 	db 30, GOLBAT
 	db 30, GOLBAT
@@ -660,14 +660,14 @@ JohtoGrassWildMons:
 	db 31, GRAVELER
 	db 32, MACHOKE
 	db 31, GEODUDE
-	db 30, RATICATE
+	db 30, MAMOSWINE
 	db 28, MACHOP
 	db 30, GOLBAT
 	db 30, GOLBAT
 	; nite
 	db 31, GRAVELER
 	db 31, GEODUDE
-	db 30, RATICATE
+	db 30, MAMOSWINE
 	db 30, GOLBAT
 	db 28, MARILL
 	db 32, GOLBAT
@@ -682,24 +682,24 @@ JohtoGrassWildMons:
 	db 17, GOLBAT
 	db 16, MACHOP
 	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 18, MAMOSWINE
+	db 18, MAMOSWINE
 	; day
 	db 15, ZUBAT
 	db 17, ZUBAT
 	db 17, GOLBAT
 	db 16, MACHOP
 	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 18, MAMOSWINE
+	db 18, MAMOSWINE
 	; nite
 	db 15, ZUBAT
 	db 17, ZUBAT
 	db 17, GOLBAT
 	db 16, MARILL
 	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 18, MAMOSWINE
+	db 18, MAMOSWINE
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, HONCHKROW
-	db 2, HONCHKROW
-	db 3, HONCHKROW
-	db 3, HONCHKROW
-	db 2, HONCHKROW
-	db 3, HONCHKROW
-	db 3, HONCHKROW
+	db 2, MAMOSWINE
+	db 2, MAMOSWINE
+	db 3, MAMOSWINE
+	db 3, MAMOSWINE
+	db 2, MAMOSWINE
+	db 3, MAMOSWINE
+	db 3, MAMOSWINE
 	; day
-	db 2, HONCHKROW
-	db 2, HONCHKROW
-	db 3, HONCHKROW
-	db 3, HONCHKROW
-	db 2, HONCHKROW
-	db 3, HONCHKROW
-	db 3, HONCHKROW
+	db 2, MAMOSWINE
+	db 2, MAMOSWINE
+	db 3, MAMOSWINE
+	db 3, MAMOSWINE
+	db 2, MAMOSWINE
+	db 3, MAMOSWINE
+	db 3, MAMOSWINE
 	; nite
-	db 2, HONCHKROW
-	db 2, HONCHKROW
-	db 3, HONCHKROW
-	db 3, HONCHKROW
-	db 2, HONCHKROW
-	db 3, HONCHKROW
-	db 3, HONCHKROW
+	db 2, MAMOSWINE
+	db 2, MAMOSWINE
+	db 3, MAMOSWINE
+	db 3, MAMOSWINE
+	db 2, MAMOSWINE
+	db 3, MAMOSWINE
+	db 3, MAMOSWINE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1490,7 +1490,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, HONCHKROW
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 13, TAUROS
@@ -1498,7 +1498,7 @@ JohtoGrassWildMons:
 	db 13, MILTANK
 	; day
 	db 16, HONCHKROW
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 13, TAUROS
@@ -1506,7 +1506,7 @@ JohtoGrassWildMons:
 	db 13, MILTANK
 	; nite
 	db 16, MEOWTH
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
 	db 16, MEOWTH
@@ -1518,7 +1518,7 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, HONCHKROW
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 15, MILTANK
@@ -1526,7 +1526,7 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	; day
 	db 16, HONCHKROW
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 15, MILTANK
@@ -1534,7 +1534,7 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	; nite
 	db 16, MEOWTH
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
 	db 18, MEOWTH
@@ -1548,7 +1548,7 @@ JohtoGrassWildMons:
 	db 13, EKANS
 	db 14, SPEAROW
 	db 15, HONCHKROW
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, FEAROW
@@ -1556,14 +1556,14 @@ JohtoGrassWildMons:
 	db 13, EKANS
 	db 14, SPEAROW
 	db 15, HONCHKROW
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 15, ARBOK
 	db 16, FEAROW
 	db 16, FEAROW
 	; nite
 	db 13, HONCHKROW
 	db 14, ZUBAT
-	db 15, RATICATE
+	db 15, MAMOSWINE
 	db 16, GOLBAT
 	db 15, MARILL
 	db 16, GOLBAT
@@ -1577,7 +1577,7 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, MAMOSWINE
 	db 17, FURRET
 	db 17, FURRET
 	; day
@@ -1585,15 +1585,15 @@ JohtoGrassWildMons:
 	db 16, PIDGEOTTO
 	db 16, FARFETCH_D
 	db 15, FURRET
-	db 17, RATICATE
+	db 17, MAMOSWINE
 	db 17, FURRET
 	db 17, FURRET
 	; nite
 	db 15, VENONAT
 	db 16, NOCTOWL
-	db 16, RATICATE
+	db 16, MAMOSWINE
 	db 17, VENONAT
-	db 17, RATICATE
+	db 17, MAMOSWINE
 	db 17, VENOMOTH
 	db 17, VENOMOTH
 	end_grass_wildmons

@@ -38,7 +38,7 @@
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
 	const HONCHKROW    ; 13
-	const RATICATE   ; 14
+	const MAMOSWINE   ; 14
 	const SPEAROW    ; 15
 	const FEAROW     ; 16
 	const EKANS      ; 17

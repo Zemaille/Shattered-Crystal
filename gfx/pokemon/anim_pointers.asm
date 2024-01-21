@@ -19,7 +19,7 @@ AnimationPointers:
 	dw PidgeottoAnimation
 	dw PidgeotAnimation
 	dw HonchkrowAnimation
-	dw RaticateAnimation
+	dw MamoswineAnimation
 	dw SpearowAnimation
 	dw FearowAnimation
 	dw EkansAnimation

@@ -108,7 +108,6 @@ ExeggcuteFrontpic:   INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lz"
 MagcargoFrontpic:    INCBIN "gfx/pokemon/magcargo/front.animated.2bpp.lz"
 PersianFrontpic:     INCBIN "gfx/pokemon/persian/front.animated.2bpp.lz"
 StantlerFrontpic:    INCBIN "gfx/pokemon/stantler/front.animated.2bpp.lz"
-RaticateFrontpic:    INCBIN "gfx/pokemon/raticate/front.animated.2bpp.lz"
 VenomothFrontpic:    INCBIN "gfx/pokemon/venomoth/front.animated.2bpp.lz"
 PolitoedFrontpic:    INCBIN "gfx/pokemon/politoed/front.animated.2bpp.lz"
 ElectabuzzFrontpic:  INCBIN "gfx/pokemon/electabuzz/front.animated.2bpp.lz"
@@ -448,7 +447,7 @@ FurretBackpic:       INCBIN "gfx/pokemon/furret/back.2bpp.lz"
 WartortleBackpic:    INCBIN "gfx/pokemon/wartortle/back.2bpp.lz"
 ExeggcuteBackpic:    INCBIN "gfx/pokemon/exeggcute/back.2bpp.lz"
 IgglybuffFrontpic:   INCBIN "gfx/pokemon/igglybuff/front.animated.2bpp.lz"
-RaticateBackpic:     INCBIN "gfx/pokemon/raticate/back.2bpp.lz"
+MamoswineBackpic:     INCBIN "gfx/pokemon/mamoswine/back.2bpp.lz"
 VulpixBackpic:       INCBIN "gfx/pokemon/vulpix/back.2bpp.lz"
 EkansBackpic:        INCBIN "gfx/pokemon/ekans/back.2bpp.lz"
 SeakingBackpic:      INCBIN "gfx/pokemon/seaking/back.2bpp.lz"
@@ -714,6 +713,14 @@ SuicasaurBackpic:    INCBIN "gfx/pokemon/suicasaur/back.2bpp.lz"
 FennekinBackpic:     INCBIN "gfx/pokemon/fennekin/back.2bpp.lz"
 BraixenFrontpic:     INCBIN "gfx/pokemon/braixen/front.animated.2bpp.lz"
 HonchkrowFrontpic:   INCBIN "gfx/pokemon/honchkrow/front.animated.2bpp.lz"
+MamoswineFrontpic:   INCBIN "gfx/pokemon/mamoswine/front.animated.2bpp.lz"
+
+
+
+
+
+
+
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,

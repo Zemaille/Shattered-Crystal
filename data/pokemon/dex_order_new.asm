@@ -19,7 +19,7 @@ NewPokedexOrder:
 	db HOOTHOOT
 	db NOCTOWL
 	db HONCHKROW
-	db RATICATE
+	db MAMOSWINE
 	db SENTRET
 	db FURRET
 	db PICHU

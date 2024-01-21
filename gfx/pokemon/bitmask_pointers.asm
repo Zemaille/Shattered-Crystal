@@ -19,7 +19,7 @@ BitmasksPointers:
 	dw PidgeottoBitmasks
 	dw PidgeotBitmasks
 	dw HonchkrowBitmasks
-	dw RaticateBitmasks
+	dw MamoswineBitmasks
 	dw SpearowBitmasks
 	dw FearowBitmasks
 	dw EkansBitmasks

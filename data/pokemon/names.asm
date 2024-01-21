@@ -19,7 +19,7 @@ PokemonNames::
 	db "Pidgeotto@"
 	db "Pidgeot@@@"
 	db "Honchkrow@"
-	db "RATICATE@@"
+	db "Mamoswine@"
 	db "SPEAROW@@@"
 	db "FEAROW@@@@"
 	db "EKANS@@@@@"

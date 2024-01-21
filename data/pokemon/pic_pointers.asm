@@ -41,8 +41,8 @@ PokemonPicPointers::
 	dba PidgeotBackpic
 	dba HonchkrowFrontpic
 	dba HonchkrowBackpic
-	dba RaticateFrontpic
-	dba RaticateBackpic
+	dba MamoswineFrontpic
+	dba MamoswineBackpic
 	dba SpearowFrontpic
 	dba SpearowBackpic
 	dba FearowFrontpic

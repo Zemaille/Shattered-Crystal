@@ -264,7 +264,7 @@ PidgeotEvosAttacks:
 	db 0 ; no more level-up moves
 
 HonchkrowEvosAttacks:
-	db EVOLVE_LEVEL, 20, RATICATE
+	db EVOLVE_LEVEL, 20, MAMOSWINE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -275,7 +275,7 @@ HonchkrowEvosAttacks:
 	db 34, SUPER_FANG
 	db 0 ; no more level-up moves
 
-RaticateEvosAttacks:
+MamoswineEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP

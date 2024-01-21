@@ -182,8 +182,8 @@ AlphabeticalPokedexOrder:
 	db RAICHU
 	db RAIKOU
 	db RAPIDASH
-	db RATICATE
 	db HONCHKROW
+	db MAMOSWINE
 	db REMORAID
 	db RHYDON
 	db RHYHORN
