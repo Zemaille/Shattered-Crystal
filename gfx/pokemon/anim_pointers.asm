@@ -20,7 +20,7 @@ AnimationPointers:
 	dw PidgeotAnimation
 	dw HonchkrowAnimation
 	dw MamoswineAnimation
-	dw SpearowAnimation
+	dw SwabluAnimation
 	dw FearowAnimation
 	dw EkansAnimation
 	dw ArbokAnimation

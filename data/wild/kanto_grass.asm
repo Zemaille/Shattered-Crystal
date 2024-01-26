@@ -229,7 +229,7 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_3
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, SPEAROW
+	db 5, SWABLU
 	db 5, HONCHKROW
 	db 8, EKANS
 	db 10, MAMOSWINE
@@ -237,7 +237,7 @@ KantoGrassWildMons:
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; day
-	db 5, SPEAROW
+	db 5, SWABLU
 	db 5, HONCHKROW
 	db 8, EKANS
 	db 10, MAMOSWINE
@@ -257,7 +257,7 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_4
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, SPEAROW
+	db 5, SWABLU
 	db 5, HONCHKROW
 	db 8, EKANS
 	db 10, MAMOSWINE
@@ -265,7 +265,7 @@ KantoGrassWildMons:
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; day
-	db 5, SPEAROW
+	db 5, SWABLU
 	db 5, HONCHKROW
 	db 8, EKANS
 	db 10, MAMOSWINE
@@ -342,7 +342,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, HONCHKROW
-	db 17, SPEAROW
+	db 17, SWABLU
 	db 18, SNUBBULL
 	db 18, MAMOSWINE
 	db 18, JIGGLYPUFF
@@ -350,7 +350,7 @@ KantoGrassWildMons:
 	db 16, ABRA
 	; day
 	db 17, HONCHKROW
-	db 17, SPEAROW
+	db 17, SWABLU
 	db 18, SNUBBULL
 	db 18, MAMOSWINE
 	db 18, JIGGLYPUFF
@@ -398,7 +398,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, HONCHKROW
-	db 15, SPEAROW
+	db 15, SWABLU
 	db 15, MAMOSWINE
 	db 15, FEAROW
 	db 15, FEAROW
@@ -406,7 +406,7 @@ KantoGrassWildMons:
 	db 18, MAROWAK
 	; day
 	db 15, HONCHKROW
-	db 15, SPEAROW
+	db 15, SWABLU
 	db 15, MAMOSWINE
 	db 15, FEAROW
 	db 15, FEAROW
@@ -425,7 +425,7 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_10_NORTH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SPEAROW
+	db 15, SWABLU
 	db 17, VOLTORB
 	db 15, MAMOSWINE
 	db 15, FEAROW
@@ -433,7 +433,7 @@ KantoGrassWildMons:
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
 	; day
-	db 15, SPEAROW
+	db 15, SWABLU
 	db 17, VOLTORB
 	db 15, MAMOSWINE
 	db 15, FEAROW
@@ -678,16 +678,16 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, HONCHKROW
-	db 3, SPEAROW
-	db 5, SPEAROW
+	db 3, SWABLU
+	db 5, SWABLU
 	db 4, DODUO
 	db 6, PONYTA
 	db 7, FEAROW
 	db 7, FEAROW
 	; day
 	db 3, HONCHKROW
-	db 3, SPEAROW
-	db 5, SPEAROW
+	db 3, SWABLU
+	db 5, SWABLU
 	db 4, DODUO
 	db 6, PONYTA
 	db 7, FEAROW

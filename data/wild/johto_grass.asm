@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, MAMOSWINE
-	db 2, MAMOSWINE
-	db 3, MAMOSWINE
-	db 3, MAMOSWINE
-	db 2, MAMOSWINE
-	db 3, MAMOSWINE
-	db 3, MAMOSWINE
+	db 2, SWABLU
+	db 2, SWABLU
+	db 3, SWABLU
+	db 3, SWABLU
+	db 2, SWABLU
+	db 3, SWABLU
+	db 3, SWABLU
 	; day
-	db 2, MAMOSWINE
-	db 2, MAMOSWINE
-	db 3, MAMOSWINE
-	db 3, MAMOSWINE
-	db 2, MAMOSWINE
-	db 3, MAMOSWINE
-	db 3, MAMOSWINE
+	db 2, SWABLU
+	db 2, SWABLU
+	db 3, SWABLU
+	db 3, SWABLU
+	db 2, SWABLU
+	db 3, SWABLU
+	db 3, SWABLU
 	; nite
-	db 2, MAMOSWINE
-	db 2, MAMOSWINE
-	db 3, MAMOSWINE
-	db 3, MAMOSWINE
-	db 2, MAMOSWINE
-	db 3, MAMOSWINE
-	db 3, MAMOSWINE
+	db 2, SWABLU
+	db 2, SWABLU
+	db 3, SWABLU
+	db 3, SWABLU
+	db 2, SWABLU
+	db 3, SWABLU
+	db 3, SWABLU
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1350,7 +1350,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 6, HONCHKROW
-	db 6, SPEAROW
+	db 6, SWABLU
 	db 6, GEODUDE
 	db 6, HOPPIP
 	db 7, EKANS
@@ -1358,7 +1358,7 @@ JohtoGrassWildMons:
 	db 7, HOPPIP
 	; day
 	db 6, HONCHKROW
-	db 6, SPEAROW
+	db 6, SWABLU
 	db 6, GEODUDE
 	db 6, HOPPIP
 	db 7, EKANS
@@ -1546,7 +1546,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, EKANS
-	db 14, SPEAROW
+	db 14, SWABLU
 	db 15, HONCHKROW
 	db 16, MAMOSWINE
 	db 15, ARBOK
@@ -1554,7 +1554,7 @@ JohtoGrassWildMons:
 	db 16, FEAROW
 	; day
 	db 13, EKANS
-	db 14, SPEAROW
+	db 14, SWABLU
 	db 15, HONCHKROW
 	db 16, MAMOSWINE
 	db 15, ARBOK
@@ -1658,7 +1658,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 2, GEODUDE
-	db 2, SPEAROW
+	db 2, SWABLU
 	db 3, GEODUDE
 	db 3, HONCHKROW
 	db 2, PHANPY
@@ -1666,7 +1666,7 @@ JohtoGrassWildMons:
 	db 2, HONCHKROW
 	; day
 	db 2, GEODUDE
-	db 2, SPEAROW
+	db 2, SWABLU
 	db 3, GEODUDE
 	db 3, HONCHKROW
 	db 2, HONCHKROW

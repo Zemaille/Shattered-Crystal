@@ -7,7 +7,7 @@ AsleepTreeMonsNite:
 	db FENNEKIN
 	db BRAIXEN
 	db DELPHOX
-	db SPEAROW
+	db SWABLU
 	db EKANS
 	db EXEGGCUTE
 	db LEDYBA

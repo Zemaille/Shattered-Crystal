@@ -208,7 +208,7 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNORLAX
 	db SNUBBULL
-	db SPEAROW
+	db SWABLU
 	db SPINARAK
 	db SQUIRTLE
 	db STANTLER

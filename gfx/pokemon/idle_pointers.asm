@@ -20,7 +20,7 @@ AnimationIdlePointers:
 	dw PidgeotAnimationIdle
 	dw HonchkrowAnimationIdle
 	dw MamoswineAnimationIdle
-	dw SpearowAnimationIdle
+	dw SwabluAnimationIdle
 	dw FearowAnimationIdle
 	dw EkansAnimationIdle
 	dw ArbokAnimationIdle

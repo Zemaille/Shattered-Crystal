@@ -22,7 +22,7 @@ EvosAttacksPointers::
 	dw PidgeotEvosAttacks
 	dw HonchkrowEvosAttacks
 	dw MamoswineEvosAttacks
-	dw SpearowEvosAttacks
+	dw SwabluEvosAttacks
 	dw FearowEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks

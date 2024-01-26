@@ -39,7 +39,7 @@
 	const PIDGEOT    ; 12
 	const HONCHKROW    ; 13
 	const MAMOSWINE   ; 14
-	const SPEAROW    ; 15
+	const SWABLU    ; 15
 	const FEAROW     ; 16
 	const EKANS      ; 17
 	const ARBOK      ; 18

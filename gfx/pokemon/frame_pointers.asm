@@ -20,7 +20,7 @@ FramesPointers:
 	dw PidgeotFrames
 	dw HonchkrowFrames
 	dw MamoswineFrames
-	dw SpearowFrames
+	dw SwabluFrames
 	dw FearowFrames
 	dw EkansFrames
 	dw ArbokFrames

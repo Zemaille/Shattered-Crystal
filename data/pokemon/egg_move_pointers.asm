@@ -20,7 +20,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw HonchkrowEggMoves
 	dw NoEggMoves
-	dw SpearowEggMoves
+	dw SwabluEggMoves
 	dw NoEggMoves
 	dw EkansEggMoves
 	dw NoEggMoves

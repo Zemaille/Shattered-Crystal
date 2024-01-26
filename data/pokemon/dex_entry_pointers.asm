@@ -21,7 +21,7 @@ PokedexDataPointerTable:
 	dw PidgeotPokedexEntry
 	dw HonchkrowPokedexEntry
 	dw MamoswinePokedexEntry
-	dw SpearowPokedexEntry
+	dw SwabluPokedexEntry
 	dw FearowPokedexEntry
 	dw EkansPokedexEntry
 	dw ArbokPokedexEntry

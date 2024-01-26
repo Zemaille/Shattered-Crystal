@@ -4,7 +4,7 @@ Pokered_MonIndices:
 	db KANGASKHAN
 	db NIDORAN_M
 	db CLEFAIRY
-	db SPEAROW
+	db SWABLU
 	db VOLTORB
 	db NIDOKING
 	db SLOWBRO
@@ -164,7 +164,7 @@ Pokered_MonIndices:
 	db BLISSEY ; MISSINGNO.
 	db PONYTA
 	db RAPIDASH
-	db MAMOSWINE
+	db HONCHKROW
 	db MAMOSWINE
 	db NIDORINO
 	db NIDORINA
