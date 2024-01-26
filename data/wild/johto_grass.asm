@@ -570,24 +570,24 @@ JohtoGrassWildMons:
 	db 7, METAPOD
 	db 7, BRAIXEN
 	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 6, PHANTUMP
+	db 6, PHANTUMP
 	; day
 	db 5, CATERPIE
 	db 5, FENNEKIN
 	db 7, METAPOD
 	db 7, BRAIXEN
 	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 6, PHANTUMP
+	db 6, PHANTUMP
 	; nite
 	db 5, ODDISH
 	db 5, VENONAT
 	db 7, ODDISH
 	db 7, PSYDUCK
 	db 7, HOOTHOOT
-	db 6, PARAS
-	db 6, PARAS
+	db 6, PHANTUMP
+	db 6, PHANTUMP
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1100,24 +1100,24 @@ JohtoGrassWildMons:
 	db 48, GOLBAT
 	db 48, MACHOKE
 	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, TREVENANT
+	db 48, TREVENANT
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; day
 	db 48, GOLBAT
 	db 48, MACHOKE
 	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, TREVENANT
+	db 48, TREVENANT
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; nite
 	db 48, GOLBAT
 	db 48, GOLDUCK
 	db 46, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, TREVENANT
+	db 48, TREVENANT
 	db 45, MISDREAVUS
 	db 45, MISDREAVUS
 	end_grass_wildmons
@@ -1156,26 +1156,26 @@ JohtoGrassWildMons:
 	db 48, GOLBAT
 	db 46, GOLBAT
 	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, TREVENANT
+	db 48, TREVENANT
+	db 50, TREVENANT
+	db 52, TREVENANT
 	; day
 	db 48, GOLBAT
 	db 46, GOLBAT
 	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, TREVENANT
+	db 48, TREVENANT
+	db 50, TREVENANT
+	db 52, TREVENANT
 	; nite
 	db 45, MISDREAVUS
 	db 48, GOLBAT
 	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 46, TREVENANT
+	db 48, TREVENANT
+	db 50, TREVENANT
+	db 52, TREVENANT
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, NINETALES
-	db 2, NINETALES
-	db 3, NINETALES
-	db 3, NINETALES
-	db 2, NINETALES
-	db 3, NINETALES
-	db 3, NINETALES
+	db 2, TREVENANT
+	db 2, TREVENANT
+	db 3, TREVENANT
+	db 3, TREVENANT
+	db 2, TREVENANT
+	db 3, TREVENANT
+	db 3, TREVENANT
 	; day
-	db 2, NINETALES
-	db 2, NINETALES
-	db 3, NINETALES
-	db 3, NINETALES
-	db 2, NINETALES
-	db 3, NINETALES
-	db 3, NINETALES
+	db 2, TREVENANT
+	db 2, TREVENANT
+	db 3, TREVENANT
+	db 3, TREVENANT
+	db 2, TREVENANT
+	db 3, TREVENANT
+	db 3, TREVENANT
 	; nite
-	db 2, NINETALES
-	db 2, NINETALES
-	db 3, NINETALES
-	db 3, NINETALES
-	db 2, NINETALES
-	db 3, NINETALES
-	db 3, NINETALES
+	db 2, TREVENANT
+	db 2, TREVENANT
+	db 3, TREVENANT
+	db 3, TREVENANT
+	db 2, TREVENANT
+	db 3, TREVENANT
+	db 3, TREVENANT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

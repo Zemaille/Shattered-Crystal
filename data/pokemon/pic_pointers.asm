@@ -93,10 +93,10 @@ PokemonPicPointers::
 	dba GloomBackpic
 	dba VileplumeFrontpic
 	dba VileplumeBackpic
-	dba ParasFrontpic
-	dba ParasBackpic
-	dba ParasectFrontpic
-	dba ParasectBackpic
+	dba PhantumpFrontpic
+	dba PhantumpBackpic
+	dba TrevenantFrontpic
+	dba TrevenantBackpic
 	dba VenonatFrontpic
 	dba VenonatBackpic
 	dba VenomothFrontpic

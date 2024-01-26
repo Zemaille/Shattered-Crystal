@@ -45,8 +45,8 @@ FramesPointers:
 	dw OddishFrames
 	dw GloomFrames
 	dw VileplumeFrames
-	dw ParasFrames
-	dw ParasectFrames
+	dw PhantumpFrames
+	dw TrevenantFrames
 	dw VenonatFrames
 	dw VenomothFrames
 	dw DiglettFrames

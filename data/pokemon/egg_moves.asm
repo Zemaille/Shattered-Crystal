@@ -118,7 +118,7 @@ OddishEggMoves:
 	db SYNTHESIS
 	db -1 ; end
 
-ParasEggMoves:
+PhantumpEggMoves:
 	db FALSE_SWIPE
 	db SCREECH
 	db COUNTER

@@ -45,8 +45,8 @@ AnimationPointers:
 	dw OddishAnimation
 	dw GloomAnimation
 	dw VileplumeAnimation
-	dw ParasAnimation
-	dw ParasectAnimation
+	dw PhantumpAnimation
+	dw TrevenantAnimation
 	dw VenonatAnimation
 	dw VenomothAnimation
 	dw DiglettAnimation

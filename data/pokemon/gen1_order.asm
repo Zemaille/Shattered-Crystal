@@ -45,7 +45,7 @@ Pokered_MonIndices:
 	db HITMONLEE
 	db HITMONCHAN
 	db ARBOK
-	db PARASECT
+	db TREVENANT
 	db PSYDUCK
 	db DROWZEE
 	db GOLEM
@@ -108,7 +108,7 @@ Pokered_MonIndices:
 	db MACHOP
 	db ZUBAT
 	db EKANS
-	db PARAS
+	db PHANTUMP
 	db POLIWHIRL
 	db POLIWRATH
 	db FENNEKIN

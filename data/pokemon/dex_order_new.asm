@@ -71,8 +71,8 @@ NewPokedexOrder:
 	db HOPPIP
 	db SKIPLOOM
 	db JUMPLUFF
-	db PARAS
-	db PARASECT
+	db PHANTUMP
+	db TREVENANT
 	db POLIWAG
 	db POLIWHIRL
 	db POLIWRATH

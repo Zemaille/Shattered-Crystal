@@ -24,7 +24,7 @@ SpriteMons:
 	db JIGGLYPUFF
 	db GRIMER
 	db EKANS
-	db PARAS
+	db PHANTUMP
 	db TENTACOOL
 	db TAUROS
 	db MACHOP
