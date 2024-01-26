@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, SWABLU
-	db 2, SWABLU
-	db 3, SWABLU
-	db 3, SWABLU
-	db 2, SWABLU
-	db 3, SWABLU
-	db 3, SWABLU
+	db 2, ALTARIA
+	db 2, ALTARIA
+	db 3, ALTARIA
+	db 3, ALTARIA
+	db 2, ALTARIA
+	db 3, ALTARIA
+	db 3, ALTARIA
 	; day
-	db 2, SWABLU
-	db 2, SWABLU
-	db 3, SWABLU
-	db 3, SWABLU
-	db 2, SWABLU
-	db 3, SWABLU
-	db 3, SWABLU
+	db 2, ALTARIA
+	db 2, ALTARIA
+	db 3, ALTARIA
+	db 3, ALTARIA
+	db 2, ALTARIA
+	db 3, ALTARIA
+	db 3, ALTARIA
 	; nite
-	db 2, SWABLU
-	db 2, SWABLU
-	db 3, SWABLU
-	db 3, SWABLU
-	db 2, SWABLU
-	db 3, SWABLU
-	db 3, SWABLU
+	db 2, ALTARIA
+	db 2, ALTARIA
+	db 3, ALTARIA
+	db 3, ALTARIA
+	db 2, ALTARIA
+	db 3, ALTARIA
+	db 3, ALTARIA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1550,16 +1550,16 @@ JohtoGrassWildMons:
 	db 15, HONCHKROW
 	db 16, MAMOSWINE
 	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 16, ALTARIA
+	db 16, ALTARIA
 	; day
 	db 13, EKANS
 	db 14, SWABLU
 	db 15, HONCHKROW
 	db 16, MAMOSWINE
 	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 16, ALTARIA
+	db 16, ALTARIA
 	; nite
 	db 13, HONCHKROW
 	db 14, ZUBAT

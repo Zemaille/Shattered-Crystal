@@ -22,7 +22,7 @@ PokedexDataPointerTable:
 	dw HonchkrowPokedexEntry
 	dw MamoswinePokedexEntry
 	dw SwabluPokedexEntry
-	dw FearowPokedexEntry
+	dw AltariaPokedexEntry
 	dw EkansPokedexEntry
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry

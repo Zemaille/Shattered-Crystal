@@ -23,7 +23,7 @@ EvosAttacksPointers::
 	dw HonchkrowEvosAttacks
 	dw MamoswineEvosAttacks
 	dw SwabluEvosAttacks
-	dw FearowEvosAttacks
+	dw AltariaEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks

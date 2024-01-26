@@ -15,7 +15,7 @@ NewPokedexOrder:
 	db PIDGEOTTO
 	db PIDGEOT
 	db SWABLU
-	db FEAROW
+	db ALTARIA
 	db HOOTHOOT
 	db NOCTOWL
 	db HONCHKROW

@@ -23,7 +23,7 @@ MonMenuIcons:
 	db ICON_FOX         ; MAMOSWINE
 	db ICON_FOX         ; MAMOSWINE
 	db ICON_BIRD        ; SWABLU
-	db ICON_BIRD        ; FEAROW
+	db ICON_BIRD        ; ALTARIA
 	db ICON_SERPENT     ; EKANS
 	db ICON_SERPENT     ; ARBOK
 	db ICON_PIKACHU     ; PIKACHU

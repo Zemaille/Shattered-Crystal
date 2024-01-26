@@ -21,7 +21,7 @@ FramesPointers:
 	dw HonchkrowFrames
 	dw MamoswineFrames
 	dw SwabluFrames
-	dw FearowFrames
+	dw AltariaFrames
 	dw EkansFrames
 	dw ArbokFrames
 	dw PikachuFrames

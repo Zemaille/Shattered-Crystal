@@ -21,7 +21,7 @@ AnimationIdlePointers:
 	dw HonchkrowAnimationIdle
 	dw MamoswineAnimationIdle
 	dw SwabluAnimationIdle
-	dw FearowAnimationIdle
+	dw AltariaAnimationIdle
 	dw EkansAnimationIdle
 	dw ArbokAnimationIdle
 	dw PikachuAnimationIdle

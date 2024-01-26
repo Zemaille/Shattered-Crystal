@@ -21,7 +21,7 @@ AnimationPointers:
 	dw HonchkrowAnimation
 	dw MamoswineAnimation
 	dw SwabluAnimation
-	dw FearowAnimation
+	dw AltariaAnimation
 	dw EkansAnimation
 	dw ArbokAnimation
 	dw PikachuAnimation

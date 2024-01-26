@@ -45,8 +45,8 @@ PokemonPicPointers::
 	dba MamoswineBackpic
 	dba SwabluFrontpic
 	dba SwabluBackpic
-	dba FearowFrontpic
-	dba FearowBackpic
+	dba AltariaFrontpic
+	dba AltariaBackpic
 	dba EkansFrontpic
 	dba EkansBackpic
 	dba ArbokFrontpic

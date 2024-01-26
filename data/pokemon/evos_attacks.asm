@@ -288,7 +288,7 @@ MamoswineEvosAttacks:
 	db 0 ; no more level-up moves
 
 SwabluEvosAttacks:
-	db EVOLVE_LEVEL, 20, FEAROW
+	db EVOLVE_LEVEL, 20, ALTARIA
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
@@ -300,7 +300,7 @@ SwabluEvosAttacks:
 	db 43, AGILITY
 	db 0 ; no more level-up moves
 
-FearowEvosAttacks:
+AltariaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL

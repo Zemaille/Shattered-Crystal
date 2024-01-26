@@ -21,7 +21,7 @@ PokemonNames::
 	db "Honchkrow@"
 	db "Mamoswine@"
 	db "Swablu@@@@"
-	db "FEAROW@@@@"
+	db "Altaria@@@"
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"
 	db "PIKACHU@@@"

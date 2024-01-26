@@ -21,7 +21,7 @@ BitmasksPointers:
 	dw HonchkrowBitmasks
 	dw MamoswineBitmasks
 	dw SwabluBitmasks
-	dw FearowBitmasks
+	dw AltariaBitmasks
 	dw EkansBitmasks
 	dw ArbokBitmasks
 	dw PikachuBitmasks

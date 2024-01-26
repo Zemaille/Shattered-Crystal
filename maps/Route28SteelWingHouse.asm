@@ -33,7 +33,7 @@ Celebrity:
 CelebritysFearow:
 	opentext
 	writetext CelebritysFearowText
-	cry FEAROW
+	cry SKARMORY
 	waitbutton
 	closetext
 	end

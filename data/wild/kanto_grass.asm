@@ -400,16 +400,16 @@ KantoGrassWildMons:
 	db 15, HONCHKROW
 	db 15, SWABLU
 	db 15, MAMOSWINE
-	db 15, FEAROW
-	db 15, FEAROW
+	db 15, ALTARIA
+	db 15, ALTARIA
 	db 18, MAROWAK
 	db 18, MAROWAK
 	; day
 	db 15, HONCHKROW
 	db 15, SWABLU
 	db 15, MAMOSWINE
-	db 15, FEAROW
-	db 15, FEAROW
+	db 15, ALTARIA
+	db 15, ALTARIA
 	db 18, MAROWAK
 	db 18, MAROWAK
 	; nite
@@ -428,7 +428,7 @@ KantoGrassWildMons:
 	db 15, SWABLU
 	db 17, VOLTORB
 	db 15, MAMOSWINE
-	db 15, FEAROW
+	db 15, ALTARIA
 	db 15, MAROWAK
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
@@ -436,7 +436,7 @@ KantoGrassWildMons:
 	db 15, SWABLU
 	db 17, VOLTORB
 	db 15, MAMOSWINE
-	db 15, FEAROW
+	db 15, ALTARIA
 	db 15, MAROWAK
 	db 18, ELECTABUZZ
 	db 18, ELECTABUZZ
@@ -566,17 +566,17 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, ALTARIA
 	db 28, GRIMER
-	db 29, FEAROW
-	db 29, FEAROW
+	db 29, ALTARIA
+	db 29, ALTARIA
 	db 30, MUK
 	db 30, MUK
 	; day
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, ALTARIA
 	db 28, GRIMER
-	db 29, FEAROW
+	db 29, ALTARIA
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
@@ -593,18 +593,18 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_17
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 30, FEAROW
+	db 30, ALTARIA
 	db 29, GRIMER
 	db 31, GRIMER
-	db 32, FEAROW
+	db 32, ALTARIA
 	db 33, GRIMER
 	db 33, MUK
 	db 33, MUK
 	; day
-	db 30, FEAROW
+	db 30, ALTARIA
 	db 29, SLUGMA
 	db 29, GRIMER
-	db 32, FEAROW
+	db 32, ALTARIA
 	db 32, SLUGMA
 	db 33, MUK
 	db 33, MUK
@@ -622,17 +622,17 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, ALTARIA
 	db 28, GRIMER
-	db 29, FEAROW
-	db 29, FEAROW
+	db 29, ALTARIA
+	db 29, ALTARIA
 	db 30, MUK
 	db 30, MUK
 	; day
 	db 26, GRIMER
-	db 27, FEAROW
+	db 27, ALTARIA
 	db 28, GRIMER
-	db 29, FEAROW
+	db 29, ALTARIA
 	db 29, SLUGMA
 	db 30, MUK
 	db 30, MUK
@@ -682,16 +682,16 @@ KantoGrassWildMons:
 	db 5, SWABLU
 	db 4, DODUO
 	db 6, PONYTA
-	db 7, FEAROW
-	db 7, FEAROW
+	db 7, ALTARIA
+	db 7, ALTARIA
 	; day
 	db 3, HONCHKROW
 	db 3, SWABLU
 	db 5, SWABLU
 	db 4, DODUO
 	db 6, PONYTA
-	db 7, FEAROW
-	db 7, FEAROW
+	db 7, ALTARIA
+	db 7, ALTARIA
 	; nite
 	db 3, HONCHKROW
 	db 3, POLIWAG
