@@ -57,8 +57,8 @@ PokemonPicPointers::
 	dba RaichuBackpic
 	dba ZangooseFrontpic
 	dba ZangooseBackpic
-	dba SandslashFrontpic
-	dba SandslashBackpic
+	dba MunchlaxFrontpic
+	dba MunchlaxBackpic
 	dba NidoranFFrontpic
 	dba NidoranFBackpic
 	dba NidorinaFrontpic

@@ -191,8 +191,8 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic ZANGOOSE
-	cry ZANGOOSE
+	pokepic MUNCHLAX
+	cry MUNCHLAX
 	waitbutton
 	closepokepic
 	opentext
@@ -204,12 +204,12 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, ZANGOOSE
+	getmonname STRING_BUFFER_3, MUNCHLAX
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke ZANGOOSE, 5, BERRY
+	givepoke MUNCHLAX, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript

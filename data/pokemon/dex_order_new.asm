@@ -50,7 +50,7 @@ NewPokedexOrder:
 	db TOGEPI
 	db TOGETIC
 	db ZANGOOSE
-	db SANDSLASH
+	db MUNCHLAX
 	db EKANS
 	db ARBOK
 	db DUNSPARCE

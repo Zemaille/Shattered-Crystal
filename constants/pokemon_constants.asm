@@ -46,7 +46,7 @@
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const ZANGOOSE  ; 1b
-	const SANDSLASH  ; 1c
+	const MUNCHLAX  ; 1c
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f

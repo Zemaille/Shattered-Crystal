@@ -29,7 +29,7 @@ EvosAttacksPointers::
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
 	dw ZangooseEvosAttacks
-	dw SandslashEvosAttacks
+	dw MunchlaxEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks

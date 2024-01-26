@@ -27,7 +27,7 @@ AnimationIdlePointers:
 	dw PikachuAnimationIdle
 	dw RaichuAnimationIdle
 	dw ZangooseAnimationIdle
-	dw SandslashAnimationIdle
+	dw MunchlaxAnimationIdle
 	dw NidoranFAnimationIdle
 	dw NidorinaAnimationIdle
 	dw NidoqueenAnimationIdle

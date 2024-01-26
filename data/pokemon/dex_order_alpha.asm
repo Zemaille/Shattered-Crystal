@@ -188,7 +188,7 @@ AlphabeticalPokedexOrder:
 	db RHYDON
 	db RHYHORN
 	db ZANGOOSE
-	db SANDSLASH
+	db MUNCHLAX
 	db SCIZOR
 	db SCYTHER
 	db SEADRA

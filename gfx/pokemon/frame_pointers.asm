@@ -27,7 +27,7 @@ FramesPointers:
 	dw PikachuFrames
 	dw RaichuFrames
 	dw ZangooseFrames
-	dw SandslashFrames
+	dw MunchlaxFrames
 	dw NidoranFFrames
 	dw NidorinaFrames
 	dw NidoqueenFrames

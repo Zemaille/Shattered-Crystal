@@ -366,7 +366,7 @@ RaichuEvosAttacks:
 	db 0 ; no more level-up moves
 
 ZangooseEvosAttacks:
-	db EVOLVE_LEVEL, 22, SANDSLASH
+	db EVOLVE_LEVEL, 22, MUNCHLAX
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 6, DEFENSE_CURL
@@ -378,7 +378,7 @@ ZangooseEvosAttacks:
 	db 45, SANDSTORM
 	db 0 ; no more level-up moves
 
-SandslashEvosAttacks:
+MunchlaxEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, DEFENSE_CURL

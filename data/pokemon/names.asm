@@ -27,7 +27,7 @@ PokemonNames::
 	db "Pikachu@@@"
 	db "Raichu@@@@"
 	db "Zangoose@@"
-	db "Sandslash@"
+	db "Munchlax@@"
 	db "Nidoran♀@@"
 	db "Nidorina@@"
 	db "Nidoqueen@"
