@@ -426,7 +426,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 6, GEODUDE
-	db 6, SANDSHREW
+	db 6, ZANGOOSE
 	db 5, ZUBAT
 	db 4, HONCHKROW
 	db 7, ZUBAT
@@ -434,7 +434,7 @@ JohtoGrassWildMons:
 	db 6, ONIX
 	; day
 	db 6, GEODUDE
-	db 6, SANDSHREW
+	db 6, ZANGOOSE
 	db 5, ZUBAT
 	db 4, HONCHKROW
 	db 7, ZUBAT
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, RAICHU
-	db 2, RAICHU
-	db 3, RAICHU
-	db 3, RAICHU
-	db 2, RAICHU
-	db 3, RAICHU
-	db 3, RAICHU
+	db 2, ZANGOOSE
+	db 2, ZANGOOSE
+	db 3, ZANGOOSE
+	db 3, ZANGOOSE
+	db 2, ZANGOOSE
+	db 3, ZANGOOSE
+	db 3, ZANGOOSE
 	; day
-	db 2, RAICHU
-	db 2, RAICHU
-	db 3, RAICHU
-	db 3, RAICHU
-	db 2, RAICHU
-	db 3, RAICHU
-	db 3, RAICHU
+	db 2, ZANGOOSE
+	db 2, ZANGOOSE
+	db 3, ZANGOOSE
+	db 3, ZANGOOSE
+	db 2, ZANGOOSE
+	db 3, ZANGOOSE
+	db 3, ZANGOOSE
 	; nite
-	db 2, RAICHU
-	db 2, RAICHU
-	db 3, RAICHU
-	db 3, RAICHU
-	db 2, RAICHU
-	db 3, RAICHU
-	db 3, RAICHU
+	db 2, ZANGOOSE
+	db 2, ZANGOOSE
+	db 3, ZANGOOSE
+	db 3, ZANGOOSE
+	db 2, ZANGOOSE
+	db 3, ZANGOOSE
+	db 3, ZANGOOSE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

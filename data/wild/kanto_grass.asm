@@ -35,7 +35,7 @@ KantoGrassWildMons:
 	; morn
 	db 6, ZUBAT
 	db 8, GEODUDE
-	db 8, SANDSHREW
+	db 8, ZANGOOSE
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
@@ -43,7 +43,7 @@ KantoGrassWildMons:
 	; day
 	db 6, ZUBAT
 	db 8, GEODUDE
-	db 8, SANDSHREW
+	db 8, ZANGOOSE
 	db 12, PARAS
 	db 10, GEODUDE
 	db 8, CLEFAIRY
@@ -234,16 +234,16 @@ KantoGrassWildMons:
 	db 8, EKANS
 	db 10, MAMOSWINE
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, ZANGOOSE
+	db 10, ZANGOOSE
 	; day
 	db 5, SWABLU
 	db 5, HONCHKROW
 	db 8, EKANS
 	db 10, MAMOSWINE
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, ZANGOOSE
+	db 10, ZANGOOSE
 	; nite
 	db 5, HONCHKROW
 	db 10, HONCHKROW
@@ -262,16 +262,16 @@ KantoGrassWildMons:
 	db 8, EKANS
 	db 10, MAMOSWINE
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, ZANGOOSE
+	db 10, ZANGOOSE
 	; day
 	db 5, SWABLU
 	db 5, HONCHKROW
 	db 8, EKANS
 	db 10, MAMOSWINE
 	db 10, ARBOK
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, ZANGOOSE
+	db 10, ZANGOOSE
 	; nite
 	db 5, HONCHKROW
 	db 10, HONCHKROW

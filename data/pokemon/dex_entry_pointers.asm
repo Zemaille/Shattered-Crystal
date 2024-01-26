@@ -27,7 +27,7 @@ PokedexDataPointerTable:
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry
 	dw RaichuPokedexEntry
-	dw SandshrewPokedexEntry
+	dw ZangoosePokedexEntry
 	dw SandslashPokedexEntry
 	dw NidoranFPokedexEntry
 	dw NidorinaPokedexEntry

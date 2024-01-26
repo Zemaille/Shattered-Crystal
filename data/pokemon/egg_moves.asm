@@ -67,7 +67,7 @@ EkansEggMoves:
 	db CRUNCH
 	db -1 ; end
 
-SandshrewEggMoves:
+ZangooseEggMoves:
 	db FLAIL
 	db SAFEGUARD
 	db COUNTER

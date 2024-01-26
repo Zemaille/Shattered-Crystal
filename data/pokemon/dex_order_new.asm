@@ -49,7 +49,7 @@ NewPokedexOrder:
 	db WIGGLYTUFF
 	db TOGEPI
 	db TOGETIC
-	db SANDSHREW
+	db ZANGOOSE
 	db SANDSLASH
 	db EKANS
 	db ARBOK
