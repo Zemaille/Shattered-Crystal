@@ -70,7 +70,7 @@ FramesPointers:
 	dw MachampFrames
 	dw SeedotFrames
 	dw NuzleafFrames
-	dw VictreebelFrames
+	dw ShiftryFrames
 	dw TentacoolFrames
 	dw TentacruelFrames
 	dw GeodudeFrames

@@ -70,7 +70,7 @@ PokemonNames::
 	db "Machamp@@@"
 	db "Seedot@@@@"
 	db "Nuzleaf@@@"
-	db "VICTREEBEL"
+	db "Shiftry@@@"
 	db "TENTACOOL@"
 	db "TENTACRUEL"
 	db "GEODUDE@@@"

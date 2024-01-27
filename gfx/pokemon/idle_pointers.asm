@@ -70,7 +70,7 @@ AnimationIdlePointers:
 	dw MachampAnimationIdle
 	dw SeedotAnimationIdle
 	dw NuzleafAnimationIdle
-	dw VictreebelAnimationIdle
+	dw ShiftryAnimationIdle
 	dw TentacoolAnimationIdle
 	dw TentacruelAnimationIdle
 	dw GeodudeAnimationIdle

@@ -72,7 +72,7 @@ EvosAttacksPointers::
 	dw MachampEvosAttacks
 	dw SeedotEvosAttacks
 	dw NuzleafEvosAttacks
-	dw VictreebelEvosAttacks
+	dw ShiftryEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
 	dw GeodudeEvosAttacks

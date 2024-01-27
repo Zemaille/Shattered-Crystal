@@ -240,7 +240,7 @@ AlphabeticalPokedexOrder:
 	db CLODSIRE
 	db DUDUNSPARCE
 	db VENUSAUR
-	db VICTREEBEL
+	db SHIFTRY
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX

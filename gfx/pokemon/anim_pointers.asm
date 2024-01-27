@@ -70,7 +70,7 @@ AnimationPointers:
 	dw MachampAnimation
 	dw SeedotAnimation
 	dw NuzleafAnimation
-	dw VictreebelAnimation
+	dw ShiftryAnimation
 	dw TentacoolAnimation
 	dw TentacruelAnimation
 	dw GeodudeAnimation

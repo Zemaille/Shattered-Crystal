@@ -143,8 +143,8 @@ PokemonPicPointers::
 	dba SeedotBackpic
 	dba NuzleafFrontpic
 	dba NuzleafBackpic
-	dba VictreebelFrontpic
-	dba VictreebelBackpic
+	dba ShiftryFrontpic
+	dba ShiftryBackpic
 	dba TentacoolFrontpic
 	dba TentacoolBackpic
 	dba TentacruelFrontpic

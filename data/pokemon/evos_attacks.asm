@@ -924,7 +924,7 @@ SeedotEvosAttacks:
 	db 0 ; no more level-up moves
 
 NuzleafEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, VICTREEBEL
+	db EVOLVE_ITEM, LEAF_STONE, SHIFTRY
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, GROWTH
@@ -940,7 +940,7 @@ NuzleafEvosAttacks:
 	db 54, SLAM
 	db 0 ; no more level-up moves
 
-VictreebelEvosAttacks:
+ShiftryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, SLEEP_POWDER

@@ -67,7 +67,7 @@ NewPokedexOrder:
 	db STEELIX
 	db SEEDOT
 	db NUZLEAF
-	db VICTREEBEL
+	db SHIFTRY
 	db HOPPIP
 	db SKIPLOOM
 	db JUMPLUFF

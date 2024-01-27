@@ -71,7 +71,7 @@ PokedexDataPointerTable:
 	dw MachampPokedexEntry
 	dw SeedotPokedexEntry
 	dw NuzleafPokedexEntry
-	dw VictreebelPokedexEntry
+	dw ShiftryPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
 	dw GeodudePokedexEntry

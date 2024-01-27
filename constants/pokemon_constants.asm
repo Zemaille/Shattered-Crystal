@@ -89,7 +89,7 @@
 	const MACHAMP    ; 44
 	const SEEDOT ; 45
 	const NUZLEAF ; 46
-	const VICTREEBEL ; 47
+	const SHIFTRY ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const GEODUDE    ; 4a

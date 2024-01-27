@@ -189,7 +189,7 @@ Pokered_MonIndices:
 	db VILEPLUME
 	db SEEDOT
 	db NUZLEAF
-	db VICTREEBEL
+	db SHIFTRY
 	assert_table_length 190 ; gen 1 mon indexes
 	db CHIKORITA
 	db BAYLEEF
