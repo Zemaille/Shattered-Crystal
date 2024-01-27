@@ -68,7 +68,7 @@ AnimationIdlePointers:
 	dw MachopAnimationIdle
 	dw MachokeAnimationIdle
 	dw MachampAnimationIdle
-	dw BellsproutAnimationIdle
+	dw SeedotAnimationIdle
 	dw WeepinbellAnimationIdle
 	dw VictreebelAnimationIdle
 	dw TentacoolAnimationIdle

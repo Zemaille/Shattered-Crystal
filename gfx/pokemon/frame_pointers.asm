@@ -68,7 +68,7 @@ FramesPointers:
 	dw MachopFrames
 	dw MachokeFrames
 	dw MachampFrames
-	dw BellsproutFrames
+	dw SeedotFrames
 	dw WeepinbellFrames
 	dw VictreebelFrames
 	dw TentacoolFrames

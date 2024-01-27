@@ -15,7 +15,7 @@ AlphabeticalPokedexOrder:
 	db BAYLEEF
 	db DELPHOX
 	db BELLOSSOM
-	db BELLSPROUT
+	db SEEDOT
 	db BLASTOISE
 	db BLISSEY
 	db BULBASAUR

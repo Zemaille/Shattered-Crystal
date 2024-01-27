@@ -70,7 +70,7 @@ EvosAttacksPointers::
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
-	dw BellsproutEvosAttacks
+	dw SeedotEvosAttacks
 	dw WeepinbellEvosAttacks
 	dw VictreebelEvosAttacks
 	dw TentacoolEvosAttacks

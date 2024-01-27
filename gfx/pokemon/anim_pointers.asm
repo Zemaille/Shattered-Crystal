@@ -68,7 +68,7 @@ AnimationPointers:
 	dw MachopAnimation
 	dw MachokeAnimation
 	dw MachampAnimation
-	dw BellsproutAnimation
+	dw SeedotAnimation
 	dw WeepinbellAnimation
 	dw VictreebelAnimation
 	dw TentacoolAnimation

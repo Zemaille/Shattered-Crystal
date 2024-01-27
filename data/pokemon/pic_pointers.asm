@@ -139,8 +139,8 @@ PokemonPicPointers::
 	dba MachokeBackpic
 	dba MachampFrontpic
 	dba MachampBackpic
-	dba BellsproutFrontpic
-	dba BellsproutBackpic
+	dba SeedotFrontpic
+	dba SeedotBackpic
 	dba WeepinbellFrontpic
 	dba WeepinbellBackpic
 	dba VictreebelFrontpic
