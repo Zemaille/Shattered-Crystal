@@ -368,7 +368,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (6)
 	db "IAN@", TRAINERTYPE_NORMAL
-	db 10, MANKEY
+	db 10, SHROOMISH
 	db 12, DIGLETT
 	db -1 ; end
 
@@ -2640,8 +2640,8 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (7)
 	db "LUNG@", TRAINERTYPE_NORMAL
-	db 23, MANKEY
-	db 23, MANKEY
+	db 23, SHROOMISH
+	db 23, SHROOMISH
 	db 25, PRIMEAPE
 	db -1 ; end
 
@@ -2973,7 +2973,7 @@ CamperGroup:
 
 	; CAMPER (11)
 	db "TED@", TRAINERTYPE_NORMAL
-	db 17, MANKEY
+	db 17, SHROOMISH
 	db -1 ; end
 
 	; CAMPER (12)

@@ -55,7 +55,7 @@ PokemonNames::
 	db "Persian@@@"
 	db "Dewpider@@"
 	db "Araquanid@"
-	db "MANKEY@@@@"
+	db "Shroomish@"
 	db "PRIMEAPE@@"
 	db "GROWLITHE@"
 	db "ARCANINE@@"

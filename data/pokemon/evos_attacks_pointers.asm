@@ -57,7 +57,7 @@ EvosAttacksPointers::
 	dw PersianEvosAttacks
 	dw DewpiderEvosAttacks
 	dw AraquanidEvosAttacks
-	dw MankeyEvosAttacks
+	dw ShroomishEvosAttacks
 	dw PrimeapeEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks

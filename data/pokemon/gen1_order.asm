@@ -56,7 +56,7 @@ Pokered_MonIndices:
 	db MAGNETON
 	db KOFFING
 	db SNEASEL ; MISSINGNO.
-	db MANKEY
+	db SHROOMISH
 	db SEEL
 	db DIGLETT
 	db TAUROS

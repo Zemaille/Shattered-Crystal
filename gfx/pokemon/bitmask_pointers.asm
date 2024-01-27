@@ -55,7 +55,7 @@ BitmasksPointers:
 	dw PersianBitmasks
 	dw DewpiderBitmasks
 	dw AraquanidBitmasks
-	dw MankeyBitmasks
+	dw ShroomishBitmasks
 	dw PrimeapeBitmasks
 	dw GrowlitheBitmasks
 	dw ArcanineBitmasks

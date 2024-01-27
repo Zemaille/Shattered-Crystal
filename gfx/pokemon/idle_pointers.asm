@@ -55,7 +55,7 @@ AnimationIdlePointers:
 	dw PersianAnimationIdle
 	dw DewpiderAnimationIdle
 	dw AraquanidAnimationIdle
-	dw MankeyAnimationIdle
+	dw ShroomishAnimationIdle
 	dw PrimeapeAnimationIdle
 	dw GrowlitheAnimationIdle
 	dw ArcanineAnimationIdle

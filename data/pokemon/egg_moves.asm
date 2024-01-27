@@ -160,7 +160,7 @@ DewpiderEggMoves:
 	db CROSS_CHOP
 	db -1 ; end
 
-MankeyEggMoves:
+ShroomishEggMoves:
 	db ROCK_SLIDE
 	db FORESIGHT
 	db MEDITATE

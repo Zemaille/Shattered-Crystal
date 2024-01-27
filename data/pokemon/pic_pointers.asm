@@ -113,8 +113,8 @@ PokemonPicPointers::
 	dba DewpiderBackpic
 	dba AraquanidFrontpic
 	dba AraquanidBackpic
-	dba MankeyFrontpic
-	dba MankeyBackpic
+	dba ShroomishFrontpic
+	dba ShroomishBackpic
 	dba PrimeapeFrontpic
 	dba PrimeapeBackpic
 	dba GrowlitheFrontpic

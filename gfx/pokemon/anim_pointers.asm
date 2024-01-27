@@ -55,7 +55,7 @@ AnimationPointers:
 	dw PersianAnimation
 	dw DewpiderAnimation
 	dw AraquanidAnimation
-	dw MankeyAnimation
+	dw ShroomishAnimation
 	dw PrimeapeAnimation
 	dw GrowlitheAnimation
 	dw ArcanineAnimation
