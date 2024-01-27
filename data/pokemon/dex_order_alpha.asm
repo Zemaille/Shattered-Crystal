@@ -246,7 +246,7 @@ AlphabeticalPokedexOrder:
 	db VULPIX
 	db WARTORTLE
 	db FENNEKIN
-	db WEEPINBELL
+	db NUZLEAF
 	db WEEZING
 	db WIGGLYTUFF
 	db WOBBUFFET

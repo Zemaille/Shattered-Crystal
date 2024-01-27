@@ -88,7 +88,7 @@
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
 	const SEEDOT ; 45
-	const WEEPINBELL ; 46
+	const NUZLEAF ; 46
 	const VICTREEBEL ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49

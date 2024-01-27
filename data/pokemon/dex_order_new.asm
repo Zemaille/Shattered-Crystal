@@ -66,7 +66,7 @@ NewPokedexOrder:
 	db ONIX
 	db STEELIX
 	db SEEDOT
-	db WEEPINBELL
+	db NUZLEAF
 	db VICTREEBEL
 	db HOPPIP
 	db SKIPLOOM

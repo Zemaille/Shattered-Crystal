@@ -69,7 +69,7 @@ FramesPointers:
 	dw MachokeFrames
 	dw MachampFrames
 	dw SeedotFrames
-	dw WeepinbellFrames
+	dw NuzleafFrames
 	dw VictreebelFrames
 	dw TentacoolFrames
 	dw TentacruelFrames

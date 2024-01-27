@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, SEEDOT
-	db 4, SEEDOT
-	db 5, SEEDOT
-	db 3, SEEDOT
-	db 6, SEEDOT
-	db 5, SEEDOT
-	db 5, SEEDOT
+	db 2, NUZLEAF
+	db 3, NUZLEAF
+	db 4, NUZLEAF
+	db 2, NUZLEAF
+	db 4, NUZLEAF
+	db 3, NUZLEAF
+	db 3, NUZLEAF
 	; day
-	db 3, SEEDOT
-	db 4, SEEDOT
-	db 5, SEEDOT
-	db 3, SEEDOT
-	db 6, SEEDOT
-	db 5, SEEDOT
-	db 5, SEEDOT
+	db 2, NUZLEAF
+	db 3, NUZLEAF
+	db 4, NUZLEAF
+	db 2, NUZLEAF
+	db 4, NUZLEAF
+	db 3, NUZLEAF
+	db 3, NUZLEAF
 	; nite
-	db 3, SEEDOT
-	db 4, SEEDOT
-	db 5, SEEDOT
-	db 3, SEEDOT
-	db 6, SEEDOT
-	db 5, SEEDOT
-	db 5, SEEDOT
+	db 2, NUZLEAF
+	db 3, NUZLEAF
+	db 4, NUZLEAF
+	db 2, NUZLEAF
+	db 4, NUZLEAF
+	db 3, NUZLEAF
+	db 3, NUZLEAF
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1604,7 +1604,7 @@ JohtoGrassWildMons:
 	db 23, TANGELA
 	db 22, LICKITUNG
 	db 22, SEEDOT
-	db 24, WEEPINBELL
+	db 24, NUZLEAF
 	db 24, LICKITUNG
 	db 26, LICKITUNG
 	db 26, LICKITUNG
@@ -1612,7 +1612,7 @@ JohtoGrassWildMons:
 	db 23, TANGELA
 	db 22, LICKITUNG
 	db 22, SEEDOT
-	db 24, WEEPINBELL
+	db 24, NUZLEAF
 	db 24, LICKITUNG
 	db 26, LICKITUNG
 	db 26, LICKITUNG
@@ -1620,7 +1620,7 @@ JohtoGrassWildMons:
 	db 23, TANGELA
 	db 22, POLIWAG
 	db 22, SEEDOT
-	db 24, WEEPINBELL
+	db 24, NUZLEAF
 	db 24, POLIWHIRL
 	db 26, POLIWHIRL
 	db 26, POLIWHIRL

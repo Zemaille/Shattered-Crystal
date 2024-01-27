@@ -141,8 +141,8 @@ PokemonPicPointers::
 	dba MachampBackpic
 	dba SeedotFrontpic
 	dba SeedotBackpic
-	dba WeepinbellFrontpic
-	dba WeepinbellBackpic
+	dba NuzleafFrontpic
+	dba NuzleafBackpic
 	dba VictreebelFrontpic
 	dba VictreebelBackpic
 	dba TentacoolFrontpic

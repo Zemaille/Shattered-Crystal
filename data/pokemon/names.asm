@@ -69,7 +69,7 @@ PokemonNames::
 	db "Machoke@@@"
 	db "Machamp@@@"
 	db "Seedot@@@@"
-	db "WEEPINBELL"
+	db "Nuzleaf@@@"
 	db "VICTREEBEL"
 	db "TENTACOOL@"
 	db "TENTACRUEL"
