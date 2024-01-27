@@ -136,7 +136,7 @@ NewPokedexOrder:
 	db DIGLETT
 	db DUGTRIO
 	db SHROOMISH
-	db PRIMEAPE
+	db BRELOOM
 	db MEOWTH
 	db PERSIAN
 	db DEWPIDER

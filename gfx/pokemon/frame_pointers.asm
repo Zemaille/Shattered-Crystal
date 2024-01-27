@@ -56,7 +56,7 @@ FramesPointers:
 	dw DewpiderFrames
 	dw AraquanidFrames
 	dw ShroomishFrames
-	dw PrimeapeFrames
+	dw BreloomFrames
 	dw GrowlitheFrames
 	dw ArcanineFrames
 	dw PoliwagFrames

@@ -735,7 +735,7 @@ AraquanidEvosAttacks:
 	db 0 ; no more level-up moves
 
 ShroomishEvosAttacks:
-	db EVOLVE_LEVEL, 28, PRIMEAPE
+	db EVOLVE_LEVEL, 28, BRELOOM
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -749,7 +749,7 @@ ShroomishEvosAttacks:
 	db 51, THRASH
 	db 0 ; no more level-up moves
 
-PrimeapeEvosAttacks:
+BreloomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER

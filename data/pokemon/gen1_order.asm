@@ -116,7 +116,7 @@ Pokered_MonIndices:
 	db DELPHOX
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
-	db PRIMEAPE
+	db BRELOOM
 	db DUGTRIO
 	db CLODSIRE
 	db DEWGONG

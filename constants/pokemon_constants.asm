@@ -75,7 +75,7 @@
 	const DEWPIDER    ; 36
 	const ARAQUANID    ; 37
 	const SHROOMISH     ; 38
-	const PRIMEAPE   ; 39
+	const BRELOOM   ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
 	const POLIWAG    ; 3c

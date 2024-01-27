@@ -56,7 +56,7 @@ AnimationIdlePointers:
 	dw DewpiderAnimationIdle
 	dw AraquanidAnimationIdle
 	dw ShroomishAnimationIdle
-	dw PrimeapeAnimationIdle
+	dw BreloomAnimationIdle
 	dw GrowlitheAnimationIdle
 	dw ArcanineAnimationIdle
 	dw PoliwagAnimationIdle

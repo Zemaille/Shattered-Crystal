@@ -115,8 +115,8 @@ PokemonPicPointers::
 	dba AraquanidBackpic
 	dba ShroomishFrontpic
 	dba ShroomishBackpic
-	dba PrimeapeFrontpic
-	dba PrimeapeBackpic
+	dba BreloomFrontpic
+	dba BreloomBackpic
 	dba GrowlitheFrontpic
 	dba GrowlitheBackpic
 	dba ArcanineFrontpic

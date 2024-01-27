@@ -57,7 +57,7 @@ PokedexDataPointerTable:
 	dw DewpiderPokedexEntry
 	dw AraquanidPokedexEntry
 	dw ShroomishPokedexEntry
-	dw PrimeapePokedexEntry
+	dw BreloomPokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
 	dw PoliwagPokedexEntry

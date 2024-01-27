@@ -58,7 +58,7 @@ EvosAttacksPointers::
 	dw DewpiderEvosAttacks
 	dw AraquanidEvosAttacks
 	dw ShroomishEvosAttacks
-	dw PrimeapeEvosAttacks
+	dw BreloomEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
 	dw PoliwagEvosAttacks

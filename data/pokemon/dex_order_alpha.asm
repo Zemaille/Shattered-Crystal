@@ -173,7 +173,7 @@ AlphabeticalPokedexOrder:
 	db PONYTA
 	db PORYGON
 	db PORYGON2
-	db PRIMEAPE
+	db BRELOOM
 	db DEWPIDER
 	db PUPITAR
 	db QUAGSIRE

@@ -56,7 +56,7 @@ AnimationPointers:
 	dw DewpiderAnimation
 	dw AraquanidAnimation
 	dw ShroomishAnimation
-	dw PrimeapeAnimation
+	dw BreloomAnimation
 	dw GrowlitheAnimation
 	dw ArcanineAnimation
 	dw PoliwagAnimation

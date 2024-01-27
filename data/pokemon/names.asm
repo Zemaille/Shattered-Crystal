@@ -56,7 +56,7 @@ PokemonNames::
 	db "Dewpider@@"
 	db "Araquanid@"
 	db "Shroomish@"
-	db "PRIMEAPE@@"
+	db "Breloom@@@"
 	db "GROWLITHE@"
 	db "ARCANINE@@"
 	db "POLIWAG@@@"
