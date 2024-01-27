@@ -27,7 +27,7 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 10, DEWPIDER
 	db 5, DEWPIDER
-	db 10, GOLDUCK
+	db 10, ARAQUANID
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_9

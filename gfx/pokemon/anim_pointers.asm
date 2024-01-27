@@ -54,7 +54,7 @@ AnimationPointers:
 	dw MeowthAnimation
 	dw PersianAnimation
 	dw DewpiderAnimation
-	dw GolduckAnimation
+	dw AraquanidAnimation
 	dw MankeyAnimation
 	dw PrimeapeAnimation
 	dw GrowlitheAnimation

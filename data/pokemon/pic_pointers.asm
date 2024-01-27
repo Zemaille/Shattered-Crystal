@@ -111,8 +111,8 @@ PokemonPicPointers::
 	dba PersianBackpic
 	dba DewpiderFrontpic
 	dba DewpiderBackpic
-	dba GolduckFrontpic
-	dba GolduckBackpic
+	dba AraquanidFrontpic
+	dba AraquanidBackpic
 	dba MankeyFrontpic
 	dba MankeyBackpic
 	dba PrimeapeFrontpic

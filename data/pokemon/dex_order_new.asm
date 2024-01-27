@@ -140,7 +140,7 @@ NewPokedexOrder:
 	db MEOWTH
 	db PERSIAN
 	db DEWPIDER
-	db GOLDUCK
+	db ARAQUANID
 	db MACHOP
 	db MACHOKE
 	db MACHAMP

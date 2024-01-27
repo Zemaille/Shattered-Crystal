@@ -55,7 +55,7 @@ PokedexDataPointerTable:
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
 	dw DewpiderPokedexEntry
-	dw GolduckPokedexEntry
+	dw AraquanidPokedexEntry
 	dw MankeyPokedexEntry
 	dw PrimeapePokedexEntry
 	dw GrowlithePokedexEntry

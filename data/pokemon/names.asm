@@ -54,7 +54,7 @@ PokemonNames::
 	db "Meowth@@@@"
 	db "Persian@@@"
 	db "Dewpider@@"
-	db "GOLDUCK@@@"
+	db "Araquanid@"
 	db "MANKEY@@@@"
 	db "PRIMEAPE@@"
 	db "GROWLITHE@"

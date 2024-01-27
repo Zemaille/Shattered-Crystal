@@ -1089,7 +1089,7 @@ JohtoGrassWildMons:
 	db 44, GOLBAT
 	db 42, ONIX
 	db 42, GOLBAT
-	db 45, GOLDUCK
+	db 45, ARAQUANID
 	db 46, GOLBAT
 	db 46, GOLBAT
 	end_grass_wildmons
@@ -1114,7 +1114,7 @@ JohtoGrassWildMons:
 	db 20, LARVITAR
 	; nite
 	db 48, GOLBAT
-	db 48, GOLDUCK
+	db 48, ARAQUANID
 	db 46, GOLBAT
 	db 46, TREVENANT
 	db 48, TREVENANT
@@ -1145,7 +1145,7 @@ JohtoGrassWildMons:
 	db 48, ONIX
 	db 48, GRAVELER
 	db 49, GOLBAT
-	db 45, GOLDUCK
+	db 45, ARAQUANID
 	db 53, GOLBAT
 	db 53, GOLBAT
 	end_grass_wildmons
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, DEWPIDER
-	db 4, DEWPIDER
-	db 5, DEWPIDER
-	db 3, DEWPIDER
-	db 6, DEWPIDER
-	db 5, DEWPIDER
-	db 5, DEWPIDER
+	db 3, ARAQUANID
+	db 4, ARAQUANID
+	db 5, ARAQUANID
+	db 3, ARAQUANID
+	db 6, ARAQUANID
+	db 5, ARAQUANID
+	db 5, ARAQUANID
 	; day
-	db 3, DEWPIDER
-	db 4, DEWPIDER
-	db 5, DEWPIDER
-	db 3, DEWPIDER
-	db 6, DEWPIDER
-	db 5, DEWPIDER
-	db 5, DEWPIDER
+	db 3, ARAQUANID
+	db 4, ARAQUANID
+	db 5, ARAQUANID
+	db 3, ARAQUANID
+	db 6, ARAQUANID
+	db 5, ARAQUANID
+	db 5, ARAQUANID
 	; nite
-	db 3, DEWPIDER
-	db 4, DEWPIDER
-	db 5, DEWPIDER
-	db 3, DEWPIDER
-	db 6, DEWPIDER
-	db 5, DEWPIDER
-	db 5, DEWPIDER
+	db 3, ARAQUANID
+	db 4, ARAQUANID
+	db 5, ARAQUANID
+	db 3, ARAQUANID
+	db 6, ARAQUANID
+	db 5, ARAQUANID
+	db 5, ARAQUANID
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

@@ -127,7 +127,7 @@ Pokered_MonIndices:
 	db BUTTERFREE
 	db MACHAMP
 	db DONPHAN ; MISSINGNO.
-	db GOLDUCK
+	db ARAQUANID
 	db HYPNO
 	db GOLBAT
 	db MEWTWO

@@ -56,7 +56,7 @@ MonMenuIcons:
 	db ICON_FOX         ; MEOWTH
 	db ICON_FOX         ; PERSIAN
 	db ICON_MONSTER     ; DEWPIDER
-	db ICON_MONSTER     ; GOLDUCK
+	db ICON_MONSTER     ; ARAQUANID
 	db ICON_FIGHTER     ; MANKEY
 	db ICON_FIGHTER     ; PRIMEAPE
 	db ICON_FOX         ; GROWLITHE
