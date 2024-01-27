@@ -48,7 +48,7 @@ AnimationIdlePointers:
 	dw PhantumpAnimationIdle
 	dw TrevenantAnimationIdle
 	dw DudunsparceAnimationIdle
-	dw VenomothAnimationIdle
+	dw ClodsireAnimationIdle
 	dw DiglettAnimationIdle
 	dw DugtrioAnimationIdle
 	dw MeowthAnimationIdle

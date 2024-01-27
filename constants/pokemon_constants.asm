@@ -67,7 +67,7 @@
 	const PHANTUMP      ; 2e
 	const TREVENANT   ; 2f
 	const DUDUNSPARCE    ; 30
-	const VENOMOTH   ; 31
+	const CLODSIRE   ; 31
 	const DIGLETT    ; 32
 	const DUGTRIO    ; 33
 	const MEOWTH     ; 34

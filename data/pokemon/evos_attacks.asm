@@ -620,7 +620,7 @@ TrevenantEvosAttacks:
 	db 0 ; no more level-up moves
 
 DudunsparceEvosAttacks:
-	db EVOLVE_LEVEL, 31, VENOMOTH
+	db EVOLVE_LEVEL, 31, CLODSIRE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DISABLE
@@ -635,7 +635,7 @@ DudunsparceEvosAttacks:
 	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-VenomothEvosAttacks:
+ClodsireEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DISABLE

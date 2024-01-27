@@ -50,7 +50,7 @@ EvosAttacksPointers::
 	dw PhantumpEvosAttacks
 	dw TrevenantEvosAttacks
 	dw DudunsparceEvosAttacks
-	dw VenomothEvosAttacks
+	dw ClodsireEvosAttacks
 	dw DiglettEvosAttacks
 	dw DugtrioEvosAttacks
 	dw MeowthEvosAttacks

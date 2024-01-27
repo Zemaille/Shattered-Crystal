@@ -48,7 +48,7 @@ FramesPointers:
 	dw PhantumpFrames
 	dw TrevenantFrames
 	dw DudunsparceFrames
-	dw VenomothFrames
+	dw ClodsireFrames
 	dw DiglettFrames
 	dw DugtrioFrames
 	dw MeowthFrames

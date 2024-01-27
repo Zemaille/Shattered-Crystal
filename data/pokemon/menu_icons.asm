@@ -50,7 +50,7 @@ MonMenuIcons:
 	db ICON_BUG         ; PHANTUMP
 	db ICON_BUG         ; TREVENANT
 	db ICON_CATERPILLAR ; DUDUNSPARCE
-	db ICON_MOTH        ; VENOMOTH
+	db ICON_MOTH        ; CLODSIRE
 	db ICON_DIGLETT     ; DIGLETT
 	db ICON_DIGLETT     ; DUGTRIO
 	db ICON_FOX         ; MEOWTH

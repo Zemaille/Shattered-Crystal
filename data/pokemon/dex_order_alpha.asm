@@ -237,7 +237,7 @@ AlphabeticalPokedexOrder:
 	db URSALUNA
 	db URSARING
 	db VAPOREON
-	db VENOMOTH
+	db CLODSIRE
 	db DUDUNSPARCE
 	db VENUSAUR
 	db VICTREEBEL

@@ -48,7 +48,7 @@ BitmasksPointers:
 	dw PhantumpBitmasks
 	dw TrevenantBitmasks
 	dw DudunsparceBitmasks
-	dw VenomothBitmasks
+	dw ClodsireBitmasks
 	dw DiglettBitmasks
 	dw DugtrioBitmasks
 	dw MeowthBitmasks

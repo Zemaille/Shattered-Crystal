@@ -99,8 +99,8 @@ PokemonPicPointers::
 	dba TrevenantBackpic
 	dba DudunsparceFrontpic
 	dba DudunsparceBackpic
-	dba VenomothFrontpic
-	dba VenomothBackpic
+	dba ClodsireFrontpic
+	dba ClodsireBackpic
 	dba DiglettFrontpic
 	dba DiglettBackpic
 	dba DugtrioFrontpic

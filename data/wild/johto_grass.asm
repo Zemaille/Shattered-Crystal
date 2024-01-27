@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, DUDUNSPARCE
-	db 2, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 2, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 3, DUDUNSPARCE
+	db 3, CLODSIRE
+	db 4, CLODSIRE
+	db 5, CLODSIRE
+	db 3, CLODSIRE
+	db 6, CLODSIRE
+	db 5, CLODSIRE
+	db 5, CLODSIRE
 	; day
-	db 2, DUDUNSPARCE
-	db 2, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 2, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 3, DUDUNSPARCE
+	db 3, CLODSIRE
+	db 4, CLODSIRE
+	db 5, CLODSIRE
+	db 3, CLODSIRE
+	db 6, CLODSIRE
+	db 5, CLODSIRE
+	db 5, CLODSIRE
 	; nite
-	db 2, DUDUNSPARCE
-	db 2, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 2, DUDUNSPARCE
-	db 3, DUDUNSPARCE
-	db 3, DUDUNSPARCE
+	db 3, CLODSIRE
+	db 4, CLODSIRE
+	db 5, CLODSIRE
+	db 3, CLODSIRE
+	db 6, CLODSIRE
+	db 5, CLODSIRE
+	db 5, CLODSIRE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1594,8 +1594,8 @@ JohtoGrassWildMons:
 	db 16, MAMOSWINE
 	db 17, DUDUNSPARCE
 	db 17, MAMOSWINE
-	db 17, VENOMOTH
-	db 17, VENOMOTH
+	db 17, CLODSIRE
+	db 17, CLODSIRE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44

@@ -49,7 +49,7 @@ PokedexDataPointerTable:
 	dw PhantumpPokedexEntry
 	dw TrevenantPokedexEntry
 	dw DudunsparcePokedexEntry
-	dw VenomothPokedexEntry
+	dw ClodsirePokedexEntry
 	dw DiglettPokedexEntry
 	dw DugtrioPokedexEntry
 	dw MeowthPokedexEntry

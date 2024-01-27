@@ -48,7 +48,7 @@ AnimationPointers:
 	dw PhantumpAnimation
 	dw TrevenantAnimation
 	dw DudunsparceAnimation
-	dw VenomothAnimation
+	dw ClodsireAnimation
 	dw DiglettAnimation
 	dw DugtrioAnimation
 	dw MeowthAnimation
