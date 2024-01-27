@@ -357,7 +357,7 @@ JohtoGrassWildMons:
 	db 10, FENNEKIN
 	db 10, FENNEKIN
 	; nite
-	db 12, PSYDUCK
+	db 12, DEWPIDER
 	db 13, HOOTHOOT
 	db 14, SPINARAK
 	db 15, HOOTHOOT
@@ -584,7 +584,7 @@ JohtoGrassWildMons:
 	db 5, ODDISH
 	db 5, DUDUNSPARCE
 	db 7, ODDISH
-	db 7, PSYDUCK
+	db 7, DEWPIDER
 	db 7, HOOTHOOT
 	db 6, PHANTUMP
 	db 6, PHANTUMP
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, DUGTRIO
-	db 4, DUGTRIO
-	db 5, DUGTRIO
-	db 3, DUGTRIO
-	db 6, DUGTRIO
-	db 5, DUGTRIO
-	db 5, DUGTRIO
+	db 3, DEWPIDER
+	db 4, DEWPIDER
+	db 5, DEWPIDER
+	db 3, DEWPIDER
+	db 6, DEWPIDER
+	db 5, DEWPIDER
+	db 5, DEWPIDER
 	; day
-	db 3, DUGTRIO
-	db 4, DUGTRIO
-	db 5, DUGTRIO
-	db 3, DUGTRIO
-	db 6, DUGTRIO
-	db 5, DUGTRIO
-	db 5, DUGTRIO
+	db 3, DEWPIDER
+	db 4, DEWPIDER
+	db 5, DEWPIDER
+	db 3, DEWPIDER
+	db 6, DEWPIDER
+	db 5, DEWPIDER
+	db 5, DEWPIDER
 	; nite
-	db 3, DUGTRIO
-	db 4, DUGTRIO
-	db 5, DUGTRIO
-	db 3, DUGTRIO
-	db 6, DUGTRIO
-	db 5, DUGTRIO
-	db 5, DUGTRIO
+	db 3, DEWPIDER
+	db 4, DEWPIDER
+	db 5, DEWPIDER
+	db 3, DEWPIDER
+	db 6, DEWPIDER
+	db 5, DEWPIDER
+	db 5, DEWPIDER
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1423,7 +1423,7 @@ JohtoGrassWildMons:
 	; nite
 	db 12, DROWZEE
 	db 14, HOOTHOOT
-	db 13, PSYDUCK
+	db 13, DEWPIDER
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO

@@ -53,7 +53,7 @@ BitmasksPointers:
 	dw DugtrioBitmasks
 	dw MeowthBitmasks
 	dw PersianBitmasks
-	dw PsyduckBitmasks
+	dw DewpiderBitmasks
 	dw GolduckBitmasks
 	dw MankeyBitmasks
 	dw PrimeapeBitmasks

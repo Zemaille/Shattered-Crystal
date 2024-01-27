@@ -53,7 +53,7 @@ AnimationIdlePointers:
 	dw DugtrioAnimationIdle
 	dw MeowthAnimationIdle
 	dw PersianAnimationIdle
-	dw PsyduckAnimationIdle
+	dw DewpiderAnimationIdle
 	dw GolduckAnimationIdle
 	dw MankeyAnimationIdle
 	dw PrimeapeAnimationIdle

@@ -139,7 +139,7 @@ NewPokedexOrder:
 	db PRIMEAPE
 	db MEOWTH
 	db PERSIAN
-	db PSYDUCK
+	db DEWPIDER
 	db GOLDUCK
 	db MACHOP
 	db MACHOKE

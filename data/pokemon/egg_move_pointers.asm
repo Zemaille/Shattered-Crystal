@@ -53,7 +53,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw MeowthEggMoves
 	dw NoEggMoves
-	dw PsyduckEggMoves
+	dw DewpiderEggMoves
 	dw NoEggMoves
 	dw MankeyEggMoves
 	dw NoEggMoves

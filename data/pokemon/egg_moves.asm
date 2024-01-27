@@ -149,7 +149,7 @@ MeowthEggMoves:
 	db AMNESIA
 	db -1 ; end
 
-PsyduckEggMoves:
+DewpiderEggMoves:
 	db ICE_BEAM
 	db HYPNOSIS
 	db PSYBEAM

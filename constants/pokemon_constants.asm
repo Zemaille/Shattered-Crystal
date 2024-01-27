@@ -72,7 +72,7 @@
 	const DUGTRIO    ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
-	const PSYDUCK    ; 36
+	const DEWPIDER    ; 36
 	const GOLDUCK    ; 37
 	const MANKEY     ; 38
 	const PRIMEAPE   ; 39

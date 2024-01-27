@@ -53,7 +53,7 @@ FramesPointers:
 	dw DugtrioFrames
 	dw MeowthFrames
 	dw PersianFrames
-	dw PsyduckFrames
+	dw DewpiderFrames
 	dw GolduckFrames
 	dw MankeyFrames
 	dw PrimeapeFrames

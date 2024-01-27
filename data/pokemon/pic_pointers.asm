@@ -109,8 +109,8 @@ PokemonPicPointers::
 	dba MeowthBackpic
 	dba PersianFrontpic
 	dba PersianBackpic
-	dba PsyduckFrontpic
-	dba PsyduckBackpic
+	dba DewpiderFrontpic
+	dba DewpiderBackpic
 	dba GolduckFrontpic
 	dba GolduckBackpic
 	dba MankeyFrontpic

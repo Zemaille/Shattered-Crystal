@@ -54,7 +54,7 @@ PokedexDataPointerTable:
 	dw DugtrioPokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
-	dw PsyduckPokedexEntry
+	dw DewpiderPokedexEntry
 	dw GolduckPokedexEntry
 	dw MankeyPokedexEntry
 	dw PrimeapePokedexEntry

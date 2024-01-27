@@ -174,7 +174,7 @@ AlphabeticalPokedexOrder:
 	db PORYGON
 	db PORYGON2
 	db PRIMEAPE
-	db PSYDUCK
+	db DEWPIDER
 	db PUPITAR
 	db QUAGSIRE
 	db QUILAVA

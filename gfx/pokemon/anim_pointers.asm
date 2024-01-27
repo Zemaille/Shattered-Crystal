@@ -53,7 +53,7 @@ AnimationPointers:
 	dw DugtrioAnimation
 	dw MeowthAnimation
 	dw PersianAnimation
-	dw PsyduckAnimation
+	dw DewpiderAnimation
 	dw GolduckAnimation
 	dw MankeyAnimation
 	dw PrimeapeAnimation
