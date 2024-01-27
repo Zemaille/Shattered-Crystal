@@ -41,7 +41,7 @@ BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
 	dbw PINSIR,     332
 	dbw BUTTERFREE, 324
-	dbw VENONAT,    321
+	dbw DUDUNSPARCE,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BUG_CATCHER_BENNY
@@ -52,7 +52,7 @@ BugContestant_BugCatcherBenny:
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	dbw PINSIR,     366
-	dbw VENONAT,    329
+	dbw DUDUNSPARCE,    329
 	dbw BRAIXEN,     314
 
 BugContestant_PicnickerCindy:
@@ -75,6 +75,6 @@ BugContestant_YoungsterSamuel:
 
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
-	dbw VENONAT,    267
+	dbw DUDUNSPARCE,    267
 	dbw PHANTUMP,      254
 	dbw BRAIXEN,     259

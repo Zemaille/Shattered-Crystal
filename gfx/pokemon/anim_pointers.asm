@@ -47,7 +47,7 @@ AnimationPointers:
 	dw VileplumeAnimation
 	dw PhantumpAnimation
 	dw TrevenantAnimation
-	dw VenonatAnimation
+	dw DudunsparceAnimation
 	dw VenomothAnimation
 	dw DiglettAnimation
 	dw DugtrioAnimation

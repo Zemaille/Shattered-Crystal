@@ -47,7 +47,7 @@ PokemonNames::
 	db "Vileplume@"
 	db "Phantump@@"
 	db "Trevenant@"
-	db "VENONAT@@@"
+	db "Dudunspars"
 	db "VENOMOTH@@"
 	db "DIGLETT@@@"
 	db "DUGTRIO@@@"

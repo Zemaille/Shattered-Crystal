@@ -619,7 +619,7 @@ TrevenantEvosAttacks:
 	db 55, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-VenonatEvosAttacks:
+DudunsparceEvosAttacks:
 	db EVOLVE_LEVEL, 31, VENOMOTH
 	db 0 ; no more evolutions
 	db 1, TACKLE

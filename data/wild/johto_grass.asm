@@ -361,9 +361,9 @@ JohtoGrassWildMons:
 	db 13, HOOTHOOT
 	db 14, SPINARAK
 	db 15, HOOTHOOT
-	db 10, VENONAT
-	db 12, VENONAT
-	db 12, VENONAT
+	db 10, DUDUNSPARCE
+	db 12, DUDUNSPARCE
+	db 12, DUDUNSPARCE
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
@@ -582,7 +582,7 @@ JohtoGrassWildMons:
 	db 6, PHANTUMP
 	; nite
 	db 5, ODDISH
-	db 5, VENONAT
+	db 5, DUDUNSPARCE
 	db 7, ODDISH
 	db 7, PSYDUCK
 	db 7, HOOTHOOT
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, TREVENANT
-	db 2, TREVENANT
-	db 3, TREVENANT
-	db 3, TREVENANT
-	db 2, TREVENANT
-	db 3, TREVENANT
-	db 3, TREVENANT
+	db 2, DUDUNSPARCE
+	db 2, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 2, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 3, DUDUNSPARCE
 	; day
-	db 2, TREVENANT
-	db 2, TREVENANT
-	db 3, TREVENANT
-	db 3, TREVENANT
-	db 2, TREVENANT
-	db 3, TREVENANT
-	db 3, TREVENANT
+	db 2, DUDUNSPARCE
+	db 2, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 2, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 3, DUDUNSPARCE
 	; nite
-	db 2, TREVENANT
-	db 2, TREVENANT
-	db 3, TREVENANT
-	db 3, TREVENANT
-	db 2, TREVENANT
-	db 3, TREVENANT
-	db 3, TREVENANT
+	db 2, DUDUNSPARCE
+	db 2, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 2, DUDUNSPARCE
+	db 3, DUDUNSPARCE
+	db 3, DUDUNSPARCE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1589,10 +1589,10 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 17, FURRET
 	; nite
-	db 15, VENONAT
+	db 15, DUDUNSPARCE
 	db 16, NOCTOWL
 	db 16, MAMOSWINE
-	db 17, VENONAT
+	db 17, DUDUNSPARCE
 	db 17, MAMOSWINE
 	db 17, VENOMOTH
 	db 17, VENOMOTH

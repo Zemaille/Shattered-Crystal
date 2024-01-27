@@ -49,7 +49,7 @@ EvosAttacksPointers::
 	dw VileplumeEvosAttacks
 	dw PhantumpEvosAttacks
 	dw TrevenantEvosAttacks
-	dw VenonatEvosAttacks
+	dw DudunsparceEvosAttacks
 	dw VenomothEvosAttacks
 	dw DiglettEvosAttacks
 	dw DugtrioEvosAttacks

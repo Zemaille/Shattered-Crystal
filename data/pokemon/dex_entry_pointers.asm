@@ -48,7 +48,7 @@ PokedexDataPointerTable:
 	dw VileplumePokedexEntry
 	dw PhantumpPokedexEntry
 	dw TrevenantPokedexEntry
-	dw VenonatPokedexEntry
+	dw DudunsparcePokedexEntry
 	dw VenomothPokedexEntry
 	dw DiglettPokedexEntry
 	dw DugtrioPokedexEntry

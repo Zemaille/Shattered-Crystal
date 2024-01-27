@@ -66,7 +66,7 @@
 	const VILEPLUME  ; 2d
 	const PHANTUMP      ; 2e
 	const TREVENANT   ; 2f
-	const VENONAT    ; 30
+	const DUDUNSPARCE    ; 30
 	const VENOMOTH   ; 31
 	const DIGLETT    ; 32
 	const DUGTRIO    ; 33
