@@ -105,7 +105,7 @@
 	const DODUO      ; 54
 	const DODRIO     ; 55
 	const RIOLU       ; 56
-	const DEWGONG    ; 57
+	const LUCARIO    ; 57
 	const GRIMER     ; 58
 	const MUK        ; 59
 	const SHELLDER   ; 5a

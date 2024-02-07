@@ -86,7 +86,7 @@ AnimationIdlePointers:
 	dw DoduoAnimationIdle
 	dw DodrioAnimationIdle
 	dw RioluAnimationIdle
-	dw DewgongAnimationIdle
+	dw LucarioAnimationIdle
 	dw GrimerAnimationIdle
 	dw MukAnimationIdle
 	dw ShellderAnimationIdle

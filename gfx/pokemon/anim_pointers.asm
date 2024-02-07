@@ -86,7 +86,7 @@ AnimationPointers:
 	dw DoduoAnimation
 	dw DodrioAnimation
 	dw RioluAnimation
-	dw DewgongAnimation
+	dw LucarioAnimation
 	dw GrimerAnimation
 	dw MukAnimation
 	dw ShellderAnimation

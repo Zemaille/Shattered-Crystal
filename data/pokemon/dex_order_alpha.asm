@@ -38,7 +38,7 @@ AlphabeticalPokedexOrder:
 	db CUBONE
 	db CYNDAQUIL
 	db DELIBIRD
-	db DEWGONG
+	db LUCARIO
 	db DIGLETT
 	db DITTO
 	db DODRIO

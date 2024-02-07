@@ -86,7 +86,7 @@ PokemonNames::
 	db "Doduo@@@@@"
 	db "Dodrio@@@@"
 	db "Riolu@@@@@"
-	db "DEWGONG@@@"
+	db "Lucario@@@"
 	db "GRIMER@@@@"
 	db "MUK@@@@@@@"
 	db "SHELLDER@@"

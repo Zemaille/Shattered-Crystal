@@ -178,7 +178,7 @@ NewPokedexOrder:
 	db CHINCHOU
 	db LANTURN
 	db RIOLU
-	db DEWGONG
+	db LUCARIO
 	db LICKITUNG
 	db TANGELA
 	db EEVEE

@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, RIOLU
-	db 3, RIOLU
-	db 4, RIOLU
-	db 2, RIOLU
-	db 4, RIOLU
-	db 3, RIOLU
-	db 3, RIOLU
+	db 2, LUCARIO
+	db 3, LUCARIO
+	db 4, LUCARIO
+	db 2, LUCARIO
+	db 4, LUCARIO
+	db 3, LUCARIO
+	db 3, LUCARIO
 	; day
-	db 2, RIOLU
-	db 3, RIOLU
-	db 4, RIOLU
-	db 2, RIOLU
-	db 4, RIOLU
-	db 3, RIOLU
-	db 3, RIOLU
+	db 2, LUCARIO
+	db 3, LUCARIO
+	db 4, LUCARIO
+	db 2, LUCARIO
+	db 4, LUCARIO
+	db 3, LUCARIO
+	db 3, LUCARIO
 	; nite
-	db 2, RIOLU
-	db 3, RIOLU
-	db 4, RIOLU
-	db 2, RIOLU
-	db 4, RIOLU
-	db 3, RIOLU
-	db 3, RIOLU
+	db 2, LUCARIO
+	db 3, LUCARIO
+	db 4, LUCARIO
+	db 2, LUCARIO
+	db 4, LUCARIO
+	db 3, LUCARIO
+	db 3, LUCARIO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
