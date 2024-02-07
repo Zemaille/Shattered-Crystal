@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, SHIFTRY
-	db 3, SHIFTRY
-	db 4, SHIFTRY
-	db 2, SHIFTRY
-	db 4, SHIFTRY
-	db 3, SHIFTRY
-	db 3, SHIFTRY
+	db 2, MAGNEZONE
+	db 3, MAGNEZONE
+	db 4, MAGNEZONE
+	db 2, MAGNEZONE
+	db 4, MAGNEZONE
+	db 3, MAGNEZONE
+	db 3, MAGNEZONE
 	; day
-	db 2, SHIFTRY
-	db 3, SHIFTRY
-	db 4, SHIFTRY
-	db 2, SHIFTRY
-	db 4, SHIFTRY
-	db 3, SHIFTRY
-	db 3, SHIFTRY
+	db 2, MAGNEZONE
+	db 3, MAGNEZONE
+	db 4, MAGNEZONE
+	db 2, MAGNEZONE
+	db 4, MAGNEZONE
+	db 3, MAGNEZONE
+	db 3, MAGNEZONE
 	; nite
-	db 2, SHIFTRY
-	db 3, SHIFTRY
-	db 4, SHIFTRY
-	db 2, SHIFTRY
-	db 4, SHIFTRY
-	db 3, SHIFTRY
-	db 3, SHIFTRY
+	db 2, MAGNEZONE
+	db 3, MAGNEZONE
+	db 4, MAGNEZONE
+	db 2, MAGNEZONE
+	db 4, MAGNEZONE
+	db 3, MAGNEZONE
+	db 3, MAGNEZONE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1575,7 +1575,7 @@ JohtoGrassWildMons:
 	; morn
 	db 15, SENTRET
 	db 16, PIDGEOTTO
-	db 16, FARFETCH_D
+	db 16, MAGNEZONE
 	db 15, FURRET
 	db 17, MAMOSWINE
 	db 17, FURRET
@@ -1583,7 +1583,7 @@ JohtoGrassWildMons:
 	; day
 	db 15, SENTRET
 	db 16, PIDGEOTTO
-	db 16, FARFETCH_D
+	db 16, MAGNEZONE
 	db 15, FURRET
 	db 17, MAMOSWINE
 	db 17, FURRET

@@ -167,8 +167,8 @@ PokemonPicPointers::
 	dba MagnemiteBackpic
 	dba MagnetonFrontpic
 	dba MagnetonBackpic
-	dba FarfetchDFrontpic
-	dba FarfetchDBackpic
+	dba MagnezoneFrontpic
+	dba MagnezoneBackpic
 	dba DoduoFrontpic
 	dba DoduoBackpic
 	dba DodrioFrontpic

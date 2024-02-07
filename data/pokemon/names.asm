@@ -82,7 +82,7 @@ PokemonNames::
 	db "Slowbro@@@"
 	db "Magnemite@"
 	db "Magneton@@"
-	db "FARFETCH'D"
+	db "Magnezone@"
 	db "DODUO@@@@@"
 	db "DODRIO@@@@"
 	db "SEEL@@@@@@"

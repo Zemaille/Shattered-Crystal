@@ -1140,7 +1140,6 @@ BattleCommand_Critical:
 	ld c, 0
 
 	cp CHANSEY
-	jr nz, .Farfetchd
 	ld a, [hl]
 	cp LUCKY_PUNCH
 	jr nz, .FocusEnergy
@@ -1148,13 +1147,6 @@ BattleCommand_Critical:
 ; +2 critical level
 	ld c, 2
 	jr .Tally
-
-.Farfetchd:
-	cp FARFETCH_D
-	jr nz, .FocusEnergy
-	ld a, [hl]
-	cp STICK
-	jr nz, .FocusEnergy
 
 ; +2 critical level
 	ld c, 2

@@ -59,7 +59,7 @@ AlphabeticalPokedexOrder:
 	db ESPEON
 	db EXEGGCUTE
 	db EXEGGUTOR
-	db FARFETCH_D
+	db MAGNEZONE
 	db ALTARIA
 	db FERALIGATR
 	db FLAAFFY
