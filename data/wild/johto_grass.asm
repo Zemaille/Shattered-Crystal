@@ -847,19 +847,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -875,19 +875,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -903,19 +903,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -931,19 +931,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -959,19 +959,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, RIOLU
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
+	db 24, RIOLU
+	db 24, RIOLU
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -987,19 +987,19 @@ JohtoGrassWildMons:
 	; morn
 	db 23, KRABBY
 	db 24, ZUBAT
-	db 23, SEEL
+	db 23, RIOLU
 	db 25, KRABBY
 	db 26, GOLBAT
-	db 25, SEEL
-	db 25, SEEL
+	db 25, RIOLU
+	db 25, RIOLU
 	; day
 	db 23, KRABBY
 	db 24, ZUBAT
-	db 23, SEEL
+	db 23, RIOLU
 	db 25, KRABBY
 	db 26, GOLBAT
-	db 25, SEEL
-	db 25, SEEL
+	db 25, RIOLU
+	db 25, RIOLU
 	; nite
 	db 23, KRABBY
 	db 24, ZUBAT
@@ -1015,19 +1015,19 @@ JohtoGrassWildMons:
 	; morn
 	db 24, KRABBY
 	db 25, ZUBAT
-	db 24, SEEL
+	db 24, RIOLU
 	db 26, KRABBY
 	db 27, GOLBAT
-	db 26, SEEL
-	db 26, SEEL
+	db 26, RIOLU
+	db 26, RIOLU
 	; day
 	db 24, KRABBY
 	db 25, ZUBAT
-	db 24, SEEL
+	db 24, RIOLU
 	db 26, KRABBY
 	db 27, GOLBAT
-	db 26, SEEL
-	db 26, SEEL
+	db 26, RIOLU
+	db 26, RIOLU
 	; nite
 	db 24, KRABBY
 	db 25, ZUBAT
@@ -1043,19 +1043,19 @@ JohtoGrassWildMons:
 	; morn
 	db 25, KRABBY
 	db 26, ZUBAT
-	db 25, SEEL
+	db 25, RIOLU
 	db 27, KRABBY
 	db 28, GOLBAT
-	db 27, SEEL
-	db 27, SEEL
+	db 27, RIOLU
+	db 27, RIOLU
 	; day
 	db 25, KRABBY
 	db 26, ZUBAT
-	db 25, SEEL
+	db 25, RIOLU
 	db 27, KRABBY
 	db 28, GOLBAT
-	db 27, SEEL
-	db 27, SEEL
+	db 27, RIOLU
+	db 27, RIOLU
 	; nite
 	db 25, KRABBY
 	db 26, ZUBAT
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, MAGNEZONE
-	db 3, MAGNEZONE
-	db 4, MAGNEZONE
-	db 2, MAGNEZONE
-	db 4, MAGNEZONE
-	db 3, MAGNEZONE
-	db 3, MAGNEZONE
+	db 2, RIOLU
+	db 3, RIOLU
+	db 4, RIOLU
+	db 2, RIOLU
+	db 4, RIOLU
+	db 3, RIOLU
+	db 3, RIOLU
 	; day
-	db 2, MAGNEZONE
-	db 3, MAGNEZONE
-	db 4, MAGNEZONE
-	db 2, MAGNEZONE
-	db 4, MAGNEZONE
-	db 3, MAGNEZONE
-	db 3, MAGNEZONE
+	db 2, RIOLU
+	db 3, RIOLU
+	db 4, RIOLU
+	db 2, RIOLU
+	db 4, RIOLU
+	db 3, RIOLU
+	db 3, RIOLU
 	; nite
-	db 2, MAGNEZONE
-	db 3, MAGNEZONE
-	db 4, MAGNEZONE
-	db 2, MAGNEZONE
-	db 4, MAGNEZONE
-	db 3, MAGNEZONE
-	db 3, MAGNEZONE
+	db 2, RIOLU
+	db 3, RIOLU
+	db 4, RIOLU
+	db 2, RIOLU
+	db 4, RIOLU
+	db 3, RIOLU
+	db 3, RIOLU
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

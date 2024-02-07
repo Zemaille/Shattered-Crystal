@@ -177,7 +177,7 @@ NewPokedexOrder:
 	db OCTILLERY
 	db CHINCHOU
 	db LANTURN
-	db SEEL
+	db RIOLU
 	db DEWGONG
 	db LICKITUNG
 	db TANGELA

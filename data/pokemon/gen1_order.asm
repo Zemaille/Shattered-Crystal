@@ -57,7 +57,7 @@ Pokered_MonIndices:
 	db KOFFING
 	db SNEASEL ; MISSINGNO.
 	db SHROOMISH
-	db SEEL
+	db RIOLU
 	db DIGLETT
 	db TAUROS
 	db TEDDIURSA ; MISSINGNO.

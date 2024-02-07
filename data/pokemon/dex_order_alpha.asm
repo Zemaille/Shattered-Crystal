@@ -193,7 +193,7 @@ AlphabeticalPokedexOrder:
 	db SCYTHER
 	db SEADRA
 	db SEAKING
-	db SEEL
+	db RIOLU
 	db SENTRET
 	db SHELLDER
 	db SHUCKLE

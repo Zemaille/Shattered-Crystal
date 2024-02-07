@@ -1154,7 +1154,7 @@ DodrioEvosAttacks:
 	db 47, AGILITY
 	db 0 ; no more level-up moves
 
-SeelEvosAttacks:
+RioluEvosAttacks:
 	db EVOLVE_LEVEL, 34, DEWGONG
 	db 0 ; no more evolutions
 	db 1, HEADBUTT

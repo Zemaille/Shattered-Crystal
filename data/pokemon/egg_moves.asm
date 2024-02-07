@@ -251,7 +251,7 @@ DoduoEggMoves:
 	db FLAIL
 	db -1 ; end
 
-SeelEggMoves:
+RioluEggMoves:
 	db LICK
 	db PERISH_SONG
 	db DISABLE

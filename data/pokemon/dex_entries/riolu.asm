@@ -1,5 +1,5 @@
-	db "MAGNET@" ; species name
-	dw 311, 3968 ; height, weight
+	db "EMANATION@" ; species name
+	dw 204, 445 ; height, weight
 
 	db   "PLACEHOLDER"
 	next "PLACEHOLDER"

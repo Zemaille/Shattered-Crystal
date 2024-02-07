@@ -86,7 +86,7 @@ PokedexDataPointerTable:
 	dw MagnezonePokedexEntry
 	dw DoduoPokedexEntry
 	dw DodrioPokedexEntry
-	dw SeelPokedexEntry
+	dw RioluPokedexEntry
 	dw DewgongPokedexEntry
 	dw GrimerPokedexEntry
 	dw MukPokedexEntry

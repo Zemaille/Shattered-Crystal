@@ -182,7 +182,7 @@ KangaskhanBackpic:   INCBIN "gfx/pokemon/kangaskhan/back.2bpp.lz"
 
 SECTION "Pics 8", ROMX
 
-SeelFrontpic:        INCBIN "gfx/pokemon/seel/front.animated.2bpp.lz"
+RioluFrontpic:        INCBIN "gfx/pokemon/riolu/front.animated.2bpp.lz"
 CrobatFrontpic:      INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 ChanseyFrontpic:     INCBIN "gfx/pokemon/chansey/front.animated.2bpp.lz"
 TangelaFrontpic:     INCBIN "gfx/pokemon/tangela/front.animated.2bpp.lz"
@@ -539,7 +539,7 @@ Porygon2Backpic:     INCBIN "gfx/pokemon/porygon2/back.2bpp.lz"
 JasminePic:          INCBIN "gfx/trainers/jasmine.2bpp.lz"
 PinecoBackpic:       INCBIN "gfx/pokemon/pineco/back.2bpp.lz"
 MetapodFrontpic:     INCBIN "gfx/pokemon/metapod/front.animated.2bpp.lz"
-SeelBackpic:         INCBIN "gfx/pokemon/seel/back.2bpp.lz"
+RioluBackpic:         INCBIN "gfx/pokemon/riolu/back.2bpp.lz"
 QuagsireBackpic:     INCBIN "gfx/pokemon/quagsire/back.2bpp.lz"
 WhitneyPic:          INCBIN "gfx/trainers/whitney.2bpp.lz"
 JolteonBackpic:      INCBIN "gfx/pokemon/jolteon/back.2bpp.lz"
