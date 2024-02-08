@@ -88,7 +88,7 @@ NewPokedexOrder:
 	db GLOOM
 	db VILEPLUME
 	db BELLOSSOM
-	db DROWZEE
+	db INKAY
 	db HYPNO
 	db ABRA
 	db KADABRA

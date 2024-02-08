@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, MUK
-	db 3, MUK
-	db 4, MUK
-	db 2, MUK
-	db 4, MUK
-	db 3, MUK
-	db 3, MUK
+	db 2, INKAY
+	db 3, INKAY
+	db 4, INKAY
+	db 2, INKAY
+	db 4, INKAY
+	db 3, INKAY
+	db 3, INKAY
 	; day
-	db 2, MUK
-	db 3, MUK
-	db 4, MUK
-	db 2, MUK
-	db 4, MUK
-	db 3, MUK
-	db 3, MUK
+	db 2, INKAY
+	db 3, INKAY
+	db 4, INKAY
+	db 2, INKAY
+	db 4, INKAY
+	db 3, INKAY
+	db 3, INKAY
 	; nite
-	db 2, MUK
-	db 3, MUK
-	db 4, MUK
-	db 2, MUK
-	db 4, MUK
-	db 3, MUK
-	db 3, MUK
+	db 2, INKAY
+	db 3, INKAY
+	db 4, INKAY
+	db 2, INKAY
+	db 4, INKAY
+	db 3, INKAY
+	db 3, INKAY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1393,7 +1393,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 10, DITTO
 	; nite
-	db 12, DROWZEE
+	db 12, INKAY
 	db 11, HONCHKROW
 	db 12, HOOTHOOT
 	db 10, ABRA
@@ -1421,7 +1421,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 12, YANMA
 	; nite
-	db 12, DROWZEE
+	db 12, INKAY
 	db 14, HOOTHOOT
 	db 13, DEWPIDER
 	db 10, ABRA

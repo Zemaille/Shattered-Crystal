@@ -95,7 +95,7 @@ AnimationPointers:
 	dw HaunterAnimation
 	dw GengarAnimation
 	dw OnixAnimation
-	dw DrowzeeAnimation
+	dw InkayAnimation
 	dw HypnoAnimation
 	dw KrabbyAnimation
 	dw KinglerAnimation

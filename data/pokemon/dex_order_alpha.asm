@@ -47,7 +47,7 @@ AlphabeticalPokedexOrder:
 	db DRAGONAIR
 	db DRAGONITE
 	db DRATINI
-	db DROWZEE
+	db INKAY
 	db DUGTRIO
 	db DUNSPARCE
 	db EEVEE

@@ -47,7 +47,7 @@ Pokered_MonIndices:
 	db ARBOK
 	db TREVENANT
 	db DEWPIDER
-	db DROWZEE
+	db INKAY
 	db GOLEM
 	db HERACROSS ; MISSINGNO.
 	db MAGMAR

@@ -330,7 +330,7 @@ KantoGrassWildMons:
 	db 15, GRANBULL
 	; nite
 	db 13, MEOWTH
-	db 13, DROWZEE
+	db 13, INKAY
 	db 14, MAGNEMITE
 	db 15, DEWPIDER
 	db 12, JIGGLYPUFF
@@ -469,7 +469,7 @@ KantoGrassWildMons:
 	db 16, HOPPIP
 	db 16, HOPPIP
 	; nite
-	db 14, DROWZEE
+	db 14, INKAY
 	db 13, MEOWTH
 	db 15, MAGNEMITE
 	db 16, NOCTOWL

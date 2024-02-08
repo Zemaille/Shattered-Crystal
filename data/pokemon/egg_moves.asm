@@ -97,7 +97,7 @@ NidoranMEggMoves:
 
 VulpixEggMoves:
 	db FAINT_ATTACK
-	db HYPNOSIS
+	db SPORE
 	db FLAIL
 	db SPITE
 	db DISABLE
@@ -145,13 +145,13 @@ DiglettEggMoves:
 MeowthEggMoves:
 	db SPITE
 	db CHARM
-	db HYPNOSIS
+	db SPORE
 	db AMNESIA
 	db -1 ; end
 
 DewpiderEggMoves:
 	db ICE_BEAM
-	db HYPNOSIS
+	db SPORE
 	db PSYBEAM
 	db FORESIGHT
 	db LIGHT_SCREEN
@@ -223,7 +223,7 @@ PonytaEggMoves:
 	db FLAME_WHEEL
 	db THRASH
 	db DOUBLE_KICK
-	db HYPNOSIS
+	db SPORE
 	db CHARM
 	db QUICK_ATTACK
 	db -1 ; end
@@ -285,7 +285,7 @@ OnixEggMoves:
 	db FLAIL
 	db -1 ; end
 
-DrowzeeEggMoves:
+InkayEggMoves:
 	db LIGHT_SCREEN
 	db BARRIER
 	db -1 ; end
@@ -379,7 +379,7 @@ GoldeenEggMoves:
 
 MrMimeEggMoves:
 	db FUTURE_SIGHT
-	db HYPNOSIS
+	db SPORE
 	db MIMIC
 	db -1 ; end
 

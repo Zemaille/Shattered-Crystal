@@ -95,7 +95,7 @@ FramesPointers:
 	dw HaunterFrames
 	dw GengarFrames
 	dw OnixFrames
-	dw DrowzeeFrames
+	dw InkayFrames
 	dw HypnoFrames
 	dw KrabbyFrames
 	dw KinglerFrames

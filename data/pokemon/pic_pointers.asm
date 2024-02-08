@@ -193,8 +193,8 @@ PokemonPicPointers::
 	dba GengarBackpic
 	dba OnixFrontpic
 	dba OnixBackpic
-	dba DrowzeeFrontpic
-	dba DrowzeeBackpic
+	dba InkayFrontpic
+	dba InkayBackpic
 	dba HypnoFrontpic
 	dba HypnoBackpic
 	dba KrabbyFrontpic
