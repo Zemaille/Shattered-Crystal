@@ -197,8 +197,8 @@ PokemonPicPointers::
 	dba InkayBackpic
 	dba MalamarFrontpic
 	dba MalamarBackpic
-	dba KrabbyFrontpic
-	dba KrabbyBackpic
+	dba FeebasFrontpic
+	dba FeebasBackpic
 	dba KinglerFrontpic
 	dba KinglerBackpic
 	dba VoltorbFrontpic

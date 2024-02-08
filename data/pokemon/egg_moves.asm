@@ -290,7 +290,7 @@ InkayEggMoves:
 	db BARRIER
 	db -1 ; end
 
-KrabbyEggMoves:
+FeebasEggMoves:
 	db DIG
 	db HAZE
 	db AMNESIA

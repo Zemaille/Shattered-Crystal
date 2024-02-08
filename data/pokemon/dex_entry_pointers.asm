@@ -98,7 +98,7 @@ PokedexDataPointerTable:
 	dw OnixPokedexEntry
 	dw InkayPokedexEntry
 	dw MalamarPokedexEntry
-	dw KrabbyPokedexEntry
+	dw FeebasPokedexEntry
 	dw KinglerPokedexEntry
 	dw VoltorbPokedexEntry
 	dw ElectrodePokedexEntry

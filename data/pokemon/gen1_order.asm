@@ -77,7 +77,7 @@ Pokered_MonIndices:
 	db ZAPDOS
 	db DITTO
 	db MEOWTH
-	db KRABBY
+	db FEEBAS
 	db CORSOLA ; MISSINGNO.
 	db REMORAID ; MISSINGNO.
 	db OCTILLERY ; MISSINGNO.

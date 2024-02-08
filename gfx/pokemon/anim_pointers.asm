@@ -97,7 +97,7 @@ AnimationPointers:
 	dw OnixAnimation
 	dw InkayAnimation
 	dw MalamarAnimation
-	dw KrabbyAnimation
+	dw FeebasAnimation
 	dw KinglerAnimation
 	dw VoltorbAnimation
 	dw ElectrodeAnimation

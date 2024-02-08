@@ -1318,7 +1318,7 @@ MalamarEvosAttacks:
 	db 60, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
-KrabbyEvosAttacks:
+FeebasEvosAttacks:
 	db EVOLVE_LEVEL, 28, KINGLER
 	db 0 ; no more evolutions
 	db 1, BUBBLE

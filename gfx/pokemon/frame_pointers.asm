@@ -97,7 +97,7 @@ FramesPointers:
 	dw OnixFrames
 	dw InkayFrames
 	dw MalamarFrames
-	dw KrabbyFrames
+	dw FeebasFrames
 	dw KinglerFrames
 	dw VoltorbFrames
 	dw ElectrodeFrames

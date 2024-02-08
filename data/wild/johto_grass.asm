@@ -845,26 +845,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_NW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; day
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; nite
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, FEEBAS
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, GOLBAT
 	db 24, GOLBAT
@@ -873,26 +873,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_NE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; day
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; nite
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, FEEBAS
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, GOLBAT
 	db 24, GOLBAT
@@ -901,26 +901,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_SW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; day
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; nite
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, FEEBAS
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, GOLBAT
 	db 24, GOLBAT
@@ -929,26 +929,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_CAVE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; day
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; nite
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, FEEBAS
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, GOLBAT
 	db 24, GOLBAT
@@ -957,26 +957,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_SE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; day
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
 	db 22, RIOLU
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, RIOLU
 	db 24, RIOLU
 	; nite
-	db 22, KRABBY
+	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, KRABBY
-	db 24, KRABBY
+	db 22, FEEBAS
+	db 24, FEEBAS
 	db 25, GOLBAT
 	db 24, GOLBAT
 	db 24, GOLBAT
@@ -985,26 +985,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, KRABBY
+	db 23, FEEBAS
 	db 24, ZUBAT
 	db 23, RIOLU
-	db 25, KRABBY
+	db 25, FEEBAS
 	db 26, GOLBAT
 	db 25, RIOLU
 	db 25, RIOLU
 	; day
-	db 23, KRABBY
+	db 23, FEEBAS
 	db 24, ZUBAT
 	db 23, RIOLU
-	db 25, KRABBY
+	db 25, FEEBAS
 	db 26, GOLBAT
 	db 25, RIOLU
 	db 25, RIOLU
 	; nite
-	db 23, KRABBY
+	db 23, FEEBAS
 	db 24, ZUBAT
-	db 23, KRABBY
-	db 25, KRABBY
+	db 23, FEEBAS
+	db 25, FEEBAS
 	db 26, GOLBAT
 	db 25, GOLBAT
 	db 25, GOLBAT
@@ -1013,26 +1013,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, ZUBAT
 	db 24, RIOLU
-	db 26, KRABBY
+	db 26, FEEBAS
 	db 27, GOLBAT
 	db 26, RIOLU
 	db 26, RIOLU
 	; day
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, ZUBAT
 	db 24, RIOLU
-	db 26, KRABBY
+	db 26, FEEBAS
 	db 27, GOLBAT
 	db 26, RIOLU
 	db 26, RIOLU
 	; nite
-	db 24, KRABBY
+	db 24, FEEBAS
 	db 25, ZUBAT
-	db 24, KRABBY
-	db 26, KRABBY
+	db 24, FEEBAS
+	db 26, FEEBAS
 	db 27, GOLBAT
 	db 26, GOLBAT
 	db 26, GOLBAT
@@ -1041,26 +1041,26 @@ JohtoGrassWildMons:
 	def_grass_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 25, KRABBY
+	db 25, FEEBAS
 	db 26, ZUBAT
 	db 25, RIOLU
-	db 27, KRABBY
+	db 27, FEEBAS
 	db 28, GOLBAT
 	db 27, RIOLU
 	db 27, RIOLU
 	; day
-	db 25, KRABBY
+	db 25, FEEBAS
 	db 26, ZUBAT
 	db 25, RIOLU
-	db 27, KRABBY
+	db 27, FEEBAS
 	db 28, GOLBAT
 	db 27, RIOLU
 	db 27, RIOLU
 	; nite
-	db 25, KRABBY
+	db 25, FEEBAS
 	db 26, ZUBAT
-	db 25, KRABBY
-	db 27, KRABBY
+	db 25, FEEBAS
+	db 27, FEEBAS
 	db 28, GOLBAT
 	db 27, GOLBAT
 	db 27, GOLBAT
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, MALAMAR
-	db 3, MALAMAR
-	db 4, MALAMAR
-	db 2, MALAMAR
-	db 4, MALAMAR
-	db 3, MALAMAR
-	db 3, MALAMAR
+	db 2, FEEBAS
+	db 3, FEEBAS
+	db 4, FEEBAS
+	db 2, FEEBAS
+	db 4, FEEBAS
+	db 3, FEEBAS
+	db 3, FEEBAS
 	; day
-	db 2, MALAMAR
-	db 3, MALAMAR
-	db 4, MALAMAR
-	db 2, MALAMAR
-	db 4, MALAMAR
-	db 3, MALAMAR
-	db 3, MALAMAR
+	db 2, FEEBAS
+	db 3, FEEBAS
+	db 4, FEEBAS
+	db 2, FEEBAS
+	db 4, FEEBAS
+	db 3, FEEBAS
+	db 3, FEEBAS
 	; nite
-	db 2, MALAMAR
-	db 3, MALAMAR
-	db 4, MALAMAR
-	db 2, MALAMAR
-	db 4, MALAMAR
-	db 3, MALAMAR
-	db 3, MALAMAR
+	db 2, FEEBAS
+	db 3, FEEBAS
+	db 4, FEEBAS
+	db 2, FEEBAS
+	db 4, FEEBAS
+	db 3, FEEBAS
+	db 3, FEEBAS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

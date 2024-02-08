@@ -107,7 +107,7 @@ AlphabeticalPokedexOrder:
 	db KINGDRA
 	db KINGLER
 	db KOFFING
-	db KRABBY
+	db FEEBAS
 	db LANTURN
 	db LAPRAS
 	db LARVITAR

@@ -97,7 +97,7 @@ PokemonNames::
 	db "Onix@@@@@@"
 	db "Inkay@@@@@"
 	db "Malamar@@@"
-	db "KRABBY@@@@"
+	db "Feebas@@@@"
 	db "KINGLER@@@"
 	db "VOLTORB@@@"
 	db "ELECTRODE@"

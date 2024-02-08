@@ -99,7 +99,7 @@ EvosAttacksPointers::
 	dw OnixEvosAttacks
 	dw InkayEvosAttacks
 	dw MalamarEvosAttacks
-	dw KrabbyEvosAttacks
+	dw FeebasEvosAttacks
 	dw KinglerEvosAttacks
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
