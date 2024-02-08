@@ -89,7 +89,7 @@ NewPokedexOrder:
 	db VILEPLUME
 	db BELLOSSOM
 	db INKAY
-	db HYPNO
+	db MALAMAR
 	db ABRA
 	db KADABRA
 	db ALAKAZAM

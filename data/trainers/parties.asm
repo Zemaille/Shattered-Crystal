@@ -2756,7 +2756,7 @@ PsychicGroup:
 	; PSYCHIC_T (12)
 	db "RODNEY@", TRAINERTYPE_NORMAL
 	db 29, INKAY
-	db 33, HYPNO
+	db 33, MALAMAR
 	db -1 ; end
 
 PicnickerGroup:
@@ -3181,7 +3181,7 @@ MediumGroup:
 	; MEDIUM (6)
 	db "REBECCA@", TRAINERTYPE_NORMAL
 	db 35, INKAY
-	db 35, HYPNO
+	db 35, MALAMAR
 	db -1 ; end
 
 	; MEDIUM (7)

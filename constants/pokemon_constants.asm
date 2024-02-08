@@ -115,7 +115,7 @@
 	const GENGAR     ; 5e
 	const ONIX       ; 5f
 	const INKAY    ; 60
-	const HYPNO      ; 61
+	const MALAMAR      ; 61
 	const KRABBY     ; 62
 	const KINGLER    ; 63
 	const VOLTORB    ; 64

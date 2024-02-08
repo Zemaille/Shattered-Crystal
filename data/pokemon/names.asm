@@ -96,7 +96,7 @@ PokemonNames::
 	db "Gengar@@@@"
 	db "Onix@@@@@@"
 	db "Inkay@@@@@"
-	db "HYPNO@@@@@"
+	db "Malamar@@@"
 	db "KRABBY@@@@"
 	db "KINGLER@@@"
 	db "VOLTORB@@@"

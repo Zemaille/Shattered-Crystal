@@ -96,7 +96,7 @@ AnimationIdlePointers:
 	dw GengarAnimationIdle
 	dw OnixAnimationIdle
 	dw InkayAnimationIdle
-	dw HypnoAnimationIdle
+	dw MalamarAnimationIdle
 	dw KrabbyAnimationIdle
 	dw KinglerAnimationIdle
 	dw VoltorbAnimationIdle

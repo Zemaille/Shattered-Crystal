@@ -92,7 +92,7 @@ AlphabeticalPokedexOrder:
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
-	db HYPNO
+	db MALAMAR
 	db IGGLYBUFF
 	db IVYSAUR
 	db JIGGLYPUFF

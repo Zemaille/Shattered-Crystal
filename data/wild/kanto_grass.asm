@@ -474,8 +474,8 @@ KantoGrassWildMons:
 	db 15, MAGNEMITE
 	db 16, NOCTOWL
 	db 16, MAMOSWINE
-	db 16, HYPNO
-	db 16, HYPNO
+	db 16, MALAMAR
+	db 16, MALAMAR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_13

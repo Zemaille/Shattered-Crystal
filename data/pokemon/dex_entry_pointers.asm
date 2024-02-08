@@ -97,7 +97,7 @@ PokedexDataPointerTable:
 	dw GengarPokedexEntry
 	dw OnixPokedexEntry
 	dw InkayPokedexEntry
-	dw HypnoPokedexEntry
+	dw MalamarPokedexEntry
 	dw KrabbyPokedexEntry
 	dw KinglerPokedexEntry
 	dw VoltorbPokedexEntry

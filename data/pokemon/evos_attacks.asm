@@ -1288,7 +1288,7 @@ OnixEvosAttacks:
 	db 0 ; no more level-up moves
 
 InkayEvosAttacks:
-	db EVOLVE_LEVEL, 26, HYPNO
+	db EVOLVE_LEVEL, 26, MALAMAR
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, SPORE
@@ -1302,7 +1302,7 @@ InkayEvosAttacks:
 	db 45, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
-HypnoEvosAttacks:
+MalamarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, SPORE

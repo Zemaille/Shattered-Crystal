@@ -96,7 +96,7 @@ FramesPointers:
 	dw GengarFrames
 	dw OnixFrames
 	dw InkayFrames
-	dw HypnoFrames
+	dw MalamarFrames
 	dw KrabbyFrames
 	dw KinglerFrames
 	dw VoltorbFrames

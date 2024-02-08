@@ -96,7 +96,7 @@ AnimationPointers:
 	dw GengarAnimation
 	dw OnixAnimation
 	dw InkayAnimation
-	dw HypnoAnimation
+	dw MalamarAnimation
 	dw KrabbyAnimation
 	dw KinglerAnimation
 	dw VoltorbAnimation

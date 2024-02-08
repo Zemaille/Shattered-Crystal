@@ -96,7 +96,7 @@ BitmasksPointers:
 	dw GengarBitmasks
 	dw OnixBitmasks
 	dw InkayBitmasks
-	dw HypnoBitmasks
+	dw MalamarBitmasks
 	dw KrabbyBitmasks
 	dw KinglerBitmasks
 	dw VoltorbBitmasks
