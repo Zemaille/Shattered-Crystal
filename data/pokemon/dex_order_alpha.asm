@@ -105,7 +105,7 @@ AlphabeticalPokedexOrder:
 	db BRAIXEN
 	db KANGASKHAN
 	db KINGDRA
-	db KINGLER
+	db MILOTIC
 	db KOFFING
 	db FEEBAS
 	db LANTURN

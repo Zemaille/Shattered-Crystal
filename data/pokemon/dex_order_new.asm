@@ -166,7 +166,7 @@ NewPokedexOrder:
 	db TENTACOOL
 	db TENTACRUEL
 	db FEEBAS
-	db KINGLER
+	db MILOTIC
 	db SHUCKLE
 	db STARYU
 	db STARMIE

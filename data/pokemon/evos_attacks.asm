@@ -1319,7 +1319,7 @@ MalamarEvosAttacks:
 	db 0 ; no more level-up moves
 
 FeebasEvosAttacks:
-	db EVOLVE_LEVEL, 28, KINGLER
+	db EVOLVE_LEVEL, 28, MILOTIC
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 5, LEER
@@ -1331,7 +1331,7 @@ FeebasEvosAttacks:
 	db 41, CRABHAMMER
 	db 0 ; no more level-up moves
 
-KinglerEvosAttacks:
+MiloticEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, LEER

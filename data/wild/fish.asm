@@ -37,7 +37,7 @@ FishGroups:
 	db  40 percent,     FEEBAS,     40
 	db  70 percent,     time_group 1
 	db  90 percent + 1, FEEBAS,     40
-	db 100 percent,     KINGLER,    40
+	db 100 percent,     MILOTIC,    40
 
 .Ocean_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -171,7 +171,7 @@ FishGroups:
 .WhirlIslands_Super:
 	db  40 percent,     FEEBAS,     40
 	db  70 percent,     time_group 19
-	db  90 percent + 1, KINGLER,    40
+	db  90 percent + 1, MILOTIC,    40
 	db 100 percent,     SEADRA,     40
 
 .Qwilfish_NoSwarm_Old:

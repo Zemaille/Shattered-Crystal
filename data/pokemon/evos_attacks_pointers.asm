@@ -100,7 +100,7 @@ EvosAttacksPointers::
 	dw InkayEvosAttacks
 	dw MalamarEvosAttacks
 	dw FeebasEvosAttacks
-	dw KinglerEvosAttacks
+	dw MiloticEvosAttacks
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw ExeggcuteEvosAttacks

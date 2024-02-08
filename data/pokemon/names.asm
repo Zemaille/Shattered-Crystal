@@ -98,7 +98,7 @@ PokemonNames::
 	db "Inkay@@@@@"
 	db "Malamar@@@"
 	db "Feebas@@@@"
-	db "KINGLER@@@"
+	db "Milotic@@@"
 	db "VOLTORB@@@"
 	db "ELECTRODE@"
 	db "Exeggcute@"

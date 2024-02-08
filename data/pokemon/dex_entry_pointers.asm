@@ -99,7 +99,7 @@ PokedexDataPointerTable:
 	dw InkayPokedexEntry
 	dw MalamarPokedexEntry
 	dw FeebasPokedexEntry
-	dw KinglerPokedexEntry
+	dw MiloticPokedexEntry
 	dw VoltorbPokedexEntry
 	dw ElectrodePokedexEntry
 	dw ExeggcutePokedexEntry

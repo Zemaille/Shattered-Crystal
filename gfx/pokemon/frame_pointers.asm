@@ -98,7 +98,7 @@ FramesPointers:
 	dw InkayFrames
 	dw MalamarFrames
 	dw FeebasFrames
-	dw KinglerFrames
+	dw MiloticFrames
 	dw VoltorbFrames
 	dw ElectrodeFrames
 	dw ExeggcuteFrames

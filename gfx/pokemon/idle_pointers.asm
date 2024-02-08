@@ -98,7 +98,7 @@ AnimationIdlePointers:
 	dw InkayAnimationIdle
 	dw MalamarAnimationIdle
 	dw FeebasAnimationIdle
-	dw KinglerAnimationIdle
+	dw MiloticAnimationIdle
 	dw VoltorbAnimationIdle
 	dw ElectrodeAnimationIdle
 	dw ExeggcuteAnimationIdle

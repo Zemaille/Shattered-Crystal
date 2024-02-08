@@ -98,7 +98,7 @@ AnimationPointers:
 	dw InkayAnimation
 	dw MalamarAnimation
 	dw FeebasAnimation
-	dw KinglerAnimation
+	dw MiloticAnimation
 	dw VoltorbAnimation
 	dw ElectrodeAnimation
 	dw ExeggcuteAnimation

@@ -199,8 +199,8 @@ PokemonPicPointers::
 	dba MalamarBackpic
 	dba FeebasFrontpic
 	dba FeebasBackpic
-	dba KinglerFrontpic
-	dba KinglerBackpic
+	dba MiloticFrontpic
+	dba MiloticBackpic
 	dba VoltorbFrontpic
 	dba VoltorbBackpic
 	dba ElectrodeFrontpic
