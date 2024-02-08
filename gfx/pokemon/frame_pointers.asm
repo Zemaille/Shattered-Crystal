@@ -99,8 +99,8 @@ FramesPointers:
 	dw MalamarFrames
 	dw FeebasFrames
 	dw MiloticFrames
-	dw VoltorbFrames
-	dw ElectrodeFrames
+	dw SkrelpFrames
+	dw DragalgeFrames
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
 	dw CuboneFrames

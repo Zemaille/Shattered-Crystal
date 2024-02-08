@@ -1345,8 +1345,8 @@ MiloticEvosAttacks:
 	db 49, CRABHAMMER
 	db 0 ; no more level-up moves
 
-VoltorbEvosAttacks:
-	db EVOLVE_LEVEL, 30, ELECTRODE
+SkrelpEvosAttacks:
+	db EVOLVE_LEVEL, 30, DRAGALGE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 9, SCREECH
@@ -1359,7 +1359,7 @@ VoltorbEvosAttacks:
 	db 41, MIRROR_COAT
 	db 0 ; no more level-up moves
 
-ElectrodeEvosAttacks:
+DragalgeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH

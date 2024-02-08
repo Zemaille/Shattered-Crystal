@@ -99,8 +99,8 @@ AnimationIdlePointers:
 	dw MalamarAnimationIdle
 	dw FeebasAnimationIdle
 	dw MiloticAnimationIdle
-	dw VoltorbAnimationIdle
-	dw ElectrodeAnimationIdle
+	dw SkrelpAnimationIdle
+	dw DragalgeAnimationIdle
 	dw ExeggcuteAnimationIdle
 	dw ExeggutorAnimationIdle
 	dw CuboneAnimationIdle

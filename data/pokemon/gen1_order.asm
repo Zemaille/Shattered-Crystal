@@ -5,7 +5,7 @@ Pokered_MonIndices:
 	db NIDORAN_M
 	db CLEFAIRY
 	db SWABLU
-	db VOLTORB
+	db SKRELP
 	db NIDOKING
 	db SLOWBRO
 	db IVYSAUR
@@ -140,7 +140,7 @@ Pokered_MonIndices:
 	db MILOTIC
 	db CLOYSTER
 	db TYROGUE ; MISSINGNO.
-	db ELECTRODE
+	db DRAGALGE
 	db CLEFABLE
 	db WEEZING
 	db PERSIAN

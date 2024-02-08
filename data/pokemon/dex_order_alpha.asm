@@ -53,7 +53,7 @@ AlphabeticalPokedexOrder:
 	db EEVEE
 	db EKANS
 	db ELECTABUZZ
-	db ELECTRODE
+	db DRAGALGE
 	db ELEKID
 	db ENTEI
 	db ESPEON
@@ -242,7 +242,7 @@ AlphabeticalPokedexOrder:
 	db VENUSAUR
 	db SHIFTRY
 	db VILEPLUME
-	db VOLTORB
+	db SKRELP
 	db VULPIX
 	db WARTORTLE
 	db FENNEKIN

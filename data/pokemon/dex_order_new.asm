@@ -121,8 +121,8 @@ NewPokedexOrder:
 	db MUK
 	db MAGNEMITE
 	db MAGNETON
-	db VOLTORB
-	db ELECTRODE
+	db SKRELP
+	db DRAGALGE
 	db AIPOM
 	db SNUBBULL
 	db GRANBULL

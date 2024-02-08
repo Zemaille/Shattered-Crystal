@@ -426,7 +426,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, SWABLU
-	db 17, VOLTORB
+	db 17, SKRELP
 	db 15, MAMOSWINE
 	db 15, ALTARIA
 	db 15, MAROWAK
@@ -434,7 +434,7 @@ KantoGrassWildMons:
 	db 16, ELECTABUZZ
 	; day
 	db 15, SWABLU
-	db 17, VOLTORB
+	db 17, SKRELP
 	db 15, MAMOSWINE
 	db 15, ALTARIA
 	db 15, MAROWAK
@@ -442,7 +442,7 @@ KantoGrassWildMons:
 	db 18, ELECTABUZZ
 	; nite
 	db 15, DUDUNSPARCE
-	db 17, VOLTORB
+	db 17, SKRELP
 	db 15, MAMOSWINE
 	db 15, CLODSIRE
 	db 15, ZUBAT

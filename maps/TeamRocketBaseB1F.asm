@@ -447,11 +447,11 @@ ExplodingTrap22:
 
 VoltorbExplodingTrap:
 	special FadeOutPalettes
-	cry VOLTORB
+	cry MAGNEMITE
 	special FadeInPalettes
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon VOLTORB, 23
+	loadwildmon MAGNEMITE, 23
 	startbattle
 	end
 

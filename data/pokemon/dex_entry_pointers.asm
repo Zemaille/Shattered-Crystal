@@ -100,8 +100,8 @@ PokedexDataPointerTable:
 	dw MalamarPokedexEntry
 	dw FeebasPokedexEntry
 	dw MiloticPokedexEntry
-	dw VoltorbPokedexEntry
-	dw ElectrodePokedexEntry
+	dw SkrelpPokedexEntry
+	dw DragalgePokedexEntry
 	dw ExeggcutePokedexEntry
 	dw ExeggutorPokedexEntry
 	dw CubonePokedexEntry
