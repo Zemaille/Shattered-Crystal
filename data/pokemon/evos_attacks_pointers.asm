@@ -105,7 +105,7 @@ EvosAttacksPointers::
 	dw DragalgeEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorEvosAttacks
-	dw CuboneEvosAttacks
+	dw TyruntEvosAttacks
 	dw MarowakEvosAttacks
 	dw HitmonleeEvosAttacks
 	dw HitmonchanEvosAttacks

@@ -104,7 +104,7 @@ PokedexDataPointerTable:
 	dw DragalgePokedexEntry
 	dw ExeggcutePokedexEntry
 	dw ExeggutorPokedexEntry
-	dw CubonePokedexEntry
+	dw TyruntPokedexEntry
 	dw MarowakPokedexEntry
 	dw HitmonleePokedexEntry
 	dw HitmonchanPokedexEntry

@@ -2572,14 +2572,12 @@ PlayerAttackDamage:
 .physicalcrit
 	ld hl, wBattleMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
 
 	ld hl, wEnemyDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wPlayerAttack
-	jr .thickclub
 
 .special
 	ld hl, wEnemyMonSpclDef
@@ -2609,10 +2607,6 @@ PlayerAttackDamage:
 ; Note: Returns player special attack at hl in hl.
 	call LightBallBoost
 	jr .done
-
-.thickclub
-; Note: Returns player attack at hl in hl.
-	call ThickClubBoost
 
 .done
 	call TruncateHL_BC
@@ -2712,21 +2706,6 @@ CheckDamageStatsCritical:
 	pop hl
 	ret
 
-ThickClubBoost:
-; Return in hl the stat value at hl.
-
-; If the attacking monster is Cubone or Marowak and
-; it's holding a Thick Club, double it.
-	push bc
-	push de
-	ld b, CUBONE
-	ld c, MAROWAK
-	ld d, THICK_CLUB
-	call SpeciesItemBoost
-	pop de
-	pop bc
-	ret
-
 LightBallBoost:
 ; Return in hl the stat value at hl.
 
@@ -2813,14 +2792,12 @@ EnemyAttackDamage:
 .physicalcrit
 	ld hl, wEnemyMonAttack
 	call CheckDamageStatsCritical
-	jr c, .thickclub
 
 	ld hl, wPlayerDefense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemyAttack
-	jr .thickclub
 
 .special
 	ld hl, wBattleMonSpclDef
@@ -2848,9 +2825,6 @@ EnemyAttackDamage:
 .lightball
 	call LightBallBoost
 	jr .done
-
-.thickclub
-	call ThickClubBoost
 
 .done
 	call TruncateHL_BC

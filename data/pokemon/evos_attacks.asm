@@ -1398,7 +1398,7 @@ ExeggutorEvosAttacks:
 	db 31, EGG_BOMB
 	db 0 ; no more level-up moves
 
-CuboneEvosAttacks:
+TyruntEvosAttacks:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0 ; no more evolutions
 	db 1, GROWL

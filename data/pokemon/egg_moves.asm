@@ -306,7 +306,7 @@ ExeggcuteEggMoves:
 	db ANCIENTPOWER
 	db -1 ; end
 
-CuboneEggMoves:
+TyruntEggMoves:
 	db ROCK_SLIDE
 	db ANCIENTPOWER
 	db BELLY_DRUM

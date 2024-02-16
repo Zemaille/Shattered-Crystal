@@ -103,7 +103,7 @@ AnimationIdlePointers:
 	dw DragalgeAnimationIdle
 	dw ExeggcuteAnimationIdle
 	dw ExeggutorAnimationIdle
-	dw CuboneAnimationIdle
+	dw TyruntAnimationIdle
 	dw MarowakAnimationIdle
 	dw HitmonleeAnimationIdle
 	dw HitmonchanAnimationIdle

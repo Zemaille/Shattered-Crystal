@@ -103,7 +103,7 @@ BitmasksPointers:
 	dw DragalgeBitmasks
 	dw ExeggcuteBitmasks
 	dw ExeggutorBitmasks
-	dw CuboneBitmasks
+	dw TyruntBitmasks
 	dw MarowakBitmasks
 	dw HitmonleeBitmasks
 	dw HitmonchanBitmasks

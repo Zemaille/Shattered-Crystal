@@ -103,7 +103,7 @@ AnimationPointers:
 	dw DragalgeAnimation
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation
-	dw CuboneAnimation
+	dw TyruntAnimation
 	dw MarowakAnimation
 	dw HitmonleeAnimation
 	dw HitmonchanAnimation

@@ -35,7 +35,7 @@ AlphabeticalPokedexOrder:
 	db CORSOLA
 	db CROBAT
 	db CROCONAW
-	db CUBONE
+	db TYRUNT
 	db CYNDAQUIL
 	db DELIBIRD
 	db LUCARIO

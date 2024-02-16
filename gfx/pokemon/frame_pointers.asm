@@ -103,7 +103,7 @@ FramesPointers:
 	dw DragalgeFrames
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
-	dw CuboneFrames
+	dw TyruntFrames
 	dw MarowakFrames
 	dw HitmonleeFrames
 	dw HitmonchanFrames
