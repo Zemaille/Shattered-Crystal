@@ -104,7 +104,7 @@ BitmasksPointers:
 	dw ExeggcuteBitmasks
 	dw ExeggutorBitmasks
 	dw TyruntBitmasks
-	dw MarowakBitmasks
+	dw TyrantrumBitmasks
 	dw HitmonleeBitmasks
 	dw HitmonchanBitmasks
 	dw LickitungBitmasks

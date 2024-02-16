@@ -105,7 +105,7 @@ PokedexDataPointerTable:
 	dw ExeggcutePokedexEntry
 	dw ExeggutorPokedexEntry
 	dw TyruntPokedexEntry
-	dw MarowakPokedexEntry
+	dw TyrantrumPokedexEntry
 	dw HitmonleePokedexEntry
 	dw HitmonchanPokedexEntry
 	dw LickitungPokedexEntry

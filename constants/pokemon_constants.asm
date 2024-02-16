@@ -123,7 +123,7 @@
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67
 	const TYRUNT     ; 68
-	const MAROWAK    ; 69
+	const TYRANTRUM    ; 69
 	const HITMONLEE  ; 6a
 	const HITMONCHAN ; 6b
 	const LICKITUNG  ; 6c

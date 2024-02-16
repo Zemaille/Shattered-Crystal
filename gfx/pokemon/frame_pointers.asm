@@ -104,7 +104,7 @@ FramesPointers:
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
 	dw TyruntFrames
-	dw MarowakFrames
+	dw TyrantrumFrames
 	dw HitmonleeFrames
 	dw HitmonchanFrames
 	dw LickitungFrames

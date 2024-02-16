@@ -206,7 +206,7 @@ NewPokedexOrder:
 	db PONYTA
 	db RAPIDASH
 	db TYRUNT
-	db MAROWAK
+	db TYRANTRUM
 	db KANGASKHAN
 	db RHYHORN
 	db RHYDON

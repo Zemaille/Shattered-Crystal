@@ -211,8 +211,8 @@ PokemonPicPointers::
 	dba ExeggutorBackpic
 	dba TyruntFrontpic
 	dba TyruntBackpic
-	dba MarowakFrontpic
-	dba MarowakBackpic
+	dba TyrantrumFrontpic
+	dba TyrantrumBackpic
 	dba HitmonleeFrontpic
 	dba HitmonleeBackpic
 	dba HitmonchanFrontpic

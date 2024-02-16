@@ -1399,7 +1399,7 @@ ExeggutorEvosAttacks:
 	db 0 ; no more level-up moves
 
 TyruntEvosAttacks:
-	db EVOLVE_LEVEL, 28, MAROWAK
+	db EVOLVE_LEVEL, 28, TYRANTRUM
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 5, TAIL_WHIP
@@ -1414,7 +1414,7 @@ TyruntEvosAttacks:
 	db 41, BONE_RUSH
 	db 0 ; no more level-up moves
 
-MarowakEvosAttacks:
+TyrantrumEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, TAIL_WHIP

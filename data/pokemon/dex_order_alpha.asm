@@ -128,7 +128,7 @@ AlphabeticalPokedexOrder:
 	db MANTINE
 	db MAREEP
 	db MARILL
-	db MAROWAK
+	db TYRANTRUM
 	db MEGANIUM
 	db MEOWTH
 	db METAPOD

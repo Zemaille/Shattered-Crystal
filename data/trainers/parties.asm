@@ -1165,8 +1165,8 @@ PokemaniacGroup:
 
 	; POKEMANIAC (2)
 	db "ANDREW@", TRAINERTYPE_NORMAL
-	db 24, MAROWAK
-	db 24, MAROWAK
+	db 24, TYRANTRUM
+	db 24, TYRANTRUM
 	db -1 ; end
 
 	; POKEMANIAC (3)
