@@ -118,7 +118,7 @@ FramesPointers:
 	dw HorseaFrames
 	dw SeadraFrames
 	dw ElectivireFrames
-	dw SeakingFrames
+	dw MagmortarFrames
 	dw StaryuFrames
 	dw StarmieFrames
 	dw MrMimeFrames

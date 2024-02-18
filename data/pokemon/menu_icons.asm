@@ -120,7 +120,7 @@ MonMenuIcons:
 	db ICON_FISH        ; HORSEA
 	db ICON_FISH        ; SEADRA
 	db ICON_FISH        ; ELECTIVIRE
-	db ICON_FISH        ; SEAKING
+	db ICON_FISH        ; MAGMORTAR
 	db ICON_STARYU      ; STARYU
 	db ICON_STARYU      ; STARMIE
 	db ICON_HUMANSHAPE  ; MR__MIME

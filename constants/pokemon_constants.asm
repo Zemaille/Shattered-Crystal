@@ -137,7 +137,7 @@
 	const HORSEA     ; 74
 	const SEADRA     ; 75
 	const ELECTIVIRE    ; 76
-	const SEAKING    ; 77
+	const MAGMORTAR    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79
 	const MR__MIME   ; 7a

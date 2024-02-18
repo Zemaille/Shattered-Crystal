@@ -118,7 +118,7 @@ AnimationPointers:
 	dw HorseaAnimation
 	dw SeadraAnimation
 	dw ElectivireAnimation
-	dw SeakingAnimation
+	dw MagmortarAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation
 	dw MrMimeAnimation

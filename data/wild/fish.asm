@@ -67,7 +67,7 @@ FishGroups:
 	db  40 percent,     ELECTIVIRE,    40
 	db  70 percent,     time_group 5
 	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     SEAKING,    40
+	db 100 percent,     MAGMORTAR,    40
 
 .Pond_Old:
 	db  70 percent + 1, MAGIKARP,   10

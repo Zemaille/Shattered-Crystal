@@ -239,8 +239,8 @@ PokemonPicPointers::
 	dba SeadraBackpic
 	dba ElectivireFrontpic
 	dba ElectivireBackpic
-	dba SeakingFrontpic
-	dba SeakingBackpic
+	dba MagmortarFrontpic
+	dba MagmortarBackpic
 	dba StaryuFrontpic
 	dba StaryuBackpic
 	dba StarmieFrontpic

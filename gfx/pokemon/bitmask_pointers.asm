@@ -118,7 +118,7 @@ BitmasksPointers:
 	dw HorseaBitmasks
 	dw SeadraBitmasks
 	dw ElectivireBitmasks
-	dw SeakingBitmasks
+	dw MagmortarBitmasks
 	dw StaryuBitmasks
 	dw StarmieBitmasks
 	dw MrMimeBitmasks

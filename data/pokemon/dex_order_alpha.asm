@@ -192,7 +192,7 @@ AlphabeticalPokedexOrder:
 	db SCIZOR
 	db SCYTHER
 	db SEADRA
-	db SEAKING
+	db MAGMORTAR
 	db RIOLU
 	db SENTRET
 	db SHELLDER

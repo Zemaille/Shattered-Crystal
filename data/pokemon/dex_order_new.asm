@@ -80,7 +80,7 @@ NewPokedexOrder:
 	db MAGIKARP
 	db GYARADOS
 	db ELECTIVIRE
-	db SEAKING
+	db MAGMORTAR
 	db SLOWPOKE
 	db SLOWBRO
 	db SLOWKING

@@ -118,7 +118,7 @@ PokemonNames::
 	db "Horsea@@@@"
 	db "Seadra@@@@"
 	db "Electivire"
-	db "SEAKING@@@"
+	db "Magmortar@"
 	db "STARYU@@@@"
 	db "STARMIE@@@"
 	db "MR.MIME@@@"
