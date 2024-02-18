@@ -105,7 +105,7 @@ AnimationPointers:
 	dw ExeggutorAnimation
 	dw TyruntAnimation
 	dw TyrantrumAnimation
-	dw HitmonleeAnimation
+	dw YamaskAnimation
 	dw HitmonchanAnimation
 	dw LickitungAnimation
 	dw KoffingAnimation

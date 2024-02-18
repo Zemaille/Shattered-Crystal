@@ -124,7 +124,7 @@
 	const EXEGGUTOR  ; 67
 	const TYRUNT     ; 68
 	const TYRANTRUM    ; 69
-	const HITMONLEE  ; 6a
+	const YAMASK  ; 6a
 	const HITMONCHAN ; 6b
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d

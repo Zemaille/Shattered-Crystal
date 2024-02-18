@@ -105,7 +105,7 @@ PokemonNames::
 	db "Exeggutor@"
 	db "Tyrunt@@@@"
 	db "Tyrantrum@"
-	db "HITMONLEE@"
+	db "Yamask@@@@"
 	db "HITMONCHAN"
 	db "LICKITUNG@"
 	db "KOFFING@@@"

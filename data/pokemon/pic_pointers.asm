@@ -213,8 +213,8 @@ PokemonPicPointers::
 	dba TyruntBackpic
 	dba TyrantrumFrontpic
 	dba TyrantrumBackpic
-	dba HitmonleeFrontpic
-	dba HitmonleeBackpic
+	dba YamaskFrontpic
+	dba YamaskBackpic
 	dba HitmonchanFrontpic
 	dba HitmonchanBackpic
 	dba LickitungFrontpic

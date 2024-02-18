@@ -84,7 +84,7 @@ AlphabeticalPokedexOrder:
 	db HAUNTER
 	db HERACROSS
 	db HITMONCHAN
-	db HITMONLEE
+	db YAMASK
 	db HITMONTOP
 	db HO_OH
 	db HOOTHOOT

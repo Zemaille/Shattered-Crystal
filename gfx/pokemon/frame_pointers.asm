@@ -105,7 +105,7 @@ FramesPointers:
 	dw ExeggutorFrames
 	dw TyruntFrames
 	dw TyrantrumFrames
-	dw HitmonleeFrames
+	dw YamaskFrames
 	dw HitmonchanFrames
 	dw LickitungFrames
 	dw KoffingFrames

@@ -106,7 +106,7 @@ PokedexDataPointerTable:
 	dw ExeggutorPokedexEntry
 	dw TyruntPokedexEntry
 	dw TyrantrumPokedexEntry
-	dw HitmonleePokedexEntry
+	dw YamaskPokedexEntry
 	dw HitmonchanPokedexEntry
 	dw LickitungPokedexEntry
 	dw KoffingPokedexEntry

@@ -105,7 +105,7 @@ AnimationIdlePointers:
 	dw ExeggutorAnimationIdle
 	dw TyruntAnimationIdle
 	dw TyrantrumAnimationIdle
-	dw HitmonleeAnimationIdle
+	dw YamaskAnimationIdle
 	dw HitmonchanAnimationIdle
 	dw LickitungAnimationIdle
 	dw KoffingAnimationIdle
