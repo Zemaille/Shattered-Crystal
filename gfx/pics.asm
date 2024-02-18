@@ -185,7 +185,6 @@ SECTION "Pics 8", ROMX
 RioluFrontpic:        INCBIN "gfx/pokemon/riolu/front.animated.2bpp.lz"
 CrobatFrontpic:      INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 ChanseyFrontpic:     INCBIN "gfx/pokemon/chansey/front.animated.2bpp.lz"
-TangelaFrontpic:     INCBIN "gfx/pokemon/tangela/front.animated.2bpp.lz"
 SnubbullFrontpic:    INCBIN "gfx/pokemon/snubbull/front.animated.2bpp.lz"
 GranbullFrontpic:    INCBIN "gfx/pokemon/granbull/front.animated.2bpp.lz"
 MiltankFrontpic:     INCBIN "gfx/pokemon/miltank/front.animated.2bpp.lz"
@@ -654,7 +653,7 @@ WooperBackpic:       INCBIN "gfx/pokemon/wooper/back.2bpp.lz"
 TaurosBackpic:       INCBIN "gfx/pokemon/tauros/back.2bpp.lz"
 UnownXFrontpic:      INCBIN "gfx/pokemon/unown_x/front.animated.2bpp.lz"
 UnownNFrontpic:      INCBIN "gfx/pokemon/unown_n/front.animated.2bpp.lz"
-TangelaBackpic:      INCBIN "gfx/pokemon/tangela/back.2bpp.lz"
+RhyperiorBackpic:      INCBIN "gfx/pokemon/rhyperior/back.2bpp.lz"
 SkrelpBackpic:      INCBIN "gfx/pokemon/skrelp/back.2bpp.lz"
 UnownJFrontpic:      INCBIN "gfx/pokemon/unown_j/front.animated.2bpp.lz"
 MantineBackpic:      INCBIN "gfx/pokemon/mantine/back.2bpp.lz"
@@ -714,7 +713,7 @@ ZangooseFrontpic:    INCBIN "gfx/pokemon/zangoose/front.animated.2bpp.lz"
 PhantumpFrontpic:    INCBIN "gfx/pokemon/phantump/front.animated.2bpp.lz"
 PhantumpBackpic:     INCBIN "gfx/pokemon/phantump/back.2bpp.lz"
 DragalgeFrontpic:   INCBIN "gfx/pokemon/dragalge/front.animated.2bpp.lz"
-
+RhyperiorFrontpic:   INCBIN "gfx/pokemon/rhyperior/front.animated.2bpp.lz"
 
 
 

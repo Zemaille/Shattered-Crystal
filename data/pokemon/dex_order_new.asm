@@ -180,7 +180,7 @@ NewPokedexOrder:
 	db RIOLU
 	db LUCARIO
 	db FARIGIRAF
-	db TANGELA
+	db RHYPERIOR
 	db EEVEE
 	db VAPOREON
 	db JOLTEON

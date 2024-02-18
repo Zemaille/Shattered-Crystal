@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, FARIGIRAF
-	db 3, FARIGIRAF
-	db 4, FARIGIRAF
-	db 2, FARIGIRAF
-	db 4, FARIGIRAF
-	db 3, FARIGIRAF
-	db 3, FARIGIRAF
+	db 2, RHYPERIOR
+	db 3, RHYPERIOR
+	db 4, RHYPERIOR
+	db 2, RHYPERIOR
+	db 4, RHYPERIOR
+	db 3, RHYPERIOR
+	db 3, RHYPERIOR
 	; day
-	db 2, FARIGIRAF
-	db 3, FARIGIRAF
-	db 4, FARIGIRAF
-	db 2, FARIGIRAF
-	db 4, FARIGIRAF
-	db 3, FARIGIRAF
-	db 3, FARIGIRAF
+	db 2, RHYPERIOR
+	db 3, RHYPERIOR
+	db 4, RHYPERIOR
+	db 2, RHYPERIOR
+	db 4, RHYPERIOR
+	db 3, RHYPERIOR
+	db 3, RHYPERIOR
 	; nite
-	db 2, FARIGIRAF
-	db 3, FARIGIRAF
-	db 4, FARIGIRAF
-	db 2, FARIGIRAF
-	db 4, FARIGIRAF
-	db 3, FARIGIRAF
-	db 3, FARIGIRAF
+	db 2, RHYPERIOR
+	db 3, RHYPERIOR
+	db 4, RHYPERIOR
+	db 2, RHYPERIOR
+	db 4, RHYPERIOR
+	db 3, RHYPERIOR
+	db 3, RHYPERIOR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1601,7 +1601,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, TANGELA
+	db 23, RHYPERIOR
 	db 22, FARIGIRAF
 	db 22, SEEDOT
 	db 24, NUZLEAF
@@ -1609,7 +1609,7 @@ JohtoGrassWildMons:
 	db 26, FARIGIRAF
 	db 26, FARIGIRAF
 	; day
-	db 23, TANGELA
+	db 23, RHYPERIOR
 	db 22, FARIGIRAF
 	db 22, SEEDOT
 	db 24, NUZLEAF
@@ -1617,7 +1617,7 @@ JohtoGrassWildMons:
 	db 26, FARIGIRAF
 	db 26, FARIGIRAF
 	; nite
-	db 23, TANGELA
+	db 23, RHYPERIOR
 	db 22, POLIWAG
 	db 22, SEEDOT
 	db 24, NUZLEAF
@@ -1685,7 +1685,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 41, TANGELA
+	db 41, RHYPERIOR
 	db 42, PONYTA
 	db 42, ARBOK
 	db 44, RAPIDASH
@@ -1693,7 +1693,7 @@ JohtoGrassWildMons:
 	db 43, DODRIO
 	db 43, DODRIO
 	; day
-	db 41, TANGELA
+	db 41, RHYPERIOR
 	db 42, PONYTA
 	db 42, ARBOK
 	db 44, RAPIDASH
@@ -1701,7 +1701,7 @@ JohtoGrassWildMons:
 	db 43, DODRIO
 	db 43, DODRIO
 	; nite
-	db 41, TANGELA
+	db 41, RHYPERIOR
 	db 42, POLIWHIRL
 	db 42, GOLBAT
 	db 44, POLIWHIRL

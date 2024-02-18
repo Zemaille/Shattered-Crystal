@@ -113,7 +113,7 @@ FramesPointers:
 	dw RhyhornFrames
 	dw RhydonFrames
 	dw ChanseyFrames
-	dw TangelaFrames
+	dw RhyperiorFrames
 	dw KangaskhanFrames
 	dw HorseaFrames
 	dw SeadraFrames

@@ -229,8 +229,8 @@ PokemonPicPointers::
 	dba RhydonBackpic
 	dba ChanseyFrontpic
 	dba ChanseyBackpic
-	dba TangelaFrontpic
-	dba TangelaBackpic
+	dba RhyperiorFrontpic
+	dba RhyperiorBackpic
 	dba KangaskhanFrontpic
 	dba KangaskhanBackpic
 	dba HorseaFrontpic

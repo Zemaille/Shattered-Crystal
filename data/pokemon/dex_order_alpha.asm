@@ -221,7 +221,7 @@ AlphabeticalPokedexOrder:
 	db SUNFLORA
 	db SUNKERN
 	db SWINUB
-	db TANGELA
+	db RHYPERIOR
 	db TAUROS
 	db TEDDIURSA
 	db TENTACOOL
