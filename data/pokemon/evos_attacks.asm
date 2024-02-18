@@ -1447,7 +1447,7 @@ YamaskEvosAttacks:
 	db 51, REVERSAL
 	db 0 ; no more level-up moves
 
-HitmonchanEvosAttacks:
+CofagrigusEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, COMET_PUNCH
 	db 7, AGILITY
@@ -3138,7 +3138,7 @@ SmeargleEvosAttacks:
 	db 0 ; no more level-up moves
 
 TyrogueEvosAttacks:
-	db EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
+	db EVOLVE_STAT, 20, ATK_LT_DEF, COFAGRIGUS
 	db EVOLVE_STAT, 20, ATK_GT_DEF, YAMASK
 	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
 	db 0 ; no more evolutions

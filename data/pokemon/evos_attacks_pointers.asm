@@ -108,7 +108,7 @@ EvosAttacksPointers::
 	dw TyruntEvosAttacks
 	dw TyrantrumEvosAttacks
 	dw YamaskEvosAttacks
-	dw HitmonchanEvosAttacks
+	dw CofagrigusEvosAttacks
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks

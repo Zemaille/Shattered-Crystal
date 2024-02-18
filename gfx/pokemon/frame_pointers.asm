@@ -106,7 +106,7 @@ FramesPointers:
 	dw TyruntFrames
 	dw TyrantrumFrames
 	dw YamaskFrames
-	dw HitmonchanFrames
+	dw CofagrigusFrames
 	dw LickitungFrames
 	dw KoffingFrames
 	dw WeezingFrames

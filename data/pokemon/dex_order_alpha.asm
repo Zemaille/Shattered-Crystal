@@ -83,7 +83,7 @@ AlphabeticalPokedexOrder:
 	db GYARADOS
 	db HAUNTER
 	db HERACROSS
-	db HITMONCHAN
+	db COFAGRIGUS
 	db YAMASK
 	db HITMONTOP
 	db HO_OH

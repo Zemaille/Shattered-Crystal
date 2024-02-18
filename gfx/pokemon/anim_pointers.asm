@@ -106,7 +106,7 @@ AnimationPointers:
 	dw TyruntAnimation
 	dw TyrantrumAnimation
 	dw YamaskAnimation
-	dw HitmonchanAnimation
+	dw CofagrigusAnimation
 	dw LickitungAnimation
 	dw KoffingAnimation
 	dw WeezingAnimation

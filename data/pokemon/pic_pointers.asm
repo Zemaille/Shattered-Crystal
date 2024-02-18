@@ -215,8 +215,8 @@ PokemonPicPointers::
 	dba TyrantrumBackpic
 	dba YamaskFrontpic
 	dba YamaskBackpic
-	dba HitmonchanFrontpic
-	dba HitmonchanBackpic
+	dba CofagrigusFrontpic
+	dba CofagrigusBackpic
 	dba LickitungFrontpic
 	dba LickitungBackpic
 	dba KoffingFrontpic

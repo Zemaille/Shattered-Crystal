@@ -106,7 +106,7 @@ PokemonNames::
 	db "Tyrunt@@@@"
 	db "Tyrantrum@"
 	db "Yamask@@@@"
-	db "HITMONCHAN"
+	db "Cofagrigus"
 	db "LICKITUNG@"
 	db "KOFFING@@@"
 	db "WEEZING@@@"

@@ -43,7 +43,7 @@ Pokered_MonIndices:
 	db MACHOKE
 	db MR__MIME
 	db YAMASK
-	db HITMONCHAN
+	db COFAGRIGUS
 	db ARBOK
 	db TREVENANT
 	db DEWPIDER

@@ -106,7 +106,7 @@ AnimationIdlePointers:
 	dw TyruntAnimationIdle
 	dw TyrantrumAnimationIdle
 	dw YamaskAnimationIdle
-	dw HitmonchanAnimationIdle
+	dw CofagrigusAnimationIdle
 	dw LickitungAnimationIdle
 	dw KoffingAnimationIdle
 	dw WeezingAnimationIdle

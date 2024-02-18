@@ -125,7 +125,7 @@
 	const TYRUNT     ; 68
 	const TYRANTRUM    ; 69
 	const YAMASK  ; 6a
-	const HITMONCHAN ; 6b
+	const COFAGRIGUS ; 6b
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e

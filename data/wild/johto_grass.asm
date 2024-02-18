@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, YAMASK
-	db 3, YAMASK
-	db 4, YAMASK
-	db 2, YAMASK
-	db 4, YAMASK
-	db 3, YAMASK
-	db 3, YAMASK
+	db 2, COFAGRIGUS
+	db 3, COFAGRIGUS
+	db 4, COFAGRIGUS
+	db 2, COFAGRIGUS
+	db 4, COFAGRIGUS
+	db 3, COFAGRIGUS
+	db 3, COFAGRIGUS
 	; day
-	db 2, YAMASK
-	db 3, YAMASK
-	db 4, YAMASK
-	db 2, YAMASK
-	db 4, YAMASK
-	db 3, YAMASK
-	db 3, YAMASK
+	db 2, COFAGRIGUS
+	db 3, COFAGRIGUS
+	db 4, COFAGRIGUS
+	db 2, COFAGRIGUS
+	db 4, COFAGRIGUS
+	db 3, COFAGRIGUS
+	db 3, COFAGRIGUS
 	; nite
-	db 2, YAMASK
-	db 3, YAMASK
-	db 4, YAMASK
-	db 2, YAMASK
-	db 4, YAMASK
-	db 3, YAMASK
-	db 3, YAMASK
+	db 2, COFAGRIGUS
+	db 3, COFAGRIGUS
+	db 4, COFAGRIGUS
+	db 2, COFAGRIGUS
+	db 4, COFAGRIGUS
+	db 3, COFAGRIGUS
+	db 3, COFAGRIGUS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
