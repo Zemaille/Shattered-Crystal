@@ -79,7 +79,7 @@ NewPokedexOrder:
 	db POLITOED
 	db MAGIKARP
 	db GYARADOS
-	db GOLDEEN
+	db ELECTIVIRE
 	db SEAKING
 	db SLOWPOKE
 	db SLOWBRO

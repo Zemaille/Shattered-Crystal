@@ -237,8 +237,8 @@ PokemonPicPointers::
 	dba HorseaBackpic
 	dba SeadraFrontpic
 	dba SeadraBackpic
-	dba GoldeenFrontpic
-	dba GoldeenBackpic
+	dba ElectivireFrontpic
+	dba ElectivireBackpic
 	dba SeakingFrontpic
 	dba SeakingBackpic
 	dba StaryuFrontpic

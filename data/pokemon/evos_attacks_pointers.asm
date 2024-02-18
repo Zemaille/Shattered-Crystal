@@ -119,7 +119,7 @@ EvosAttacksPointers::
 	dw KangaskhanEvosAttacks
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks
-	dw GoldeenEvosAttacks
+	dw ElectivireEvosAttacks
 	dw SeakingEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks

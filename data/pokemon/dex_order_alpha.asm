@@ -73,7 +73,7 @@ AlphabeticalPokedexOrder:
 	db GLIGAR
 	db GLOOM
 	db GOLBAT
-	db GOLDEEN
+	db ELECTIVIRE
 	db ARAQUANID
 	db GOLEM
 	db GRANBULL
