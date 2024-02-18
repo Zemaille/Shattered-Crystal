@@ -316,7 +316,7 @@ TyruntEggMoves:
 	db SWORDS_DANCE
 	db -1 ; end
 
-LickitungEggMoves:
+FarigirafEggMoves:
 	db BELLY_DRUM
 	db MAGNITUDE
 	db BODY_SLAM

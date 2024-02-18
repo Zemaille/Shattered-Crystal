@@ -113,7 +113,7 @@ AlphabeticalPokedexOrder:
 	db LARVITAR
 	db LEDIAN
 	db LEDYBA
-	db LICKITUNG
+	db FARIGIRAF
 	db LUGIA
 	db MACHAMP
 	db MACHOKE

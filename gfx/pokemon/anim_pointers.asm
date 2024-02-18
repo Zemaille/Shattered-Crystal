@@ -107,7 +107,7 @@ AnimationPointers:
 	dw TyrantrumAnimation
 	dw YamaskAnimation
 	dw CofagrigusAnimation
-	dw LickitungAnimation
+	dw FarigirafAnimation
 	dw KoffingAnimation
 	dw WeezingAnimation
 	dw RhyhornAnimation

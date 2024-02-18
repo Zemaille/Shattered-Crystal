@@ -109,7 +109,7 @@ EvosAttacksPointers::
 	dw TyrantrumEvosAttacks
 	dw YamaskEvosAttacks
 	dw CofagrigusEvosAttacks
-	dw LickitungEvosAttacks
+	dw FarigirafEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks
 	dw RhyhornEvosAttacks

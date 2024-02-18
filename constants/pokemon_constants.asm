@@ -126,7 +126,7 @@
 	const TYRANTRUM    ; 69
 	const YAMASK  ; 6a
 	const COFAGRIGUS ; 6b
-	const LICKITUNG  ; 6c
+	const FARIGIRAF  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
 	const RHYHORN    ; 6f

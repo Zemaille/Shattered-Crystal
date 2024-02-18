@@ -179,7 +179,7 @@ NewPokedexOrder:
 	db LANTURN
 	db RIOLU
 	db LUCARIO
-	db LICKITUNG
+	db FARIGIRAF
 	db TANGELA
 	db EEVEE
 	db VAPOREON

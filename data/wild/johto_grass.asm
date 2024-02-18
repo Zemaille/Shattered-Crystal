@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, COFAGRIGUS
-	db 3, COFAGRIGUS
-	db 4, COFAGRIGUS
-	db 2, COFAGRIGUS
-	db 4, COFAGRIGUS
-	db 3, COFAGRIGUS
-	db 3, COFAGRIGUS
+	db 2, FARIGIRAF
+	db 3, FARIGIRAF
+	db 4, FARIGIRAF
+	db 2, FARIGIRAF
+	db 4, FARIGIRAF
+	db 3, FARIGIRAF
+	db 3, FARIGIRAF
 	; day
-	db 2, COFAGRIGUS
-	db 3, COFAGRIGUS
-	db 4, COFAGRIGUS
-	db 2, COFAGRIGUS
-	db 4, COFAGRIGUS
-	db 3, COFAGRIGUS
-	db 3, COFAGRIGUS
+	db 2, FARIGIRAF
+	db 3, FARIGIRAF
+	db 4, FARIGIRAF
+	db 2, FARIGIRAF
+	db 4, FARIGIRAF
+	db 3, FARIGIRAF
+	db 3, FARIGIRAF
 	; nite
-	db 2, COFAGRIGUS
-	db 3, COFAGRIGUS
-	db 4, COFAGRIGUS
-	db 2, COFAGRIGUS
-	db 4, COFAGRIGUS
-	db 3, COFAGRIGUS
-	db 3, COFAGRIGUS
+	db 2, FARIGIRAF
+	db 3, FARIGIRAF
+	db 4, FARIGIRAF
+	db 2, FARIGIRAF
+	db 4, FARIGIRAF
+	db 3, FARIGIRAF
+	db 3, FARIGIRAF
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1602,20 +1602,20 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, TANGELA
-	db 22, LICKITUNG
+	db 22, FARIGIRAF
 	db 22, SEEDOT
 	db 24, NUZLEAF
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 24, FARIGIRAF
+	db 26, FARIGIRAF
+	db 26, FARIGIRAF
 	; day
 	db 23, TANGELA
-	db 22, LICKITUNG
+	db 22, FARIGIRAF
 	db 22, SEEDOT
 	db 24, NUZLEAF
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
+	db 24, FARIGIRAF
+	db 26, FARIGIRAF
+	db 26, FARIGIRAF
 	; nite
 	db 23, TANGELA
 	db 22, POLIWAG

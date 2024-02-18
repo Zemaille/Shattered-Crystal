@@ -217,8 +217,8 @@ PokemonPicPointers::
 	dba YamaskBackpic
 	dba CofagrigusFrontpic
 	dba CofagrigusBackpic
-	dba LickitungFrontpic
-	dba LickitungBackpic
+	dba FarigirafFrontpic
+	dba FarigirafBackpic
 	dba KoffingFrontpic
 	dba KoffingBackpic
 	dba WeezingFrontpic

@@ -37,7 +37,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal LICKITUNG, .WrongPokemon
+	ifnotequal FARIGIRAF, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_LICKITUNG_TO_BILLS_GRANDPA
 	sjump .ShowedLickitung
@@ -284,7 +284,7 @@ BillsGrandpaLickitungText:
 	line "told me about a"
 
 	para "#MON that has a"
-	line "long tongue."
+	line "long neck."
 	done
 
 BillsGrandpaOddishText:

@@ -107,7 +107,7 @@ FramesPointers:
 	dw TyrantrumFrames
 	dw YamaskFrames
 	dw CofagrigusFrames
-	dw LickitungFrames
+	dw FarigirafFrames
 	dw KoffingFrames
 	dw WeezingFrames
 	dw RhyhornFrames

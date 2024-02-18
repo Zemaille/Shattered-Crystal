@@ -108,7 +108,7 @@ PokedexDataPointerTable:
 	dw TyrantrumPokedexEntry
 	dw YamaskPokedexEntry
 	dw CofagrigusPokedexEntry
-	dw LickitungPokedexEntry
+	dw FarigirafPokedexEntry
 	dw KoffingPokedexEntry
 	dw WeezingPokedexEntry
 	dw RhyhornPokedexEntry

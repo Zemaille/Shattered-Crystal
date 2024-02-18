@@ -107,7 +107,7 @@ PokemonNames::
 	db "Tyrantrum@"
 	db "Yamask@@@@"
 	db "Cofagrigus"
-	db "LICKITUNG@"
+	db "Farigiraf@"
 	db "KOFFING@@@"
 	db "WEEZING@@@"
 	db "RHYHORN@@@"
