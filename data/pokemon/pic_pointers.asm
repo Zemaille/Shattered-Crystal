@@ -255,8 +255,8 @@ PokemonPicPointers::
 	dba ElectabuzzBackpic
 	dba MagmarFrontpic
 	dba MagmarBackpic
-	dba PinsirFrontpic
-	dba PinsirBackpic
+	dba YanmegaFrontpic
+	dba YanmegaBackpic
 	dba TaurosFrontpic
 	dba TaurosBackpic
 	dba MagikarpFrontpic

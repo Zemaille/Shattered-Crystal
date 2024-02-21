@@ -165,7 +165,7 @@ AlphabeticalPokedexOrder:
 	db PIKACHU
 	db PILOSWINE
 	db PINECO
-	db PINSIR
+	db YANMEGA
 	db POLITOED
 	db POLIWAG
 	db POLIWHIRL

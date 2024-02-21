@@ -113,7 +113,7 @@ NewPokedexOrder:
 	db CLODSIRE
 	db SCYTHER
 	db SCIZOR
-	db PINSIR
+	db YANMEGA
 	db HERACROSS
 	db KOFFING
 	db WEEZING

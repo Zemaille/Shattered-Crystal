@@ -130,7 +130,7 @@ ScytherPokedexEntry::    INCLUDE "data/pokemon/dex_entries/scyther.asm"
 JynxPokedexEntry::       INCLUDE "data/pokemon/dex_entries/jynx.asm"
 ElectabuzzPokedexEntry:: INCLUDE "data/pokemon/dex_entries/electabuzz.asm"
 MagmarPokedexEntry::     INCLUDE "data/pokemon/dex_entries/magmar.asm"
-PinsirPokedexEntry::     INCLUDE "data/pokemon/dex_entries/pinsir.asm"
+YanmegaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/yanmega.asm"
 TaurosPokedexEntry::     INCLUDE "data/pokemon/dex_entries/tauros.asm"
 
 

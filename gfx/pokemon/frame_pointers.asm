@@ -126,7 +126,7 @@ FramesPointers:
 	dw JynxFrames
 	dw ElectabuzzFrames
 	dw MagmarFrames
-	dw PinsirFrames
+	dw YanmegaFrames
 	dw TaurosFrames
 	dw MagikarpFrames
 	dw GyaradosFrames

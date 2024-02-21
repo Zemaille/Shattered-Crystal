@@ -126,7 +126,7 @@ AnimationPointers:
 	dw JynxAnimation
 	dw ElectabuzzAnimation
 	dw MagmarAnimation
-	dw PinsirAnimation
+	dw YanmegaAnimation
 	dw TaurosAnimation
 	dw MagikarpAnimation
 	dw GyaradosAnimation

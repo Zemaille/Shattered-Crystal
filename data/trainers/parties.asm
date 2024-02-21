@@ -1547,7 +1547,7 @@ BugCatcherGroup:
 	; BUG_CATCHER (9)
 	db "KEN@", TRAINERTYPE_NORMAL
 	db 30, ARIADOS
-	db 32, PINSIR
+	db 32, YANMEGA
 	db -1 ; end
 
 	; BUG_CATCHER (10)

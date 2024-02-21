@@ -126,7 +126,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw PinsirEggMoves
+	dw YanmegaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

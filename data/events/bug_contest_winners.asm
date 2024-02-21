@@ -35,11 +35,11 @@ BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
 	dbw SCYTHER,    357
 	dbw BUTTERFREE, 349
-	dbw PINSIR,     368
+	dbw YANMEGA,     368
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
-	dbw PINSIR,     332
+	dbw YANMEGA,     332
 	dbw BUTTERFREE, 324
 	dbw DUDUNSPARCE,    321
 
@@ -51,7 +51,7 @@ BugContestant_BugCatcherBenny:
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	dbw PINSIR,     366
+	dbw YANMEGA,     366
 	dbw DUDUNSPARCE,    329
 	dbw BRAIXEN,     314
 
@@ -70,7 +70,7 @@ BugContestant_BugCatcherJosh:
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, SAMUEL
 	dbw FENNEKIN,     270
-	dbw PINSIR,     282
+	dbw YANMEGA,     282
 	dbw CATERPIE,   251
 
 BugContestant_SchoolboyKipp:

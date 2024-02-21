@@ -28,7 +28,7 @@ Pokered_MonIndices:
 	db SCYTHER
 	db STARYU
 	db BLASTOISE
-	db PINSIR
+	db YANMEGA
 	db RHYPERIOR
 	db SCIZOR ; MISSINGNO.
 	db SHUCKLE ; MISSINGNO.

@@ -392,7 +392,7 @@ ScytherEggMoves:
 	db LIGHT_SCREEN
 	db -1 ; end
 
-PinsirEggMoves:
+YanmegaEggMoves:
 	db FURY_ATTACK
 	db FLAIL
 	db -1 ; end
