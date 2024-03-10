@@ -93,7 +93,7 @@ AlphabeticalPokedexOrder:
 	db HOUNDOOM
 	db HOUNDOUR
 	db MALAMAR
-	db IGGLYBUFF
+	db SYLVEON
 	db IVYSAUR
 	db JIGGLYPUFF
 	db JOLTEON

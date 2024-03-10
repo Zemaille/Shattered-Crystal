@@ -191,8 +191,8 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic GLACEON
-	cry GLACEON
+	pokepic SYLVEON
+	cry SYLVEON
 	waitbutton
 	closepokepic
 	opentext
@@ -204,12 +204,12 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, GLACEON
+	getmonname STRING_BUFFER_3, SYLVEON
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke GLACEON, 5, BERRY
+	givepoke SYLVEON, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript

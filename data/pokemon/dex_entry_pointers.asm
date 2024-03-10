@@ -174,7 +174,7 @@ PokedexDataPointerTable:
 	dw LanturnPokedexEntry
 	dw LeafeonPokedexEntry
 	dw GlaceonPokedexEntry
-	dw IgglybuffPokedexEntry
+	dw SylveonPokedexEntry
 	dw TogepiPokedexEntry
 	dw TogeticPokedexEntry
 	dw NatuPokedexEntry

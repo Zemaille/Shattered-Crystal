@@ -193,7 +193,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const LANTURN    ; ab
 	const LEAFEON      ; ac
 	const GLACEON     ; ad
-	const IGGLYBUFF  ; ae
+	const SYLVEON  ; ae
 	const TOGEPI     ; af
 	const TOGETIC    ; b0
 	const NATU       ; b1

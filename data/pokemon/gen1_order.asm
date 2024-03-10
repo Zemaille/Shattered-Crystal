@@ -213,7 +213,7 @@ Pokered_MonIndices:
 	db LANTURN
 	db LEAFEON
 	db GLACEON
-	db IGGLYBUFF
+	db SYLVEON
 	db TOGEPI
 	db TOGETIC
 	db NATU

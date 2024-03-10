@@ -173,7 +173,7 @@ BitmasksPointers:
 	dw LanturnBitmasks
 	dw LeafeonBitmasks
 	dw GlaceonBitmasks
-	dw IgglybuffBitmasks
+	dw SylveonBitmasks
 	dw TogepiBitmasks
 	dw TogeticBitmasks
 	dw NatuBitmasks

@@ -44,7 +44,7 @@ NewPokedexOrder:
 	db GLACEON
 	db CLEFAIRY
 	db CLEFABLE
-	db IGGLYBUFF
+	db SYLVEON
 	db JIGGLYPUFF
 	db WIGGLYTUFF
 	db TOGEPI

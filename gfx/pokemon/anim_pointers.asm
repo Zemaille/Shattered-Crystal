@@ -173,7 +173,7 @@ AnimationPointers:
 	dw LanturnAnimation
 	dw LeafeonAnimation
 	dw GlaceonAnimation
-	dw IgglybuffAnimation
+	dw SylveonAnimation
 	dw TogepiAnimation
 	dw TogeticAnimation
 	dw NatuAnimation

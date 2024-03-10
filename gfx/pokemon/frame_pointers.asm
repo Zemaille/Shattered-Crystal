@@ -173,7 +173,7 @@ FramesPointers:
 	dw LanturnFrames
 	dw LeafeonFrames
 	dw GlaceonFrames
-	dw IgglybuffFrames
+	dw SylveonFrames
 	dw TogepiFrames
 	dw TogeticFrames
 	dw NatuFrames

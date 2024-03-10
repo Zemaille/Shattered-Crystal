@@ -521,7 +521,7 @@ GlaceonEggMoves:
 	db MIMIC
 	db -1 ; end
 
-IgglybuffEggMoves:
+SylveonEggMoves:
 	db PERISH_SONG
 	db PRESENT
 	db FAINT_ATTACK

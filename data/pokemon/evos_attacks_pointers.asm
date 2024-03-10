@@ -175,7 +175,7 @@ EvosAttacksPointers::
 	dw LanturnEvosAttacks
 	dw LeafeonEvosAttacks
 	dw GlaceonEvosAttacks
-	dw IgglybuffEvosAttacks
+	dw SylveonEvosAttacks
 	dw TogepiEvosAttacks
 	dw TogeticEvosAttacks
 	dw NatuEvosAttacks

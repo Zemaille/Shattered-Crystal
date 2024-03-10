@@ -15,7 +15,7 @@ DEF prob_total = 0
 ; Cleffa
 	prob 16
 	prob 3
-; Igglybuff
+; Sylveon
 	prob 16
 	prob 3
 ; Smoochum
@@ -140,7 +140,7 @@ OddEggs:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db IGGLYBUFF
+	db JIGGLYPUFF
 	db NO_ITEM
 	db SING, CHARM, DIZZY_PUNCH, 0
 	dw 04096 ; OT ID
@@ -166,7 +166,7 @@ OddEggs:
 	bigdw 7 ; SDef
 	db "EGG@@@@@@@@"
 
-	db IGGLYBUFF
+	db JIGGLYPUFF
 	db NO_ITEM
 	db SING, CHARM, DIZZY_PUNCH, 0
 	dw 00768 ; OT ID
