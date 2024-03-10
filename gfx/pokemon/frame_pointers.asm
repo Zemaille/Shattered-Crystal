@@ -127,7 +127,7 @@ FramesPointers:
 	dw ElectabuzzFrames
 	dw MagmarFrames
 	dw YanmegaFrames
-	dw TaurosFrames
+	dw GliscorFrames
 	dw MagikarpFrames
 	dw GyaradosFrames
 	dw LaprasFrames

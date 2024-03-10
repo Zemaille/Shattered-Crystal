@@ -128,7 +128,7 @@ PokedexDataPointerTable:
 	dw ElectabuzzPokedexEntry
 	dw MagmarPokedexEntry
 	dw YanmegaPokedexEntry
-	dw TaurosPokedexEntry
+	dw GliscorPokedexEntry
 	dw MagikarpPokedexEntry
 	dw GyaradosPokedexEntry
 	dw LaprasPokedexEntry

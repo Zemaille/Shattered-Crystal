@@ -127,7 +127,7 @@ AnimationPointers:
 	dw ElectabuzzAnimation
 	dw MagmarAnimation
 	dw YanmegaAnimation
-	dw TaurosAnimation
+	dw GliscorAnimation
 	dw MagikarpAnimation
 	dw GyaradosAnimation
 	dw LaprasAnimation

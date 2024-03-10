@@ -498,7 +498,7 @@ BattleTowerMons:
 	bigdw 21 ; SDef
 	db "ANNO-N@@@@@"
 
-	db TAUROS
+	db GLISCOR
 	db KINGS_ROCK
 	db HEADBUTT, SWAGGER, TAIL_WHIP, ICY_WIND
 	dw 0 ; OT ID
@@ -917,7 +917,7 @@ BattleTowerMons:
 	bigdw 62 ; SDef
 	db "EBIWARA-@@@"
 
-	db TAUROS
+	db GLISCOR
 	db BRIGHTPOWDER
 	db THUNDERBOLT, EARTHQUAKE, HYPER_BEAM, BLIZZARD
 	dw 0 ; OT ID
@@ -1651,7 +1651,7 @@ BattleTowerMons:
 
 ; BattleTowerMons group 4
 
-	db TAUROS
+	db GLISCOR
 	db GOLD_BERRY
 	db RETURN, HYPER_BEAM, EARTHQUAKE, IRON_TAIL
 	dw 0 ; OT ID
@@ -3925,7 +3925,7 @@ BattleTowerMons:
 	bigdw 197 ; SDef
 	db "HERUGA-@@@@"
 
-	db TAUROS
+	db GLISCOR
 	db GOLD_BERRY
 	db EARTHQUAKE, BODY_SLAM, IRON_TAIL, HYPER_BEAM
 	dw 0 ; OT ID
@@ -4890,7 +4890,7 @@ BattleTowerMons:
 	bigdw 182 ; SDef
 	db "MIRUTANKU@@"
 
-	db TAUROS
+	db GLISCOR
 	db PINK_BOW
 	db THUNDERBOLT, HYPER_BEAM, ATTRACT, EARTHQUAKE
 	dw 0 ; OT ID
@@ -5049,7 +5049,7 @@ BattleTowerMons:
 	bigdw 278 ; SDef
 	db "SANDA-SU@@@"
 
-	db TAUROS
+	db GLISCOR
 	db KINGS_ROCK
 	db HYPER_BEAM, EARTHQUAKE, IRON_TAIL, THUNDERBOLT
 	dw 0 ; OT ID

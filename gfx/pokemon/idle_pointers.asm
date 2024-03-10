@@ -127,7 +127,7 @@ AnimationIdlePointers:
 	dw ElectabuzzAnimationIdle
 	dw MagmarAnimationIdle
 	dw YanmegaAnimationIdle
-	dw TaurosAnimationIdle
+	dw GliscorAnimationIdle
 	dw MagikarpAnimationIdle
 	dw GyaradosAnimationIdle
 	dw LaprasAnimationIdle

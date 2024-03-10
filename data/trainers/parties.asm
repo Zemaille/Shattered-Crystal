@@ -904,7 +904,7 @@ CooltrainerMGroup:
 	db "SEAN@", TRAINERTYPE_NORMAL
 	db 35, FLAREON
 	db 35, RHYPERIOR
-	db 35, TAUROS
+	db 35, GLISCOR
 	db -1 ; end
 
 	; COOLTRAINERM (17)
@@ -3054,7 +3054,7 @@ CamperGroup:
 	db "QUENTIN@", TRAINERTYPE_NORMAL
 	db 30, ALTARIA
 	db 30, BRELOOM
-	db 30, TAUROS
+	db 30, GLISCOR
 	db -1 ; end
 
 ExecutiveFGroup:

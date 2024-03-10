@@ -149,7 +149,7 @@ NewPokedexOrder:
 	db COFAGRIGUS
 	db HITMONTOP
 	db GIRAFARIG
-	db TAUROS
+	db GLISCOR
 	db MILTANK
 	db MAGBY
 	db MAGMAR

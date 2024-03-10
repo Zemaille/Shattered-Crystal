@@ -129,7 +129,7 @@ EvosAttacksPointers::
 	dw ElectabuzzEvosAttacks
 	dw MagmarEvosAttacks
 	dw YanmegaEvosAttacks
-	dw TaurosEvosAttacks
+	dw GliscorEvosAttacks
 	dw MagikarpEvosAttacks
 	dw GyaradosEvosAttacks
 	dw LaprasEvosAttacks

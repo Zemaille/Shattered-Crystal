@@ -222,7 +222,7 @@ AlphabeticalPokedexOrder:
 	db SUNKERN
 	db SWINUB
 	db RHYPERIOR
-	db TAUROS
+	db GLISCOR
 	db TEDDIURSA
 	db TENTACOOL
 	db TENTACRUEL

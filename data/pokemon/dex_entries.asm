@@ -131,7 +131,7 @@ JynxPokedexEntry::       INCLUDE "data/pokemon/dex_entries/jynx.asm"
 ElectabuzzPokedexEntry:: INCLUDE "data/pokemon/dex_entries/electabuzz.asm"
 MagmarPokedexEntry::     INCLUDE "data/pokemon/dex_entries/magmar.asm"
 YanmegaPokedexEntry::     INCLUDE "data/pokemon/dex_entries/yanmega.asm"
-TaurosPokedexEntry::     INCLUDE "data/pokemon/dex_entries/tauros.asm"
+GliscorPokedexEntry::     INCLUDE "data/pokemon/dex_entries/gliscor.asm"
 
 
 SECTION "Pokedex Entries 129-192", ROMX

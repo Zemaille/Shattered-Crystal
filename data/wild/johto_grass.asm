@@ -1493,7 +1493,7 @@ JohtoGrassWildMons:
 	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 13, TAUROS
+	db 13, GLISCOR
 	db 13, MILTANK
 	db 13, MILTANK
 	; day
@@ -1501,7 +1501,7 @@ JohtoGrassWildMons:
 	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
-	db 13, TAUROS
+	db 13, GLISCOR
 	db 13, MILTANK
 	db 13, MILTANK
 	; nite
@@ -1522,16 +1522,16 @@ JohtoGrassWildMons:
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 15, MILTANK
-	db 15, TAUROS
-	db 15, TAUROS
+	db 15, GLISCOR
+	db 15, GLISCOR
 	; day
 	db 16, HONCHKROW
 	db 16, MAMOSWINE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 15, MILTANK
-	db 15, TAUROS
-	db 15, TAUROS
+	db 15, GLISCOR
+	db 15, GLISCOR
 	; nite
 	db 16, MEOWTH
 	db 16, MAMOSWINE

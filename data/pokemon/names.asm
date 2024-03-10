@@ -127,7 +127,7 @@ PokemonNames::
 	db "Electabuzz"
 	db "Magmar@@@@"
 	db "Yanmega@@@"
-	db "TAUROS@@@@"
+	db "Gliscor@@@"
 	db "MAGIKARP@@"
 	db "GYARADOS@@"
 	db "LAPRAS@@@@"

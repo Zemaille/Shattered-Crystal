@@ -1738,7 +1738,7 @@ YanmegaEvosAttacks:
 	db 43, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
-TaurosEvosAttacks:
+GliscorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, TAIL_WHIP

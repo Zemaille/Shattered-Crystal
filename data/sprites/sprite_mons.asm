@@ -26,7 +26,7 @@ SpriteMons:
 	db EKANS
 	db PHANTUMP
 	db TENTACOOL
-	db TAUROS
+	db GLISCOR
 	db MACHOP
 	db SKRELP
 	db LAPRAS
