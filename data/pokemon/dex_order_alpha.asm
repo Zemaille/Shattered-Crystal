@@ -30,7 +30,7 @@ AlphabeticalPokedexOrder:
 	db CHINCHOU
 	db CLEFABLE
 	db CLEFAIRY
-	db CLEFFA
+	db GLACEON
 	db CLOYSTER
 	db CORSOLA
 	db CROBAT

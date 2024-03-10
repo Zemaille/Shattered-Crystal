@@ -172,7 +172,7 @@ EggMovePointers::
 	dw ChinchouEggMoves
 	dw NoEggMoves
 	dw LeafeonEggMoves
-	dw CleffaEggMoves
+	dw GlaceonEggMoves
 	dw IgglybuffEggMoves
 	dw TogepiEggMoves
 	dw NoEggMoves

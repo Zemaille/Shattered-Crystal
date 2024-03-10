@@ -41,7 +41,7 @@ NewPokedexOrder:
 	db ZUBAT
 	db GOLBAT
 	db CROBAT
-	db CLEFFA
+	db GLACEON
 	db CLEFAIRY
 	db CLEFABLE
 	db IGGLYBUFF

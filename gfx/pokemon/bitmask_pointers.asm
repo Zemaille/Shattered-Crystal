@@ -172,7 +172,7 @@ BitmasksPointers:
 	dw ChinchouBitmasks
 	dw LanturnBitmasks
 	dw LeafeonBitmasks
-	dw CleffaBitmasks
+	dw GlaceonBitmasks
 	dw IgglybuffBitmasks
 	dw TogepiBitmasks
 	dw TogeticBitmasks

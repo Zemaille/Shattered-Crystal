@@ -347,8 +347,8 @@ PokemonPicPointers::
 	dba LanturnBackpic
 	dba LeafeonFrontpic
 	dba LeafeonBackpic
-	dba CleffaFrontpic
-	dba CleffaBackpic
+	dba GlaceonFrontpic
+	dba GlaceonBackpic
 	dba IgglybuffFrontpic
 	dba IgglybuffBackpic
 	dba TogepiFrontpic

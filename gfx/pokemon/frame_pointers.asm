@@ -172,7 +172,7 @@ FramesPointers:
 	dw ChinchouFrames
 	dw LanturnFrames
 	dw LeafeonFrames
-	dw CleffaFrames
+	dw GlaceonFrames
 	dw IgglybuffFrames
 	dw TogepiFrames
 	dw TogeticFrames

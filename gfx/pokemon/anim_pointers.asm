@@ -172,7 +172,7 @@ AnimationPointers:
 	dw ChinchouAnimation
 	dw LanturnAnimation
 	dw LeafeonAnimation
-	dw CleffaAnimation
+	dw GlaceonAnimation
 	dw IgglybuffAnimation
 	dw TogepiAnimation
 	dw TogeticAnimation

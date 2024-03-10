@@ -212,7 +212,7 @@ Pokered_MonIndices:
 	db CHINCHOU
 	db LANTURN
 	db LEAFEON
-	db CLEFFA
+	db GLACEON
 	db IGGLYBUFF
 	db TOGEPI
 	db TOGETIC

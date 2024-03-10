@@ -512,7 +512,7 @@ LeafeonEggMoves:
 	db DOUBLESLAP
 	db -1 ; end
 
-CleffaEggMoves:
+GlaceonEggMoves:
 	db PRESENT
 	db METRONOME
 	db AMNESIA
