@@ -140,7 +140,7 @@ EvosAttacksPointers::
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
 	dw AnorithEvosAttacks
-	dw OmastarEvosAttacks
+	dw ArmaldoEvosAttacks
 	dw KabutoEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks

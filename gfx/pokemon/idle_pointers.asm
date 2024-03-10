@@ -138,7 +138,7 @@ AnimationIdlePointers:
 	dw FlareonAnimationIdle
 	dw PorygonAnimationIdle
 	dw AnorithAnimationIdle
-	dw OmastarAnimationIdle
+	dw ArmaldoAnimationIdle
 	dw KabutoAnimationIdle
 	dw KabutopsAnimationIdle
 	dw AerodactylAnimationIdle

@@ -223,7 +223,7 @@ NewPokedexOrder:
 	db BLISSEY
 	db LAPRAS
 	db ANORITH
-	db OMASTAR
+	db ARMALDO
 	db KABUTO
 	db KABUTOPS
 	db AERODACTYL

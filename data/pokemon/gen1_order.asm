@@ -98,7 +98,7 @@ Pokered_MonIndices:
 	db ZANGOOSE
 	db MUNCHLAX
 	db ANORITH
-	db OMASTAR
+	db ARMALDO
 	db JIGGLYPUFF
 	db WIGGLYTUFF
 	db EEVEE

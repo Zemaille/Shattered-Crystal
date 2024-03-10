@@ -138,7 +138,7 @@ PokemonNames::
 	db "Flareon@@@"
 	db "Porygon@@@"
 	db "Anorith@@@"
-	db "OMASTAR@@@"
+	db "Armaldo@@@"
 	db "KABUTO@@@@"
 	db "KABUTOPS@@"
 	db "AERODACTYL"

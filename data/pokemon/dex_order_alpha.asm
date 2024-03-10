@@ -152,7 +152,7 @@ AlphabeticalPokedexOrder:
 	db OCTILLERY
 	db ODDISH
 	db ANORITH
-	db OMASTAR
+	db ARMALDO
 	db ONIX
 	db PHANTUMP
 	db TREVENANT

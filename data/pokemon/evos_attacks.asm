@@ -1866,7 +1866,7 @@ PorygonEvosAttacks:
 	db 0 ; no more level-up moves
 
 AnorithEvosAttacks:
-	db EVOLVE_LEVEL, 40, OMASTAR
+	db EVOLVE_LEVEL, 40, ARMALDO
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, WITHDRAW
@@ -1878,7 +1878,7 @@ AnorithEvosAttacks:
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-OmastarEvosAttacks:
+ArmaldoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, WITHDRAW
