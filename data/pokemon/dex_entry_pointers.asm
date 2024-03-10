@@ -138,7 +138,7 @@ PokedexDataPointerTable:
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry
 	dw PorygonPokedexEntry
-	dw OmanytePokedexEntry
+	dw AnorithPokedexEntry
 	dw OmastarPokedexEntry
 	dw KabutoPokedexEntry
 	dw KabutopsPokedexEntry

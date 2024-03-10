@@ -137,7 +137,7 @@ AnimationPointers:
 	dw JolteonAnimation
 	dw FlareonAnimation
 	dw PorygonAnimation
-	dw OmanyteAnimation
+	dw AnorithAnimation
 	dw OmastarAnimation
 	dw KabutoAnimation
 	dw KabutopsAnimation

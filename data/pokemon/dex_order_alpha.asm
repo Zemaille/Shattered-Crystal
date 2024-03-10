@@ -151,7 +151,7 @@ AlphabeticalPokedexOrder:
 	db NOCTOWL
 	db OCTILLERY
 	db ODDISH
-	db OMANYTE
+	db ANORITH
 	db OMASTAR
 	db ONIX
 	db PHANTUMP
