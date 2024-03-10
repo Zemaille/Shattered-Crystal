@@ -158,7 +158,7 @@ AlphabeticalPokedexOrder:
 	db TREVENANT
 	db PERSIAN
 	db PHANPY
-	db PICHU
+	db LEAFEON
 	db PIDGEOT
 	db PIDGEOTTO
 	db PIDGEY

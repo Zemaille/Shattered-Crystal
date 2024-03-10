@@ -504,7 +504,7 @@ ChinchouEggMoves:
 	db SCREECH
 	db -1 ; end
 
-PichuEggMoves:
+LeafeonEggMoves:
 	db REVERSAL
 	db BIDE
 	db PRESENT

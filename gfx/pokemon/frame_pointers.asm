@@ -171,7 +171,7 @@ FramesPointers:
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames
-	dw PichuFrames
+	dw LeafeonFrames
 	dw CleffaFrames
 	dw IgglybuffFrames
 	dw TogepiFrames

@@ -22,7 +22,7 @@ NewPokedexOrder:
 	db MAMOSWINE
 	db SENTRET
 	db FURRET
-	db PICHU
+	db LEAFEON
 	db PIKACHU
 	db RAICHU
 	db CATERPIE
