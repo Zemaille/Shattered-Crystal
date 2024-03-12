@@ -210,7 +210,7 @@ PokemonNames::
 	db "Steelix@@@"
 	db "Kleavor@@@"
 	db "Togekiss@@"
-	db "QWILFISH@@"
+	db "Spiritomb@"
 	db "SCIZOR@@@@"
 	db "SHUCKLE@@@"
 	db "HERACROSS@"

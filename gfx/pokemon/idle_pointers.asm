@@ -210,7 +210,7 @@ AnimationIdlePointers:
 	dw SteelixAnimationIdle
 	dw KleavorAnimationIdle
 	dw TogekissAnimationIdle
-	dw QwilfishAnimationIdle
+	dw SpiritombAnimationIdle
 	dw ScizorAnimationIdle
 	dw ShuckleAnimationIdle
 	dw HeracrossAnimationIdle

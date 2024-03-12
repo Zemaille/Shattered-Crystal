@@ -212,7 +212,7 @@ EvosAttacksPointers::
 	dw SteelixEvosAttacks
 	dw KleavorEvosAttacks
 	dw TogekissEvosAttacks
-	dw QwilfishEvosAttacks
+	dw SpiritombEvosAttacks
 	dw ScizorEvosAttacks
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks

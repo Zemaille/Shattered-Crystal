@@ -210,7 +210,7 @@ AnimationPointers:
 	dw SteelixAnimation
 	dw KleavorAnimation
 	dw TogekissAnimation
-	dw QwilfishAnimation
+	dw SpiritombAnimation
 	dw ScizorAnimation
 	dw ShuckleAnimation
 	dw HeracrossAnimation

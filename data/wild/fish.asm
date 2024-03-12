@@ -102,17 +102,17 @@ FishGroups:
 .Qwilfish_Swarm_Old:
 	db  70 percent + 1, MAGIKARP,   5
 	db  85 percent + 1, MAGIKARP,   5
-	db 100 percent,     QWILFISH,   5
+	db 100 percent,     SPIRITOMB,   5
 .Qwilfish_Swarm_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     QWILFISH,   20
-	db  90 percent + 1, QWILFISH,   20
+	db  70 percent,     SPIRITOMB,   20
+	db  90 percent + 1, SPIRITOMB,   20
 	db 100 percent,     time_group 10
 .Qwilfish_Swarm_Super:
-	db  40 percent,     QWILFISH,   40
+	db  40 percent,     SPIRITOMB,   40
 	db  70 percent,     time_group 11
-	db  90 percent + 1, QWILFISH,   40
-	db 100 percent,     QWILFISH,   40
+	db  90 percent + 1, SPIRITOMB,   40
+	db 100 percent,     SPIRITOMB,   40
 
 .Remoraid_Swarm_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -190,7 +190,7 @@ FishGroups:
 	db  40 percent,     TENTACOOL,  40
 	db  70 percent,     time_group 21
 	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     QWILFISH,   40
+	db 100 percent,     SPIRITOMB,   40
 
 .Remoraid_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -219,8 +219,8 @@ TimeFishGroups:
 	db POLIWAG,    40,  POLIWAG,    40 ; 7
 	db DRATINI,    20,  DRATINI,    20 ; 8
 	db DRATINI,    40,  DRATINI,    40 ; 9
-	db QWILFISH,   20,  QWILFISH,   20 ; 10
-	db QWILFISH,   40,  QWILFISH,   40 ; 11
+	db SPIRITOMB,   20,  SPIRITOMB,   20 ; 10
+	db SPIRITOMB,   40,  SPIRITOMB,   40 ; 11
 	db REMORAID,   20,  REMORAID,   20 ; 12
 	db REMORAID,   40,  REMORAID,   40 ; 13
 	db GYARADOS,   20,  GYARADOS,   20 ; 14

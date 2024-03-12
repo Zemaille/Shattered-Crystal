@@ -210,7 +210,7 @@ FramesPointers:
 	dw SteelixFrames
 	dw KleavorFrames
 	dw TogekissFrames
-	dw QwilfishFrames
+	dw SpiritombFrames
 	dw ScizorFrames
 	dw ShuckleFrames
 	dw HeracrossFrames

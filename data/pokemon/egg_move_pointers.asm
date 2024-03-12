@@ -210,7 +210,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw KleavorEggMoves
 	dw NoEggMoves
-	dw QwilfishEggMoves
+	dw SpiritombEggMoves
 	dw NoEggMoves
 	dw ShuckleEggMoves
 	dw HeracrossEggMoves

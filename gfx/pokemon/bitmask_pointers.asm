@@ -210,7 +210,7 @@ BitmasksPointers:
 	dw SteelixBitmasks
 	dw KleavorBitmasks
 	dw TogekissBitmasks
-	dw QwilfishBitmasks
+	dw SpiritombBitmasks
 	dw ScizorBitmasks
 	dw ShuckleBitmasks
 	dw HeracrossBitmasks

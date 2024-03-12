@@ -162,7 +162,7 @@ NewPokedexOrder:
 	db MAGNEZONE
 	db NATU
 	db XATU
-	db QWILFISH
+	db SPIRITOMB
 	db TENTACOOL
 	db TENTACRUEL
 	db FEEBAS

@@ -230,7 +230,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const STEELIX    ; d0
 	const KLEAVOR   ; d1
 	const TOGEKISS   ; d2
-	const QWILFISH   ; d3
+	const SPIRITOMB   ; d3
 	const SCIZOR     ; d4
 	const SHUCKLE    ; d5
 	const HERACROSS  ; d6

@@ -655,7 +655,7 @@ KleavorEggMoves:
 	db LEER
 	db -1 ; end
 
-QwilfishEggMoves:
+SpiritombEggMoves:
 	db FLAIL
 	db HAZE
 	db BUBBLEBEAM

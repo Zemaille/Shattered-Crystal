@@ -426,8 +426,8 @@ PokemonPicPointers::
 	dba KleavorBackpic
 	dba TogekissFrontpic
 	dba TogekissBackpic
-	dba QwilfishFrontpic
-	dba QwilfishBackpic
+	dba SpiritombFrontpic
+	dba SpiritombBackpic
 	dba ScizorFrontpic
 	dba ScizorBackpic
 	dba ShuckleFrontpic

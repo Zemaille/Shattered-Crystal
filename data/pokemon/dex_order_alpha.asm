@@ -178,7 +178,7 @@ AlphabeticalPokedexOrder:
 	db PUPITAR
 	db QUAGSIRE
 	db QUILAVA
-	db QWILFISH
+	db SPIRITOMB
 	db RAICHU
 	db RAIKOU
 	db RAPIDASH

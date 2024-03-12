@@ -250,7 +250,7 @@ Pokered_MonIndices:
 	db STEELIX
 	db KLEAVOR
 	db TOGEKISS
-	db QWILFISH
+	db SPIRITOMB
 	db MISMAGIUS
 	db MISMAGIUS
 	db URSALUNA

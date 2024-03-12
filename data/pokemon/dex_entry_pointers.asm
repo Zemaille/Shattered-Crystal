@@ -211,7 +211,7 @@ PokedexDataPointerTable:
 	dw SteelixPokedexEntry
 	dw KleavorPokedexEntry
 	dw TogekissPokedexEntry
-	dw QwilfishPokedexEntry
+	dw SpiritombPokedexEntry
 	dw ScizorPokedexEntry
 	dw ShucklePokedexEntry
 	dw HeracrossPokedexEntry

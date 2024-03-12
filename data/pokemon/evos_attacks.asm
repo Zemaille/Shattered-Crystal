@@ -2821,7 +2821,7 @@ TogekissEvosAttacks:
 	db 51, TAKE_DOWN
 	db 0 ; no more level-up moves
 
-QwilfishEvosAttacks:
+SpiritombEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SPIKES
 	db 1, TACKLE

@@ -212,7 +212,7 @@ MonMenuIcons:
 	db ICON_SERPENT     ; STEELIX
 	db ICON_MONSTER     ; KLEAVOR
 	db ICON_MONSTER     ; TOGEKISS
-	db ICON_FISH        ; QWILFISH
+	db ICON_FISH        ; SPIRITOMB
 	db ICON_BUG         ; SCIZOR
 	db ICON_BUG         ; SHUCKLE
 	db ICON_BUG         ; HERACROSS
