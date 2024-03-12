@@ -189,7 +189,7 @@ BitmasksPointers:
 	dw GoomyBitmasks
 	dw SliggooBitmasks
 	dw GoodraBitmasks
-	dw AipomBitmasks
+	dw RanchorBitmasks
 	dw SunkernBitmasks
 	dw SunfloraBitmasks
 	dw YanmaBitmasks

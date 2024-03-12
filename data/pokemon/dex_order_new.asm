@@ -123,7 +123,7 @@ NewPokedexOrder:
 	db MAGNETON
 	db SKRELP
 	db DRAGALGE
-	db AIPOM
+	db RANCHOR
 	db SNUBBULL
 	db GRANBULL
 	db VULPIX

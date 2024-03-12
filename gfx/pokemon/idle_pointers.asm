@@ -189,7 +189,7 @@ AnimationIdlePointers:
 	dw GoomyAnimationIdle
 	dw SliggooAnimationIdle
 	dw GoodraAnimationIdle
-	dw AipomAnimationIdle
+	dw RanchorAnimationIdle
 	dw SunkernAnimationIdle
 	dw SunfloraAnimationIdle
 	dw YanmaAnimationIdle

@@ -229,7 +229,7 @@ Pokered_MonIndices:
 	db GOOMY
 	db SLIGGOO
 	db GOODRA
-	db AIPOM
+	db RANCHOR
 	db SUNKERN
 	db SUNFLORA
 	db YANMA

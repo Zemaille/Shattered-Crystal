@@ -486,7 +486,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (12)
 	db "RICKY@", TRAINERTYPE_NORMAL
-	db 32, AIPOM
+	db 32, RANCHOR
 	db 32, DITTO
 	db -1 ; end
 
@@ -1476,7 +1476,7 @@ TeacherGroup:
 
 	; TEACHER (2)
 	db "HILLARY@", TRAINERTYPE_NORMAL
-	db 32, AIPOM
+	db 32, RANCHOR
 	db 36, TYRUNT
 	db -1 ; end
 

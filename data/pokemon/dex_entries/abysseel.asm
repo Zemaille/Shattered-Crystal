@@ -1,4 +1,4 @@
-	db "ANGLER FISH@" ; species name
+	db "BENTHIC@" ; species name
 	dw 507, 595 ; height, weight
 
 	db   "PLACEHOLDER"

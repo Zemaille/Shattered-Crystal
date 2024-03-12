@@ -11,7 +11,7 @@ AsleepTreeMonsNite:
 	db EKANS
 	db EXEGGCUTE
 	db LEDYBA
-	db AIPOM
+	db RANCHOR
 	db -1 ; end
 
 AsleepTreeMonsDay:

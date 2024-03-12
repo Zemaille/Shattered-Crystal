@@ -191,7 +191,7 @@ MonMenuIcons:
 	db ICON_ODDISH      ; GOOMY
 	db ICON_ODDISH      ; SLIGGOO
 	db ICON_ODDISH      ; GOODRA
-	db ICON_MONSTER     ; AIPOM
+	db ICON_MONSTER     ; RANCHOR
 	db ICON_ODDISH      ; SUNKERN
 	db ICON_ODDISH      ; SUNFLORA
 	db ICON_BUG         ; YANMA

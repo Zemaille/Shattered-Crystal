@@ -191,7 +191,7 @@ EvosAttacksPointers::
 	dw GoomyEvosAttacks
 	dw SliggooEvosAttacks
 	dw GoodraEvosAttacks
-	dw AipomEvosAttacks
+	dw RanchorEvosAttacks
 	dw SunkernEvosAttacks
 	dw SunfloraEvosAttacks
 	dw YanmaEvosAttacks

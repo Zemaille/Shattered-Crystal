@@ -197,7 +197,7 @@ PolitoedPokedexEntry::   INCLUDE "data/pokemon/dex_entries/politoed.asm"
 GoomyPokedexEntry::     INCLUDE "data/pokemon/dex_entries/goomy.asm"
 SliggooPokedexEntry::   INCLUDE "data/pokemon/dex_entries/sliggoo.asm"
 GoodraPokedexEntry::   INCLUDE "data/pokemon/dex_entries/goodra.asm"
-AipomPokedexEntry::      INCLUDE "data/pokemon/dex_entries/aipom.asm"
+RanchorPokedexEntry::      INCLUDE "data/pokemon/dex_entries/ranchor.asm"
 SunkernPokedexEntry::    INCLUDE "data/pokemon/dex_entries/sunkern.asm"
 SunfloraPokedexEntry::   INCLUDE "data/pokemon/dex_entries/sunflora.asm"
 

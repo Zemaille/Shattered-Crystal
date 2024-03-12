@@ -189,7 +189,7 @@ AnimationPointers:
 	dw GoomyAnimation
 	dw SliggooAnimation
 	dw GoodraAnimation
-	dw AipomAnimation
+	dw RanchorAnimation
 	dw SunkernAnimation
 	dw SunfloraAnimation
 	dw YanmaAnimation

@@ -577,7 +577,7 @@ GoomyEggMoves:
 	db PAY_DAY
 	db -1 ; end
 
-AipomEggMoves:
+RanchorEggMoves:
 	db COUNTER
 	db SCREECH
 	db PURSUIT

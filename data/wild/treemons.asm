@@ -22,17 +22,17 @@ TreeMonSet_Canyon:
 	db 50, SWABLU,    10
 	db 15, SWABLU,    10
 	db 15, SWABLU,    10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 10, RANCHOR,      10
+	db  5, RANCHOR,      10
+	db  5, RANCHOR,      10
 	db -1
 ; rare
 	db 50, SWABLU,    10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 10, RANCHOR,      10
+	db  5, RANCHOR,      10
+	db  5, RANCHOR,      10
 	db -1
 
 TreeMonSet_Town:
@@ -40,17 +40,17 @@ TreeMonSet_Town:
 	db 50, SWABLU,    10
 	db 15, EKANS,      10
 	db 15, SWABLU,    10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 10, RANCHOR,      10
+	db  5, RANCHOR,      10
+	db  5, RANCHOR,      10
 	db -1
 ; rare
 	db 50, SWABLU,    10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 10, RANCHOR,      10
+	db  5, RANCHOR,      10
+	db  5, RANCHOR,      10
 	db -1
 
 TreeMonSet_Route:
