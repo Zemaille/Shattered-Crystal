@@ -209,7 +209,7 @@ FramesPointers:
 	dw GligarFrames
 	dw SteelixFrames
 	dw KleavorFrames
-	dw GranbullFrames
+	dw TogekissFrames
 	dw QwilfishFrames
 	dw ScizorFrames
 	dw ShuckleFrames

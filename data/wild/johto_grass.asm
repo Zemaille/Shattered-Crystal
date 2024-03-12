@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, KLEAVOR
-	db 3, KLEAVOR
-	db 4, KLEAVOR
-	db 2, KLEAVOR
-	db 4, KLEAVOR
-	db 3, KLEAVOR
-	db 3, KLEAVOR
+	db 2, TOGEKISS
+	db 3, TOGEKISS
+	db 4, TOGEKISS
+	db 2, TOGEKISS
+	db 4, TOGEKISS
+	db 3, TOGEKISS
+	db 3, TOGEKISS
 	; day
-	db 2, KLEAVOR
-	db 3, KLEAVOR
-	db 4, KLEAVOR
-	db 2, KLEAVOR
-	db 4, KLEAVOR
-	db 3, KLEAVOR
-	db 3, KLEAVOR
+	db 2, TOGEKISS
+	db 3, TOGEKISS
+	db 4, TOGEKISS
+	db 2, TOGEKISS
+	db 4, TOGEKISS
+	db 3, TOGEKISS
+	db 3, TOGEKISS
 	; nite
-	db 2, KLEAVOR
-	db 3, KLEAVOR
-	db 4, KLEAVOR
-	db 2, KLEAVOR
-	db 4, KLEAVOR
-	db 3, KLEAVOR
-	db 3, KLEAVOR
+	db 2, TOGEKISS
+	db 3, TOGEKISS
+	db 4, TOGEKISS
+	db 2, TOGEKISS
+	db 4, TOGEKISS
+	db 3, TOGEKISS
+	db 3, TOGEKISS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

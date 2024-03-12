@@ -125,7 +125,7 @@ NewPokedexOrder:
 	db DRAGALGE
 	db RANCHOR
 	db KLEAVOR
-	db GRANBULL
+	db TOGEKISS
 	db VULPIX
 	db NINETALES
 	db GROWLITHE

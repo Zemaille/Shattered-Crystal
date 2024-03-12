@@ -210,7 +210,7 @@ PokedexDataPointerTable:
 	dw GligarPokedexEntry
 	dw SteelixPokedexEntry
 	dw KleavorPokedexEntry
-	dw GranbullPokedexEntry
+	dw TogekissPokedexEntry
 	dw QwilfishPokedexEntry
 	dw ScizorPokedexEntry
 	dw ShucklePokedexEntry

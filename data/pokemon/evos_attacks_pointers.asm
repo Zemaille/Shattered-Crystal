@@ -211,7 +211,7 @@ EvosAttacksPointers::
 	dw GligarEvosAttacks
 	dw SteelixEvosAttacks
 	dw KleavorEvosAttacks
-	dw GranbullEvosAttacks
+	dw TogekissEvosAttacks
 	dw QwilfishEvosAttacks
 	dw ScizorEvosAttacks
 	dw ShuckleEvosAttacks

@@ -211,7 +211,7 @@ MonMenuIcons:
 	db ICON_BUG         ; GLIGAR
 	db ICON_SERPENT     ; STEELIX
 	db ICON_MONSTER     ; KLEAVOR
-	db ICON_MONSTER     ; GRANBULL
+	db ICON_MONSTER     ; TOGEKISS
 	db ICON_FISH        ; QWILFISH
 	db ICON_BUG         ; SCIZOR
 	db ICON_BUG         ; SHUCKLE

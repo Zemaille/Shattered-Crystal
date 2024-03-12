@@ -209,7 +209,7 @@ PokemonNames::
 	db "Gligar@@@@"
 	db "Steelix@@@"
 	db "Kleavor@@@"
-	db "GRANBULL@@"
+	db "Togekiss@@"
 	db "QWILFISH@@"
 	db "SCIZOR@@@@"
 	db "SHUCKLE@@@"

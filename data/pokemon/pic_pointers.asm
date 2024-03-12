@@ -424,8 +424,8 @@ PokemonPicPointers::
 	dba SteelixBackpic
 	dba KleavorFrontpic
 	dba KleavorBackpic
-	dba GranbullFrontpic
-	dba GranbullBackpic
+	dba TogekissFrontpic
+	dba TogekissBackpic
 	dba QwilfishFrontpic
 	dba QwilfishBackpic
 	dba ScizorFrontpic

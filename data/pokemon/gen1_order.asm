@@ -249,7 +249,7 @@ Pokered_MonIndices:
 	db GLIGAR
 	db STEELIX
 	db KLEAVOR
-	db GRANBULL
+	db TOGEKISS
 	db QWILFISH
 	db MISMAGIUS
 	db MISMAGIUS

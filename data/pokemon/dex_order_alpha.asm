@@ -76,7 +76,7 @@ AlphabeticalPokedexOrder:
 	db ELECTIVIRE
 	db ARAQUANID
 	db GOLEM
-	db GRANBULL
+	db TOGEKISS
 	db GRAVELER
 	db GRIMER
 	db GROWLITHE
