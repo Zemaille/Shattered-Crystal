@@ -201,7 +201,7 @@ FramesPointers:
 	dw SlowkingFrames
 	dw MisdreavusFrames
 	dw UnownFrames
-	dw WobbuffetFrames
+	dw MismagiusFrames
 	dw GirafarigFrames
 	dw PinecoFrames
 	dw ForretressFrames

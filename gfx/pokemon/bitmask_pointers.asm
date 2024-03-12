@@ -201,7 +201,7 @@ BitmasksPointers:
 	dw SlowkingBitmasks
 	dw MisdreavusBitmasks
 	dw UnownBitmasks
-	dw WobbuffetBitmasks
+	dw MismagiusBitmasks
 	dw GirafarigBitmasks
 	dw PinecoBitmasks
 	dw ForretressBitmasks

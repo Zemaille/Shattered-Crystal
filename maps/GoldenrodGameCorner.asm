@@ -227,16 +227,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, WOBBUFFET
+	getmonname STRING_BUFFER_3, LARVITAR
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval WOBBUFFET
+	setval LARVITAR
 	special GameCornerPrizeMonCheckDex
-	givepoke WOBBUFFET, 15
+	givepoke LARVITAR, 15
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	sjump .loop
 

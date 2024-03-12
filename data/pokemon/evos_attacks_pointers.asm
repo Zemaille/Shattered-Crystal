@@ -203,7 +203,7 @@ EvosAttacksPointers::
 	dw SlowkingEvosAttacks
 	dw MisdreavusEvosAttacks
 	dw UnownEvosAttacks
-	dw WobbuffetEvosAttacks
+	dw MismagiusEvosAttacks
 	dw GirafarigEvosAttacks
 	dw PinecoEvosAttacks
 	dw ForretressEvosAttacks

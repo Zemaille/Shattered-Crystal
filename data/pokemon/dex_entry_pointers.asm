@@ -202,7 +202,7 @@ PokedexDataPointerTable:
 	dw SlowkingPokedexEntry
 	dw MisdreavusPokedexEntry
 	dw UnownPokedexEntry
-	dw WobbuffetPokedexEntry
+	dw MismagiusPokedexEntry
 	dw GirafarigPokedexEntry
 	dw PinecoPokedexEntry
 	dw ForretressPokedexEntry

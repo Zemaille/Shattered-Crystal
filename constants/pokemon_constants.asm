@@ -221,7 +221,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const SLOWKING   ; c7
 	const MISDREAVUS ; c8
 	const UNOWN      ; c9
-	const WOBBUFFET  ; ca
+	const MISMAGIUS  ; ca
 	const GIRAFARIG  ; cb
 	const PINECO     ; cc
 	const FORRETRESS ; cd

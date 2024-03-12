@@ -201,7 +201,7 @@ AnimationPointers:
 	dw SlowkingAnimation
 	dw MisdreavusAnimation
 	dw UnownAnimation
-	dw WobbuffetAnimation
+	dw MismagiusAnimation
 	dw GirafarigAnimation
 	dw PinecoAnimation
 	dw ForretressAnimation

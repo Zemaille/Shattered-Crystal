@@ -1228,8 +1228,8 @@ JohtoGrassWildMons:
 	db 23, GEODUDE
 	db 23, ZUBAT
 	db 25, GRAVELER
-	db 20, WOBBUFFET
-	db 25, WOBBUFFET
+	db 20, MISMAGIUS
+	db 25, MISMAGIUS
 	db 23, GOLBAT
 	db 23, GOLBAT
 	end_grass_wildmons
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, RANCHOR
-	db 3, RANCHOR
-	db 4, RANCHOR
-	db 2, RANCHOR
-	db 4, RANCHOR
-	db 3, RANCHOR
-	db 3, RANCHOR
+	db 2, MISMAGIUS
+	db 3, MISMAGIUS
+	db 4, MISMAGIUS
+	db 2, MISMAGIUS
+	db 4, MISMAGIUS
+	db 3, MISMAGIUS
+	db 3, MISMAGIUS
 	; day
-	db 2, RANCHOR
-	db 3, RANCHOR
-	db 4, RANCHOR
-	db 2, RANCHOR
-	db 4, RANCHOR
-	db 3, RANCHOR
-	db 3, RANCHOR
+	db 2, MISMAGIUS
+	db 3, MISMAGIUS
+	db 4, MISMAGIUS
+	db 2, MISMAGIUS
+	db 4, MISMAGIUS
+	db 3, MISMAGIUS
+	db 3, MISMAGIUS
 	; nite
-	db 2, RANCHOR
-	db 3, RANCHOR
-	db 4, RANCHOR
-	db 2, RANCHOR
-	db 4, RANCHOR
-	db 3, RANCHOR
-	db 3, RANCHOR
+	db 2, MISMAGIUS
+	db 3, MISMAGIUS
+	db 4, MISMAGIUS
+	db 2, MISMAGIUS
+	db 4, MISMAGIUS
+	db 3, MISMAGIUS
+	db 3, MISMAGIUS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

@@ -249,7 +249,7 @@ AlphabeticalPokedexOrder:
 	db GROTLE
 	db WEEZING
 	db WIGGLYTUFF
-	db WOBBUFFET
+	db MISMAGIUS
 	db WOOPER
 	db XATU
 	db YANMA
