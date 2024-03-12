@@ -65,9 +65,9 @@ NewPokedexOrder:
 	db UNOWN
 	db ONIX
 	db STEELIX
-	db SEEDOT
-	db NUZLEAF
-	db SHIFTRY
+	db TURTWIG
+	db GROTLE
+	db TORTERRA
 	db HOPPIP
 	db SKIPLOOM
 	db JUMPLUFF

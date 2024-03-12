@@ -187,9 +187,9 @@ Pokered_MonIndices:
 	db ODDISH
 	db GLOOM
 	db VILEPLUME
-	db SEEDOT
-	db NUZLEAF
-	db SHIFTRY
+	db TURTWIG
+	db GROTLE
+	db TORTERRA
 	assert_table_length 190 ; gen 1 mon indexes
 	db CHIKORITA
 	db BAYLEEF

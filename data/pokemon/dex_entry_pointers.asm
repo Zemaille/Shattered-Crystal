@@ -69,9 +69,9 @@ PokedexDataPointerTable:
 	dw MachopPokedexEntry
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
-	dw SeedotPokedexEntry
-	dw NuzleafPokedexEntry
-	dw ShiftryPokedexEntry
+	dw TurtwigPokedexEntry
+	dw GrotlePokedexEntry
+	dw TorterraPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
 	dw GeodudePokedexEntry

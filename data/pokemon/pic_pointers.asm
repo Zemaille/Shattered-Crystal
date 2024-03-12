@@ -139,12 +139,12 @@ PokemonPicPointers::
 	dba MachokeBackpic
 	dba MachampFrontpic
 	dba MachampBackpic
-	dba SeedotFrontpic
-	dba SeedotBackpic
-	dba NuzleafFrontpic
-	dba NuzleafBackpic
-	dba ShiftryFrontpic
-	dba ShiftryBackpic
+	dba TurtwigFrontpic
+	dba TurtwigBackpic
+	dba GrotleFrontpic
+	dba GrotleBackpic
+	dba TorterraFrontpic
+	dba TorterraBackpic
 	dba TentacoolFrontpic
 	dba TentacoolBackpic
 	dba TentacruelFrontpic

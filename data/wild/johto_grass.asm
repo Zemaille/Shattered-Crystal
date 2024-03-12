@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, SYLVEON
-	db 3, SYLVEON
-	db 4, SYLVEON
-	db 2, SYLVEON
-	db 4, SYLVEON
-	db 3, SYLVEON
-	db 3, SYLVEON
+	db 2, TORTERRA
+	db 3, TORTERRA
+	db 4, TORTERRA
+	db 2, TORTERRA
+	db 4, TORTERRA
+	db 3, TORTERRA
+	db 3, TORTERRA
 	; day
-	db 2, SYLVEON
-	db 3, SYLVEON
-	db 4, SYLVEON
-	db 2, SYLVEON
-	db 4, SYLVEON
-	db 3, SYLVEON
-	db 3, SYLVEON
+	db 2, TORTERRA
+	db 3, TORTERRA
+	db 4, TORTERRA
+	db 2, TORTERRA
+	db 4, TORTERRA
+	db 3, TORTERRA
+	db 3, TORTERRA
 	; nite
-	db 2, SYLVEON
-	db 3, SYLVEON
-	db 4, SYLVEON
-	db 2, SYLVEON
-	db 4, SYLVEON
-	db 3, SYLVEON
-	db 3, SYLVEON
+	db 2, TORTERRA
+	db 3, TORTERRA
+	db 4, TORTERRA
+	db 2, TORTERRA
+	db 4, TORTERRA
+	db 3, TORTERRA
+	db 3, TORTERRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1295,7 +1295,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, LEDYBA
 	db 4, CATERPIE
-	db 5, SEEDOT
+	db 5, TURTWIG
 	db 5, PIDGEY
 	db 4, FENNEKIN
 	db 5, HOPPIP
@@ -1303,7 +1303,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, PIDGEY
 	db 4, CATERPIE
-	db 5, SEEDOT
+	db 5, TURTWIG
 	db 5, PIDGEY
 	db 4, FENNEKIN
 	db 5, HOPPIP
@@ -1311,7 +1311,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
-	db 5, SEEDOT
+	db 5, TURTWIG
 	db 5, HOOTHOOT
 	db 4, ZUBAT
 	db 5, GASTLY
@@ -1323,7 +1323,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, EKANS
 	db 5, HONCHKROW
-	db 7, SEEDOT
+	db 7, TURTWIG
 	db 6, HOPPIP
 	db 7, PIDGEY
 	db 7, HOPPIP
@@ -1331,7 +1331,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, EKANS
 	db 5, HONCHKROW
-	db 7, SEEDOT
+	db 7, TURTWIG
 	db 6, HOPPIP
 	db 7, PIDGEY
 	db 7, HOPPIP
@@ -1339,7 +1339,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, WOOPER
 	db 5, HONCHKROW
-	db 7, SEEDOT
+	db 7, TURTWIG
 	db 6, ZUBAT
 	db 7, HOOTHOOT
 	db 7, GASTLY
@@ -1435,7 +1435,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, LEDYBA
 	db 4, PIDGEY
-	db 5, SEEDOT
+	db 5, TURTWIG
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
@@ -1443,7 +1443,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, PIDGEY
 	db 4, PIDGEY
-	db 5, SEEDOT
+	db 5, TURTWIG
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
@@ -1451,7 +1451,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
-	db 5, SEEDOT
+	db 5, TURTWIG
 	db 5, HOOTHOOT
 	db 5, HOOTHOOT
 	db 5, GASTLY
@@ -1603,24 +1603,24 @@ JohtoGrassWildMons:
 	; morn
 	db 23, RHYPERIOR
 	db 22, FARIGIRAF
-	db 22, SEEDOT
-	db 24, NUZLEAF
+	db 22, TURTWIG
+	db 24, GROTLE
 	db 24, FARIGIRAF
 	db 26, FARIGIRAF
 	db 26, FARIGIRAF
 	; day
 	db 23, RHYPERIOR
 	db 22, FARIGIRAF
-	db 22, SEEDOT
-	db 24, NUZLEAF
+	db 22, TURTWIG
+	db 24, GROTLE
 	db 24, FARIGIRAF
 	db 26, FARIGIRAF
 	db 26, FARIGIRAF
 	; nite
 	db 23, RHYPERIOR
 	db 22, POLIWAG
-	db 22, SEEDOT
-	db 24, NUZLEAF
+	db 22, TURTWIG
+	db 24, GROTLE
 	db 24, POLIWHIRL
 	db 26, POLIWHIRL
 	db 26, POLIWHIRL

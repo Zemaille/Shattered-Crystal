@@ -68,9 +68,9 @@ BitmasksPointers:
 	dw MachopBitmasks
 	dw MachokeBitmasks
 	dw MachampBitmasks
-	dw SeedotBitmasks
-	dw NuzleafBitmasks
-	dw ShiftryBitmasks
+	dw TurtwigBitmasks
+	dw GrotleBitmasks
+	dw TorterraBitmasks
 	dw TentacoolBitmasks
 	dw TentacruelBitmasks
 	dw GeodudeBitmasks

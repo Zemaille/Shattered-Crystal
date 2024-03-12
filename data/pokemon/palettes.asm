@@ -151,12 +151,12 @@ INCBIN "gfx/pokemon/machoke/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/machoke/shiny.pal"
 INCBIN "gfx/pokemon/machamp/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/machamp/shiny.pal"
-INCBIN "gfx/pokemon/seedot/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/seedot/shiny.pal"
-INCBIN "gfx/pokemon/nuzleaf/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/nuzleaf/shiny.pal"
-INCBIN "gfx/pokemon/shiftry/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/shiftry/shiny.pal"
+INCBIN "gfx/pokemon/turtwig/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/turtwig/shiny.pal"
+INCBIN "gfx/pokemon/grotle/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/grotle/shiny.pal"
+INCBIN "gfx/pokemon/torterra/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/torterra/shiny.pal"
 INCBIN "gfx/pokemon/tentacool/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/tentacool/shiny.pal"
 INCBIN "gfx/pokemon/tentacruel/front.gbcpal", middle_colors

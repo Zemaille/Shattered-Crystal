@@ -70,9 +70,9 @@ EvosAttacksPointers::
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
-	dw SeedotEvosAttacks
-	dw NuzleafEvosAttacks
-	dw ShiftryEvosAttacks
+	dw TurtwigEvosAttacks
+	dw GrotleEvosAttacks
+	dw TorterraEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
 	dw GeodudeEvosAttacks

@@ -68,9 +68,9 @@ FramesPointers:
 	dw MachopFrames
 	dw MachokeFrames
 	dw MachampFrames
-	dw SeedotFrames
-	dw NuzleafFrames
-	dw ShiftryFrames
+	dw TurtwigFrames
+	dw GrotleFrames
+	dw TorterraFrames
 	dw TentacoolFrames
 	dw TentacruelFrames
 	dw GeodudeFrames

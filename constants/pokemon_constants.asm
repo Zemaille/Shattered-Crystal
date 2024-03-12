@@ -87,9 +87,9 @@
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
-	const SEEDOT ; 45
-	const NUZLEAF ; 46
-	const SHIFTRY ; 47
+	const TURTWIG ; 45
+	const GROTLE ; 46
+	const TORTERRA ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const GEODUDE    ; 4a

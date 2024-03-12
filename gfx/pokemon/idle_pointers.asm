@@ -68,9 +68,9 @@ AnimationIdlePointers:
 	dw MachopAnimationIdle
 	dw MachokeAnimationIdle
 	dw MachampAnimationIdle
-	dw SeedotAnimationIdle
-	dw NuzleafAnimationIdle
-	dw ShiftryAnimationIdle
+	dw TurtwigAnimationIdle
+	dw GrotleAnimationIdle
+	dw TorterraAnimationIdle
 	dw TentacoolAnimationIdle
 	dw TentacruelAnimationIdle
 	dw GeodudeAnimationIdle

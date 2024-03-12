@@ -908,8 +908,8 @@ MachampEvosAttacks:
 	db 61, SUBMISSION
 	db 0 ; no more level-up moves
 
-SeedotEvosAttacks:
-	db EVOLVE_LEVEL, 21, NUZLEAF
+TurtwigEvosAttacks:
+	db EVOLVE_LEVEL, 21, GROTLE
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 6, GROWTH
@@ -923,8 +923,8 @@ SeedotEvosAttacks:
 	db 45, SLAM
 	db 0 ; no more level-up moves
 
-NuzleafEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, SHIFTRY
+GrotleEvosAttacks:
+	db EVOLVE_ITEM, LEAF_STONE, TORTERRA
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, GROWTH
@@ -940,7 +940,7 @@ NuzleafEvosAttacks:
 	db 54, SLAM
 	db 0 ; no more level-up moves
 
-ShiftryEvosAttacks:
+TorterraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, SLEEP_POWDER

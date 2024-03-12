@@ -15,7 +15,7 @@ AlphabeticalPokedexOrder:
 	db BAYLEEF
 	db DELPHOX
 	db BELLOSSOM
-	db SEEDOT
+	db TURTWIG
 	db BLASTOISE
 	db BLISSEY
 	db BULBASAUR
@@ -240,13 +240,13 @@ AlphabeticalPokedexOrder:
 	db CLODSIRE
 	db DUDUNSPARCE
 	db VENUSAUR
-	db SHIFTRY
+	db TORTERRA
 	db VILEPLUME
 	db SKRELP
 	db VULPIX
 	db WARTORTLE
 	db FENNEKIN
-	db NUZLEAF
+	db GROTLE
 	db WEEZING
 	db WIGGLYTUFF
 	db WOBBUFFET

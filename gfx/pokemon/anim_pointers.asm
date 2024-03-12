@@ -68,9 +68,9 @@ AnimationPointers:
 	dw MachopAnimation
 	dw MachokeAnimation
 	dw MachampAnimation
-	dw SeedotAnimation
-	dw NuzleafAnimation
-	dw ShiftryAnimation
+	dw TurtwigAnimation
+	dw GrotleAnimation
+	dw TorterraAnimation
 	dw TentacoolAnimation
 	dw TentacruelAnimation
 	dw GeodudeAnimation
