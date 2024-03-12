@@ -226,9 +226,9 @@ Pokered_MonIndices:
 	db AZUMARILL
 	db SUDOWOODO
 	db POLITOED
-	db HOPPIP
-	db SKIPLOOM
-	db JUMPLUFF
+	db GOOMY
+	db SLIGGOO
+	db GOODRA
 	db AIPOM
 	db SUNKERN
 	db SUNFLORA

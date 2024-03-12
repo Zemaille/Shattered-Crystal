@@ -2518,8 +2518,8 @@ PolitoedEvosAttacks:
 	db 51, SWAGGER
 	db 0 ; no more level-up moves
 
-HoppipEvosAttacks:
-	db EVOLVE_LEVEL, 18, SKIPLOOM
+GoomyEvosAttacks:
+	db EVOLVE_LEVEL, 18, SLIGGOO
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 5, SYNTHESIS
@@ -2533,8 +2533,8 @@ HoppipEvosAttacks:
 	db 30, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
-SkiploomEvosAttacks:
-	db EVOLVE_LEVEL, 27, JUMPLUFF
+SliggooEvosAttacks:
+	db EVOLVE_LEVEL, 27, GOODRA
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 1, SYNTHESIS
@@ -2551,7 +2551,7 @@ SkiploomEvosAttacks:
 	db 36, MEGA_DRAIN
 	db 0 ; no more level-up moves
 
-JumpluffEvosAttacks:
+GoodraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 1, SYNTHESIS

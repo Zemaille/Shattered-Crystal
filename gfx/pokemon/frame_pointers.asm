@@ -186,9 +186,9 @@ FramesPointers:
 	dw AzumarillFrames
 	dw SudowoodoFrames
 	dw PolitoedFrames
-	dw HoppipFrames
-	dw SkiploomFrames
-	dw JumpluffFrames
+	dw GoomyFrames
+	dw SliggooFrames
+	dw GoodraFrames
 	dw AipomFrames
 	dw SunkernFrames
 	dw SunfloraFrames

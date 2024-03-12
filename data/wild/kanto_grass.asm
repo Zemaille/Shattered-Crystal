@@ -453,21 +453,21 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_11
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, HOPPIP
+	db 14, GOOMY
 	db 13, MAMOSWINE
 	db 15, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 16, HONCHKROW
-	db 16, HOPPIP
-	db 16, HOPPIP
+	db 16, GOOMY
+	db 16, GOOMY
 	; day
-	db 14, HOPPIP
+	db 14, GOOMY
 	db 13, MAMOSWINE
 	db 15, MAGNEMITE
 	db 16, PIDGEOTTO
 	db 16, HONCHKROW
-	db 16, HOPPIP
-	db 16, HOPPIP
+	db 16, GOOMY
+	db 16, GOOMY
 	; nite
 	db 14, INKAY
 	db 13, MEOWTH
@@ -484,17 +484,17 @@ KantoGrassWildMons:
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, GOOMY
+	db 27, GOOMY
+	db 27, GOOMY
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, GOOMY
+	db 27, GOOMY
+	db 27, GOOMY
 	db 25, CHANSEY
 	; nite
 	db 23, DUDUNSPARCE
@@ -512,17 +512,17 @@ KantoGrassWildMons:
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, PIDGEOTTO
-	db 28, HOPPIP
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 28, GOOMY
+	db 30, SLIGGOO
+	db 30, SLIGGOO
 	db 28, CHANSEY
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, PIDGEOTTO
-	db 28, HOPPIP
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 28, GOOMY
+	db 30, SLIGGOO
+	db 30, SLIGGOO
 	db 28, CHANSEY
 	; nite
 	db 26, DUDUNSPARCE
@@ -540,17 +540,17 @@ KantoGrassWildMons:
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, GOOMY
+	db 27, GOOMY
+	db 27, GOOMY
 	db 25, CHANSEY
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, PIDGEOTTO
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, GOOMY
+	db 27, GOOMY
+	db 27, GOOMY
 	db 25, CHANSEY
 	; nite
 	db 23, DUDUNSPARCE

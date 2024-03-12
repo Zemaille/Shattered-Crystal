@@ -206,9 +206,9 @@ DEF JOHTO_POKEMON EQU const_value
 	const AZUMARILL  ; b8
 	const SUDOWOODO  ; b9
 	const POLITOED   ; ba
-	const HOPPIP     ; bb
-	const SKIPLOOM   ; bc
-	const JUMPLUFF   ; bd
+	const GOOMY     ; bb
+	const SLIGGOO   ; bc
+	const GOODRA   ; bd
 	const AIPOM      ; be
 	const SUNKERN    ; bf
 	const SUNFLORA   ; c0

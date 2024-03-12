@@ -186,9 +186,9 @@ BitmasksPointers:
 	dw AzumarillBitmasks
 	dw SudowoodoBitmasks
 	dw PolitoedBitmasks
-	dw HoppipBitmasks
-	dw SkiploomBitmasks
-	dw JumpluffBitmasks
+	dw GoomyBitmasks
+	dw SliggooBitmasks
+	dw GoodraBitmasks
 	dw AipomBitmasks
 	dw SunkernBitmasks
 	dw SunfloraBitmasks

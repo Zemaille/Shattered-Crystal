@@ -88,7 +88,7 @@ AlphabeticalPokedexOrder:
 	db HITMONTOP
 	db HO_OH
 	db HOOTHOOT
-	db HOPPIP
+	db GOOMY
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
@@ -97,7 +97,7 @@ AlphabeticalPokedexOrder:
 	db IVYSAUR
 	db JIGGLYPUFF
 	db JOLTEON
-	db JUMPLUFF
+	db GOODRA
 	db JYNX
 	db KABUTO
 	db KABUTOPS
@@ -198,7 +198,7 @@ AlphabeticalPokedexOrder:
 	db SHELLDER
 	db SHUCKLE
 	db SKARMORY
-	db SKIPLOOM
+	db SLIGGOO
 	db SLOWBRO
 	db SLOWKING
 	db SLOWPOKE

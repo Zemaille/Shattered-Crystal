@@ -186,9 +186,9 @@ AnimationIdlePointers:
 	dw AzumarillAnimationIdle
 	dw SudowoodoAnimationIdle
 	dw PolitoedAnimationIdle
-	dw HoppipAnimationIdle
-	dw SkiploomAnimationIdle
-	dw JumpluffAnimationIdle
+	dw GoomyAnimationIdle
+	dw SliggooAnimationIdle
+	dw GoodraAnimationIdle
 	dw AipomAnimationIdle
 	dw SunkernAnimationIdle
 	dw SunfloraAnimationIdle

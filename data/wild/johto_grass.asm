@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, TORTERRA
-	db 3, TORTERRA
-	db 4, TORTERRA
-	db 2, TORTERRA
-	db 4, TORTERRA
-	db 3, TORTERRA
-	db 3, TORTERRA
+	db 2, GOODRA
+	db 3, GOODRA
+	db 4, GOODRA
+	db 2, GOODRA
+	db 4, GOODRA
+	db 3, GOODRA
+	db 3, GOODRA
 	; day
-	db 2, TORTERRA
-	db 3, TORTERRA
-	db 4, TORTERRA
-	db 2, TORTERRA
-	db 4, TORTERRA
-	db 3, TORTERRA
-	db 3, TORTERRA
+	db 2, GOODRA
+	db 3, GOODRA
+	db 4, GOODRA
+	db 2, GOODRA
+	db 4, GOODRA
+	db 3, GOODRA
+	db 3, GOODRA
 	; nite
-	db 2, TORTERRA
-	db 3, TORTERRA
-	db 4, TORTERRA
-	db 2, TORTERRA
-	db 4, TORTERRA
-	db 3, TORTERRA
-	db 3, TORTERRA
+	db 2, GOODRA
+	db 3, GOODRA
+	db 4, GOODRA
+	db 2, GOODRA
+	db 4, GOODRA
+	db 3, GOODRA
+	db 3, GOODRA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1270,16 +1270,16 @@ JohtoGrassWildMons:
 	db 4, CATERPIE
 	db 4, PIDGEY
 	db 3, FENNEKIN
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, GOOMY
+	db 4, GOOMY
 	; day
 	db 3, PIDGEY
 	db 3, CATERPIE
 	db 4, CATERPIE
 	db 4, PIDGEY
 	db 3, FENNEKIN
-	db 4, HOPPIP
-	db 4, HOPPIP
+	db 4, GOOMY
+	db 4, GOOMY
 	; nite
 	db 3, SPINARAK
 	db 3, HOOTHOOT
@@ -1298,16 +1298,16 @@ JohtoGrassWildMons:
 	db 5, TURTWIG
 	db 5, PIDGEY
 	db 4, FENNEKIN
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, GOOMY
+	db 5, GOOMY
 	; day
 	db 4, PIDGEY
 	db 4, CATERPIE
 	db 5, TURTWIG
 	db 5, PIDGEY
 	db 4, FENNEKIN
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, GOOMY
+	db 5, GOOMY
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
@@ -1324,18 +1324,18 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, HONCHKROW
 	db 7, TURTWIG
-	db 6, HOPPIP
+	db 6, GOOMY
 	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, GOOMY
+	db 7, GOOMY
 	; day
 	db 4, EKANS
 	db 5, HONCHKROW
 	db 7, TURTWIG
-	db 6, HOPPIP
+	db 6, GOOMY
 	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, GOOMY
+	db 7, GOOMY
 	; nite
 	db 4, WOOPER
 	db 5, HONCHKROW
@@ -1352,18 +1352,18 @@ JohtoGrassWildMons:
 	db 6, HONCHKROW
 	db 6, SWABLU
 	db 6, GEODUDE
-	db 6, HOPPIP
+	db 6, GOOMY
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, GOOMY
+	db 7, GOOMY
 	; day
 	db 6, HONCHKROW
 	db 6, SWABLU
 	db 6, GEODUDE
-	db 6, HOPPIP
+	db 6, GOOMY
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, GOOMY
+	db 7, GOOMY
 	; nite
 	db 6, HONCHKROW
 	db 6, ZUBAT

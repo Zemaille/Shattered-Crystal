@@ -375,12 +375,12 @@ PokemonPicPointers::
 	dba SudowoodoBackpic
 	dba PolitoedFrontpic
 	dba PolitoedBackpic
-	dba HoppipFrontpic
-	dba HoppipBackpic
-	dba SkiploomFrontpic
-	dba SkiploomBackpic
-	dba JumpluffFrontpic
-	dba JumpluffBackpic
+	dba GoomyFrontpic
+	dba GoomyBackpic
+	dba SliggooFrontpic
+	dba SliggooBackpic
+	dba GoodraFrontpic
+	dba GoodraBackpic
 	dba AipomFrontpic
 	dba AipomBackpic
 	dba SunkernFrontpic

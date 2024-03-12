@@ -68,9 +68,9 @@ NewPokedexOrder:
 	db TURTWIG
 	db GROTLE
 	db TORTERRA
-	db HOPPIP
-	db SKIPLOOM
-	db JUMPLUFF
+	db GOOMY
+	db SLIGGOO
+	db GOODRA
 	db PHANTUMP
 	db TREVENANT
 	db POLIWAG

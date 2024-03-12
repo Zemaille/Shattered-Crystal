@@ -186,9 +186,9 @@ AnimationPointers:
 	dw AzumarillAnimation
 	dw SudowoodoAnimation
 	dw PolitoedAnimation
-	dw HoppipAnimation
-	dw SkiploomAnimation
-	dw JumpluffAnimation
+	dw GoomyAnimation
+	dw SliggooAnimation
+	dw GoodraAnimation
 	dw AipomAnimation
 	dw SunkernAnimation
 	dw SunfloraAnimation
