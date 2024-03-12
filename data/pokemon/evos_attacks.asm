@@ -2794,7 +2794,7 @@ SteelixEvosAttacks:
 	db 49, CRUNCH
 	db 0 ; no more level-up moves
 
-SnubbullEvosAttacks:
+KleavorEvosAttacks:
 	db EVOLVE_LEVEL, 23, GRANBULL
 	db 0 ; no more evolutions
 	db 1, TACKLE

@@ -207,7 +207,7 @@ AlphabeticalPokedexOrder:
 	db SMOOCHUM
 	db SNEASEL
 	db SNORLAX
-	db SNUBBULL
+	db KLEAVOR
 	db SWABLU
 	db SPINARAK
 	db SQUIRTLE

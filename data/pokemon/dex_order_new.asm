@@ -124,7 +124,7 @@ NewPokedexOrder:
 	db SKRELP
 	db DRAGALGE
 	db RANCHOR
-	db SNUBBULL
+	db KLEAVOR
 	db GRANBULL
 	db VULPIX
 	db NINETALES

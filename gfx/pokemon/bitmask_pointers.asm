@@ -208,7 +208,7 @@ BitmasksPointers:
 	dw DunsparceBitmasks
 	dw GligarBitmasks
 	dw SteelixBitmasks
-	dw SnubbullBitmasks
+	dw KleavorBitmasks
 	dw GranbullBitmasks
 	dw QwilfishBitmasks
 	dw ScizorBitmasks

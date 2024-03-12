@@ -208,7 +208,7 @@ EggMovePointers::
 	dw DunsparceEggMoves
 	dw GligarEggMoves
 	dw NoEggMoves
-	dw SnubbullEggMoves
+	dw KleavorEggMoves
 	dw NoEggMoves
 	dw QwilfishEggMoves
 	dw NoEggMoves

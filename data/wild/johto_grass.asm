@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, MISMAGIUS
-	db 3, MISMAGIUS
-	db 4, MISMAGIUS
-	db 2, MISMAGIUS
-	db 4, MISMAGIUS
-	db 3, MISMAGIUS
-	db 3, MISMAGIUS
+	db 2, KLEAVOR
+	db 3, KLEAVOR
+	db 4, KLEAVOR
+	db 2, KLEAVOR
+	db 4, KLEAVOR
+	db 3, KLEAVOR
+	db 3, KLEAVOR
 	; day
-	db 2, MISMAGIUS
-	db 3, MISMAGIUS
-	db 4, MISMAGIUS
-	db 2, MISMAGIUS
-	db 4, MISMAGIUS
-	db 3, MISMAGIUS
-	db 3, MISMAGIUS
+	db 2, KLEAVOR
+	db 3, KLEAVOR
+	db 4, KLEAVOR
+	db 2, KLEAVOR
+	db 4, KLEAVOR
+	db 3, KLEAVOR
+	db 3, KLEAVOR
 	; nite
-	db 2, MISMAGIUS
-	db 3, MISMAGIUS
-	db 4, MISMAGIUS
-	db 2, MISMAGIUS
-	db 4, MISMAGIUS
-	db 3, MISMAGIUS
-	db 3, MISMAGIUS
+	db 2, KLEAVOR
+	db 3, KLEAVOR
+	db 4, KLEAVOR
+	db 2, KLEAVOR
+	db 4, KLEAVOR
+	db 3, KLEAVOR
+	db 3, KLEAVOR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1377,7 +1377,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, SNUBBULL
+	db 10, KLEAVOR
 	db 11, HONCHKROW
 	db 12, PIDGEY
 	db 10, ABRA
@@ -1385,7 +1385,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 10, DITTO
 	; day
-	db 10, SNUBBULL
+	db 10, KLEAVOR
 	db 11, HONCHKROW
 	db 12, PIDGEY
 	db 10, ABRA
@@ -1405,7 +1405,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, SNUBBULL
+	db 12, KLEAVOR
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA
@@ -1413,7 +1413,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 12, YANMA
 	; day
-	db 12, SNUBBULL
+	db 12, KLEAVOR
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA
