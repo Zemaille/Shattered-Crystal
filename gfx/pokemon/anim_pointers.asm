@@ -26,7 +26,7 @@ AnimationPointers:
 	dw ArbokAnimation
 	dw PikachuAnimation
 	dw RaichuAnimation
-	dw ZangooseAnimation
+	dw MankeyAnimation
 	dw MunchlaxAnimation
 	dw NidoranFAnimation
 	dw NidorinaAnimation

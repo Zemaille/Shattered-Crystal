@@ -361,7 +361,7 @@ YoungsterGroup:
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db  7, HONCHKROW
-	db 10, ZANGOOSE
+	db 10, MANKEY
 	db  8, SWABLU
 	db  8, SWABLU
 	db -1 ; end
@@ -2934,7 +2934,7 @@ CamperGroup:
 
 	; CAMPER (4)
 	db "ELLIOT@", TRAINERTYPE_NORMAL
-	db 13, ZANGOOSE
+	db 13, MANKEY
 	db 15, MARILL
 	db -1 ; end
 
@@ -3029,7 +3029,7 @@ CamperGroup:
 
 	; CAMPER (19)
 	db "SPENCER@", TRAINERTYPE_NORMAL
-	db 17, ZANGOOSE
+	db 17, MANKEY
 	db 17, MUNCHLAX
 	db 19, ZUBAT
 	db -1 ; end

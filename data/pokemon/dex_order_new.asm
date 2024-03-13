@@ -49,7 +49,7 @@ NewPokedexOrder:
 	db WIGGLYTUFF
 	db TOGEPI
 	db TOGETIC
-	db ZANGOOSE
+	db MANKEY
 	db MUNCHLAX
 	db EKANS
 	db ARBOK

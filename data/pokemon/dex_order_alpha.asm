@@ -187,7 +187,7 @@ AlphabeticalPokedexOrder:
 	db CURSOLA
 	db RHYDON
 	db RHYHORN
-	db ZANGOOSE
+	db MANKEY
 	db MUNCHLAX
 	db SCIZOR
 	db SCYTHER

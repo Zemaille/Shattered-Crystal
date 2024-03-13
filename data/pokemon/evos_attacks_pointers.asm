@@ -28,7 +28,7 @@ EvosAttacksPointers::
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
-	dw ZangooseEvosAttacks
+	dw MankeyEvosAttacks
 	dw MunchlaxEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks

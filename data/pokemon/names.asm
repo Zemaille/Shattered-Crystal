@@ -26,7 +26,7 @@ PokemonNames::
 	db "Arbok@@@@@"
 	db "Pikachu@@@"
 	db "Raichu@@@@"
-	db "Zangoose@@"
+	db "Mankey@@@@"
 	db "Munchlax@@"
 	db "Nidoran♀@@"
 	db "Nidorina@@"

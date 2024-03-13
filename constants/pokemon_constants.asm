@@ -45,7 +45,7 @@
 	const ARBOK      ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
-	const ZANGOOSE  ; 1b
+	const MANKEY  ; 1b
 	const MUNCHLAX  ; 1c
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e

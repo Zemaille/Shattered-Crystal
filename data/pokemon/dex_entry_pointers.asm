@@ -27,7 +27,7 @@ PokedexDataPointerTable:
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry
 	dw RaichuPokedexEntry
-	dw ZangoosePokedexEntry
+	dw MankeyPokedexEntry
 	dw MunchlaxPokedexEntry
 	dw NidoranFPokedexEntry
 	dw NidorinaPokedexEntry

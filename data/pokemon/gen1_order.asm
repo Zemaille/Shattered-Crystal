@@ -95,7 +95,7 @@ Pokered_MonIndices:
 	db SEADRA
 	db SKARMORY ; MISSINGNO.
 	db HOUNDOUR ; MISSINGNO.
-	db ZANGOOSE
+	db MANKEY
 	db MUNCHLAX
 	db ANORITH
 	db ARMALDO

@@ -365,7 +365,7 @@ RaichuEvosAttacks:
 	db 1, THUNDERBOLT
 	db 0 ; no more level-up moves
 
-ZangooseEvosAttacks:
+MankeyEvosAttacks:
 	db EVOLVE_LEVEL, 22, MUNCHLAX
 	db 0 ; no more evolutions
 	db 1, SCRATCH
