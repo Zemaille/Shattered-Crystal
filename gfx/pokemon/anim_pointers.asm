@@ -88,7 +88,7 @@ AnimationPointers:
 	dw PrimeapeAnimation
 	dw AnnihilapeAnimation
 	dw NoibatAnimation
-	dw MukAnimation
+	dw NoivernAnimation
 	dw ShellderAnimation
 	dw CloysterAnimation
 	dw GastlyAnimation

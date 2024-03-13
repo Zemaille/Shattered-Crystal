@@ -153,7 +153,7 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 20, NOIBAT
 	db 15, NOIBAT
-	db 15, MUK
+	db 15, NOIVERN
 	end_water_wildmons
 
 	def_water_wildmons FUCHSIA_CITY

@@ -118,7 +118,7 @@ NewPokedexOrder:
 	db KOFFING
 	db WEEZING
 	db NOIBAT
-	db MUK
+	db NOIVERN
 	db MAGNEMITE
 	db MAGNETON
 	db SKRELP

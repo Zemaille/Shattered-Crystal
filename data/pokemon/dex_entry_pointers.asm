@@ -89,7 +89,7 @@ PokedexDataPointerTable:
 	dw PrimeapePokedexEntry
 	dw AnnihilapePokedexEntry
 	dw NoibatPokedexEntry
-	dw MukPokedexEntry
+	dw NoivernPokedexEntry
 	dw ShellderPokedexEntry
 	dw CloysterPokedexEntry
 	dw GastlyPokedexEntry

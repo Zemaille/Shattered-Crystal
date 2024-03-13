@@ -107,7 +107,7 @@
 	const PRIMEAPE       ; 56
 	const ANNIHILAPE    ; 57
 	const NOIBAT     ; 58
-	const MUK        ; 59
+	const NOIVERN        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
 	const GASTLY     ; 5c

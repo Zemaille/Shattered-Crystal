@@ -90,7 +90,7 @@ EvosAttacksPointers::
 	dw PrimeapeEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw NoibatEvosAttacks
-	dw MukEvosAttacks
+	dw NoivernEvosAttacks
 	dw ShellderEvosAttacks
 	dw CloysterEvosAttacks
 	dw GastlyEvosAttacks

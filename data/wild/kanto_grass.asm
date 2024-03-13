@@ -570,24 +570,24 @@ KantoGrassWildMons:
 	db 28, NOIBAT
 	db 29, ALTARIA
 	db 29, ALTARIA
-	db 30, MUK
-	db 30, MUK
+	db 30, NOIVERN
+	db 30, NOIVERN
 	; day
 	db 26, NOIBAT
 	db 27, ALTARIA
 	db 28, NOIBAT
 	db 29, ALTARIA
 	db 29, SLUGMA
-	db 30, MUK
-	db 30, MUK
+	db 30, NOIVERN
+	db 30, NOIVERN
 	; nite
 	db 26, NOIBAT
 	db 27, NOIBAT
 	db 28, NOIBAT
 	db 29, MURKROW
 	db 29, MURKROW
-	db 30, MUK
-	db 30, MUK
+	db 30, NOIVERN
+	db 30, NOIVERN
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_17
@@ -598,24 +598,24 @@ KantoGrassWildMons:
 	db 31, NOIBAT
 	db 32, ALTARIA
 	db 33, NOIBAT
-	db 33, MUK
-	db 33, MUK
+	db 33, NOIVERN
+	db 33, NOIVERN
 	; day
 	db 30, ALTARIA
 	db 29, SLUGMA
 	db 29, NOIBAT
 	db 32, ALTARIA
 	db 32, SLUGMA
-	db 33, MUK
-	db 33, MUK
+	db 33, NOIVERN
+	db 33, NOIVERN
 	; nite
 	db 30, NOIBAT
 	db 29, NOIBAT
 	db 31, NOIBAT
 	db 32, NOIBAT
 	db 33, NOIBAT
-	db 33, MUK
-	db 33, MUK
+	db 33, NOIVERN
+	db 33, NOIVERN
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_18
@@ -626,24 +626,24 @@ KantoGrassWildMons:
 	db 28, NOIBAT
 	db 29, ALTARIA
 	db 29, ALTARIA
-	db 30, MUK
-	db 30, MUK
+	db 30, NOIVERN
+	db 30, NOIVERN
 	; day
 	db 26, NOIBAT
 	db 27, ALTARIA
 	db 28, NOIBAT
 	db 29, ALTARIA
 	db 29, SLUGMA
-	db 30, MUK
-	db 30, MUK
+	db 30, NOIVERN
+	db 30, NOIVERN
 	; nite
 	db 26, NOIBAT
 	db 27, NOIBAT
 	db 28, NOIBAT
 	db 29, NOIBAT
 	db 29, NOIBAT
-	db 30, MUK
-	db 30, MUK
+	db 30, NOIVERN
+	db 30, NOIVERN
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_21

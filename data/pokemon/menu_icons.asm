@@ -90,7 +90,7 @@ MonMenuIcons:
 	db ICON_LAPRAS      ; PRIMEAPE
 	db ICON_LAPRAS      ; ANNIHILAPE
 	db ICON_BLOB        ; NOIBAT
-	db ICON_BLOB        ; MUK
+	db ICON_BLOB        ; NOIVERN
 	db ICON_SHELL       ; SHELLDER
 	db ICON_SHELL       ; CLOYSTER
 	db ICON_GHOST       ; GASTLY

@@ -88,7 +88,7 @@ AnimationIdlePointers:
 	dw PrimeapeAnimationIdle
 	dw AnnihilapeAnimationIdle
 	dw NoibatAnimationIdle
-	dw MukAnimationIdle
+	dw NoivernAnimationIdle
 	dw ShellderAnimationIdle
 	dw CloysterAnimationIdle
 	dw GastlyAnimationIdle

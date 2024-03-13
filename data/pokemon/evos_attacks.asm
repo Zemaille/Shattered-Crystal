@@ -1180,7 +1180,7 @@ AnnihilapeEvosAttacks:
 	db 0 ; no more level-up moves
 
 NoibatEvosAttacks:
-	db EVOLVE_LEVEL, 38, MUK
+	db EVOLVE_LEVEL, 38, NOIVERN
 	db 0 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, POUND
@@ -1193,7 +1193,7 @@ NoibatEvosAttacks:
 	db 50, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
-MukEvosAttacks:
+NoivernEvosAttacks:
 	db 0 ; no more evolutions
 	; moves are not sorted by level
 	db 1, POISON_GAS

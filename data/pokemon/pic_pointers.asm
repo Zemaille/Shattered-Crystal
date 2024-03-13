@@ -179,8 +179,8 @@ PokemonPicPointers::
 	dba AnnihilapeBackpic
 	dba NoibatFrontpic
 	dba NoibatBackpic
-	dba MukFrontpic
-	dba MukBackpic
+	dba NoivernFrontpic
+	dba NoivernBackpic
 	dba ShellderFrontpic
 	dba ShellderBackpic
 	dba CloysterFrontpic
