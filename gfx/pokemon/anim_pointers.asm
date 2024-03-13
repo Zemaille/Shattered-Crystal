@@ -103,7 +103,7 @@ AnimationPointers:
 	dw DragalgeAnimation
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation
-	dw TyruntAnimation
+	dw ImipupAnimation
 	dw TyrantrumAnimation
 	dw YamaskAnimation
 	dw CofagrigusAnimation

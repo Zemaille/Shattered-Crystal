@@ -209,8 +209,8 @@ PokemonPicPointers::
 	dba ExeggcuteBackpic
 	dba ExeggutorFrontpic
 	dba ExeggutorBackpic
-	dba TyruntFrontpic
-	dba TyruntBackpic
+	dba ImipupFrontpic
+	dba ImipupBackpic
 	dba TyrantrumFrontpic
 	dba TyrantrumBackpic
 	dba YamaskFrontpic

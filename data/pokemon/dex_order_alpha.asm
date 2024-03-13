@@ -35,7 +35,7 @@ AlphabeticalPokedexOrder:
 	db CORSOLA
 	db CROBAT
 	db CROCONAW
-	db TYRUNT
+	db IMIPUP
 	db CYNDAQUIL
 	db CATERUNG
 	db LUCARIO

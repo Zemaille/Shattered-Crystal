@@ -205,7 +205,7 @@ NewPokedexOrder:
 	db DODRIO
 	db PONYTA
 	db RAPIDASH
-	db TYRUNT
+	db IMIPUP
 	db TYRANTRUM
 	db KANGASKHAN
 	db RHYHORN

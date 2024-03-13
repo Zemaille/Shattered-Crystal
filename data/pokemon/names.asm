@@ -103,7 +103,7 @@ PokemonNames::
 	db "Dragalge@@"
 	db "Exeggcute@"
 	db "Exeggutor@"
-	db "Tyrunt@@@@"
+	db "Imipup@@@@"
 	db "Tyrantrum@"
 	db "Yamask@@@@"
 	db "Cofagrigus"
