@@ -237,7 +237,7 @@ FramesPointers:
 	dw SmeargleFrames
 	dw DreepyFrames
 	dw DrakloakFrames
-	dw SmoochumFrames
+	dw DragapultFrames
 	dw ElekidFrames
 	dw MagbyFrames
 	dw MiltankFrames

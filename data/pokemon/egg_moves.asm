@@ -771,7 +771,7 @@ DreepyEggMoves:
 	db MIND_READER
 	db -1 ; end
 
-SmoochumEggMoves:
+DragapultEggMoves:
 	db MEDITATE
 	db -1 ; end
 

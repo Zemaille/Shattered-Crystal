@@ -237,7 +237,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DreepyEggMoves
 	dw NoEggMoves
-	dw SmoochumEggMoves
+	dw DragapultEggMoves
 	dw ElekidEggMoves
 	dw MagbyEggMoves
 	dw MiltankEggMoves

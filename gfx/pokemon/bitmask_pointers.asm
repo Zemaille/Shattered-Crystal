@@ -237,7 +237,7 @@ BitmasksPointers:
 	dw SmeargleBitmasks
 	dw DreepyBitmasks
 	dw DrakloakBitmasks
-	dw SmoochumBitmasks
+	dw DragapultBitmasks
 	dw ElekidBitmasks
 	dw MagbyBitmasks
 	dw MiltankBitmasks

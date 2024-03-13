@@ -237,7 +237,7 @@ PokemonNames::
 	db "Smeargle@@"
 	db "Dreepy@@@@"
 	db "Drakloak@@"
-	db "SMOOCHUM@@"
+	db "Dragapult@"
 	db "ELEKID@@@@"
 	db "MAGBY@@@@@"
 	db "MILTANK@@@"

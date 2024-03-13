@@ -204,7 +204,7 @@ AlphabeticalPokedexOrder:
 	db SLOWPOKE
 	db SLUGMA
 	db SMEARGLE
-	db SMOOCHUM
+	db DRAGAPULT
 	db SNEASEL
 	db SNORLAX
 	db KLEAVOR
