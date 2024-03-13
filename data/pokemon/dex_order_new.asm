@@ -191,7 +191,7 @@ NewPokedexOrder:
 	db SEADRA
 	db KINGDRA
 	db GLIGAR
-	db DELIBIRD
+	db CATERUNG
 	db SWINUB
 	db PILOSWINE
 	db TEDDIURSA

@@ -37,7 +37,7 @@ AlphabeticalPokedexOrder:
 	db CROCONAW
 	db TYRUNT
 	db CYNDAQUIL
-	db DELIBIRD
+	db CATERUNG
 	db LUCARIO
 	db DIGLETT
 	db DITTO

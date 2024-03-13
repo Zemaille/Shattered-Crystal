@@ -224,7 +224,7 @@ BitmasksPointers:
 	dw CorsolaBitmasks
 	dw CursolaBitmasks
 	dw KittringBitmasks
-	dw DelibirdBitmasks
+	dw CaterungBitmasks
 	dw MantineBitmasks
 	dw SkarmoryBitmasks
 	dw HoundourBitmasks

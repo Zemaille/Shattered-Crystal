@@ -224,7 +224,7 @@ AnimationPointers:
 	dw CorsolaAnimation
 	dw CursolaAnimation
 	dw KittringAnimation
-	dw DelibirdAnimation
+	dw CaterungAnimation
 	dw MantineAnimation
 	dw SkarmoryAnimation
 	dw HoundourAnimation

@@ -454,8 +454,8 @@ PokemonPicPointers::
 	dba CursolaBackpic
 	dba KittringFrontpic
 	dba KittringBackpic
-	dba DelibirdFrontpic
-	dba DelibirdBackpic
+	dba CaterungFrontpic
+	dba CaterungBackpic
 	dba MantineFrontpic
 	dba MantineBackpic
 	dba SkarmoryFrontpic

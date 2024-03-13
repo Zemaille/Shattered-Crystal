@@ -224,7 +224,7 @@ PokemonNames::
 	db "Corsola@@@"
 	db "Cursola@@@"
 	db "Kittring@@"
-	db "DELIBIRD@@"
+	db "Caterung@@"
 	db "MANTINE@@@"
 	db "SKARMORY@@"
 	db "HOUNDOUR@@"

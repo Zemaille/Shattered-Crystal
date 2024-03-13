@@ -224,7 +224,7 @@ FramesPointers:
 	dw CorsolaFrames
 	dw CursolaFrames
 	dw KittringFrames
-	dw DelibirdFrames
+	dw CaterungFrames
 	dw MantineFrames
 	dw SkarmoryFrames
 	dw HoundourFrames

@@ -225,7 +225,7 @@ PokedexDataPointerTable:
 	dw CorsolaPokedexEntry
 	dw CursolaPokedexEntry
 	dw KittringPokedexEntry
-	dw DelibirdPokedexEntry
+	dw CaterungPokedexEntry
 	dw MantinePokedexEntry
 	dw SkarmoryPokedexEntry
 	dw HoundourPokedexEntry

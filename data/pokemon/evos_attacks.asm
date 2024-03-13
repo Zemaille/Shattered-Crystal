@@ -3006,7 +3006,7 @@ KittringEvosAttacks:
 	db 70, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-DelibirdEvosAttacks:
+CaterungEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PRESENT
 	db 0 ; no more level-up moves

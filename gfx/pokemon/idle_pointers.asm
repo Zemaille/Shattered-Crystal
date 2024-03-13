@@ -224,7 +224,7 @@ AnimationIdlePointers:
 	dw CorsolaAnimationIdle
 	dw CursolaAnimationIdle
 	dw KittringAnimationIdle
-	dw DelibirdAnimationIdle
+	dw CaterungAnimationIdle
 	dw MantineAnimationIdle
 	dw SkarmoryAnimationIdle
 	dw HoundourAnimationIdle

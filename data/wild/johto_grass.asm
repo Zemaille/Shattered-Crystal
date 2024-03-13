@@ -721,10 +721,10 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, GOLBAT
 	; nite
-	db 21, DELIBIRD
+	db 21, CATERUNG
 	db 22, ZUBAT
 	db 22, GOLBAT
-	db 23, DELIBIRD
+	db 23, CATERUNG
 	db 24, GOLBAT
 	db 22, GOLBAT
 	db 22, GOLBAT
@@ -749,10 +749,10 @@ JohtoGrassWildMons:
 	db 23, GOLBAT
 	db 22, JYNX
 	; nite
-	db 22, DELIBIRD
+	db 22, CATERUNG
 	db 23, ZUBAT
 	db 23, GOLBAT
-	db 24, DELIBIRD
+	db 24, CATERUNG
 	db 25, GOLBAT
 	db 23, GOLBAT
 	db 22, SNEASEL
@@ -777,10 +777,10 @@ JohtoGrassWildMons:
 	db 22, JYNX
 	db 24, JYNX
 	; nite
-	db 23, DELIBIRD
+	db 23, CATERUNG
 	db 24, ZUBAT
 	db 24, GOLBAT
-	db 25, DELIBIRD
+	db 25, CATERUNG
 	db 26, GOLBAT
 	db 22, SNEASEL
 	db 24, SNEASEL
@@ -805,10 +805,10 @@ JohtoGrassWildMons:
 	db 22, JYNX
 	db 24, JYNX
 	; nite
-	db 23, DELIBIRD
+	db 23, CATERUNG
 	db 24, ZUBAT
 	db 24, GOLBAT
-	db 25, DELIBIRD
+	db 25, CATERUNG
 	db 26, GOLBAT
 	db 22, SNEASEL
 	db 24, SNEASEL
@@ -833,10 +833,10 @@ JohtoGrassWildMons:
 	db 24, JYNX
 	db 26, JYNX
 	; nite
-	db 24, DELIBIRD
+	db 24, CATERUNG
 	db 25, ZUBAT
 	db 25, GOLBAT
-	db 26, DELIBIRD
+	db 26, CATERUNG
 	db 22, SNEASEL
 	db 24, SNEASEL
 	db 26, SNEASEL
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, KITTRING
-	db 3, KITTRING
-	db 4, KITTRING
-	db 2, KITTRING
-	db 4, KITTRING
-	db 3, KITTRING
-	db 3, KITTRING
+	db 2, CATERUNG
+	db 3, CATERUNG
+	db 4, CATERUNG
+	db 2, CATERUNG
+	db 4, CATERUNG
+	db 3, CATERUNG
+	db 3, CATERUNG
 	; day
-	db 2, KITTRING
-	db 3, KITTRING
-	db 4, KITTRING
-	db 2, KITTRING
-	db 4, KITTRING
-	db 3, KITTRING
-	db 3, KITTRING
+	db 2, CATERUNG
+	db 3, CATERUNG
+	db 4, CATERUNG
+	db 2, CATERUNG
+	db 4, CATERUNG
+	db 3, CATERUNG
+	db 3, CATERUNG
 	; nite
-	db 2, KITTRING
-	db 3, KITTRING
-	db 4, KITTRING
-	db 2, KITTRING
-	db 4, KITTRING
-	db 3, KITTRING
-	db 3, KITTRING
+	db 2, CATERUNG
+	db 3, CATERUNG
+	db 4, CATERUNG
+	db 2, CATERUNG
+	db 4, CATERUNG
+	db 3, CATERUNG
+	db 3, CATERUNG
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

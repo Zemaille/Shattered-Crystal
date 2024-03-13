@@ -3263,7 +3263,7 @@ PokefanMGroup:
 
 	; POKEFANM (9)
 	db "COLIN@", TRAINERTYPE_ITEM
-	db 32, DELIBIRD,   BERRY
+	db 32, CATERUNG,   BERRY
 	db -1 ; end
 
 	; POKEFANM (10)
