@@ -245,7 +245,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const CURSOLA   ; df
 	const KITTRING  ; e0
 	const CATERUNG   ; e1
-	const MANTINE    ; e2
+	const ABYSSEEL    ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4
 	const HOUNDOOM   ; e5

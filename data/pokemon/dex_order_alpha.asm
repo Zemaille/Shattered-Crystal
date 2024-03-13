@@ -125,7 +125,7 @@ AlphabeticalPokedexOrder:
 	db MAGNEMITE
 	db MAGNETON
 	db SHROOMISH
-	db MANTINE
+	db ABYSSEEL
 	db MAREEP
 	db MARILL
 	db TYRANTRUM

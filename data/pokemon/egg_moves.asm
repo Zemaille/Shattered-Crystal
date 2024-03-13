@@ -725,7 +725,7 @@ CaterungEggMoves:
 	db RAPID_SPIN
 	db -1 ; end
 
-MantineEggMoves:
+AbysseelEggMoves:
 	db TWISTER
 	db HYDRO_PUMP
 	db HAZE

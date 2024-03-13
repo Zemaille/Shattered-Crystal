@@ -227,7 +227,7 @@ EvosAttacksPointers::
 	dw CursolaEvosAttacks
 	dw KittringEvosAttacks
 	dw CaterungEvosAttacks
-	dw MantineEvosAttacks
+	dw AbysseelEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks

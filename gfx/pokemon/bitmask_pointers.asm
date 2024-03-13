@@ -225,7 +225,7 @@ BitmasksPointers:
 	dw CursolaBitmasks
 	dw KittringBitmasks
 	dw CaterungBitmasks
-	dw MantineBitmasks
+	dw AbysseelBitmasks
 	dw SkarmoryBitmasks
 	dw HoundourBitmasks
 	dw HoundoomBitmasks

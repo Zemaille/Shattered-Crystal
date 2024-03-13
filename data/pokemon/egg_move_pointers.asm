@@ -225,7 +225,7 @@ EggMovePointers::
 	dw CursolaEggMoves
 	dw NoEggMoves
 	dw CaterungEggMoves
-	dw MantineEggMoves
+	dw AbysseelEggMoves
 	dw SkarmoryEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves

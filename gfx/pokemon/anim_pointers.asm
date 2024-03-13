@@ -225,7 +225,7 @@ AnimationPointers:
 	dw CursolaAnimation
 	dw KittringAnimation
 	dw CaterungAnimation
-	dw MantineAnimation
+	dw AbysseelAnimation
 	dw SkarmoryAnimation
 	dw HoundourAnimation
 	dw HoundoomAnimation

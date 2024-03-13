@@ -225,7 +225,7 @@ PokemonNames::
 	db "Cursola@@@"
 	db "Kittring@@"
 	db "Caterung@@"
-	db "MANTINE@@@"
+	db "Abysseel@@"
 	db "SKARMORY@@"
 	db "HOUNDOUR@@"
 	db "HOUNDOOM@@"

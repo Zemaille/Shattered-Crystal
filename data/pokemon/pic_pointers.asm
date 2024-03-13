@@ -456,8 +456,8 @@ PokemonPicPointers::
 	dba KittringBackpic
 	dba CaterungFrontpic
 	dba CaterungBackpic
-	dba MantineFrontpic
-	dba MantineBackpic
+	dba AbysseelFrontpic
+	dba AbysseelBackpic
 	dba SkarmoryFrontpic
 	dba SkarmoryBackpic
 	dba HoundourFrontpic

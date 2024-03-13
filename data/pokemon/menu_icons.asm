@@ -227,7 +227,7 @@ MonMenuIcons:
 	db ICON_FISH        ; CURSOLA
 	db ICON_FISH        ; KITTRING
 	db ICON_MONSTER     ; CATERUNG
-	db ICON_FISH        ; MANTINE
+	db ICON_FISH        ; ABYSSEEL
 	db ICON_BIRD        ; SKARMORY
 	db ICON_FOX         ; HOUNDOUR
 	db ICON_FOX         ; HOUNDOOM

@@ -225,7 +225,7 @@ FramesPointers:
 	dw CursolaFrames
 	dw KittringFrames
 	dw CaterungFrames
-	dw MantineFrames
+	dw AbysseelFrames
 	dw SkarmoryFrames
 	dw HoundourFrames
 	dw HoundoomFrames

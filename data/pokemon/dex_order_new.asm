@@ -199,7 +199,7 @@ NewPokedexOrder:
 	db URSALUNA
 	db PHANPY
 	db DONPHAN
-	db MANTINE
+	db ABYSSEEL
 	db SKARMORY
 	db DODUO
 	db DODRIO
