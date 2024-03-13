@@ -2980,7 +2980,7 @@ CorsolaEvosAttacks:
 	db 43, ANCIENTPOWER
 	db 0 ; no more level-up moves
 
-RemoraidEvosAttacks:
+CursolaEvosAttacks:
 	db EVOLVE_LEVEL, 25, OCTILLERY
 	db 0 ; no more evolutions
 	db 1, WATER_GUN

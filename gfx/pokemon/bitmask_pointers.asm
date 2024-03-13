@@ -222,7 +222,7 @@ BitmasksPointers:
 	dw SwinubBitmasks
 	dw PiloswineBitmasks
 	dw CorsolaBitmasks
-	dw RemoraidBitmasks
+	dw CursolaBitmasks
 	dw OctilleryBitmasks
 	dw DelibirdBitmasks
 	dw MantineBitmasks

@@ -242,7 +242,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
 	const CORSOLA    ; de
-	const REMORAID   ; df
+	const CURSOLA   ; df
 	const OCTILLERY  ; e0
 	const DELIBIRD   ; e1
 	const MANTINE    ; e2

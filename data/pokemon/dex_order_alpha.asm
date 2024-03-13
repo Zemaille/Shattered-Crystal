@@ -184,7 +184,7 @@ AlphabeticalPokedexOrder:
 	db RAPIDASH
 	db HONCHKROW
 	db MAMOSWINE
-	db REMORAID
+	db CURSOLA
 	db RHYDON
 	db RHYHORN
 	db ZANGOOSE

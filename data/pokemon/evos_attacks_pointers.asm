@@ -224,7 +224,7 @@ EvosAttacksPointers::
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaEvosAttacks
-	dw RemoraidEvosAttacks
+	dw CursolaEvosAttacks
 	dw OctilleryEvosAttacks
 	dw DelibirdEvosAttacks
 	dw MantineEvosAttacks

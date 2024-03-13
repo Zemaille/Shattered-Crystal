@@ -222,7 +222,7 @@ AnimationPointers:
 	dw SwinubAnimation
 	dw PiloswineAnimation
 	dw CorsolaAnimation
-	dw RemoraidAnimation
+	dw CursolaAnimation
 	dw OctilleryAnimation
 	dw DelibirdAnimation
 	dw MantineAnimation

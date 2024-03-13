@@ -173,7 +173,7 @@ NewPokedexOrder:
 	db SHELLDER
 	db CLOYSTER
 	db CORSOLA
-	db REMORAID
+	db CURSOLA
 	db OCTILLERY
 	db CHINCHOU
 	db LANTURN

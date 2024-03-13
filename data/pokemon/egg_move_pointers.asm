@@ -222,7 +222,7 @@ EggMovePointers::
 	dw SwinubEggMoves
 	dw NoEggMoves
 	dw CorsolaEggMoves
-	dw RemoraidEggMoves
+	dw CursolaEggMoves
 	dw NoEggMoves
 	dw DelibirdEggMoves
 	dw MantineEggMoves

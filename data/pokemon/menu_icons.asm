@@ -224,7 +224,7 @@ MonMenuIcons:
 	db ICON_EQUINE      ; SWINUB
 	db ICON_EQUINE      ; PILOSWINE
 	db ICON_SHELL       ; CORSOLA
-	db ICON_FISH        ; REMORAID
+	db ICON_FISH        ; CURSOLA
 	db ICON_FISH        ; OCTILLERY
 	db ICON_MONSTER     ; DELIBIRD
 	db ICON_FISH        ; MANTINE

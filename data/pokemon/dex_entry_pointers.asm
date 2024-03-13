@@ -223,7 +223,7 @@ PokedexDataPointerTable:
 	dw SwinubPokedexEntry
 	dw PiloswinePokedexEntry
 	dw CorsolaPokedexEntry
-	dw RemoraidPokedexEntry
+	dw CursolaPokedexEntry
 	dw OctilleryPokedexEntry
 	dw DelibirdPokedexEntry
 	dw MantinePokedexEntry

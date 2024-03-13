@@ -117,17 +117,17 @@ FishGroups:
 .Remoraid_Swarm_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     REMORAID,   10
+	db 100 percent,     CURSOLA,   10
 .Remoraid_Swarm_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     REMORAID,   20
-	db  90 percent + 1, REMORAID,   20
+	db  70 percent,     CURSOLA,   20
+	db  90 percent + 1, CURSOLA,   20
 	db 100 percent,     time_group 12
 .Remoraid_Swarm_Super:
-	db  40 percent,     REMORAID,   40
+	db  40 percent,     CURSOLA,   40
 	db  70 percent,     time_group 13
-	db  90 percent + 1, REMORAID,   40
-	db 100 percent,     REMORAID,   40
+	db  90 percent + 1, CURSOLA,   40
+	db 100 percent,     CURSOLA,   40
 
 .Gyarados_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -205,7 +205,7 @@ FishGroups:
 	db  40 percent,     POLIWAG,    40
 	db  70 percent,     time_group 7
 	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     REMORAID,   40
+	db 100 percent,     CURSOLA,   40
 
 TimeFishGroups:
 	;  day              nite
@@ -221,8 +221,8 @@ TimeFishGroups:
 	db DRATINI,    40,  DRATINI,    40 ; 9
 	db SPIRITOMB,   20,  SPIRITOMB,   20 ; 10
 	db SPIRITOMB,   40,  SPIRITOMB,   40 ; 11
-	db REMORAID,   20,  REMORAID,   20 ; 12
-	db REMORAID,   40,  REMORAID,   40 ; 13
+	db CURSOLA,   20,  CURSOLA,   20 ; 12
+	db CURSOLA,   40,  CURSOLA,   40 ; 13
 	db GYARADOS,   20,  GYARADOS,   20 ; 14
 	db GYARADOS,   40,  GYARADOS,   40 ; 15
 	db DRATINI,    10,  DRATINI,    10 ; 16

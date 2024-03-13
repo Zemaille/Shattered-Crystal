@@ -222,7 +222,7 @@ AnimationIdlePointers:
 	dw SwinubAnimationIdle
 	dw PiloswineAnimationIdle
 	dw CorsolaAnimationIdle
-	dw RemoraidAnimationIdle
+	dw CursolaAnimationIdle
 	dw OctilleryAnimationIdle
 	dw DelibirdAnimationIdle
 	dw MantineAnimationIdle

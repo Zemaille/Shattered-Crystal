@@ -222,7 +222,7 @@ FramesPointers:
 	dw SwinubFrames
 	dw PiloswineFrames
 	dw CorsolaFrames
-	dw RemoraidFrames
+	dw CursolaFrames
 	dw OctilleryFrames
 	dw DelibirdFrames
 	dw MantineFrames
