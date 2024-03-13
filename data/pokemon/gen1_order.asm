@@ -254,5 +254,5 @@ Pokered_MonIndices:
 	db MISMAGIUS
 	db MISMAGIUS
 	db URSALUNA
-	db SUICASAUR
+	db WYRDEER
 	assert_table_length NUM_POKEMON + 1

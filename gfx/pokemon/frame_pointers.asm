@@ -252,5 +252,5 @@ FramesPointers:
 	dw HoOhFrames
 	dw CelebiFrames
 	dw UrsalunaFrames
-	dw SuicasaurFrames
+	dw WyrdeerFrames
 	assert_table_length NUM_POKEMON

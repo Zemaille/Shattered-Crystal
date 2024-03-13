@@ -254,5 +254,5 @@ EvosAttacksPointers::
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw UrsalunaEvosAttacks
-	dw SuicasaurEvosAttacks
+	dw WyrdeerEvosAttacks
 	assert_table_length NUM_POKEMON

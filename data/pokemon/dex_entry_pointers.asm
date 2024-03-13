@@ -253,5 +253,5 @@ PokedexDataPointerTable:
 	dw HoOhPokedexEntry
 	dw CelebiPokedexEntry
 	dw UrsalunaPokedexEntry
-	dw SuicasaurPokedexEntry
+	dw WyrdeerPokedexEntry
 	assert_table_length NUM_POKEMON

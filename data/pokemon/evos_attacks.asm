@@ -3361,7 +3361,7 @@ UrsalunaEvosAttacks:
 	db 1, TACKLE
 	db 0
 
-SuicasaurEvosAttacks:
+WyrdeerEvosAttacks:
 	db 0
 	db 1, WATER_GUN
 	db 0
