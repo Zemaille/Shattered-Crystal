@@ -240,7 +240,7 @@ PokedexDataPointerTable:
 	dw DrakloakPokedexEntry
 	dw DragapultPokedexEntry
 	dw WeavilePokedexEntry
-	dw MagbyPokedexEntry
+	dw Porygon_zPokedexEntry
 	dw MiltankPokedexEntry
 	dw BlisseyPokedexEntry
 	dw RaikouPokedexEntry

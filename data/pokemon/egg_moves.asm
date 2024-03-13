@@ -783,7 +783,7 @@ WeavileEggMoves:
 	db CROSS_CHOP
 	db -1 ; end
 
-MagbyEggMoves:
+Porygon_zEggMoves:
 	db KARATE_CHOP
 	db MEGA_PUNCH
 	db BARRIER

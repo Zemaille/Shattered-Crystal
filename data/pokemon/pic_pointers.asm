@@ -484,8 +484,8 @@ PokemonPicPointers::
 	dba DragapultBackpic
 	dba WeavileFrontpic
 	dba WeavileBackpic
-	dba MagbyFrontpic
-	dba MagbyBackpic
+	dba Porygon_zFrontpic
+	dba Porygon_zBackpic
 	dba MiltankFrontpic
 	dba MiltankBackpic
 	dba BlisseyFrontpic

@@ -239,7 +239,7 @@ FramesPointers:
 	dw DrakloakFrames
 	dw DragapultFrames
 	dw WeavileFrames
-	dw MagbyFrames
+	dw Porygon_zFrames
 	dw MiltankFrames
 	dw BlisseyFrames
 	dw RaikouFrames

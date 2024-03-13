@@ -239,7 +239,7 @@ BitmasksPointers:
 	dw DrakloakBitmasks
 	dw DragapultBitmasks
 	dw WeavileBitmasks
-	dw MagbyBitmasks
+	dw Porygon_zBitmasks
 	dw MiltankBitmasks
 	dw BlisseyBitmasks
 	dw RaikouBitmasks

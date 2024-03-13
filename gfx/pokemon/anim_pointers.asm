@@ -239,7 +239,7 @@ AnimationPointers:
 	dw DrakloakAnimation
 	dw DragapultAnimation
 	dw WeavileAnimation
-	dw MagbyAnimation
+	dw Porygon_zAnimation
 	dw MiltankAnimation
 	dw BlisseyAnimation
 	dw RaikouAnimation

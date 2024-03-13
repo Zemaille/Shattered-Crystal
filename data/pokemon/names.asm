@@ -239,7 +239,7 @@ PokemonNames::
 	db "Drakloak@@"
 	db "Dragapult@"
 	db "Weavile@@@"
-	db "MAGBY@@@@@"
+	db "Porygon-Z@"
 	db "MILTANK@@@"
 	db "BLISSEY@@@"
 	db "RAIKOU@@@@"

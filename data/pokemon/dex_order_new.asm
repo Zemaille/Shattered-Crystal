@@ -151,7 +151,7 @@ NewPokedexOrder:
 	db GIRAFARIG
 	db GLISCOR
 	db MILTANK
-	db MAGBY
+	db PORYGON_Z
 	db MAGMAR
 	db DRAGAPULT
 	db JYNX

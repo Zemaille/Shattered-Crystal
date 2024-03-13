@@ -259,7 +259,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const DRAKLOAK  ; ed
 	const DRAGAPULT   ; ee
 	const WEAVILE     ; ef
-	const MAGBY      ; f0
+	const PORYGON_Z      ; f0
 	const MILTANK    ; f1
 	const BLISSEY    ; f2
 	const RAIKOU     ; f3

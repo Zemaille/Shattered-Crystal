@@ -118,7 +118,7 @@ AlphabeticalPokedexOrder:
 	db MACHAMP
 	db MACHOKE
 	db MACHOP
-	db MAGBY
+	db PORYGON_Z
 	db MAGCARGO
 	db MAGIKARP
 	db MAGMAR

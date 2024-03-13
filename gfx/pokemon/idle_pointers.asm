@@ -239,7 +239,7 @@ AnimationIdlePointers:
 	dw DrakloakAnimationIdle
 	dw DragapultAnimationIdle
 	dw WeavileAnimationIdle
-	dw MagbyAnimationIdle
+	dw Porygon_zAnimationIdle
 	dw MiltankAnimationIdle
 	dw BlisseyAnimationIdle
 	dw RaikouAnimationIdle

@@ -241,7 +241,7 @@ EvosAttacksPointers::
 	dw DrakloakEvosAttacks
 	dw DragapultEvosAttacks
 	dw WeavileEvosAttacks
-	dw MagbyEvosAttacks
+	dw Porygon_zEvosAttacks
 	dw MiltankEvosAttacks
 	dw BlisseyEvosAttacks
 	dw RaikouEvosAttacks

@@ -239,7 +239,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DragapultEggMoves
 	dw WeavileEggMoves
-	dw MagbyEggMoves
+	dw Porygon_zEggMoves
 	dw MiltankEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

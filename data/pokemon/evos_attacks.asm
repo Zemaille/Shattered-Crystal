@@ -3186,7 +3186,7 @@ WeavileEvosAttacks:
 	db 49, THUNDER
 	db 0 ; no more level-up moves
 
-MagbyEvosAttacks:
+Porygon_zEvosAttacks:
 	db EVOLVE_LEVEL, 30, MAGMAR
 	db 0 ; no more evolutions
 	db 1, EMBER
