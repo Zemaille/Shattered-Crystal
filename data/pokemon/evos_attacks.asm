@@ -3137,7 +3137,7 @@ SmeargleEvosAttacks:
 	db 91, SKETCH
 	db 0 ; no more level-up moves
 
-TyrogueEvosAttacks:
+DreepyEvosAttacks:
 	db EVOLVE_STAT, 20, ATK_LT_DEF, COFAGRIGUS
 	db EVOLVE_STAT, 20, ATK_GT_DEF, YAMASK
 	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP

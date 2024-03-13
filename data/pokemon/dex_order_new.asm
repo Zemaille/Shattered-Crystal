@@ -144,7 +144,7 @@ NewPokedexOrder:
 	db MACHOP
 	db MACHOKE
 	db MACHAMP
-	db TYROGUE
+	db DREEPY
 	db YAMASK
 	db COFAGRIGUS
 	db HITMONTOP

@@ -235,7 +235,7 @@ AnimationPointers:
 	dw Porygon2Animation
 	dw StantlerAnimation
 	dw SmeargleAnimation
-	dw TyrogueAnimation
+	dw DreepyAnimation
 	dw HitmontopAnimation
 	dw SmoochumAnimation
 	dw ElekidAnimation

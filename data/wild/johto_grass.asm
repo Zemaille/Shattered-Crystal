@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, SABRAWLER
-	db 3, SABRAWLER
-	db 4, SABRAWLER
-	db 2, SABRAWLER
-	db 4, SABRAWLER
-	db 3, SABRAWLER
-	db 3, SABRAWLER
+	db 2, DREEPY
+	db 3, DREEPY
+	db 4, DREEPY
+	db 2, DREEPY
+	db 4, DREEPY
+	db 3, DREEPY
+	db 3, DREEPY
 	; day
-	db 2, SABRAWLER
-	db 3, SABRAWLER
-	db 4, SABRAWLER
-	db 2, SABRAWLER
-	db 4, SABRAWLER
-	db 3, SABRAWLER
-	db 3, SABRAWLER
+	db 2, DREEPY
+	db 3, DREEPY
+	db 4, DREEPY
+	db 2, DREEPY
+	db 4, DREEPY
+	db 3, DREEPY
+	db 3, DREEPY
 	; nite
-	db 2, SABRAWLER
-	db 3, SABRAWLER
-	db 4, SABRAWLER
-	db 2, SABRAWLER
-	db 4, SABRAWLER
-	db 3, SABRAWLER
-	db 3, SABRAWLER
+	db 2, DREEPY
+	db 3, DREEPY
+	db 4, DREEPY
+	db 2, DREEPY
+	db 4, DREEPY
+	db 3, DREEPY
+	db 3, DREEPY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

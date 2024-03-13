@@ -231,7 +231,7 @@ AlphabeticalPokedexOrder:
 	db TOTODILE
 	db TYPHLOSION
 	db TYRANITAR
-	db TYROGUE
+	db DREEPY
 	db UMBREON
 	db UNOWN
 	db URSALUNA
