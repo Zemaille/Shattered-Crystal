@@ -1259,8 +1259,8 @@ GruntMGroup:
 
 	; GRUNTM (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, GRIMER
-	db 23, GRIMER
+	db 23, NOIBAT
+	db 23, NOIBAT
 	db 25, MUK
 	db -1 ; end
 
@@ -1282,7 +1282,7 @@ GruntMGroup:
 	; GRUNTM (7)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 23, KOFFING
-	db 23, GRIMER
+	db 23, NOIBAT
 	db 23, ZUBAT
 	db 23, HONCHKROW
 	db -1 ; end
@@ -1302,7 +1302,7 @@ GruntMGroup:
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 22, ZUBAT
 	db 24, GOLBAT
-	db 22, GRIMER
+	db 22, NOIBAT
 	db -1 ; end
 
 	; GRUNTM (11)
@@ -1330,7 +1330,7 @@ GruntMGroup:
 
 	; GRUNTM (15)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, GRIMER
+	db 26, NOIBAT
 	db 23, WEEZING
 	db -1 ; end
 
@@ -1369,7 +1369,7 @@ GruntMGroup:
 	; GRUNTM (21)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 16, ZUBAT
-	db 17, GRIMER
+	db 17, NOIBAT
 	db 18, HONCHKROW
 	db -1 ; end
 
@@ -2110,13 +2110,13 @@ SailorGroup:
 SuperNerdGroup:
 	; SUPER_NERD (1)
 	db "STAN@", TRAINERTYPE_NORMAL
-	db 20, GRIMER
+	db 20, NOIBAT
 	db -1 ; end
 
 	; SUPER_NERD (2)
 	db "ERIC@", TRAINERTYPE_NORMAL
-	db 11, GRIMER
-	db 11, GRIMER
+	db 11, NOIBAT
+	db 11, NOIBAT
 	db -1 ; end
 
 	; SUPER_NERD (3)
@@ -2139,7 +2139,7 @@ SuperNerdGroup:
 
 	; SUPER_NERD (6)
 	db "SAM@", TRAINERTYPE_NORMAL
-	db 34, GRIMER
+	db 34, NOIBAT
 	db 34, MUK
 	db -1 ; end
 

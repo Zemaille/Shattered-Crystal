@@ -87,7 +87,7 @@ FramesPointers:
 	dw DodrioFrames
 	dw PrimeapeFrames
 	dw AnnihilapeFrames
-	dw GrimerFrames
+	dw NoibatFrames
 	dw MukFrames
 	dw ShellderFrames
 	dw CloysterFrames

@@ -12,7 +12,7 @@ Pokered_MonIndices:
 	db EXEGGUTOR
 	db FARIGIRAF
 	db EXEGGCUTE
-	db GRIMER
+	db NOIBAT
 	db GENGAR
 	db NIDORAN_F
 	db NIDOQUEEN

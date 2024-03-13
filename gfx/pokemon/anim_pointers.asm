@@ -87,7 +87,7 @@ AnimationPointers:
 	dw DodrioAnimation
 	dw PrimeapeAnimation
 	dw AnnihilapeAnimation
-	dw GrimerAnimation
+	dw NoibatAnimation
 	dw MukAnimation
 	dw ShellderAnimation
 	dw CloysterAnimation

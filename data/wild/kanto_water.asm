@@ -151,8 +151,8 @@ KantoWaterWildMons:
 
 	def_water_wildmons CELADON_CITY
 	db 2 percent ; encounter rate
-	db 20, GRIMER
-	db 15, GRIMER
+	db 20, NOIBAT
+	db 15, NOIBAT
 	db 15, MUK
 	end_water_wildmons
 

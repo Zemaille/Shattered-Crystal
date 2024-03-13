@@ -177,8 +177,8 @@ PokemonPicPointers::
 	dba PrimeapeBackpic
 	dba AnnihilapeFrontpic
 	dba AnnihilapeBackpic
-	dba GrimerFrontpic
-	dba GrimerBackpic
+	dba NoibatFrontpic
+	dba NoibatBackpic
 	dba MukFrontpic
 	dba MukBackpic
 	dba ShellderFrontpic

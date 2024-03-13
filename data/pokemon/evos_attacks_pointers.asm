@@ -89,7 +89,7 @@ EvosAttacksPointers::
 	dw DodrioEvosAttacks
 	dw PrimeapeEvosAttacks
 	dw AnnihilapeEvosAttacks
-	dw GrimerEvosAttacks
+	dw NoibatEvosAttacks
 	dw MukEvosAttacks
 	dw ShellderEvosAttacks
 	dw CloysterEvosAttacks

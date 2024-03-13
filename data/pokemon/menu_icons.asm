@@ -89,7 +89,7 @@ MonMenuIcons:
 	db ICON_BIRD        ; DODRIO
 	db ICON_LAPRAS      ; PRIMEAPE
 	db ICON_LAPRAS      ; ANNIHILAPE
-	db ICON_BLOB        ; GRIMER
+	db ICON_BLOB        ; NOIBAT
 	db ICON_BLOB        ; MUK
 	db ICON_SHELL       ; SHELLDER
 	db ICON_SHELL       ; CLOYSTER

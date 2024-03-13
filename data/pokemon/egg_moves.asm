@@ -260,7 +260,7 @@ PrimeapeEggMoves:
 	db ENCORE
 	db -1 ; end
 
-GrimerEggMoves:
+NoibatEggMoves:
 	db HAZE
 	db MEAN_LOOK
 	db LICK

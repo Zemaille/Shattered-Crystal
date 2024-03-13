@@ -78,7 +78,7 @@ AlphabeticalPokedexOrder:
 	db GOLEM
 	db TOGEKISS
 	db GRAVELER
-	db GRIMER
+	db NOIBAT
 	db GROWLITHE
 	db GYARADOS
 	db HAUNTER

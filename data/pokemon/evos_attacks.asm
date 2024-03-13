@@ -1179,7 +1179,7 @@ AnnihilapeEvosAttacks:
 	db 60, SAFEGUARD
 	db 0 ; no more level-up moves
 
-GrimerEvosAttacks:
+NoibatEvosAttacks:
 	db EVOLVE_LEVEL, 38, MUK
 	db 0 ; no more evolutions
 	db 1, POISON_GAS

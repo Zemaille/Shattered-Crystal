@@ -117,7 +117,7 @@ NewPokedexOrder:
 	db HERACROSS
 	db KOFFING
 	db WEEZING
-	db GRIMER
+	db NOIBAT
 	db MUK
 	db MAGNEMITE
 	db MAGNETON

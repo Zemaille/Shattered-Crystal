@@ -22,7 +22,7 @@ SpriteMons:
 	db STARMIE
 	db BULBASAUR
 	db JIGGLYPUFF
-	db GRIMER
+	db NOIBAT
 	db EKANS
 	db PHANTUMP
 	db TENTACOOL

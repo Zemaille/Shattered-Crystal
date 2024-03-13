@@ -106,7 +106,7 @@
 	const DODRIO     ; 55
 	const PRIMEAPE       ; 56
 	const ANNIHILAPE    ; 57
-	const GRIMER     ; 58
+	const NOIBAT     ; 58
 	const MUK        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
