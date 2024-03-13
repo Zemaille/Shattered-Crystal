@@ -236,7 +236,7 @@ PokemonNames::
 	db "Stantler@@"
 	db "Smeargle@@"
 	db "Dreepy@@@@"
-	db "HITMONTOP@"
+	db "Drakloak@@"
 	db "SMOOCHUM@@"
 	db "ELEKID@@@@"
 	db "MAGBY@@@@@"

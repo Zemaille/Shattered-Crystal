@@ -236,7 +236,7 @@ AnimationIdlePointers:
 	dw StantlerAnimationIdle
 	dw SmeargleAnimationIdle
 	dw DreepyAnimationIdle
-	dw HitmontopAnimationIdle
+	dw DrakloakAnimationIdle
 	dw SmoochumAnimationIdle
 	dw ElekidAnimationIdle
 	dw MagbyAnimationIdle

@@ -3140,12 +3140,12 @@ SmeargleEvosAttacks:
 DreepyEvosAttacks:
 	db EVOLVE_STAT, 20, ATK_LT_DEF, COFAGRIGUS
 	db EVOLVE_STAT, 20, ATK_GT_DEF, YAMASK
-	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
+	db EVOLVE_STAT, 20, ATK_EQ_DEF, DRAKLOAK
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 0 ; no more level-up moves
 
-HitmontopEvosAttacks:
+DrakloakEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ROLLING_KICK
 	db 7, FOCUS_ENERGY

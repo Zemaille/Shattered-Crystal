@@ -85,7 +85,7 @@ AlphabeticalPokedexOrder:
 	db HERACROSS
 	db COFAGRIGUS
 	db YAMASK
-	db HITMONTOP
+	db DRAKLOAK
 	db HO_OH
 	db HOOTHOOT
 	db GOOMY

@@ -147,7 +147,7 @@ NewPokedexOrder:
 	db DREEPY
 	db YAMASK
 	db COFAGRIGUS
-	db HITMONTOP
+	db DRAKLOAK
 	db GIRAFARIG
 	db GLISCOR
 	db MILTANK
