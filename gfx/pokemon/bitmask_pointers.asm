@@ -85,8 +85,8 @@ BitmasksPointers:
 	dw MagnezoneBitmasks
 	dw DoduoBitmasks
 	dw DodrioBitmasks
-	dw RioluBitmasks
-	dw LucarioBitmasks
+	dw PrimeapeBitmasks
+	dw AnnihilapeBitmasks
 	dw GrimerBitmasks
 	dw MukBitmasks
 	dw ShellderBitmasks

@@ -104,8 +104,8 @@
 	const MAGNEZONE ; 53
 	const DODUO      ; 54
 	const DODRIO     ; 55
-	const RIOLU       ; 56
-	const LUCARIO    ; 57
+	const PRIMEAPE       ; 56
+	const ANNIHILAPE    ; 57
 	const GRIMER     ; 58
 	const MUK        ; 59
 	const SHELLDER   ; 5a

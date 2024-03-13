@@ -847,19 +847,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; day
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; nite
 	db 22, FEEBAS
 	db 23, ZUBAT
@@ -875,19 +875,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; day
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; nite
 	db 22, FEEBAS
 	db 23, ZUBAT
@@ -903,19 +903,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; day
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; nite
 	db 22, FEEBAS
 	db 23, ZUBAT
@@ -931,19 +931,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; day
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; nite
 	db 22, FEEBAS
 	db 23, ZUBAT
@@ -959,19 +959,19 @@ JohtoGrassWildMons:
 	; morn
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; day
 	db 22, FEEBAS
 	db 23, ZUBAT
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db 24, FEEBAS
 	db 25, GOLBAT
-	db 24, RIOLU
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 24, PRIMEAPE
 	; nite
 	db 22, FEEBAS
 	db 23, ZUBAT
@@ -987,19 +987,19 @@ JohtoGrassWildMons:
 	; morn
 	db 23, FEEBAS
 	db 24, ZUBAT
-	db 23, RIOLU
+	db 23, PRIMEAPE
 	db 25, FEEBAS
 	db 26, GOLBAT
-	db 25, RIOLU
-	db 25, RIOLU
+	db 25, PRIMEAPE
+	db 25, PRIMEAPE
 	; day
 	db 23, FEEBAS
 	db 24, ZUBAT
-	db 23, RIOLU
+	db 23, PRIMEAPE
 	db 25, FEEBAS
 	db 26, GOLBAT
-	db 25, RIOLU
-	db 25, RIOLU
+	db 25, PRIMEAPE
+	db 25, PRIMEAPE
 	; nite
 	db 23, FEEBAS
 	db 24, ZUBAT
@@ -1015,19 +1015,19 @@ JohtoGrassWildMons:
 	; morn
 	db 24, FEEBAS
 	db 25, ZUBAT
-	db 24, RIOLU
+	db 24, PRIMEAPE
 	db 26, FEEBAS
 	db 27, GOLBAT
-	db 26, RIOLU
-	db 26, RIOLU
+	db 26, PRIMEAPE
+	db 26, PRIMEAPE
 	; day
 	db 24, FEEBAS
 	db 25, ZUBAT
-	db 24, RIOLU
+	db 24, PRIMEAPE
 	db 26, FEEBAS
 	db 27, GOLBAT
-	db 26, RIOLU
-	db 26, RIOLU
+	db 26, PRIMEAPE
+	db 26, PRIMEAPE
 	; nite
 	db 24, FEEBAS
 	db 25, ZUBAT
@@ -1043,19 +1043,19 @@ JohtoGrassWildMons:
 	; morn
 	db 25, FEEBAS
 	db 26, ZUBAT
-	db 25, RIOLU
+	db 25, PRIMEAPE
 	db 27, FEEBAS
 	db 28, GOLBAT
-	db 27, RIOLU
-	db 27, RIOLU
+	db 27, PRIMEAPE
+	db 27, PRIMEAPE
 	; day
 	db 25, FEEBAS
 	db 26, ZUBAT
-	db 25, RIOLU
+	db 25, PRIMEAPE
 	db 27, FEEBAS
 	db 28, GOLBAT
-	db 27, RIOLU
-	db 27, RIOLU
+	db 27, PRIMEAPE
+	db 27, PRIMEAPE
 	; nite
 	db 25, FEEBAS
 	db 26, ZUBAT
@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, WYRDEER
-	db 3, WYRDEER
-	db 4, WYRDEER
-	db 2, WYRDEER
-	db 4, WYRDEER
-	db 3, WYRDEER
-	db 3, WYRDEER
+	db 2, ANNIHILAPE
+	db 3, ANNIHILAPE
+	db 4, ANNIHILAPE
+	db 2, ANNIHILAPE
+	db 4, ANNIHILAPE
+	db 3, ANNIHILAPE
+	db 3, ANNIHILAPE
 	; day
-	db 2, WYRDEER
-	db 3, WYRDEER
-	db 4, WYRDEER
-	db 2, WYRDEER
-	db 4, WYRDEER
-	db 3, WYRDEER
-	db 3, WYRDEER
+	db 2, ANNIHILAPE
+	db 3, ANNIHILAPE
+	db 4, ANNIHILAPE
+	db 2, ANNIHILAPE
+	db 4, ANNIHILAPE
+	db 3, ANNIHILAPE
+	db 3, ANNIHILAPE
 	; nite
-	db 2, WYRDEER
-	db 3, WYRDEER
-	db 4, WYRDEER
-	db 2, WYRDEER
-	db 4, WYRDEER
-	db 3, WYRDEER
-	db 3, WYRDEER
+	db 2, ANNIHILAPE
+	db 3, ANNIHILAPE
+	db 4, ANNIHILAPE
+	db 2, ANNIHILAPE
+	db 4, ANNIHILAPE
+	db 3, ANNIHILAPE
+	db 3, ANNIHILAPE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

@@ -173,10 +173,10 @@ PokemonPicPointers::
 	dba DoduoBackpic
 	dba DodrioFrontpic
 	dba DodrioBackpic
-	dba RioluFrontpic
-	dba RioluBackpic
-	dba LucarioFrontpic
-	dba LucarioBackpic
+	dba PrimeapeFrontpic
+	dba PrimeapeBackpic
+	dba AnnihilapeFrontpic
+	dba AnnihilapeBackpic
 	dba GrimerFrontpic
 	dba GrimerBackpic
 	dba MukFrontpic

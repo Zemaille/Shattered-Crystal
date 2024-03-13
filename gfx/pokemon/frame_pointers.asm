@@ -85,8 +85,8 @@ FramesPointers:
 	dw MagnezoneFrames
 	dw DoduoFrames
 	dw DodrioFrames
-	dw RioluFrames
-	dw LucarioFrames
+	dw PrimeapeFrames
+	dw AnnihilapeFrames
 	dw GrimerFrames
 	dw MukFrames
 	dw ShellderFrames

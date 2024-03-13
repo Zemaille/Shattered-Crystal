@@ -1154,8 +1154,8 @@ DodrioEvosAttacks:
 	db 47, AGILITY
 	db 0 ; no more level-up moves
 
-RioluEvosAttacks:
-	db EVOLVE_LEVEL, 34, LUCARIO
+PrimeapeEvosAttacks:
+	db EVOLVE_LEVEL, 34, ANNIHILAPE
 	db 0 ; no more evolutions
 	db 1, HEADBUTT
 	db 5, GROWL
@@ -1166,7 +1166,7 @@ RioluEvosAttacks:
 	db 48, SAFEGUARD
 	db 0 ; no more level-up moves
 
-LucarioEvosAttacks:
+AnnihilapeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HEADBUTT
 	db 1, GROWL

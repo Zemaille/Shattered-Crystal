@@ -44,8 +44,8 @@ MortyGroup:
 PryceGroup:
 	; PRYCE (1)
 	db "PRYCE@", TRAINERTYPE_MOVES
-	db 27, RIOLU,       HEADBUTT, ICY_WIND, AURORA_BEAM, REST
-	db 29, LUCARIO,    HEADBUTT, ICY_WIND, AURORA_BEAM, REST
+	db 27, PRIMEAPE,       HEADBUTT, ICY_WIND, AURORA_BEAM, REST
+	db 29, ANNIHILAPE,    HEADBUTT, ICY_WIND, AURORA_BEAM, REST
 	db 31, PILOSWINE,  ICY_WIND, FURY_ATTACK, MIST, BLIZZARD
 	db -1 ; end
 
@@ -1100,7 +1100,7 @@ BeautyGroup:
 	; BEAUTY (7)
 	db "CAROLINE@", TRAINERTYPE_NORMAL
 	db 30, MARILL
-	db 32, RIOLU
+	db 32, PRIMEAPE
 	db 30, MARILL
 	db -1 ; end
 
@@ -1465,7 +1465,7 @@ SkierGroup:
 
 	; SKIER (2)
 	db "CLARISSA@", TRAINERTYPE_NORMAL
-	db 28, LUCARIO
+	db 28, ANNIHILAPE
 	db -1 ; end
 
 TeacherGroup:
@@ -1831,9 +1831,9 @@ SwimmerMGroup:
 
 	; SWIMMERM (9)
 	db "HAL@", TRAINERTYPE_NORMAL
-	db 24, RIOLU
-	db 25, LUCARIO
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 25, ANNIHILAPE
+	db 24, PRIMEAPE
 	db -1 ; end
 
 	; SWIMMERM (10)
@@ -1944,7 +1944,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (5)
 	db "DENISE@", TRAINERTYPE_NORMAL
-	db 22, RIOLU
+	db 22, PRIMEAPE
 	db -1 ; end
 
 	; SWIMMERF (6)
@@ -1966,7 +1966,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (9)
 	db "JILL@", TRAINERTYPE_NORMAL
-	db 28, LUCARIO
+	db 28, ANNIHILAPE
 	db -1 ; end
 
 	; SWIMMERF (10)
@@ -1976,7 +1976,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (11)
 	db "KATIE@", TRAINERTYPE_NORMAL
-	db 33, LUCARIO
+	db 33, ANNIHILAPE
 	db -1 ; end
 
 	; SWIMMERF (12)
@@ -2009,10 +2009,10 @@ SwimmerFGroup:
 
 	; SWIMMERF (17)
 	db "NIKKI@", TRAINERTYPE_NORMAL
-	db 28, RIOLU
-	db 28, RIOLU
-	db 28, RIOLU
-	db 28, LUCARIO
+	db 28, PRIMEAPE
+	db 28, PRIMEAPE
+	db 28, PRIMEAPE
+	db 28, ANNIHILAPE
 	db -1 ; end
 
 	; SWIMMERF (18)
@@ -3193,9 +3193,9 @@ MediumGroup:
 BoarderGroup:
 	; BOARDER (1)
 	db "RONALD@", TRAINERTYPE_NORMAL
-	db 24, RIOLU
-	db 25, LUCARIO
-	db 24, RIOLU
+	db 24, PRIMEAPE
+	db 25, ANNIHILAPE
+	db 24, PRIMEAPE
 	db -1 ; end
 
 	; BOARDER (2)

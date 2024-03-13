@@ -85,8 +85,8 @@ AnimationPointers:
 	dw MagnezoneAnimation
 	dw DoduoAnimation
 	dw DodrioAnimation
-	dw RioluAnimation
-	dw LucarioAnimation
+	dw PrimeapeAnimation
+	dw AnnihilapeAnimation
 	dw GrimerAnimation
 	dw MukAnimation
 	dw ShellderAnimation

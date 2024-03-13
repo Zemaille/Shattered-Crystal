@@ -87,8 +87,8 @@ MonMenuIcons:
 	db ICON_BIRD        ; MAGNEZONE
 	db ICON_BIRD        ; DODUO
 	db ICON_BIRD        ; DODRIO
-	db ICON_LAPRAS      ; RIOLU
-	db ICON_LAPRAS      ; LUCARIO
+	db ICON_LAPRAS      ; PRIMEAPE
+	db ICON_LAPRAS      ; ANNIHILAPE
 	db ICON_BLOB        ; GRIMER
 	db ICON_BLOB        ; MUK
 	db ICON_SHELL       ; SHELLDER

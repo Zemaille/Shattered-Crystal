@@ -38,7 +38,7 @@ AlphabeticalPokedexOrder:
 	db IMIPUP
 	db CYNDAQUIL
 	db CATERUNG
-	db LUCARIO
+	db ANNIHILAPE
 	db DIGLETT
 	db DITTO
 	db DODRIO
@@ -193,7 +193,7 @@ AlphabeticalPokedexOrder:
 	db SCYTHER
 	db SEADRA
 	db MAGMORTAR
-	db RIOLU
+	db PRIMEAPE
 	db SENTRET
 	db SHELLDER
 	db SHUCKLE
