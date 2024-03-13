@@ -149,7 +149,7 @@ AlphabeticalPokedexOrder:
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL
-	db OCTILLERY
+	db KITTRING
 	db ODDISH
 	db ANORITH
 	db ARMALDO

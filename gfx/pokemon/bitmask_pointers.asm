@@ -223,7 +223,7 @@ BitmasksPointers:
 	dw PiloswineBitmasks
 	dw CorsolaBitmasks
 	dw CursolaBitmasks
-	dw OctilleryBitmasks
+	dw KittringBitmasks
 	dw DelibirdBitmasks
 	dw MantineBitmasks
 	dw SkarmoryBitmasks

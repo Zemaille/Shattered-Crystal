@@ -223,7 +223,7 @@ AnimationPointers:
 	dw PiloswineAnimation
 	dw CorsolaAnimation
 	dw CursolaAnimation
-	dw OctilleryAnimation
+	dw KittringAnimation
 	dw DelibirdAnimation
 	dw MantineAnimation
 	dw SkarmoryAnimation

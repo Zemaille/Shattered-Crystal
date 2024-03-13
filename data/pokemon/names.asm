@@ -223,7 +223,7 @@ PokemonNames::
 	db "Piloswine@"
 	db "Corsola@@@"
 	db "Cursola@@@"
-	db "OCTILLERY@"
+	db "Kittring@@"
 	db "DELIBIRD@@"
 	db "MANTINE@@@"
 	db "SKARMORY@@"

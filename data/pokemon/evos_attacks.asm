@@ -2981,7 +2981,7 @@ CorsolaEvosAttacks:
 	db 0 ; no more level-up moves
 
 CursolaEvosAttacks:
-	db EVOLVE_LEVEL, 25, OCTILLERY
+	db EVOLVE_LEVEL, 25, KITTRING
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 11, LOCK_ON
@@ -2993,7 +2993,7 @@ CursolaEvosAttacks:
 	db 55, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-OctilleryEvosAttacks:
+KittringEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 11, CONSTRICT

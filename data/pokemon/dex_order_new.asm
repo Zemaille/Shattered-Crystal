@@ -174,7 +174,7 @@ NewPokedexOrder:
 	db CLOYSTER
 	db CORSOLA
 	db CURSOLA
-	db OCTILLERY
+	db KITTRING
 	db CHINCHOU
 	db LANTURN
 	db RIOLU

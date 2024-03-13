@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, CURSOLA
-	db 3, CURSOLA
-	db 4, CURSOLA
-	db 2, CURSOLA
-	db 4, CURSOLA
-	db 3, CURSOLA
-	db 3, CURSOLA
+	db 2, KITTRING
+	db 3, KITTRING
+	db 4, KITTRING
+	db 2, KITTRING
+	db 4, KITTRING
+	db 3, KITTRING
+	db 3, KITTRING
 	; day
-	db 2, CURSOLA
-	db 3, CURSOLA
-	db 4, CURSOLA
-	db 2, CURSOLA
-	db 4, CURSOLA
-	db 3, CURSOLA
-	db 3, CURSOLA
+	db 2, KITTRING
+	db 3, KITTRING
+	db 4, KITTRING
+	db 2, KITTRING
+	db 4, KITTRING
+	db 3, KITTRING
+	db 3, KITTRING
 	; nite
-	db 2, CURSOLA
-	db 3, CURSOLA
-	db 4, CURSOLA
-	db 2, CURSOLA
-	db 4, CURSOLA
-	db 3, CURSOLA
-	db 3, CURSOLA
+	db 2, KITTRING
+	db 3, KITTRING
+	db 4, KITTRING
+	db 2, KITTRING
+	db 4, KITTRING
+	db 3, KITTRING
+	db 3, KITTRING
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

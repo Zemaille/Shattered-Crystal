@@ -223,7 +223,7 @@ FramesPointers:
 	dw PiloswineFrames
 	dw CorsolaFrames
 	dw CursolaFrames
-	dw OctilleryFrames
+	dw KittringFrames
 	dw DelibirdFrames
 	dw MantineFrames
 	dw SkarmoryFrames

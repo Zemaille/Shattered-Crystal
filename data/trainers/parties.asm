@@ -1687,7 +1687,7 @@ FisherGroup:
 	; FISHER (12)
 	db "JONAH@", TRAINERTYPE_NORMAL
 	db 25, SHELLDER
-	db 29, OCTILLERY
+	db 29, KITTRING
 	db 25, CURSOLA
 	db 29, CLOYSTER
 	db -1 ; end
@@ -1892,7 +1892,7 @@ SwimmerMGroup:
 	; SWIMMERM (18)
 	db "SETH@", TRAINERTYPE_NORMAL
 	db 29, QUAGSIRE
-	db 29, OCTILLERY
+	db 29, KITTRING
 	db 32, QUAGSIRE
 	db -1 ; end
 

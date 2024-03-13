@@ -223,7 +223,7 @@ AnimationIdlePointers:
 	dw PiloswineAnimationIdle
 	dw CorsolaAnimationIdle
 	dw CursolaAnimationIdle
-	dw OctilleryAnimationIdle
+	dw KittringAnimationIdle
 	dw DelibirdAnimationIdle
 	dw MantineAnimationIdle
 	dw SkarmoryAnimationIdle

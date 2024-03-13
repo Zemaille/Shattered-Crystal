@@ -224,7 +224,7 @@ PokedexDataPointerTable:
 	dw PiloswinePokedexEntry
 	dw CorsolaPokedexEntry
 	dw CursolaPokedexEntry
-	dw OctilleryPokedexEntry
+	dw KittringPokedexEntry
 	dw DelibirdPokedexEntry
 	dw MantinePokedexEntry
 	dw SkarmoryPokedexEntry
