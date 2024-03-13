@@ -151,8 +151,8 @@ AlphabeticalPokedexOrder:
 	db NOCTOWL
 	db KITTRING
 	db ODDISH
-	db ANORITH
-	db ARMALDO
+	db JOLTIK
+	db GALVANTULA
 	db ONIX
 	db PHANTUMP
 	db TREVENANT

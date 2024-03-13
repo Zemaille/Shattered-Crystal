@@ -138,8 +138,8 @@ PokedexDataPointerTable:
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry
 	dw PorygonPokedexEntry
-	dw AnorithPokedexEntry
-	dw ArmaldoPokedexEntry
+	dw JoltikPokedexEntry
+	dw GalvantulaPokedexEntry
 	dw KabutoPokedexEntry
 	dw KabutopsPokedexEntry
 	dw AerodactylPokedexEntry

@@ -137,8 +137,8 @@ AnimationPointers:
 	dw JolteonAnimation
 	dw FlareonAnimation
 	dw PorygonAnimation
-	dw AnorithAnimation
-	dw ArmaldoAnimation
+	dw JoltikAnimation
+	dw GalvantulaAnimation
 	dw KabutoAnimation
 	dw KabutopsAnimation
 	dw AerodactylAnimation

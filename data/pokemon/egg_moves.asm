@@ -407,7 +407,7 @@ EeveeEggMoves:
 	db CHARM
 	db -1 ; end
 
-AnorithEggMoves:
+JoltikEggMoves:
 	db BUBBLEBEAM
 	db AURORA_BEAM
 	db SLAM

@@ -156,8 +156,8 @@
 	const JOLTEON    ; 87
 	const FLAREON    ; 88
 	const PORYGON    ; 89
-	const ANORITH    ; 8a
-	const ARMALDO    ; 8b
+	const JOLTIK    ; 8a
+	const GALVANTULA    ; 8b
 	const KABUTO     ; 8c
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e

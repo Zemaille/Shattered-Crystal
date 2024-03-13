@@ -277,10 +277,10 @@ PokemonPicPointers::
 	dba FlareonBackpic
 	dba PorygonFrontpic
 	dba PorygonBackpic
-	dba AnorithFrontpic
-	dba AnorithBackpic
-	dba ArmaldoFrontpic
-	dba ArmaldoBackpic
+	dba JoltikFrontpic
+	dba JoltikBackpic
+	dba GalvantulaFrontpic
+	dba GalvantulaBackpic
 	dba KabutoFrontpic
 	dba KabutoBackpic
 	dba KabutopsFrontpic

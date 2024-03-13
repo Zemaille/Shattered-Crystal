@@ -139,8 +139,8 @@ EvosAttacksPointers::
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
-	dw AnorithEvosAttacks
-	dw ArmaldoEvosAttacks
+	dw JoltikEvosAttacks
+	dw GalvantulaEvosAttacks
 	dw KabutoEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks

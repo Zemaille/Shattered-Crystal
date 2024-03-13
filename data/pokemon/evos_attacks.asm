@@ -1865,8 +1865,8 @@ PorygonEvosAttacks:
 	db 44, ZAP_CANNON
 	db 0 ; no more level-up moves
 
-AnorithEvosAttacks:
-	db EVOLVE_LEVEL, 40, ARMALDO
+JoltikEvosAttacks:
+	db EVOLVE_LEVEL, 40, GALVANTULA
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, WITHDRAW
@@ -1878,7 +1878,7 @@ AnorithEvosAttacks:
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-ArmaldoEvosAttacks:
+GalvantulaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, WITHDRAW

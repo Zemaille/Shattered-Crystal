@@ -139,8 +139,8 @@ MonMenuIcons:
 	db ICON_FOX         ; JOLTEON
 	db ICON_FOX         ; FLAREON
 	db ICON_VOLTORB     ; PORYGON
-	db ICON_SHELL       ; ANORITH
-	db ICON_SHELL       ; ARMALDO
+	db ICON_SHELL       ; JOLTIK
+	db ICON_SHELL       ; GALVANTULA
 	db ICON_SHELL       ; KABUTO
 	db ICON_SHELL       ; KABUTOPS
 	db ICON_BIRD        ; AERODACTYL

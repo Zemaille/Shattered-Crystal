@@ -222,8 +222,8 @@ NewPokedexOrder:
 	db CHANSEY
 	db BLISSEY
 	db LAPRAS
-	db ANORITH
-	db ARMALDO
+	db JOLTIK
+	db GALVANTULA
 	db KABUTO
 	db KABUTOPS
 	db AERODACTYL
