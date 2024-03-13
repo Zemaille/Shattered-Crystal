@@ -106,7 +106,7 @@ EvosAttacksPointers::
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorEvosAttacks
 	dw ImipupEvosAttacks
-	dw TyrantrumEvosAttacks
+	dw SabrawlerEvosAttacks
 	dw YamaskEvosAttacks
 	dw CofagrigusEvosAttacks
 	dw FarigirafEvosAttacks

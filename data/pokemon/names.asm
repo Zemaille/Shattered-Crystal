@@ -104,7 +104,7 @@ PokemonNames::
 	db "Exeggcute@"
 	db "Exeggutor@"
 	db "Imipup@@@@"
-	db "Tyrantrum@"
+	db "Sabrawler@"
 	db "Yamask@@@@"
 	db "Cofagrigus"
 	db "Farigiraf@"

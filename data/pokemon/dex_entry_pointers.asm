@@ -105,7 +105,7 @@ PokedexDataPointerTable:
 	dw ExeggcutePokedexEntry
 	dw ExeggutorPokedexEntry
 	dw ImipupPokedexEntry
-	dw TyrantrumPokedexEntry
+	dw SabrawlerPokedexEntry
 	dw YamaskPokedexEntry
 	dw CofagrigusPokedexEntry
 	dw FarigirafPokedexEntry

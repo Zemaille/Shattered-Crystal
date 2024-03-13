@@ -144,7 +144,7 @@ Pokered_MonIndices:
 	db CLEFABLE
 	db WEEZING
 	db PERSIAN
-	db TYRANTRUM
+	db SABRAWLER
 	db HITMONTOP ; MISSINGNO.
 	db HAUNTER
 	db ABRA

@@ -128,7 +128,7 @@ AlphabeticalPokedexOrder:
 	db ABYSSEEL
 	db MAREEP
 	db MARILL
-	db TYRANTRUM
+	db SABRAWLER
 	db MEGANIUM
 	db MEOWTH
 	db METAPOD

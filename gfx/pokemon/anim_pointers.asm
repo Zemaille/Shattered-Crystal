@@ -104,7 +104,7 @@ AnimationPointers:
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation
 	dw ImipupAnimation
-	dw TyrantrumAnimation
+	dw SabrawlerAnimation
 	dw YamaskAnimation
 	dw CofagrigusAnimation
 	dw FarigirafAnimation

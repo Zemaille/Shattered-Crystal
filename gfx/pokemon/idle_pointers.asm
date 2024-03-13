@@ -104,7 +104,7 @@ AnimationIdlePointers:
 	dw ExeggcuteAnimationIdle
 	dw ExeggutorAnimationIdle
 	dw ImipupAnimationIdle
-	dw TyrantrumAnimationIdle
+	dw SabrawlerAnimationIdle
 	dw YamaskAnimationIdle
 	dw CofagrigusAnimationIdle
 	dw FarigirafAnimationIdle

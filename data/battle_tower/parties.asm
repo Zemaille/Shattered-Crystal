@@ -1388,7 +1388,7 @@ BattleTowerMons:
 	bigdw 81 ; SDef
 	db "PORIGON2@@@"
 
-	db TYRANTRUM
+	db SABRAWLER
 	db THICK_CLUB
 	db EARTHQUAKE, RETURN, HYPER_BEAM, BONEMERANG
 	dw 0 ; OT ID

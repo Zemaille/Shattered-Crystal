@@ -206,7 +206,7 @@ NewPokedexOrder:
 	db PONYTA
 	db RAPIDASH
 	db IMIPUP
-	db TYRANTRUM
+	db SABRAWLER
 	db KANGASKHAN
 	db RHYHORN
 	db RHYDON

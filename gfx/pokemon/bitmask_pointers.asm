@@ -104,7 +104,7 @@ BitmasksPointers:
 	dw ExeggcuteBitmasks
 	dw ExeggutorBitmasks
 	dw ImipupBitmasks
-	dw TyrantrumBitmasks
+	dw SabrawlerBitmasks
 	dw YamaskBitmasks
 	dw CofagrigusBitmasks
 	dw FarigirafBitmasks

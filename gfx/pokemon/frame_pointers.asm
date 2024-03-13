@@ -104,7 +104,7 @@ FramesPointers:
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
 	dw ImipupFrames
-	dw TyrantrumFrames
+	dw SabrawlerFrames
 	dw YamaskFrames
 	dw CofagrigusFrames
 	dw FarigirafFrames

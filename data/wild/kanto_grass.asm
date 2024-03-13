@@ -66,16 +66,16 @@ KantoGrassWildMons:
 	db 12, MACHOP
 	db 12, ZUBAT
 	db 15, MACHOKE
-	db 12, TYRANTRUM
-	db 12, TYRANTRUM
+	db 12, SABRAWLER
+	db 12, SABRAWLER
 	; day
 	db 10, IMIPUP
 	db 11, GEODUDE
 	db 12, MACHOP
 	db 12, ZUBAT
 	db 15, MACHOKE
-	db 12, TYRANTRUM
-	db 12, TYRANTRUM
+	db 12, SABRAWLER
+	db 12, SABRAWLER
 	; nite
 	db 12, ZUBAT
 	db 11, GEODUDE
@@ -93,7 +93,7 @@ KantoGrassWildMons:
 	db 14, GEODUDE
 	db 16, ONIX
 	db 12, ZUBAT
-	db 15, TYRANTRUM
+	db 15, SABRAWLER
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	; day
@@ -101,7 +101,7 @@ KantoGrassWildMons:
 	db 14, GEODUDE
 	db 16, ONIX
 	db 12, ZUBAT
-	db 15, TYRANTRUM
+	db 15, SABRAWLER
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	; nite
@@ -402,16 +402,16 @@ KantoGrassWildMons:
 	db 15, MAMOSWINE
 	db 15, ALTARIA
 	db 15, ALTARIA
-	db 18, TYRANTRUM
-	db 18, TYRANTRUM
+	db 18, SABRAWLER
+	db 18, SABRAWLER
 	; day
 	db 15, HONCHKROW
 	db 15, SWABLU
 	db 15, MAMOSWINE
 	db 15, ALTARIA
 	db 15, ALTARIA
-	db 18, TYRANTRUM
-	db 18, TYRANTRUM
+	db 18, SABRAWLER
+	db 18, SABRAWLER
 	; nite
 	db 15, HONCHKROW
 	db 15, DUDUNSPARCE
@@ -429,7 +429,7 @@ KantoGrassWildMons:
 	db 17, SKRELP
 	db 15, MAMOSWINE
 	db 15, ALTARIA
-	db 15, TYRANTRUM
+	db 15, SABRAWLER
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
 	; day
@@ -437,7 +437,7 @@ KantoGrassWildMons:
 	db 17, SKRELP
 	db 15, MAMOSWINE
 	db 15, ALTARIA
-	db 15, TYRANTRUM
+	db 15, SABRAWLER
 	db 18, ELECTABUZZ
 	db 18, ELECTABUZZ
 	; nite
