@@ -155,7 +155,7 @@ NewPokedexOrder:
 	db MAGMAR
 	db DRAGAPULT
 	db JYNX
-	db ELEKID
+	db WEAVILE
 	db ELECTABUZZ
 	db MR__MIME
 	db SMEARGLE

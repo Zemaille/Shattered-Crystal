@@ -238,7 +238,7 @@ BitmasksPointers:
 	dw DreepyBitmasks
 	dw DrakloakBitmasks
 	dw DragapultBitmasks
-	dw ElekidBitmasks
+	dw WeavileBitmasks
 	dw MagbyBitmasks
 	dw MiltankBitmasks
 	dw BlisseyBitmasks

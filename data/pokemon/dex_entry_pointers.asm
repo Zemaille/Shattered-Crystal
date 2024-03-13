@@ -239,7 +239,7 @@ PokedexDataPointerTable:
 	dw DreepyPokedexEntry
 	dw DrakloakPokedexEntry
 	dw DragapultPokedexEntry
-	dw ElekidPokedexEntry
+	dw WeavilePokedexEntry
 	dw MagbyPokedexEntry
 	dw MiltankPokedexEntry
 	dw BlisseyPokedexEntry

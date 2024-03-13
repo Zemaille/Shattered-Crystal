@@ -240,7 +240,7 @@ EvosAttacksPointers::
 	dw DreepyEvosAttacks
 	dw DrakloakEvosAttacks
 	dw DragapultEvosAttacks
-	dw ElekidEvosAttacks
+	dw WeavileEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
 	dw BlisseyEvosAttacks

@@ -1237,29 +1237,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, DRAGAPULT
-	db 3, DRAGAPULT
-	db 4, DRAGAPULT
-	db 2, DRAGAPULT
-	db 4, DRAGAPULT
-	db 3, DRAGAPULT
-	db 3, DRAGAPULT
+	db 2, WEAVILE
+	db 3, WEAVILE
+	db 4, WEAVILE
+	db 2, WEAVILE
+	db 4, WEAVILE
+	db 3, WEAVILE
+	db 3, WEAVILE
 	; day
-	db 2, DRAGAPULT
-	db 3, DRAGAPULT
-	db 4, DRAGAPULT
-	db 2, DRAGAPULT
-	db 4, DRAGAPULT
-	db 3, DRAGAPULT
-	db 3, DRAGAPULT
+	db 2, WEAVILE
+	db 3, WEAVILE
+	db 4, WEAVILE
+	db 2, WEAVILE
+	db 4, WEAVILE
+	db 3, WEAVILE
+	db 3, WEAVILE
 	; nite
-	db 2, DRAGAPULT
-	db 3, DRAGAPULT
-	db 4, DRAGAPULT
-	db 2, DRAGAPULT
-	db 4, DRAGAPULT
-	db 3, DRAGAPULT
-	db 3, DRAGAPULT
+	db 2, WEAVILE
+	db 3, WEAVILE
+	db 4, WEAVILE
+	db 2, WEAVILE
+	db 4, WEAVILE
+	db 3, WEAVILE
+	db 3, WEAVILE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30

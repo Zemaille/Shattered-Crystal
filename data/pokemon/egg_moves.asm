@@ -775,7 +775,7 @@ DragapultEggMoves:
 	db MEDITATE
 	db -1 ; end
 
-ElekidEggMoves:
+WeavileEggMoves:
 	db KARATE_CHOP
 	db BARRIER
 	db ROLLING_KICK

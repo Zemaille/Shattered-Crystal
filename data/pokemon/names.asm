@@ -238,7 +238,7 @@ PokemonNames::
 	db "Dreepy@@@@"
 	db "Drakloak@@"
 	db "Dragapult@"
-	db "ELEKID@@@@"
+	db "Weavile@@@"
 	db "MAGBY@@@@@"
 	db "MILTANK@@@"
 	db "BLISSEY@@@"

@@ -238,7 +238,7 @@ AnimationIdlePointers:
 	dw DreepyAnimationIdle
 	dw DrakloakAnimationIdle
 	dw DragapultAnimationIdle
-	dw ElekidAnimationIdle
+	dw WeavileAnimationIdle
 	dw MagbyAnimationIdle
 	dw MiltankAnimationIdle
 	dw BlisseyAnimationIdle

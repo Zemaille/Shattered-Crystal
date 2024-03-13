@@ -238,7 +238,7 @@ FramesPointers:
 	dw DreepyFrames
 	dw DrakloakFrames
 	dw DragapultFrames
-	dw ElekidFrames
+	dw WeavileFrames
 	dw MagbyFrames
 	dw MiltankFrames
 	dw BlisseyFrames

@@ -238,7 +238,7 @@ AnimationPointers:
 	dw DreepyAnimation
 	dw DrakloakAnimation
 	dw DragapultAnimation
-	dw ElekidAnimation
+	dw WeavileAnimation
 	dw MagbyAnimation
 	dw MiltankAnimation
 	dw BlisseyAnimation

@@ -54,7 +54,7 @@ AlphabeticalPokedexOrder:
 	db EKANS
 	db ELECTABUZZ
 	db DRAGALGE
-	db ELEKID
+	db WEAVILE
 	db ENTEI
 	db ESPEON
 	db EXEGGCUTE

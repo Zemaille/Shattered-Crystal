@@ -482,8 +482,8 @@ PokemonPicPointers::
 	dba DrakloakBackpic
 	dba DragapultFrontpic
 	dba DragapultBackpic
-	dba ElekidFrontpic
-	dba ElekidBackpic
+	dba WeavileFrontpic
+	dba WeavileBackpic
 	dba MagbyFrontpic
 	dba MagbyBackpic
 	dba MiltankFrontpic
