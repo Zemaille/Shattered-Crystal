@@ -249,7 +249,7 @@ PokemonNames::
 	db "Pupitar@@@"
 	db "Tyranitar@"
 	db "Lugia@@@@@"
-	db "Ho-oh@@@@@"
+	db "Ho-Oh@@@@@"
 	db "Celebi@@@@"
 	db "Ursaluna@@"
 	db "Wyrdeer@@@"
