@@ -255,8 +255,8 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_Hail
 	dw BattleAnim_NastyPlot
+	dw BattleAnim_FakeOut
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -3424,6 +3424,7 @@ BattleAnim_ScaryFace:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_FakeOut:
 BattleAnim_FaintAttack:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_CURSE

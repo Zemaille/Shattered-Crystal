@@ -267,5 +267,6 @@ Moves:
 	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,          PHYSICAL, 100, 10,   0
 	move HAIL,         EFFECT_HAIL,               10, ICE,           STATUS,   100, 10,   0
 	move NASTY_PLOT,   EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,   100, 20,   0
+	move FAKE_OUT,     EFFECT_FAKE_OUT,           40, NORMAL,		 PHYSICAL, 100, 10,   0
 	assert_table_length NUM_ATTACKS
 	

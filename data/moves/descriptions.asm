@@ -254,8 +254,8 @@ MoveDescriptions::
 	dw BeatUpDescription
 	dw HailDescription
 	dw NastyPlotDescription
+	dw FakeOutDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
@@ -1277,3 +1277,7 @@ HailDescription:
 NastyPlotDescription:
 	db   "Sharply increases"
 	next "user's Spcl.Atk.@"
+
+FakeOutDescription:
+	db   "Makes the target"
+	next "flinch once.@"
