@@ -756,8 +756,7 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, QUIVER_DANCE
-	db 1, WATER_GUN
+	db 1, WHIRLPOOL
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
