@@ -2109,3 +2109,19 @@ Hex:
 	buildopponentrage
 	kingsrock
 	endmove
+
+QuiverDance:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	specialattackup
+	statupmessage
+	specialdefenseup
+	statupmessage
+	speedup
+	statupmessage
+	statupfailtext
+	endmove

@@ -83,7 +83,7 @@ BattleAnimations::
 	dw BattleAnim_SleepPowder
 	dw BattleAnim_PetalDance
 	dw BattleAnim_StringShot
-	dw BattleAnim_DragonRage
+	dw BattleAnim_QuiverDance
 	dw BattleAnim_FireSpin
 	dw BattleAnim_Thundershock
 	dw BattleAnim_Thunderbolt
@@ -906,14 +906,17 @@ BattleAnim_FireSpin:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_DragonRage:
-	anim_1gfx BATTLE_ANIM_GFX_FIRE
+BattleAnim_QuiverDance:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
 .loop
-	anim_sound 6, 2, SFX_EMBER
-	anim_obj BATTLE_ANIM_OBJ_DRAGON_RAGE, 64, 92, $0
-	anim_wait 3
-	anim_loop 16, .loop
-	anim_wait 64
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $2, $0
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_bgeffect BATTLE_BG_EFFECT_WAVE_DEFORM_MON, $0, $1, $0
+	anim_wait 16
+	anim_incbgeffect BATTLE_BG_EFFECT_WAVE_DEFORM_MON
+	anim_wait 16
+	anim_loop 3, .loop
+	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnim_Flamethrower:

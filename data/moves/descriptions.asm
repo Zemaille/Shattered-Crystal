@@ -82,7 +82,7 @@ MoveDescriptions::
 	dw SleepPowderDescription
 	dw PetalDanceDescription
 	dw StringShotDescription
-	dw DragonRageDescription
+	dw QuiverDanceDescription
 	dw FireSpinDescription
 	dw ThundershockDescription
 	dw ThunderboltDescription
@@ -587,9 +587,9 @@ StringShotDescription:
 	db   "A move that lowers"
 	next "the foe's SPEED.@"
 
-DragonRageDescription:
-	db   "Always inflicts"
-	next "40HP damage.@"
+QuiverDanceDescription:
+	db   "Raises the user's"
+	next "Special and Speed.@"
 
 FireSpinDescription:
 	db   "Traps foe in fire"

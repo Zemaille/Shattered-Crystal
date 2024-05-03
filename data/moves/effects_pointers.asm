@@ -161,4 +161,5 @@ MoveEffectsPointers:
 	dw FreezeHit ; For Blizzard usage
 	dw Hail
 	dw Hex
+	dw QuiverDance
 	assert_table_length NUM_MOVE_EFFECTS
