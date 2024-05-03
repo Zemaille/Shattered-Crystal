@@ -264,7 +264,7 @@ Moves:
 	move FUTURE_SIGHT, EFFECT_FUTURE_SIGHT,       80, PSYCHIC_TYPE,  SPECIAL,   90, 15,   0
 	move ROCK_SMASH,   EFFECT_DEFENSE_DOWN_HIT,   20, FIGHTING,      PHYSICAL, 100, 15,  50
 	move WHIRLPOOL,    EFFECT_TRAP_TARGET,        15, WATER,         SPECIAL,   70, 15,   0
-	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,          PHYSICAL, 100, 10,   0
+	move INFESTATION,  EFFECT_CONFUSE_HIT,        20, BUG,           SPECIAL,  100, 20,  30
 	move HAIL,         EFFECT_HAIL,               10, ICE,           STATUS,   100, 10,   0
 	move NASTY_PLOT,   EFFECT_SP_ATK_UP_2,         0, DARK,          STATUS,   100, 20,   0
 	move HEX, 		   EFFECT_HEX,                65, GHOST, 		 SPECIAL,  100, 10,   0

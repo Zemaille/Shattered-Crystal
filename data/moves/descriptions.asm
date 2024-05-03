@@ -251,7 +251,7 @@ MoveDescriptions::
 	dw FutureSightDescription
 	dw RockSmashDescription
 	dw WhirlpoolDescription
-	dw BeatUpDescription
+	dw InfestationDescription
 	dw HailDescription
 	dw NastyPlotDescription
 	dw HexDescription	
@@ -498,6 +498,7 @@ BlizzardDescription:
 	db   "An attack that may"
 	next "freeze the foe.@"
 
+InfestationDescription:
 PsybeamDescription:
 	db   "An attack that may"
 	next "confuse the foe.@"
@@ -770,10 +771,6 @@ FireBlastDescription:
 WaterfallDescription:
 	db   "An aquatic charge"
 	next "attack.@"
-
-ClampDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
 
 SwiftDescription:
 	db   "An attack that"
@@ -1259,13 +1256,10 @@ RockSmashDescription:
 	db   "An attack that may"
 	next "lower DEFENSE.@"
 
+ClampDescription:
 WhirlpoolDescription:
 	db   "Traps the foe for"
 	next "2-5 turns.@"
-
-BeatUpDescription:
-	db   "Party #MON join"
-	next "in the attack.@"
 
 HailDescription:
 	db   "Inflicts damage"

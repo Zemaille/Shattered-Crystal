@@ -256,7 +256,7 @@
 	const FUTURE_SIGHT ; f8
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
-	const BEAT_UP      ; fb
+	const INFESTATION  ; fb
 	const HAIL		   ; fc
 	const NASTY_PLOT
 	const HEX
