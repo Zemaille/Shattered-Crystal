@@ -41,7 +41,7 @@ MoveDescriptions::
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
-	dw TwineedleDescription
+	dw BugBuzzDescription
 	dw PinMissileDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -426,10 +426,6 @@ PoisonStingDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
-TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
-
 PinMissileDescription:
 	db   "Fires pins that"
 	next "strike 2-5 times.@"
@@ -638,9 +634,10 @@ ConfusionDescription:
 	db   "An attack that may"
 	next "cause confusion.@"
 
+BugBuzzDescription:
 PsychicMDescription:
 	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	next "lower SpDef.@"
 
 HypnosisDescription:
 	db   "May put the foe to"
@@ -648,19 +645,19 @@ HypnosisDescription:
 
 MeditateDescription:
 	db   "Raises the user's"
-	next "ATTACK.@"
+	next "Atk.@"
 
 AgilityDescription:
 	db   "Sharply increases"
-	next "the user's SPEED.@"
+	next "the user's Speed.@"
 
 QuickAttackDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
 
 RageDescription:
-	db   "Raises ATTACK if"
-	next "the user is hit.@"
+	db   "Raises Atk if the"
+	next "user is hit.@"
 
 TeleportDescription:
 	db   "A move for fleeing"

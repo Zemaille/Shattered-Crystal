@@ -42,7 +42,7 @@ BattleAnimations::
 	dw BattleAnim_DoubleEdge
 	dw BattleAnim_TailWhip
 	dw BattleAnim_PoisonSting
-	dw BattleAnim_Twineedle
+	dw BattleAnim_BugBuzz
 	dw BattleAnim_PinMissile
 	dw BattleAnim_Leer
 	dw BattleAnim_Bite
@@ -2293,16 +2293,33 @@ BattleAnim_PoisonSting:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Twineedle:
-	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_POISON_STING
-	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 64, 92, $14
-	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 56, 84, $14
-	anim_wait 16
-	anim_sound 0, 1, SFX_POISON_STING
-	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL, 136, 56, $0
-	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL, 128, 48, $0
-	anim_wait 16
+; Bug Buzz animation from Pokémon Prism
+BattleAnim_BugBuzz:
+	anim_2gfx BATTLE_ANIM_GFX_NOISE, BATTLE_ANIM_GFX_PSYCHIC
+.loop
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
+	anim_sound 0, 0, SFX_SNORE
+	anim_call BattleAnimSub_Sound
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 0, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  9, 0, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 0, 11, 0, $2
+	anim_wait 4
+	anim_sound 0, 0, SFX_SNORE
+	anim_call BattleAnimSub_Sound
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 4, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 4, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 0, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 6, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 2, 11, 0, $2
+	anim_wait 4
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  8, 0, 11, 0, $2
+	anim_wait 24
 	anim_ret
 
 BattleAnim_PinMissile:
