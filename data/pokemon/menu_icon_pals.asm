@@ -78,9 +78,9 @@ MonMenuIconPals:
 	icon_pals GREEN, TEAL   ; Torterra
 	icon_pals BLUE, TEAL   ; Tentacool
 	icon_pals BLUE, TEAL   ; Tentacruel
-	icon_pals GREEN, TEAL   ; Geodude
-	icon_pals GREEN, TEAL   ; Graveler
-	icon_pals GREEN, TEAL   ; Golem
+	icon_pals GRAY, TEAL   ; Geodude
+	icon_pals GRAY, TEAL   ; Graveler
+	icon_pals GRAY, TEAL   ; Golem
 	icon_pals PINK, TEAL   ; Ponyta
 	icon_pals PINK, TEAL   ; Rapidash
 	icon_pals PINK, TEAL   ; Slowpoke
