@@ -1237,57 +1237,57 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, GALVANTULA
-	db 3, GALVANTULA
-	db 4, GALVANTULA
-	db 2, GALVANTULA
-	db 4, GALVANTULA
-	db 3, GALVANTULA
-	db 3, GALVANTULA
+	db 2, SENTRET
+	db 3, PIDGEY
+	db 4, SENTRET
+	db 2, PIDGEY
+	db 4, PIDGEY
+	db 3, SENTRET
+	db 3, SENTRET
 	; day
-	db 2, GALVANTULA
-	db 3, GALVANTULA
-	db 4, GALVANTULA
-	db 2, GALVANTULA
-	db 4, GALVANTULA
-	db 3, GALVANTULA
-	db 3, GALVANTULA
+	db 2, SENTRET
+	db 3, PIDGEY
+	db 4, SENTRET
+	db 2, PIDGEY
+	db 4, PIDGEY
+	db 3, SENTRET
+	db 3, SENTRET
 	; nite
-	db 2, GALVANTULA
-	db 3, GALVANTULA
-	db 4, GALVANTULA
-	db 2, GALVANTULA
-	db 4, GALVANTULA
-	db 3, GALVANTULA
-	db 3, GALVANTULA
+	db 2, SENTRET
+	db 3, HOOTHOOT
+	db 4, SENTRET
+	db 2, HOOTHOOT
+	db 4, HOOTHOOT
+	db 3, SENTRET
+	db 3, SENTRET
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, LEDYBA
 	db 3, CATERPIE
-	db 4, CATERPIE
-	db 4, PIDGEY
-	db 3, FENNEKIN
-	db 4, GOOMY
-	db 4, GOOMY
-	; day
 	db 3, PIDGEY
+	db 4, LEDYBA
+	db 4, SENTRET
+	db 3, HOOTHOOT
+	db 4, SPINARAK
+	db 4, POLIWAG
+	; day
 	db 3, CATERPIE
-	db 4, CATERPIE
-	db 4, PIDGEY
-	db 3, FENNEKIN
-	db 4, GOOMY
-	db 4, GOOMY
+	db 3, PIDGEY
+	db 4, LEDYBA
+	db 4, SENTRET
+	db 3, HOOTHOOT
+	db 4, SPINARAK
+	db 4, POLIWAG
 	; nite
 	db 3, SPINARAK
 	db 3, HOOTHOOT
+	db 4, LEDYBA
+	db 4, SENTRET
+	db 3, SPINARAK
 	db 4, POLIWAG
-	db 4, HOOTHOOT
-	db 3, ZUBAT
-	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 4, POLIWAG
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
@@ -1660,26 +1660,26 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 2, SWABLU
 	db 3, GEODUDE
-	db 3, HONCHKROW
-	db 2, PHANPY
-	db 2, HONCHKROW
-	db 2, HONCHKROW
+	db 3, PHANPY
+	db 2, GLIGAR
+	db 2, GEODUDE
+	db 2, SWABLU
 	; day
 	db 2, GEODUDE
 	db 2, SWABLU
 	db 3, GEODUDE
-	db 3, HONCHKROW
-	db 2, HONCHKROW
-	db 2, HONCHKROW
-	db 2, HONCHKROW
+	db 3, PHANPY
+	db 2, GLIGAR
+	db 2, GEODUDE
+	db 2, SWABLU
 	; nite
 	db 2, GEODUDE
-	db 2, HONCHKROW
+	db 2, SWABLU
 	db 3, GEODUDE
-	db 3, HONCHKROW
-	db 2, HONCHKROW
-	db 2, HONCHKROW
-	db 2, HONCHKROW
+	db 3, PHANPY
+	db 2, GLIGAR
+	db 2, GEODUDE
+	db 2, SWABLU
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE

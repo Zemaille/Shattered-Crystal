@@ -985,14 +985,15 @@ GeodudeEvosAttacks:
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
 	db 21, SELFDESTRUCT
-	db 26, HARDEN
-	db 31, ROLLOUT
+	db 26, THUNDERPUNCH
+	db 31, ROCK_SLIDE
 	db 36, EARTHQUAKE
 	db 41, EXPLOSION
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
+	db EVOLVE_ITEM, THUNDERSTONE, GOLEM
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
@@ -1001,8 +1002,8 @@ GravelerEvosAttacks:
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
 	db 21, SELFDESTRUCT
-	db 27, HARDEN
-	db 34, ROLLOUT
+	db 27, THUNDERPUNCH
+	db 34, ROCK_SLIDE
 	db 41, EARTHQUAKE
 	db 48, EXPLOSION
 	db 0 ; no more level-up moves
@@ -1017,8 +1018,8 @@ GolemEvosAttacks:
 	db 11, ROCK_THROW
 	db 16, MAGNITUDE
 	db 21, SELFDESTRUCT
-	db 27, HARDEN
-	db 34, ROLLOUT
+	db 27, THUNDERPUNCH
+	db 34, ROCK_SLIDE
 	db 41, EARTHQUAKE
 	db 48, EXPLOSION
 	db 0 ; no more level-up moves
@@ -2149,8 +2150,10 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 7, RAGE
-	db 13, WATER_GUN
+	db 1, SPORE
+	db 1, HEX
+	db 7, CLAMP
+	db 13, RAGE
 	db 20, BITE
 	db 27, SCARY_FACE
 	db 35, SLASH
@@ -2183,7 +2186,8 @@ FeraligatrEvosAttacks:
 	db 13, WATER_GUN
 	db 21, BITE
 	db 28, SCARY_FACE
-	db 38, SLASH
+	db 30, WATERFALL
+	db 38, CRUNCH
 	db 47, SCREECH
 	db 58, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -3079,7 +3083,7 @@ PhanpyEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 9, DEFENSE_CURL
-	db 17, FLAIL
+	db 17, HEADBUTT
 	db 25, TAKE_DOWN
 	db 33, ROLLOUT
 	db 41, ENDURE
@@ -3091,9 +3095,9 @@ DonphanEvosAttacks:
 	db 1, HORN_ATTACK
 	db 1, GROWL
 	db 9, DEFENSE_CURL
-	db 17, FLAIL
-	db 25, FURY_ATTACK
-	db 33, ROLLOUT
+	db 17, HEADBUTT
+	db 25, DOUBLE_KICK
+	db 33, SUBMISSION
 	db 41, RAPID_SPIN
 	db 49, EARTHQUAKE
 	db 0 ; no more level-up moves

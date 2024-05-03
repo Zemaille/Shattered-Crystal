@@ -160,4 +160,5 @@ MoveEffectsPointers:
 	dw DefenseCurl
 	dw FreezeHit ; For Blizzard usage
 	dw Hail
+	dw Hex
 	assert_table_length NUM_MOVE_EFFECTS
