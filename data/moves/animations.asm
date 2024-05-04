@@ -168,7 +168,7 @@ BattleAnimations::
 	dw BattleAnim_Substitute
 	dw BattleAnim_Struggle
 	dw BattleAnim_Sketch
-	dw BattleAnim_TripleKick
+	dw BattleAnim_DragonClaw
 	dw BattleAnim_Thief
 	dw BattleAnim_SpiderWeb
 	dw BattleAnim_MindReader
@@ -3158,32 +3158,51 @@ BattleAnim_Sketch:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_TripleKick:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_if_param_equal $1, .alternate1
-	anim_if_param_equal $2, .alternate2
-	anim_sound 0, 1, SFX_MEGA_KICK
-	anim_obj BATTLE_ANIM_OBJ_KICK, 144, 48, $0
-	anim_wait 6
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 48, $0
+BattleAnim_DragonClaw:
+	anim_2gfx BATTLE_ANIM_GFX_CUT, BATTLE_ANIM_GFX_FIRE
+	anim_obp0 0, 1, 2, 3
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 19, 0,  5, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 4,  4, 4, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 0,  4, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 17, 4,  3, 4, $0
 	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_BURNED,  15, 0, 8, 4, 6
+	anim_obj BATTLE_ANIM_OBJ_BURNED,  14, 0, 7, 4, 7
+	anim_obj BATTLE_ANIM_OBJ_BURNED,  13, 0, 6, 4, 8
+	anim_wait 16
+	anim_sound 0, 0, SFX_BURN
+	anim_wait 16
 	anim_ret
 
-.alternate1:
-	anim_sound 0, 1, SFX_DOUBLE_KICK
-	anim_obj BATTLE_ANIM_OBJ_KICK, 120, 64, $0
-	anim_wait 6
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 64, $0
-	anim_wait 8
-	anim_ret
-
-.alternate2:
-	anim_sound 0, 1, SFX_DOUBLE_KICK
-	anim_obj BATTLE_ANIM_OBJ_KICK, 132, 32, $0
-	anim_wait 6
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 132, 32, $0
-	anim_wait 8
-	anim_ret
+;BattleAnim_TripleKick:
+;	anim_1gfx BATTLE_ANIM_GFX_HIT
+;	anim_if_param_equal $1, .alternate1
+;	anim_if_param_equal $2, .alternate2
+;	anim_sound 0, 1, SFX_MEGA_KICK
+;	anim_obj BATTLE_ANIM_OBJ_KICK, 144, 48, $0
+;	anim_wait 6
+;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 48, $0
+;	anim_wait 8
+;	anim_ret
+;
+;.alternate1:
+;	anim_sound 0, 1, SFX_DOUBLE_KICK
+;	anim_obj BATTLE_ANIM_OBJ_KICK, 120, 64, $0
+;	anim_wait 6
+;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 64, $0
+;	anim_wait 8
+;	anim_ret
+;
+;.alternate2:
+;	anim_sound 0, 1, SFX_DOUBLE_KICK
+;	anim_obj BATTLE_ANIM_OBJ_KICK, 132, 32, $0
+;	anim_wait 6
+;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 132, 32, $0
+;	anim_wait 8
+;	anim_ret
 
 BattleAnim_Thief:
 	anim_1gfx BATTLE_ANIM_GFX_HIT

@@ -172,7 +172,7 @@
 	const SUBSTITUTE   ; a4
 	const STRUGGLE     ; a5
 	const SKETCH       ; a6
-	const TRIPLE_KICK  ; a7
+	const DRAGON_CLAW  ; a7
 	const THIEF        ; a8
 	const SPIDER_WEB   ; a9
 	const MIND_READER  ; aa

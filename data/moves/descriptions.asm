@@ -167,7 +167,7 @@ MoveDescriptions::
 	dw SubstituteDescription
 	dw StruggleDescription
 	dw SketchDescription
-	dw TripleKickDescription
+	dw DragonClawDescription
 	dw ThiefDescription
 	dw SpiderWebDescription
 	dw MindReaderDescription
@@ -918,9 +918,9 @@ SketchDescription:
 	db   "Copies the foe's"
 	next "move permanently.@"
 
-TripleKickDescription:
-	db   "Hits three times"
-	next "with rising power.@"
+DragonClawDescription:
+	db   "Slashes the foe"
+	next "with sharp claws.@"
 
 ThiefDescription:
 	db   "An attack that may"
