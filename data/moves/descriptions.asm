@@ -179,7 +179,7 @@ MoveDescriptions::
 	dw Conversion2Description
 	dw AeroblastDescription
 	dw CottonSporeDescription
-	dw ReversalDescription
+	dw NightSlashDescription
 	dw SpiteDescription
 	dw PowderSnowDescription
 	dw ProtectDescription
@@ -271,6 +271,7 @@ PoundDescription:
 	next "legs or tail.@"
 
 KarateChopDescription:
+NightSlashDescription:
 XScissorDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
@@ -964,10 +965,6 @@ AeroblastDescription:
 CottonSporeDescription:
 	db   "Sharply reduces"
 	next "the foe's SPEED.@"
-
-ReversalDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
 
 SpiteDescription:
 	db   "Cuts the PP of the"

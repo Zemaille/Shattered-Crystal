@@ -178,7 +178,7 @@ MoveNames::
 	li "CONVERSION2"
 	li "AEROBLAST"
 	li "COTTON SPORE"
-	li "REVERSAL"
+	li "Night Slash"
 	li "SPITE"
 	li "POWDER SNOW"
 	li "PROTECT"

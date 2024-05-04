@@ -180,7 +180,7 @@ BattleAnimations::
 	dw BattleAnim_Conversion2
 	dw BattleAnim_Aeroblast
 	dw BattleAnim_CottonSpore
-	dw BattleAnim_Reversal
+	dw BattleAnim_NightSlash
 	dw BattleAnim_Spite
 	dw BattleAnim_PowderSnow
 	dw BattleAnim_Protect
@@ -3378,27 +3378,39 @@ BattleAnim_CottonSpore:
 	anim_wait 96
 	anim_ret
 
-BattleAnim_Reversal:
-	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_HIT
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT, 112, 64, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_SHINE
-	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 120, 56, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT, 128, 56, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_SHINE
-	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 136, 48, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT, 144, 48, $0
-	anim_wait 2
-	anim_sound 0, 1, SFX_SHINE
-	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 152, 40, $0
-	anim_wait 24
+;BattleAnim_Reversal:
+;	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_HIT
+;	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+;	anim_sound 0, 1, SFX_MEGA_PUNCH
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 112, 64, $0
+;	anim_wait 2
+;	anim_sound 0, 1, SFX_SHINE
+;	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 120, 56, $0
+;	anim_wait 2
+;	anim_sound 0, 1, SFX_MEGA_PUNCH
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 128, 56, $0
+;	anim_wait 2
+;	anim_sound 0, 1, SFX_SHINE
+;	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 136, 48, $0
+;	anim_wait 2
+;	anim_sound 0, 1, SFX_MEGA_PUNCH
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 144, 48, $0
+;	anim_wait 2
+;	anim_sound 0, 1, SFX_SHINE
+;	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 152, 40, $0
+;	anim_wait 24
+;	anim_ret
+
+BattleAnim_NightSlash:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_bgp $1b
+	anim_obp0 0, 1, 2, 3
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $0
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 19, 0,  5, 0, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 18, 4,  4, 4, $0
+	anim_wait 32
+	anim_bgp $e4
 	anim_ret
 
 BattleAnim_Hex:
