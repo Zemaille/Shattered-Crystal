@@ -842,7 +842,7 @@ GetMovePriority:
 	ld b, a
 
 	; Vital Throw goes last.
-	cp VITAL_THROW
+	cp STRUGGLE
 	ld a, 0
 	ret z
 

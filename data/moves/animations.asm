@@ -234,7 +234,7 @@ BattleAnimations::
 	dw BattleAnim_SweetScent
 	dw BattleAnim_IronTail
 	dw BattleAnim_MetalClaw
-	dw BattleAnim_VitalThrow
+	dw BattleAnim_DragonDance
 	dw BattleAnim_MorningSun
 	dw BattleAnim_Synthesis
 	dw BattleAnim_Moonlight
@@ -926,6 +926,7 @@ BattleAnim_FireSpin:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_DragonDance:
 BattleAnim_QuiverDance:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 .loop
@@ -4324,27 +4325,27 @@ BattleAnim_MetalClaw:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_VitalThrow:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect BATTLE_BG_EFFECT_VITAL_THROW, $0, BG_EFFECT_USER, $0
-	anim_wait 16
-	anim_sound 0, 0, SFX_MENU
-	anim_obj BATTLE_ANIM_OBJ_HIT, 64, 96, $0
-	anim_wait 8
-	anim_sound 0, 0, SFX_MENU
-	anim_obj BATTLE_ANIM_OBJ_HIT, 56, 88, $0
-	anim_wait 8
-	anim_sound 0, 0, SFX_MENU
-	anim_obj BATTLE_ANIM_OBJ_HIT, 68, 104, $0
-	anim_wait 8
-	anim_incbgeffect BATTLE_BG_EFFECT_VITAL_THROW
-	anim_wait 16
-	anim_call BattleAnim_ShowMon_0
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG, 132, 56, $0
-	anim_wait 16
-	anim_ret
+;BattleAnim_VitalThrow:
+;	anim_1gfx BATTLE_ANIM_GFX_HIT
+;	anim_call BattleAnim_TargetObj_1Row
+;	anim_bgeffect BATTLE_BG_EFFECT_VITAL_THROW, $0, BG_EFFECT_USER, $0
+;	anim_wait 16
+;	anim_sound 0, 0, SFX_MENU
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 64, 96, $0
+;	anim_wait 8
+;	anim_sound 0, 0, SFX_MENU
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 56, 88, $0
+;	anim_wait 8
+;	anim_sound 0, 0, SFX_MENU
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 68, 104, $0
+;	anim_wait 8
+;	anim_incbgeffect BATTLE_BG_EFFECT_VITAL_THROW
+;	anim_wait 16
+;	anim_call BattleAnim_ShowMon_0
+;	anim_sound 0, 1, SFX_MEGA_PUNCH
+;	anim_obj BATTLE_ANIM_OBJ_HIT_BIG, 132, 56, $0
+;	anim_wait 16
+;	anim_ret
 
 BattleAnim_MorningSun:
 	anim_1gfx BATTLE_ANIM_GFX_SHINE
