@@ -69,7 +69,7 @@ MoveDescriptions::
 	dw SubmissionDescription
 	dw LowKickDescription
 	dw CounterDescription
-	dw SeismicTossDescription
+	dw SnarlDescription
 	dw StrengthDescription
 	dw AbsorbDescription
 	dw MegaDrainDescription
@@ -418,7 +418,11 @@ DoubleEdgeDescription:
 
 TailWhipDescription:
 	db   "Lowers the foe's"
-	next "DEFENSE.@"
+	next "Def.@"
+
+SnarlDescription:
+	db "Lowers the foe's"
+	next "Sp.Def.@"
 
 PoisonStingDescription:
 	db   "An attack that may"
@@ -535,10 +539,6 @@ LowKickDescription:
 CounterDescription:
 	db   "Returns a physical"
 	next "blow double.@"
-
-SeismicTossDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
 
 StrengthDescription:
 	db   "A powerful physi-"

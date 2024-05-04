@@ -74,7 +74,7 @@
 	const SUBMISSION   ; 42
 	const LOW_KICK     ; 43
 	const COUNTER      ; 44
-	const SEISMIC_TOSS ; 45
+	const SNARL        ; 45
 	const STRENGTH     ; 46
 	const ABSORB       ; 47
 	const MEGA_DRAIN   ; 48

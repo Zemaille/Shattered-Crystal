@@ -70,7 +70,7 @@ BattleAnimations::
 	dw BattleAnim_Submission
 	dw BattleAnim_LowKick
 	dw BattleAnim_Counter
-	dw BattleAnim_SeismicToss
+	dw BattleAnim_Snarl
 	dw BattleAnim_Strength
 	dw BattleAnim_Absorb
 	dw BattleAnim_MegaDrain
@@ -1881,6 +1881,7 @@ BattleAnim_Growl:
 	anim_wait 8
 	anim_ret
 
+BattleAnim_Snarl:
 BattleAnim_Roar:
 	anim_1gfx BATTLE_ANIM_GFX_NOISE
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -2914,18 +2915,18 @@ BattleAnim_DefenseCurl:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_SeismicToss:
-	anim_2gfx BATTLE_ANIM_GFX_GLOBE, BATTLE_ANIM_GFX_HIT
-	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_Y, $10, $1, $20
-	anim_sound 0, 0, SFX_STRENGTH
-	anim_obj BATTLE_ANIM_OBJ_SEISMIC_TOSS, 64, 104, $1
-	anim_wait 128
-	anim_incobj 1
-	anim_wait 20
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 132, 40, $0
-	anim_wait 16
-	anim_ret
+;BattleAnim_SeismicToss:
+;	anim_2gfx BATTLE_ANIM_GFX_GLOBE, BATTLE_ANIM_GFX_HIT
+;	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_Y, $10, $1, $20
+;	anim_sound 0, 0, SFX_STRENGTH
+;	anim_obj BATTLE_ANIM_OBJ_SEISMIC_TOSS, 64, 104, $1
+;	anim_wait 128
+;	anim_incobj 1
+;	anim_wait 20
+;	anim_sound 0, 1, SFX_MEGA_PUNCH
+;	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 132, 40, $0
+;	anim_wait 16
+;	anim_ret
 
 BattleAnim_Rage:
 	anim_1gfx BATTLE_ANIM_GFX_HIT

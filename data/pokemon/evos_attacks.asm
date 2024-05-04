@@ -756,7 +756,7 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, NIGHT_SLASH
+	db 1, SNARL
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
