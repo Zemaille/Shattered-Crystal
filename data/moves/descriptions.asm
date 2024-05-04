@@ -136,7 +136,7 @@ MoveDescriptions::
 	dw AmnesiaDescription
 	dw KinesisDescription
 	dw SoftboiledDescription
-	dw HiJumpKickDescription
+	dw PounceDescription
 	dw GlareDescription
 	dw DreamEaterDescription
 	dw PoisonGasDescription
@@ -586,9 +586,10 @@ PetalDanceDescription:
 	db   "Works 2-3 turns"
 	next "and confuses user.@"
 
+PounceDescription:
 StringShotDescription:
 	db   "A move that lowers"
-	next "the foe's SPEED.@"
+	next "the foe's Speed.@"
 
 QuiverDanceDescription:
 	db   "Raises the user's"
@@ -798,10 +799,6 @@ KinesisDescription:
 SoftboiledDescription:
 	db   "Restores HP by 1/2"
 	next "the user's max HP.@"
-
-HiJumpKickDescription:
-	db   "May miss and hurt"
-	next "the user.@"
 
 GlareDescription:
 	db   "A move that may"

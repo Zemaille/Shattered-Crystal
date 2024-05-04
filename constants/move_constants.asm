@@ -141,7 +141,7 @@
 	const AMNESIA      ; 85
 	const KINESIS      ; 86
 	const SOFTBOILED   ; 87
-	const HI_JUMP_KICK ; 88
+	const POUNCE       ; 88
 	const GLARE        ; 89
 	const DREAM_EATER  ; 8a
 	const POISON_GAS   ; 8b
