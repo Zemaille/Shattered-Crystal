@@ -224,7 +224,7 @@ DEF TM01 EQU const_value
 	const ITEM_C3       ; c3
 	add_tm ROAR         ; c4
 	add_tm TOXIC        ; c5
-	add_tm ZAP_CANNON   ; c6
+	add_tm X_SCISSOR    ; c6
 	add_tm ROCK_SMASH   ; c7
 	add_tm PSYCH_UP     ; c8
 	add_tm HIDDEN_POWER ; c9

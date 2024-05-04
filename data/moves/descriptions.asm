@@ -192,7 +192,7 @@ MoveDescriptions::
 	dw MudSlapDescription
 	dw OctazookaDescription
 	dw SpikesDescription
-	dw ZapCannonDescription
+	dw XScissorDescription
 	dw ForesightDescription
 	dw DestinyBondDescription
 	dw PerishSongDescription
@@ -271,6 +271,7 @@ PoundDescription:
 	next "legs or tail.@"
 
 KarateChopDescription:
+XScissorDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
@@ -1021,10 +1022,6 @@ OctazookaDescription:
 SpikesDescription:
 	db   "Hurts foes when"
 	next "they switch out.@"
-
-ZapCannonDescription:
-	db   "An attack that"
-	next "always paralyzes.@"
 
 ForesightDescription:
 	db   "Negates accuracy"
