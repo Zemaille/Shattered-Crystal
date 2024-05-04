@@ -67,7 +67,7 @@ MoveDescriptions::
 	dw PeckDescription
 	dw DrillPeckDescription
 	dw SubmissionDescription
-	dw LowKickDescription
+	dw DragonPulseDescription
 	dw CounterDescription
 	dw SnarlDescription
 	dw StrengthDescription
@@ -532,9 +532,9 @@ SubmissionDescription:
 	db   "An attack that al-"
 	next "so hurts the user.@"
 
-LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+DragonPulseDescription:
+	db   "Attacks foe with"
+	next "a shock wave.@"
 
 CounterDescription:
 	db   "Returns a physical"

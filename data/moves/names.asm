@@ -66,7 +66,7 @@ MoveNames::
 	li "Peck"
 	li "Drill Peck"
 	li "Submission"
-	li "LOW KICK"
+	li "Dragon Pulse"
 	li "Counter"
 	li "Snarl"
 	li "Strength"

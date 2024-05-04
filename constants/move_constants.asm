@@ -72,7 +72,7 @@
 	const PECK         ; 40
 	const DRILL_PECK   ; 41
 	const SUBMISSION   ; 42
-	const LOW_KICK     ; 43
+	const DRAGON_PULSE ; 43
 	const COUNTER      ; 44
 	const SNARL        ; 45
 	const STRENGTH     ; 46
