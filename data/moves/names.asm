@@ -224,7 +224,7 @@ MoveNames::
 	li "MAGNITUDE"
 	li "DYNAMICPUNCH"
 	li "MEGAHORN"
-	li "DRAGONBREATH"
+	li "Signal Beam"
 	li "BATON PASS"
 	li "Encore"
 	li "Pursuit"

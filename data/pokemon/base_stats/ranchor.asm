@@ -17,6 +17,6 @@
 	dn EGG_HUMANSHAPE, EGG_HUMANSHAPE  ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm 
 	; end
 	

@@ -17,6 +17,6 @@
 	dn EGG_WATER_1, EGG_WATER_3  ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm 
 	; end
 	

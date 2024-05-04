@@ -225,7 +225,7 @@ MoveDescriptions::
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
 	dw MegahornDescription
-	dw DragonbreathDescription
+	dw SignalBeamDescription
 	dw BatonPassDescription
 	dw EncoreDescription
 	dw PursuitDescription
@@ -498,6 +498,8 @@ BlizzardDescription:
 	db   "An attack that may"
 	next "freeze the foe.@"
 
+ConfusionDescription:
+SignalBeamDescription:
 InfestationDescription:
 PsybeamDescription:
 	db   "An attack that may"
@@ -630,10 +632,6 @@ DigDescription:
 ToxicDescription:
 	db   "A poison move with"
 	next "increasing damage.@"
-
-ConfusionDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
 
 BugBuzzDescription:
 PsychicMDescription:
@@ -1154,10 +1152,6 @@ DynamicpunchDescription:
 
 MegahornDescription:
 	db   "A powerful charge"
-	next "attack.@"
-
-DragonbreathDescription:
-	db   "A strong breath"
 	next "attack.@"
 
 BatonPassDescription:

@@ -226,7 +226,7 @@ BattleAnimations::
 	dw BattleAnim_Magnitude
 	dw BattleAnim_Dynamicpunch
 	dw BattleAnim_Megahorn
-	dw BattleAnim_Dragonbreath
+	dw BattleAnim_SignalBeam
 	dw BattleAnim_BatonPass
 	dw BattleAnim_Encore
 	dw BattleAnim_Pursuit
@@ -2685,6 +2685,7 @@ BattleAnim_Withdraw:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_SignalBeam:
 BattleAnim_Psybeam:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -4116,15 +4117,15 @@ BattleAnim_Megahorn:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Dragonbreath:
-	anim_1gfx BATTLE_ANIM_GFX_FIRE
-	anim_sound 6, 2, SFX_EMBER
-.loop
-	anim_obj BATTLE_ANIM_OBJ_DRAGONBREATH, 64, 92, $4
-	anim_wait 4
-	anim_loop 10, .loop
-	anim_wait 64
-	anim_ret
+;BattleAnim_Dragonbreath:
+;	anim_1gfx BATTLE_ANIM_GFX_FIRE
+;	anim_sound 6, 2, SFX_EMBER
+;.loop
+;	anim_obj BATTLE_ANIM_OBJ_DRAGONBREATH, 64, 92, $4
+;	anim_wait 4
+;	anim_loop 10, .loop
+;	anim_wait 64
+;	anim_ret
 
 BattleAnim_BatonPass:
 	anim_1gfx BATTLE_ANIM_GFX_MISC

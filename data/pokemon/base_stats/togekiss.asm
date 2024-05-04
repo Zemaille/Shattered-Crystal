@@ -17,5 +17,5 @@
 	dn EGG_FLYING, EGG_FAIRY ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm 
 	; end

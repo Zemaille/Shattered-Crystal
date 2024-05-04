@@ -53,9 +53,9 @@ DragonsDenB1F_ClairScene:
 	opentext
 	writetext ClairText_GiveDragonbreathDragonDen
 	promptbutton
-	giveitem TM_DRAGONBREATH
+	giveitem TM_SIGNAL_BEAM
 	iffalse .BagFull
-	getitemname STRING_BUFFER_3, TM_DRAGONBREATH
+	getitemname STRING_BUFFER_3, TM_SIGNAL_BEAM
 	writetext Text_ReceivedTM24
 	playsound SFX_ITEM
 	waitsfx

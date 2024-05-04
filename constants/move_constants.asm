@@ -230,7 +230,7 @@
 	const MAGNITUDE    ; de
 	const DYNAMICPUNCH ; df
 	const MEGAHORN     ; e0
-	const DRAGONBREATH ; e1
+	const SIGNAL_BEAM  ; e1
 	const BATON_PASS   ; e2
 	const ENCORE       ; e3
 	const PURSUIT      ; e4

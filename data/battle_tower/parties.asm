@@ -1679,7 +1679,7 @@ BattleTowerMons:
 
 	db KINGDRA
 	db LEFTOVERS
-	db SURF, DRAGONBREATH, HYPER_BEAM, BLIZZARD
+	db SURF, NO_MOVE, HYPER_BEAM, BLIZZARD
 	dw 0 ; OT ID
 	dt 64000 ; Exp
 	; Stat exp
@@ -2202,7 +2202,7 @@ BattleTowerMons:
 
 	db KINGDRA
 	db GOLD_BERRY
-	db SURF, HYPER_BEAM, BLIZZARD, DRAGONBREATH
+	db SURF, HYPER_BEAM, BLIZZARD, NO_MOVE
 	dw 0 ; OT ID
 	dt 125000 ; Exp
 	; Stat exp
@@ -2751,7 +2751,7 @@ BattleTowerMons:
 
 	db KINGDRA
 	db LEFTOVERS
-	db DRAGONBREATH, SURF, HYPER_BEAM, BLIZZARD
+	db NO_MOVE, SURF, HYPER_BEAM, BLIZZARD
 	dw 0 ; OT ID
 	dt 216000 ; Exp
 	; Stat exp
@@ -4057,7 +4057,7 @@ BattleTowerMons:
 
 	db KINGDRA
 	db MINT_BERRY
-	db REST, SURF, BLIZZARD, DRAGONBREATH
+	db REST, SURF, BLIZZARD, NO_MOVE
 	dw 0 ; OT ID
 	dt 512000 ; Exp
 	; Stat exp
@@ -4554,7 +4554,7 @@ BattleTowerMons:
 
 	db KINGDRA
 	db LEFTOVERS
-	db DRAGONBREATH, SURF, HYPER_BEAM, BLIZZARD
+	db NO_MOVE, SURF, HYPER_BEAM, BLIZZARD
 	dw 0 ; OT ID
 	dt 729000 ; Exp
 	; Stat exp
@@ -4999,7 +4999,7 @@ BattleTowerMons:
 
 	db KINGDRA
 	db LEFTOVERS
-	db SURF, DRAGONBREATH, REST, TOXIC
+	db SURF, NO_MOVE, REST, TOXIC
 	dw 0 ; OT ID
 	dt 1000000 ; Exp
 	; Stat exp

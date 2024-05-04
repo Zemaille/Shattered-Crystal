@@ -17,5 +17,5 @@
 	dn EGG_MINERAL, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm 
 	; end

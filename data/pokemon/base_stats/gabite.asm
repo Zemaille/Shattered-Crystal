@@ -14,5 +14,5 @@
 	dn EGG_MONSTER, EGG_DRAGON ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm 
 	; end
