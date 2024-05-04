@@ -27,7 +27,7 @@ BattleAnimations::
 	dw BattleAnim_Stomp
 	dw BattleAnim_DoubleKick
 	dw BattleAnim_MegaKick
-	dw BattleAnim_JumpKick
+	dw BattleAnim_DarkPulse
 	dw BattleAnim_RollingKick
 	dw BattleAnim_SandAttack
 	dw BattleAnim_Headbutt
@@ -767,25 +767,45 @@ BattleAnim_DoubleKick:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_JumpKick:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_if_param_equal $1, .alternate
-	anim_sound 0, 1, SFX_JUMP_KICK
-	anim_obj BATTLE_ANIM_OBJ_KICK, 112, 72, $0
-	anim_obj BATTLE_ANIM_OBJ_KICK, 100, 60, $0
-	anim_setobj $1, $2
-	anim_setobj $2, $2
-	anim_wait 24
-	anim_sound 0, 1, SFX_DOUBLE_KICK
-	anim_obj BATTLE_ANIM_OBJ_HIT, 136, 48, $0
-	anim_wait 16
-	anim_ret
+;BattleAnim_JumpKick:
+;	anim_1gfx BATTLE_ANIM_GFX_HIT
+;	anim_if_param_equal $1, .alternate
+;	anim_sound 0, 1, SFX_JUMP_KICK
+;	anim_obj BATTLE_ANIM_OBJ_KICK, 112, 72, $0
+;	anim_obj BATTLE_ANIM_OBJ_KICK, 100, 60, $0
+;	anim_setobj $1, $2
+;	anim_setobj $2, $2
+;	anim_wait 24
+;	anim_sound 0, 1, SFX_DOUBLE_KICK
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 136, 48, $0
+;	anim_wait 16
+;	anim_ret
+;
+;.alternate:
+;	anim_wait 8
+;	anim_sound 0, 0, SFX_DOUBLE_KICK
+;	anim_obj BATTLE_ANIM_OBJ_HIT, 44, 88, $0
+;	anim_wait 16
+;	anim_ret
 
-.alternate:
-	anim_wait 8
-	anim_sound 0, 0, SFX_DOUBLE_KICK
-	anim_obj BATTLE_ANIM_OBJ_HIT, 44, 88, $0
-	anim_wait 16
+BattleAnim_DarkPulse:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_EGG
+	anim_sound 0, 0, SFX_RAGE
+	anim_bgp $1b
+	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $0
+.loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_obj BATTLE_ANIM_OBJ_SHADOW_BALL,  7, 6, 11, 4, $2
+	anim_wait 3
+	anim_obj BATTLE_ANIM_OBJ_SHADOW_BALL,  8, 2, 11, 4, $2
+	anim_wait 3
+	anim_loop 8, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+	anim_wait 32
+	anim_call BattleAnim_ShowMon_1
+	anim_wait 1
+	anim_bgp $e4
 	anim_ret
 
 ;BattleAnim_HiJumpKick:

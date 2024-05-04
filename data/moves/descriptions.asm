@@ -26,7 +26,7 @@ MoveDescriptions::
 	dw StompDescription
 	dw DoubleKickDescription
 	dw MegaKickDescription
-	dw JumpKickDescription
+	dw DarkPulseDescription
 	dw RollingKickDescription
 	dw SandAttackDescription
 	dw HeadbuttDescription
@@ -367,10 +367,6 @@ MegaKickDescription:
 	db   "A powerful kicking"
 	next "attack.@"
 
-JumpKickDescription:
-	db   "May miss, damaging"
-	next "the user.@"
-
 RollingKickDescription:
 	db   "A fast, spinning"
 	next "kick.@"
@@ -435,6 +431,7 @@ LeerDescription:
 	db   "Reduces the foe's"
 	next "DEFENSE.@"
 
+DarkPulseDescription:
 BiteDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
