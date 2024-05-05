@@ -120,7 +120,7 @@ BattleAnimations::
 	dw BattleAnim_FocusEnergy
 	dw BattleAnim_Bide
 	dw BattleAnim_Metronome
-	dw BattleAnim_MirrorMove
+	dw BattleAnim_DragonDarts
 	dw BattleAnim_Selfdestruct
 	dw BattleAnim_EggBomb
 	dw BattleAnim_Lick
@@ -3053,6 +3053,19 @@ BattleAnim_Metronome:
 	anim_loop 5, .loop
 	anim_wait 48
 	anim_ret
+
+BattleAnim_DragonDarts:
+	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_POISON_STING
+	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 64, 92, $14
+	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 56, 84, $14
+	anim_wait 16
+	anim_sound 0, 1, SFX_POISON_STING
+	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL, 136, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL, 128, 48, $0
+	anim_wait 16
+	anim_ret
+
 
 BattleAnim_Counter:
 	anim_1gfx BATTLE_ANIM_GFX_HIT

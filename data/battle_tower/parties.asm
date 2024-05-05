@@ -1598,7 +1598,7 @@ BattleTowerMons:
 
 	db ALTARIA
 	db BRIGHTPOWDER
-	db MIRROR_MOVE, PURSUIT, PECK, SWIFT
+	db NO_MOVE, PURSUIT, PECK, SWIFT
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp

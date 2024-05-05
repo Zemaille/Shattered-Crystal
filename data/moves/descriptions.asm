@@ -119,7 +119,7 @@ MoveDescriptions::
 	dw FocusEnergyDescription
 	dw BideDescription
 	dw MetronomeDescription
-	dw MirrorMoveDescription
+	dw DragonDartsDescription
 	dw SelfdestructDescription
 	dw EggBombDescription
 	dw LickDescription
@@ -732,11 +732,11 @@ BideDescription:
 
 MetronomeDescription:
 	db   "Randomly uses any"
-	next "#MON move.@"
+	next "Pokémon move.@"
 
-MirrorMoveDescription:
-	db   "Counters with the"
-	next "same move.@"
+DragonDartsDescription:
+	db	 "Shoots two Dreepy"
+	next "at the foe.@"
 
 SelfdestructDescription:
 	db   "Powerful but makes"
