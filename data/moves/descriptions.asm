@@ -198,7 +198,7 @@ MoveDescriptions::
 	dw PerishSongDescription
 	dw IcyWindDescription
 	dw DetectDescription
-	dw BoneRushDescription
+	dw CloseCombatDescription
 	dw LockOnDescription
 	dw OutrageDescription
 	dw SandstormDescription
@@ -1023,9 +1023,9 @@ DetectDescription:
 	db   "Evades attack that"
 	next "turn. It may fail.@"
 
-BoneRushDescription:
-	db   "An attack that"
-	next "hits 2-5 times.@"
+CloseCombatDescription:
+	db	 "An attack that"
+	next "leaves you weak."
 
 LockOnDescription:
 	db   "Ensures the next"
