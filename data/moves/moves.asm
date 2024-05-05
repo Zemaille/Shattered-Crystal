@@ -207,7 +207,7 @@ Moves:
 	move SPIKES,       EFFECT_SPIKES,              0, GROUND,        STATUS,   100, 20,   0
 	move X_SCISSOR,    EFFECT_NORMAL_HIT,         80, BUG,           PHYSICAL, 100, 15,   0
 	move FORESIGHT,    EFFECT_FORESIGHT,           0, NORMAL,        STATUS,   100, 40,   0
-	move DESTINY_BOND, EFFECT_DESTINY_BOND,        0, GHOST,         STATUS,   100,  5,   0
+	move WILD_CHARGE,  EFFECT_RECOIL_HIT,         90, ELECTRIC,      PHYSICAL, 100, 15,   0
 	move PERISH_SONG,  EFFECT_PERISH_SONG,         0, NORMAL,        STATUS,   100,  5,   0
 	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,           SPECIAL,   95, 15, 100
 	move DETECT,       EFFECT_PROTECT,             0, FIGHTING,      STATUS,   100,  5,   0

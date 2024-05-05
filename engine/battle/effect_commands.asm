@@ -2402,7 +2402,7 @@ BattleCommand_CheckFaint:
 	ld [wFXAnimID + 1], a
 	inc a
 	ld [wBattleAnimParam], a
-	ld a, DESTINY_BOND
+	ld a, STRUGGLE
 	call LoadAnim
 	call BattleCommand_SwitchTurn
 

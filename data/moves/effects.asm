@@ -1361,10 +1361,6 @@ SleepTalk:
 	endmove
 
 DestinyBond:
-	checkobedience
-	usedmovetext
-	doturn
-	destinybond
 	endmove
 
 Spite:

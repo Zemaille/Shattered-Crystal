@@ -194,7 +194,7 @@ MoveDescriptions::
 	dw SpikesDescription
 	dw XScissorDescription
 	dw ForesightDescription
-	dw DestinyBondDescription
+	dw WildChargeDescription
 	dw PerishSongDescription
 	dw IcyWindDescription
 	dw DetectDescription
@@ -1018,9 +1018,9 @@ ForesightDescription:
 	db   "Negates accuracy"
 	next "reduction moves.@"
 
-DestinyBondDescription:
-	db   "The foe faints if"
-	next "the user does.@"
+WildChargeDescription:
+	db   "A self-damaging,"
+	next "jolting tackle.@"
 
 PerishSongDescription:
 	db   "Both user and foe"

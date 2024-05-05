@@ -756,7 +756,8 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, INFESTATION
+	db 1, WILD_CHARGE
+	db 1, RAIN_DANCE
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:

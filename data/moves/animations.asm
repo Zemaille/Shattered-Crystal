@@ -195,7 +195,7 @@ BattleAnimations::
 	dw BattleAnim_Spikes
 	dw BattleAnim_XScissor
 	dw BattleAnim_Foresight
-	dw BattleAnim_DestinyBond
+	dw BattleAnim_WildCharge
 	dw BattleAnim_PerishSong
 	dw BattleAnim_IcyWind
 	dw BattleAnim_Detect
@@ -3696,15 +3696,37 @@ BattleAnim_Foresight:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_DestinyBond:
-	anim_1gfx BATTLE_ANIM_GFX_ANGELS
+BattleAnim_WildCharge:
+	anim_2gfx BATTLE_ANIM_GFX_LIGHTNING, BATTLE_ANIM_GFX_EXPLOSION
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
+	anim_obj BATTLE_ANIM_OBJ_THUNDER_WAVE,   6, 0,  11, 4, $0
+	anim_wait 24
+	anim_setobj $1, $3
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, $1, $0
+	anim_sound 0, 0, SFX_SPARK
+	anim_wait 16
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $0, $0
+	anim_wait 4
+	anim_incobj 2
+	anim_wait 1
 	anim_bgp $1b
-	anim_obp0 $0
-	anim_if_param_equal $1, .fainted
-	anim_sound 6, 2, SFX_WHIRLWIND
-	anim_obj BATTLE_ANIM_OBJ_DESTINY_BOND, 44, 120, $2
-	anim_wait 128
+	anim_sound 0, 1, SFX_THUNDERSHOCK
+	anim_obj BATTLE_ANIM_OBJ_THUNDERBOLT_BALL, -15, 0,   7, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_SPARKS_CIRCLE, -15, 0,   7, 0, $0
+	anim_wait 32
+	anim_bgp $e4
 	anim_ret
+
+;BattleAnim_DestinyBond:
+;	anim_1gfx BATTLE_ANIM_GFX_ANGELS
+;	anim_bgp $1b
+;	anim_obp0 $0
+;	anim_if_param_equal $1, .fainted
+;	anim_sound 6, 2, SFX_WHIRLWIND
+;	anim_obj BATTLE_ANIM_OBJ_DESTINY_BOND, 44, 120, $2
+;	anim_wait 128
+;	anim_ret
 
 .fainted:
 	anim_obj BATTLE_ANIM_OBJ_DESTINY_BOND, 132, 76, $0
