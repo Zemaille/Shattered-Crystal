@@ -165,4 +165,5 @@ MoveEffectsPointers:
 	dw DragonDance
 	dw ThunderFang
 	dw CloseCombat
+	dw Pyroclasm
 	assert_table_length NUM_MOVE_EFFECTS

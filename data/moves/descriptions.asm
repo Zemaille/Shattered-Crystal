@@ -155,7 +155,7 @@ MoveDescriptions::
 	dw CrabhammerDescription
 	dw ExplosionDescription
 	dw FurySwipesDescription
-	dw BonemerangDescription
+	dw PyroclasmDescription
 	dw RestDescription
 	dw RockSlideDescription
 	dw HyperFangDescription
@@ -870,9 +870,9 @@ FurySwipesDescription:
 	db   "Quickly scratches"
 	next "2-5 times.@"
 
-BonemerangDescription:
-	db   "An attack that"
-	next "strikes twice.@"
+PyroclasmDescription:
+	db   "Volcanic explosion"
+	next "that summons sand.@"
 
 RestDescription:
 	db   "Sleep for 2 turns"

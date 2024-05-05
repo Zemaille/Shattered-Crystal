@@ -156,7 +156,7 @@ BattleAnimations::
 	dw BattleAnim_Crabhammer
 	dw BattleAnim_Explosion
 	dw BattleAnim_FurySwipes
-	dw BattleAnim_Bonemerang
+	dw BattleAnim_Pyroclasm
 	dw BattleAnim_Rest
 	dw BattleAnim_RockSlide
 	dw BattleAnim_HyperFang
@@ -2461,16 +2461,6 @@ BattleAnim_LovelyKiss:
 	anim_wait 40
 	anim_ret
 
-BattleAnim_Bonemerang:
-	anim_2gfx BATTLE_ANIM_GFX_MISC, BATTLE_ANIM_GFX_HIT
-	anim_sound 6, 2, SFX_HYDRO_PUMP
-	anim_obj BATTLE_ANIM_OBJ_BONEMERANG, 88, 56, $1c
-	anim_wait 24
-	anim_sound 0, 1, SFX_MOVE_PUZZLE_PIECE
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
-	anim_wait 24
-	anim_ret
-
 BattleAnim_Swift:
 	anim_1gfx BATTLE_ANIM_GFX_OBJECTS
 	anim_sound 6, 2, SFX_METRONOME
@@ -3926,6 +3916,7 @@ BattleAnim_Outrage:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_Pyroclasm:
 BattleAnim_Sandstorm:
 	anim_1gfx BATTLE_ANIM_GFX_POWDER
 	anim_obj BATTLE_ANIM_OBJ_SANDSTORM, 88, 0, $0
@@ -4337,16 +4328,6 @@ BattleAnim_Megahorn:
 	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
 	anim_wait 16
 	anim_ret
-
-;BattleAnim_Dragonbreath:
-;	anim_1gfx BATTLE_ANIM_GFX_FIRE
-;	anim_sound 6, 2, SFX_EMBER
-;.loop
-;	anim_obj BATTLE_ANIM_OBJ_DRAGONBREATH, 64, 92, $4
-;	anim_wait 4
-;	anim_loop 10, .loop
-;	anim_wait 64
-;	anim_ret
 
 BattleAnim_BatonPass:
 	anim_1gfx BATTLE_ANIM_GFX_MISC

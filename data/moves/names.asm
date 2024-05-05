@@ -154,7 +154,7 @@ MoveNames::
 	li "CRABHAMMER"
 	li "Explosion"
 	li "Fury Swipes"
-	li "BONEMERANG"
+	li "Pyroclasm"
 	li "Rest"
 	li "Rock Slide"
 	li "HYPER FANG"
