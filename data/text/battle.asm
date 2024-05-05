@@ -481,6 +481,11 @@ ClampedByText:
 	cont "<USER>!"
 	prompt
 
+InfestationTrapText:
+	text "<TARGET>"
+	line "became infested!"
+	prompt
+
 StoringEnergyText:
 	text "<USER>"
 	line "is storing energy!"
