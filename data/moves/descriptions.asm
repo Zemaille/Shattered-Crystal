@@ -96,7 +96,7 @@ MoveDescriptions::
 	dw ConfusionDescription
 	dw PsychicMDescription
 	dw HypnosisDescription
-	dw MeditateDescription
+	dw HurricaneDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
 	dw RageDescription
@@ -511,6 +511,7 @@ ConfusionDescription:
 SignalBeamDescription:
 InfestationDescription:
 PsybeamDescription:
+HurricaneDescription:
 	db   "An attack that may"
 	next "confuse the foe.@"
 
@@ -650,10 +651,6 @@ ShadowBallDescription:
 HypnosisDescription:
 	db   "May put the foe to"
 	next "sleep.@"
-
-MeditateDescription:
-	db   "Raises the user's"
-	next "Atk.@"
 
 AgilityDescription:
 	db   "Sharply increases"

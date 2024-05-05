@@ -95,7 +95,7 @@ MoveNames::
 	li "Confusion"
 	li "Psychic"
 	li "Hypnosis"
-	li "MEDITATE"
+	li "Hurricane"
 	li "Agility"
 	li "Quick Attack"
 	li "Rage"

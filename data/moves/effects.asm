@@ -95,7 +95,7 @@ BurnHit:
 	burntarget
 	endmove
 
-FreezeHit:
+FreezeHit:				; Blizzard
 	checkobedience
 	usedmovetext
 	doturn
@@ -2260,4 +2260,25 @@ FireFang:
 	effectchance
 	flinchtarget
 	kingsrock
+	endmove
+
+Hurricane:				; Blizzard
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	confusetarget
 	endmove
