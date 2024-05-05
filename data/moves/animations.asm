@@ -179,7 +179,7 @@ BattleAnimations::
 	dw BattleAnim_Flail
 	dw BattleAnim_Conversion2
 	dw BattleAnim_Aeroblast
-	dw BattleAnim_CottonSpore
+	dw BattleAnim_FocusBlast
 	dw BattleAnim_NightSlash
 	dw BattleAnim_VacuumWave
 	dw BattleAnim_PowderSnow
@@ -3461,16 +3461,64 @@ BattleAnim_Aeroblast:
 	anim_wait 48
 	anim_ret
 
-BattleAnim_CottonSpore:
-	anim_obp0 $54
-	anim_1gfx BATTLE_ANIM_GFX_MISC
-	anim_sound 0, 1, SFX_POWDER
+BattleAnim_FocusBlast:
+	anim_3gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_CHARGE, BATTLE_ANIM_GFX_BEAM
+	anim_obj BATTLE_ANIM_OBJ_FOCUS_BLAST,   5, 4,  11, 0, $0
+	anim_bgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT, $0, $1, $40
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 .loop
-	anim_obj BATTLE_ANIM_OBJ_COTTON_SPORE, 132, 32, $0
-	anim_wait 8
+	anim_sound 0, 0, SFX_SWORDS_DANCE
+	anim_obj BATTLE_ANIM_OBJ_FOCUS,   5, 4,  13, 4, $6
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_FOCUS,   4, 4,  13, 4, $6
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_FOCUS,   6, 4,  13, 4, $8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_FOCUS,   3, 4,  13, 4, $8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_FOCUS,   7, 4,  13, 4, $6
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_FOCUS,   2, 4,  13, 4, $8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_FOCUS,   8, 4,  13, 4, $8
+	anim_wait 2
 	anim_loop 5, .loop
-	anim_wait 96
+	anim_wait 56
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $2, $10
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgp $1b
+	anim_sound 0, 0, SFX_SUPER_EFFECTIVE
+	anim_obj BATTLE_ANIM_OBJ_BEAM,  8, 0, 11, 4, $0
+	anim_incobj 8
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM, 10, 0, 10, 4, $0
+	anim_incobj 9
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM, 12, 0,  9, 4, $0
+	anim_incobj 10
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM, 14, 0,  8, 4, $0
+	anim_obj BATTLE_ANIM_OBJ_BEAM_TIP, 15, 6,  7, 6, $0
+	anim_incobj 11
+	anim_incobj 12
+	anim_wait 2
+	anim_obj BATTLE_ANIM_OBJ_BEAM_TIP, 17, 4,  7, 0, $0
+	anim_wait 2
+	anim_incobj 13
+	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING
+	anim_bgp $e4
 	anim_ret
+
+;BattleAnim_CottonSpore:
+;	anim_obp0 $54
+;	anim_1gfx BATTLE_ANIM_GFX_MISC
+;	anim_sound 0, 1, SFX_POWDER
+;.loop
+;	anim_obj BATTLE_ANIM_OBJ_COTTON_SPORE, 132, 32, $0
+;	anim_wait 8
+;	anim_loop 5, .loop
+;	anim_wait 96
+;	anim_ret
 
 ;BattleAnim_Reversal:
 ;	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_HIT

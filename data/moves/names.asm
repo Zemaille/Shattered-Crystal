@@ -177,7 +177,7 @@ MoveNames::
 	li "FLAIL"
 	li "CONVERSION2"
 	li "Aeroblast"
-	li "COTTON SPORE"
+	li "Focus Blast"
 	li "Night Slash"
 	li "Vacuum Wave"
 	li "Powder Snow"

@@ -178,7 +178,7 @@ MoveDescriptions::
 	dw FlailDescription
 	dw Conversion2Description
 	dw AeroblastDescription
-	dw CottonSporeDescription
+	dw FocusBlastDescription
 	dw NightSlashDescription
 	dw VacuumWaveDescription
 	dw PowderSnowDescription
@@ -633,10 +633,13 @@ ToxicDescription:
 	db   "A poison move with"
 	next "increasing damage.@"
 
+FocusBlastDescription:
 BugBuzzDescription:
 PsychicMDescription:
+CrunchDescription:
+ShadowBallDescription:
 	db   "An attack that may"
-	next "lower SpDef.@"
+	next "lower Spcl.Def.@"
 
 HypnosisDescription:
 	db   "May put the foe to"
@@ -959,10 +962,6 @@ AeroblastDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
-CottonSporeDescription:
-	db   "Sharply reduces"
-	next "the foe's SPEED.@"
-
 PowderSnowDescription:
 	db   "An attack that may"
 	next "cause freezing.@"
@@ -1200,10 +1199,6 @@ SunnyDayDescription:
 	db   "Boosts fire-type"
 	next "moves.@"
 
-CrunchDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
-
 MirrorCoatDescription:
 	db   "Counters a SPCL."
 	next "ATK move double.@"
@@ -1219,10 +1214,6 @@ ExtremespeedDescription:
 AncientpowerDescription:
 	db   "An attack that may"
 	next "raise all stats.@"
-
-ShadowBallDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
 
 FutureSightDescription:
 	db   "An attack that"
