@@ -124,7 +124,7 @@ MoveNames::
 	li "Lick"
 	li "Smog"
 	li "Sludge"
-	li "BONE CLUB"
+	li "Drain Punch"
 	li "Fire Blast"
 	li "Waterfall"
 	li "Clamp"

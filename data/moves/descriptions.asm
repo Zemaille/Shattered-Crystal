@@ -125,7 +125,7 @@ MoveDescriptions::
 	dw LickDescription
 	dw SmogDescription
 	dw SludgeDescription
-	dw BoneClubDescription
+	dw DrainPunchDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
 	dw ClampDescription
@@ -545,10 +545,10 @@ StrengthDescription:
 	next "cal attack.@"
 
 AbsorbDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
-
+DrainPunchDescription:
 MegaDrainDescription:
+GigaDrainDescription:
+LeechLifeDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
 
@@ -818,10 +818,6 @@ BarrageDescription:
 	db   "Throws orbs to hit"
 	next "2-5 times.@"
 
-LeechLifeDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
-
 LovelyKissDescription:
 	db   "May cause the foe"
 	next "to fall asleep.@"
@@ -1042,10 +1038,6 @@ OutrageDescription:
 SandstormDescription:
 	db   "Inflicts damage"
 	next "every turn.@"
-
-GigaDrainDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
 
 EndureDescription:
 	db   "Always leaves at"
