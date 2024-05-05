@@ -12,4 +12,8 @@ SunnyDayMoves:
 	db SOLARBEAM
 	db FLAME_WHEEL
 	db MOONLIGHT
+	db MYSTIC_FIRE
+	db PYROCLASM
+	db FIRE_FANG
+	db FLARE_BLITZ
 	db -1 ; end

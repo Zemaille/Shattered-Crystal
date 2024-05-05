@@ -152,7 +152,7 @@ MoveDescriptions::
 	dw AerialAceDescription
 	dw SplashDescription
 	dw AcidArmorDescription
-	dw CrabhammerDescription
+	dw BraveBirdDescription
 	dw ExplosionDescription
 	dw FurySwipesDescription
 	dw PyroclasmDescription
@@ -405,6 +405,7 @@ WrapDescription:
 	db   "Squeezes the foe"
 	next "for 2-5 turns.@"
 
+BraveBirdDescription:
 TakeDownDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
@@ -849,10 +850,6 @@ SplashDescription:
 AcidArmorDescription:
 	db   "Sharply raises the"
 	next "user's DEFENSE.@"
-
-CrabhammerDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
 
 ExplosionDescription:
 	db   "Very powerful but"

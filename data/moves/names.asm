@@ -151,7 +151,7 @@ MoveNames::
 	li "Aerial Ace"
 	li "Splash"
 	li "Acid Armor"
-	li "CRABHAMMER"
+	li "Brave Bird"
 	li "Explosion"
 	li "Fury Swipes"
 	li "Pyroclasm"

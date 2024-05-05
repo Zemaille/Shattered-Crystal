@@ -157,7 +157,7 @@
 	const AERIAL_ACE   ; 95
 	const SPLASH       ; 96
 	const ACID_ARMOR   ; 97
-	const CRABHAMMER   ; 98
+	const BRAVE_BIRD   ; 98
 	const EXPLOSION    ; 99
 	const FURY_SWIPES  ; 9a
 	const PYROCLASM    ; 9b
