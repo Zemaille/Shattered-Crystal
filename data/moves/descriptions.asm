@@ -149,7 +149,7 @@ MoveDescriptions::
 	dw DizzyPunchDescription
 	dw SporeDescription
 	dw FlashDescription
-	dw PsywaveDescription
+	dw AerialAceDescription
 	dw SplashDescription
 	dw AcidArmorDescription
 	dw CrabhammerDescription
@@ -778,6 +778,7 @@ WaterfallDescription:
 
 AuraSphereDescription:
 SwiftDescription:
+AerialAceDescription:
 	db   "An attack that"
 	next "never misses.@"
 
@@ -840,10 +841,6 @@ SporeDescription:
 FlashDescription:
 	db   "Blinds the foe to"
 	next "reduce accuracy.@"
-
-PsywaveDescription:
-	db   "An attack with"
-	next "variable power.@"
 
 SplashDescription:
 	db   "Has no effect"

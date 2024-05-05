@@ -148,7 +148,7 @@ MoveNames::
 	li "Dizzy Punch"
 	li "Spore"
 	li "Flash"
-	li "PSYWAVE"
+	li "Aerial Ace"
 	li "Splash"
 	li "Acid Armor"
 	li "CRABHAMMER"
