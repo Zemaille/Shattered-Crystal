@@ -139,7 +139,7 @@ MoveDescriptions::
 	dw PounceDescription
 	dw GlareDescription
 	dw DreamEaterDescription
-	dw PoisonGasDescription
+	dw FlareBlitzDescription
 	dw BarrageDescription
 	dw LeechLifeDescription
 	dw LovelyKissDescription
@@ -810,9 +810,9 @@ DreamEaterDescription:
 	db   "Steals HP from a"
 	next "sleeping victim.@"
 
-PoisonGasDescription:
-	db   "A move that may"
-	next "poison the foe.@"
+FlareBlitzDescription:
+	db   "A self-damaging,"
+	next "burning tackle.@"
 
 BarrageDescription:
 	db   "Throws orbs to hit"

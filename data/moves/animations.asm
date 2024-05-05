@@ -140,7 +140,7 @@ BattleAnimations::
 	dw BattleAnim_Pounce
 	dw BattleAnim_Glare
 	dw BattleAnim_DreamEater
-	dw BattleAnim_PoisonGas
+	dw BattleAnim_FlareBlitz
 	dw BattleAnim_Barrage
 	dw BattleAnim_LeechLife
 	dw BattleAnim_LovelyKiss
@@ -2275,8 +2275,39 @@ BattleAnim_Smog:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_FlareBlitz:
+	anim_1gfx BATTLE_ANIM_GFX_FIRE
+.loop
+	anim_sound 0, 0, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FLAME_WHEEL,   6, 0,  12, 0, $0
+	anim_wait 6
+	anim_sound 0, 0, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_SACRED_FIRE,   6, 0,  13, 0, $0
+	anim_wait 6
+	anim_loop 4, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_wait 96
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, $1, $0
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $12
+	anim_sound 0, 1, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $1
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $4
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $5
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, -15, 0,   6, 0, $3
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $12
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, $0, $0
+	anim_wait 4
+	anim_incobj 9
+	anim_wait 8
+	anim_ret
+
 BattleAnim_Infestation:
-BattleAnim_PoisonGas:
 	anim_1gfx BATTLE_ANIM_GFX_HAZE
 	anim_sound 16, 2, SFX_BUBBLEBEAM
 .loop

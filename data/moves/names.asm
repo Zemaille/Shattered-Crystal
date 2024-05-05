@@ -138,7 +138,7 @@ MoveNames::
 	li "Pounce"
 	li "Glare"
 	li "DREAM EATER"
-	li "Poison Gas"
+	li "Flare Blitz"
 	li "BARRAGE"
 	li "Leech Life"
 	li "Lovely Kiss"
