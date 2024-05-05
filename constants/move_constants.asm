@@ -185,7 +185,7 @@
 	const AEROBLAST    ; b1
 	const COTTON_SPORE ; b2
 	const NIGHT_SLASH  ; b3
-	const SPITE        ; b4
+	const VACUUM_WAVE  ; b4
 	const POWDER_SNOW  ; b5
 	const PROTECT      ; b6
 	const MACH_PUNCH   ; b7

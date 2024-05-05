@@ -181,7 +181,7 @@ BattleAnimations::
 	dw BattleAnim_Aeroblast
 	dw BattleAnim_CottonSpore
 	dw BattleAnim_NightSlash
-	dw BattleAnim_Spite
+	dw BattleAnim_VacuumWave
 	dw BattleAnim_PowderSnow
 	dw BattleAnim_Protect
 	dw BattleAnim_MachPunch
@@ -3507,8 +3507,18 @@ BattleAnim_NightSlash:
 	anim_bgp $e4
 	anim_ret
 
+BattleAnim_VacuumWave:
+	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
+.loop
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_GUST, 136, 72, $0
+	anim_wait 6
+	anim_loop 9, .loop
+	anim_obj BATTLE_ANIM_OBJ_PUNCH_SHAKE, 144, 64, $18
+	anim_wait 16
+	anim_ret
+
 BattleAnim_Hex:
-BattleAnim_Spite:
 	anim_1gfx BATTLE_ANIM_GFX_ANGELS
 	anim_obj BATTLE_ANIM_OBJ_SPITE, 132, 16, $0
 	anim_sound 0, 1, SFX_SPITE

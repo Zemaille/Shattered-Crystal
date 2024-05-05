@@ -179,7 +179,7 @@ MoveNames::
 	li "Aeroblast"
 	li "COTTON SPORE"
 	li "Night Slash"
-	li "SPITE"
+	li "Vacuum Wave"
 	li "Powder Snow"
 	li "Protect"
 	li "Mach Punch"

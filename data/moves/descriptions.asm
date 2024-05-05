@@ -180,7 +180,7 @@ MoveDescriptions::
 	dw AeroblastDescription
 	dw CottonSporeDescription
 	dw NightSlashDescription
-	dw SpiteDescription
+	dw VacuumWaveDescription
 	dw PowderSnowDescription
 	dw ProtectDescription
 	dw MachPunchDescription
@@ -963,10 +963,6 @@ CottonSporeDescription:
 	db   "Sharply reduces"
 	next "the foe's SPEED.@"
 
-SpiteDescription:
-	db   "Cuts the PP of the"
-	next "foe's last move.@"
-
 PowderSnowDescription:
 	db   "An attack that may"
 	next "cause freezing.@"
@@ -975,6 +971,7 @@ ProtectDescription:
 	db   "Foils attack that"
 	next "turn. It may fail.@"
 
+VacuumWaveDescription:
 MachPunchDescription:
 	db   "A fast punch that"
 	next "lands first.@"

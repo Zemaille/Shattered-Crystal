@@ -193,7 +193,7 @@ Moves:
 	move AEROBLAST,    EFFECT_NORMAL_HIT,        100, FLYING,        SPECIAL,   95,  5,   0
 	move COTTON_SPORE, EFFECT_SPEED_DOWN_2,        0, GRASS,         STATUS,    85, 40,   0
 	move NIGHT_SLASH,  EFFECT_NORMAL_HIT,         70, DARK,          PHYSICAL, 100, 15,   0
-	move SPITE,        EFFECT_SPITE,               0, GHOST,         STATUS,   100, 10,   0
+	move VACUUM_WAVE,  EFFECT_PRIORITY_HIT,       40, FIGHTING,      SPECIAL,  100, 30,   0
 	move POWDER_SNOW,  EFFECT_FREEZE_HIT,         40, ICE,           SPECIAL,  100, 25,  10
 	move PROTECT,      EFFECT_PROTECT,             0, NORMAL,        STATUS,   100, 10,   0
 	move MACH_PUNCH,   EFFECT_PRIORITY_HIT,       40, FIGHTING,      PHYSICAL, 100, 30,   0
