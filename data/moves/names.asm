@@ -89,7 +89,7 @@ MoveNames::
 	li "Thunder"
 	li "Rock Throw"
 	li "Earthquake"
-	li "FISSURE"
+	li "Will-o-Wisp"
 	li "Dig"
 	li "Toxic"
 	li "Confusion"

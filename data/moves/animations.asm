@@ -91,7 +91,7 @@ BattleAnimations::
 	dw BattleAnim_Thunder
 	dw BattleAnim_RockThrow
 	dw BattleAnim_Earthquake
-	dw BattleAnim_Fissure
+	dw BattleAnim_WillOWisp
 	dw BattleAnim_Dig
 	dw BattleAnim_Toxic
 	dw BattleAnim_Confusion
@@ -1852,14 +1852,37 @@ BattleAnim_Earthquake:
 	anim_loop 4, .loop
 	anim_ret
 
-BattleAnim_Fissure:
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $40
-	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $0
+BattleAnim_WillOWisp:
+	anim_1gfx BATTLE_ANIM_GFX_FIRE
+	anim_bgp $1b
+	anim_sound 0, 1, SFX_SPITE
+	anim_obj BATTLE_ANIM_OBJ_DRAGON_RAGE, 8, 0, 11, 4, 0
+	anim_wait 48
 .loop
-	anim_sound 0, 1, SFX_EMBER
-	anim_wait 24
+	anim_sound 0, 0, SFX_SPARK
+	anim_obj BATTLE_ANIM_OBJ_BURNED, 17, 0,  7, 0, $a0
+	anim_obj BATTLE_ANIM_OBJ_BURNED, 17, 0,  7, 0, $20
+	anim_wait 8
 	anim_loop 4, .loop
+	anim_wait 16
+	anim_sound 0, 0, SFX_BURN
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $1
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $3
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $4
+	anim_obj BATTLE_ANIM_OBJ_FIRE_BLAST, 17, 0,  6, 0, $5
+	anim_wait 32
+	anim_bgp $e4
 	anim_ret
+
+;BattleAnim_Fissure:
+;	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $40
+;	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $0
+;.loop
+;	anim_sound 0, 1, SFX_EMBER
+;	anim_wait 24
+;	anim_loop 4, .loop
+;	anim_ret
 
 BattleAnim_Growl:
 	anim_1gfx BATTLE_ANIM_GFX_NOISE

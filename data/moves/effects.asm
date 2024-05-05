@@ -2203,3 +2203,13 @@ Pyroclasm:
 	kingsrock
 	startsandstorm
 	endmove
+
+Burn:
+	checkobedience
+	usedmovetext
+	doturn
+	stab
+	checkhit
+	checksafeguard
+	burntarget
+	endmove
