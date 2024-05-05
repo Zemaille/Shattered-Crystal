@@ -133,7 +133,7 @@ MoveNames::
 	li "Spike Cannon"
 	li "CONSTRICT"
 	li "Amnesia"
-	li "KINESIS"
+	li "Air Slash"
 	li "Softboiled"
 	li "Pounce"
 	li "Glare"

@@ -134,7 +134,7 @@ MoveDescriptions::
 	dw SpikeCannonDescription
 	dw ConstrictDescription
 	dw AmnesiaDescription
-	dw KinesisDescription
+	dw AirSlashDescription
 	dw SoftboiledDescription
 	dw PounceDescription
 	dw GlareDescription
@@ -443,6 +443,7 @@ LeerDescription:
 
 DarkPulseDescription:
 BiteDescription:
+AirSlashDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
@@ -798,10 +799,6 @@ ConstrictDescription:
 AmnesiaDescription:
 	db   "Sharply raises the"
 	next "user's SPCL.DEF.@"
-
-KinesisDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
 
 SoftboiledDescription:
 	db   "Restores HP by 1/2"

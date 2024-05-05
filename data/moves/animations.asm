@@ -135,7 +135,7 @@ BattleAnimations::
 	dw BattleAnim_SpikeCannon
 	dw BattleAnim_Constrict
 	dw BattleAnim_Amnesia
-	dw BattleAnim_Kinesis
+	dw BattleAnim_AirSlash
 	dw BattleAnim_Softboiled
 	dw BattleAnim_Pounce
 	dw BattleAnim_Glare
@@ -2555,20 +2555,44 @@ BattleAnim_SkullBash:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Kinesis:
-	anim_2gfx BATTLE_ANIM_GFX_MISC, BATTLE_ANIM_GFX_NOISE
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_KINESIS, 80, 76, $0
-	anim_wait 32
+BattleAnim_AirSlash:
+	anim_1gfx BATTLE_ANIM_GFX_WHIP
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $1, $0
 .loop
-	anim_sound 0, 0, SFX_KINESIS
-	anim_obj BATTLE_ANIM_OBJ_SOUND, 64, 88, $0
-	anim_wait 32
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $2
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_WIND2, 152, 40, $3
+	anim_wait 4
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_WIND2, 136, 56, $3
+	anim_wait 4
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_WIND2, 152, 64, $3
+	anim_wait 4
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_WIND1, 120, 40, $83
+	anim_wait 4
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_WIND1, 120, 64, $83
+	anim_wait 4
 	anim_loop 3, .loop
-	anim_wait 32
-	anim_sound 0, 0, SFX_KINESIS_2
-	anim_wait 32
+	anim_wait 24
 	anim_ret
+
+;BattleAnim_Kinesis:
+;	anim_2gfx BATTLE_ANIM_GFX_MISC, BATTLE_ANIM_GFX_NOISE
+;	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+;	anim_obj BATTLE_ANIM_OBJ_KINESIS, 80, 76, $0
+;	anim_wait 32
+;.loop
+;	anim_sound 0, 0, SFX_KINESIS
+;	anim_obj BATTLE_ANIM_OBJ_SOUND, 64, 88, $0
+;	anim_wait 32
+;	anim_loop 3, .loop
+;	anim_wait 32
+;	anim_sound 0, 0, SFX_KINESIS_2
+;	anim_wait 32
+;	anim_ret
 
 BattleAnim_Peck:
 	anim_1gfx BATTLE_ANIM_GFX_HIT

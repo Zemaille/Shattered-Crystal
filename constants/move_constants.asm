@@ -139,7 +139,7 @@
 	const SPIKE_CANNON ; 83
 	const CONSTRICT    ; 84
 	const AMNESIA      ; 85
-	const KINESIS      ; 86
+	const AIR_SLASH    ; 86
 	const SOFTBOILED   ; 87
 	const POUNCE       ; 88
 	const GLARE        ; 89
