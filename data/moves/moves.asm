@@ -114,7 +114,7 @@ Moves:
 	move QUICK_ATTACK, EFFECT_PRIORITY_HIT,       40, NORMAL,        PHYSICAL, 100, 30,   0
 	move RAGE,         EFFECT_RAGE,               20, NORMAL,        PHYSICAL, 100, 20,   0
 	move TELEPORT,     EFFECT_TELEPORT,            0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
-	move THUNDER_FANG, EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL, 100, 15,  10
+	move THUNDER_FANG, EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  95, 15,  10
 	move MIMIC,        EFFECT_MIMIC,               0, NORMAL,        STATUS,   100, 10,   0
 	move SCREECH,      EFFECT_DEFENSE_DOWN_2,      0, NORMAL,        STATUS,    85, 40,   0
 	move DOUBLE_TEAM,  EFFECT_EVASION_UP,          0, NORMAL,        STATUS,   100, 15,   0
@@ -151,7 +151,7 @@ Moves:
 	move SOFTBOILED,   EFFECT_HEAL,                0, NORMAL,        STATUS,   100, 10,   0
 	move POUNCE,       EFFECT_SPEED_DOWN_HIT,     50, BUG,           PHYSICAL, 100, 20, 100
 	move GLARE,        EFFECT_PARALYZE,            0, NORMAL,        STATUS,    75, 30,   0
-	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, PSYCHIC_TYPE,  SPECIAL,  100, 15,   0
+	move FIRE_FANG,    EFFECT_FIRE_FANG,          65, FIRE,  		 PHYSICAL,  95, 15,  10
 	move FLARE_BLITZ,  EFFECT_FLARE_BLITZ,       120, FIRE,          PHYSICAL, 100, 15,  10
 	move BARRAGE,      EFFECT_MULTI_HIT,          15, NORMAL,        PHYSICAL,  85, 20,   0
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          80, BUG,           PHYSICAL, 100, 10,   0

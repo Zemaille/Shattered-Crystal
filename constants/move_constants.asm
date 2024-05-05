@@ -143,7 +143,7 @@
 	const SOFTBOILED   ; 87
 	const POUNCE       ; 88
 	const GLARE        ; 89
-	const DREAM_EATER  ; 8a
+	const FIRE_FANG    ; 8a
 	const FLARE_BLITZ  ; 8b
 	const BARRAGE      ; 8c
 	const LEECH_LIFE   ; 8d

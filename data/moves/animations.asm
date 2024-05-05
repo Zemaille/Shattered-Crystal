@@ -139,7 +139,7 @@ BattleAnimations::
 	dw BattleAnim_Softboiled
 	dw BattleAnim_Pounce
 	dw BattleAnim_Glare
-	dw BattleAnim_DreamEater
+	dw BattleAnim_FireFang
 	dw BattleAnim_FlareBlitz
 	dw BattleAnim_Barrage
 	dw BattleAnim_LeechLife
@@ -2767,15 +2767,22 @@ BattleAnim_Psybeam:
 	anim_wait 48
 	anim_ret
 
-BattleAnim_DreamEater:
-	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
-	anim_bgp $1b
-	anim_obp0 $27
-	anim_sound 6, 3, SFX_WATER_GUN
-	anim_call BattleAnimSub_Drain
-	anim_wait 128
-	anim_wait 48
+BattleAnim_FireFang:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_FIRE
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $43
+	anim_call BattleAnimSub_Fire
+	anim_wait 16
 	anim_ret
+
+;BattleAnim_DreamEater:
+;	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
+;	anim_bgp $1b
+;	anim_obp0 $27
+;	anim_sound 6, 3, SFX_WATER_GUN
+;	anim_call BattleAnimSub_Drain
+;	anim_wait 128
+;	anim_wait 48
+;	anim_ret
 
 BattleAnim_LeechLife:
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE

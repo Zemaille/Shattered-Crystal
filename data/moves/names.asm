@@ -137,7 +137,7 @@ MoveNames::
 	li "Softboiled"
 	li "Pounce"
 	li "Glare"
-	li "DREAM EATER"
+	li "Fire Fang"
 	li "Flare Blitz"
 	li "BARRAGE"
 	li "Leech Life"

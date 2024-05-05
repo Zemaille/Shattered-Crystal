@@ -138,7 +138,7 @@ MoveDescriptions::
 	dw SoftboiledDescription
 	dw PounceDescription
 	dw GlareDescription
-	dw DreamEaterDescription
+	dw FireFangDescription
 	dw FlareBlitzDescription
 	dw BarrageDescription
 	dw LeechLifeDescription
@@ -672,6 +672,10 @@ TeleportDescription:
 ThunderFangDescription:
 	db   "May paralyze or"
 	next "flinch the foe.@"
+	
+FireFangDescription:
+	db   "May burn or flinch"
+	next "the foe.@"
 
 MimicDescription:
 	db   "Copies a move used"
@@ -805,10 +809,6 @@ SoftboiledDescription:
 GlareDescription:
 	db   "A move that may"
 	next "cause paralysis.@"
-
-DreamEaterDescription:
-	db   "Steals HP from a"
-	next "sleeping victim.@"
 
 FlareBlitzDescription:
 	db   "A self-damaging,"
