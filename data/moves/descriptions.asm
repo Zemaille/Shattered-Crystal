@@ -171,7 +171,7 @@ MoveDescriptions::
 	dw ThiefDescription
 	dw SpiderWebDescription
 	dw MindReaderDescription
-	dw NightmareDescription
+	dw AuraSphereDescription
 	dw FlameWheelDescription
 	dw SnoreDescription
 	dw CurseDescription
@@ -770,6 +770,7 @@ WaterfallDescription:
 	db   "An aquatic charge"
 	next "attack.@"
 
+AuraSphereDescription:
 SwiftDescription:
 	db   "An attack that"
 	next "never misses.@"
@@ -933,10 +934,6 @@ SpiderWebDescription:
 MindReaderDescription:
 	db   "Ensures the next"
 	next "attack will hit.@"
-
-NightmareDescription:
-	db   "A sleeper loses"
-	next "1/4 HP every turn.@"
 
 FlameWheelDescription:
 	db   "An attack that may"
