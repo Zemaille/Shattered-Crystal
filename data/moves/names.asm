@@ -111,7 +111,7 @@ MoveNames::
 	li "Confuse Ray"
 	li "Withdraw"
 	li "Defense Curl"
-	li "BARRIER"
+	li "Mystic Fire"
 	li "Light Screen"
 	li "Haze"
 	li "Reflect"

@@ -112,7 +112,7 @@ MoveDescriptions::
 	dw ConfuseRayDescription
 	dw WithdrawDescription
 	dw DefenseCurlDescription
-	dw BarrierDescription
+	dw MysticFireDescription
 	dw LightScreenDescription
 	dw HazeDescription
 	dw ReflectDescription
@@ -421,8 +421,12 @@ TailWhipDescription:
 	next "Def.@"
 
 SnarlDescription:
-	db "Lowers the foe's"
+	db	 "Lowers the foe's"
 	next "Sp.Def.@"
+
+MysticFireDescription:
+	db   "An attack that will"
+	next "lower Spcl.Atk.@"
 
 PoisonStingDescription:
 	db   "An attack that may"
@@ -707,10 +711,6 @@ WithdrawDescription:
 
 DefenseCurlDescription:
 	db   "Heightens the"
-	next "user's DEFENSE.@"
-
-BarrierDescription:
-	db   "Sharply increases"
 	next "user's DEFENSE.@"
 
 LightScreenDescription:
