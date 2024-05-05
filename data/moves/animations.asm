@@ -102,7 +102,7 @@ BattleAnimations::
 	dw BattleAnim_QuickAttack
 	dw BattleAnim_Rage
 	dw BattleAnim_Teleport
-	dw BattleAnim_NightShade
+	dw BattleAnim_ThunderFang
 	dw BattleAnim_Mimic
 	dw BattleAnim_Screech
 	dw BattleAnim_DoubleTeam
@@ -2654,18 +2654,27 @@ BattleAnim_Nuzzle:
 	anim_wait 40
 	anim_ret
 
-BattleAnim_NightShade:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_bgp $1b
-	anim_obp1 $1b
-	anim_wait 32
-	anim_call BattleAnim_UserObj_2Row
-	anim_bgeffect BATTLE_BG_EFFECT_NIGHT_SHADE, $0, BG_EFFECT_TARGET, $8
-	anim_sound 0, 1, SFX_PSYCHIC
-	anim_wait 96
-	anim_incbgeffect BATTLE_BG_EFFECT_NIGHT_SHADE
-	anim_call BattleAnim_ShowMon_1
+BattleAnim_ThunderFang:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_LIGHTNING
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $43
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $2
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj BATTLE_ANIM_OBJ_THUNDER_RIGHT, 152, 68, $0
+	anim_wait 64
 	anim_ret
+
+;BattleAnim_NightShade:
+;	anim_1gfx BATTLE_ANIM_GFX_HIT
+;	anim_bgp $1b
+;	anim_obp1 $1b
+;	anim_wait 32
+;	anim_call BattleAnim_UserObj_2Row
+;	anim_bgeffect BATTLE_BG_EFFECT_NIGHT_SHADE, $0, BG_EFFECT_TARGET, $8
+;	anim_sound 0, 1, SFX_PSYCHIC
+;	anim_wait 96
+;	anim_incbgeffect BATTLE_BG_EFFECT_NIGHT_SHADE
+;	anim_call BattleAnim_ShowMon_1
+;	anim_ret
 
 BattleAnim_Lick:
 	anim_1gfx BATTLE_ANIM_GFX_WATER

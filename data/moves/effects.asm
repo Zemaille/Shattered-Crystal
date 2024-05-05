@@ -2135,3 +2135,28 @@ DragonDance:
 	statupmessage
 	statupfailtext
 	endmove
+
+ThunderFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	paralyzetarget
+	effectchance
+	flinchtarget
+	kingsrock
+	endmove

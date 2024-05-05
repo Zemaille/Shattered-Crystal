@@ -101,7 +101,7 @@ MoveDescriptions::
 	dw QuickAttackDescription
 	dw RageDescription
 	dw TeleportDescription
-	dw NightShadeDescription
+	dw ThunderFangDescription
 	dw MimicDescription
 	dw ScreechDescription
 	dw DoubleTeamDescription
@@ -662,9 +662,9 @@ TeleportDescription:
 	db   "A move for fleeing"
 	next "from battle.@"
 
-NightShadeDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
+ThunderFangDescription:
+	db   "May paralyze or"
+	next "flinch the foe.@"
 
 MimicDescription:
 	db   "Copies a move used"
