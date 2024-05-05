@@ -248,7 +248,7 @@ MoveDescriptions::
 	dw ExtremespeedDescription
 	dw AncientpowerDescription
 	dw ShadowBallDescription
-	dw FutureSightDescription
+	dw AirCutterDescription
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw InfestationDescription
@@ -270,6 +270,7 @@ PoundDescription:
 	db   "Pounds with fore-"
 	next "legs or tail.@"
 
+AirCutterDescription:
 KarateChopDescription:
 NightSlashDescription:
 XScissorDescription:
@@ -1206,10 +1207,6 @@ ExtremespeedDescription:
 AncientpowerDescription:
 	db   "An attack that may"
 	next "raise all stats.@"
-
-FutureSightDescription:
-	db   "An attack that"
-	next "hits on 3rd turn.@"
 
 RockSmashDescription:
 	db   "An attack that may"

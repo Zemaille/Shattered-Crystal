@@ -249,7 +249,7 @@ BattleAnimations::
 	dw BattleAnim_Extremespeed
 	dw BattleAnim_Ancientpower
 	dw BattleAnim_ShadowBall
-	dw BattleAnim_FutureSight
+	dw BattleAnim_AirCutter
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_Infestation
@@ -4825,25 +4825,38 @@ BattleAnim_ShadowBall:
 	anim_wait 24
 	anim_ret
 
-BattleAnim_FutureSight:
-	anim_1gfx BATTLE_ANIM_GFX_WIND
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
-	anim_bgeffect BATTLE_BG_EFFECT_PSYCHIC, $0, $0, $0
-	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 24, $10
-	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 48, $2
-	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 88, $8
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 32, $6
-	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 56, $c
-	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 80, $4
-	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 104, $e
+BattleAnim_AirCutter:
+	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
 .loop
-	anim_sound 0, 0, SFX_THROW_BALL
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_GUST, 136, 72, $0
+	anim_wait 6
+	anim_loop 9, .loop
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 64, $18
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 32, $18
 	anim_wait 16
-	anim_loop 4, .loop
-	anim_incbgeffect BATTLE_BG_EFFECT_PSYCHIC
 	anim_ret
+
+;BattleAnim_FutureSight:
+;	anim_1gfx BATTLE_ANIM_GFX_WIND
+;	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+;	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
+;	anim_bgeffect BATTLE_BG_EFFECT_PSYCHIC, $0, $0, $0
+;	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 24, $10
+;	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 48, $2
+;	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 88, $8
+;	anim_wait 4
+;	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 32, $6
+;	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 56, $c
+;	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 80, $4
+;	anim_obj BATTLE_ANIM_OBJ_AGILITY, 8, 104, $e
+;.loop
+;	anim_sound 0, 0, SFX_THROW_BALL
+;	anim_wait 16
+;	anim_loop 4, .loop
+;	anim_incbgeffect BATTLE_BG_EFFECT_PSYCHIC
+;	anim_ret
 
 BattleAnim_RockSmash:
 	anim_2gfx BATTLE_ANIM_GFX_ROCKS, BATTLE_ANIM_GFX_HIT

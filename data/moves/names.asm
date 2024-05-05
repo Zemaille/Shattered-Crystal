@@ -247,7 +247,7 @@ MoveNames::
 	li "Extremespeed"
 	li "Ancientpower"
 	li "Shadow Ball"
-	li "FUTURE SIGHT"
+	li "Air Cutter"
 	li "Rock Smash"
 	li "Whirlpool"
 	li "Infestation"
