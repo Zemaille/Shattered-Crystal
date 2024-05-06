@@ -68,7 +68,7 @@ Moves:
 	move EMBER,        EFFECT_BURN_HIT,           40, FIRE,          SPECIAL,  100, 25,  10
 	move FLAMETHROWER, EFFECT_BURN_HIT,           90, FIRE,          SPECIAL,  100, 15,  10
 	move MIST,         EFFECT_MIST,                0, ICE,           STATUS,   100, 30,   0
-	move WATER_GUN,    EFFECT_NORMAL_HIT,         40, WATER,         SPECIAL,  100, 25,   0
+	move DUALWINGBEAT, EFFECT_DOUBLE_HIT,         40, FLYING,        PHYSICAL, 100, 10,   0
 	move HYDRO_PUMP,   EFFECT_SPEED_DOWN_HIT,    110, WATER,         SPECIAL,   80,  5,  10
 	move SURF,         EFFECT_SPEED_DOWN_HIT,     90, WATER,         SPECIAL,  100, 15,  10
 	move ICE_BEAM,     EFFECT_FREEZE_HIT,         90, ICE,           SPECIAL,  100, 10,  10

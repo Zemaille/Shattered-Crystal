@@ -55,7 +55,7 @@ MoveDescriptions::
 	dw EmberDescription
 	dw FlamethrowerDescription
 	dw MistDescription
-	dw WaterGunDescription
+	dw DualWingbeatDescription
 	dw HydroPumpDescription
 	dw SurfDescription
 	dw IceBeamDescription
@@ -369,6 +369,10 @@ DoubleKickDescription:
 	db   "A double kicking"
 	next "attack.@"
 
+DualWingbeatDescription:
+	db   "Attacks twice with"
+	next "wings.@"
+
 MegaKickDescription:
 	db   "A powerful kicking"
 	next "attack.@"
@@ -491,10 +495,6 @@ FlamethrowerDescription:
 MistDescription:
 	db   "Prevents stat"
 	next "reduction.@"
-
-WaterGunDescription:
-	db   "Squirts water to"
-	next "attack.@"
 
 HydroPumpDescription:
 	db   "A powerful water-"

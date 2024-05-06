@@ -56,7 +56,7 @@ BattleAnimations::
 	dw BattleAnim_Ember
 	dw BattleAnim_Flamethrower
 	dw BattleAnim_Mist
-	dw BattleAnim_WaterGun
+	dw BattleAnim_DualWingbeat
 	dw BattleAnim_HydroPump
 	dw BattleAnim_Surf
 	dw BattleAnim_IceBeam
@@ -1090,27 +1090,27 @@ BattleAnim_Bubblebeam:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_WaterGun:
-	anim_bgeffect BATTLE_BG_EFFECT_START_WATER, $0, BG_EFFECT_TARGET, $0
-	anim_1gfx BATTLE_ANIM_GFX_WATER
-	anim_call BattleAnim_UserObj_2Row
-	anim_sound 16, 2, SFX_WATER_GUN
-	anim_obj BATTLE_ANIM_OBJ_WATER_GUN, 64, 88, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_WATER_GUN, 64, 76, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_WATER_GUN, 64, 82, $0
-	anim_wait 24
-	anim_bgeffect BATTLE_BG_EFFECT_WATER, $1c, $0, $0
-	anim_wait 8
-	anim_bgeffect BATTLE_BG_EFFECT_WATER, $8, $0, $0
-	anim_wait 8
-	anim_bgeffect BATTLE_BG_EFFECT_WATER, $30, $0, $0
-	anim_wait 32
-	anim_call BattleAnim_ShowMon_1
-	anim_bgeffect BATTLE_BG_EFFECT_END_WATER, $0, $0, $0
-	anim_wait 16
-	anim_ret
+;BattleAnim_WaterGun:
+;	anim_bgeffect BATTLE_BG_EFFECT_START_WATER, $0, BG_EFFECT_TARGET, $0
+;	anim_1gfx BATTLE_ANIM_GFX_WATER
+;	anim_call BattleAnim_UserObj_2Row
+;	anim_sound 16, 2, SFX_WATER_GUN
+;	anim_obj BATTLE_ANIM_OBJ_WATER_GUN, 64, 88, $0
+;	anim_wait 8
+;	anim_obj BATTLE_ANIM_OBJ_WATER_GUN, 64, 76, $0
+;	anim_wait 8
+;	anim_obj BATTLE_ANIM_OBJ_WATER_GUN, 64, 82, $0
+;	anim_wait 24
+;	anim_bgeffect BATTLE_BG_EFFECT_WATER, $1c, $0, $0
+;	anim_wait 8
+;	anim_bgeffect BATTLE_BG_EFFECT_WATER, $8, $0, $0
+;	anim_wait 8
+;	anim_bgeffect BATTLE_BG_EFFECT_WATER, $30, $0, $0
+;	anim_wait 32
+;	anim_call BattleAnim_ShowMon_1
+;	anim_bgeffect BATTLE_BG_EFFECT_END_WATER, $0, $0, $0
+;	anim_wait 16
+;	anim_ret
 
 BattleAnim_HydroPump:
 	anim_bgeffect BATTLE_BG_EFFECT_START_WATER, $0, BG_EFFECT_TARGET, $0
@@ -3290,6 +3290,34 @@ BattleAnim_DragonPulse:
 ;	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 140, 64, $0
 ;	anim_wait 16
 ;	anim_ret
+
+BattleAnim_DualWingbeat:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 148, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 116, 56, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 56, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 140, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 56, $0
+	anim_wait 16
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 148, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 116, 56, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 56, $0
+	anim_wait 6
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 140, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 56, $0
+	anim_wait 16
+	anim_ret
 
 BattleAnim_WingAttack:
 	anim_1gfx BATTLE_ANIM_GFX_HIT

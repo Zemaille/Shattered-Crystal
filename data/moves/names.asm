@@ -54,7 +54,7 @@ MoveNames::
 	li "Ember"
 	li "Flamethrower"
 	li "Mist"
-	li "WATER GUN"
+	li "DualWingbeat"
 	li "Hydro Pump"
 	li "Surf"
 	li "Ice Beam"
