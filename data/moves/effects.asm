@@ -2280,5 +2280,31 @@ Hurricane:				; Blizzard
 	supereffectivetext
 	checkfaint
 	buildopponentrage
+	effectchance
 	confusetarget
+	endmove
+
+Bounce:
+	checkcharge
+	checkobedience
+	doturn
+	charge
+	usedmovetext
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanimnosub
+	raisesub
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	paralyzetarget
+	kingsrock
 	endmove

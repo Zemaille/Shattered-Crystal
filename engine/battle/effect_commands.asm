@@ -348,6 +348,9 @@ CantMove:
 	cp FLY
 	jr z, .fly_dig
 
+	cp BOUNCE
+	jr z, .fly_dig
+
 	cp DIG
 	ret nz
 
@@ -1081,6 +1084,7 @@ BattleCommand_DoTurn:
 	db EFFECT_SKULL_BASH
 	db EFFECT_SOLARBEAM
 	db EFFECT_FLY
+	db EFFECT_BOUNCE
 	db EFFECT_ROLLOUT
 	db EFFECT_BIDE
 	db EFFECT_RAMPAGE
@@ -1915,6 +1919,8 @@ BattleCommand_LowerSub:
 	jr z, .charge_turn
 	cp EFFECT_FLY
 	jr z, .charge_turn
+	cp EFFECT_BOUNCE
+	jr z, .charge_turn
 
 .already_charged
 	call .Rampage
@@ -2003,6 +2009,8 @@ BattleCommand_MoveAnimNoSub:
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
 	cp FLY
+	jr z, .clear_sprite
+	cp BOUNCE
 	jr z, .clear_sprite
 	cp DIG
 	ret nz
@@ -2094,6 +2102,8 @@ BattleCommand_FailureText:
 	call GetBattleVarAddr
 
 	cp FLY
+	jr z, .fly_dig
+	cp BOUNCE
 	jr z, .fly_dig
 	cp DIG
 	jr z, .fly_dig
@@ -5444,6 +5454,8 @@ BattleCommand_Charge:
 	jr z, .flying
 	cp DIG
 	jr z, .flying
+	cp BOUNCE
+	jr z, .flying
 	call BattleCommand_RaiseSub
 	jr .not_flying
 
@@ -5456,6 +5468,8 @@ BattleCommand_Charge:
 	call GetBattleVar
 	ld b, a
 	cp FLY
+	jr z, .set_flying
+	cp BOUNCE
 	jr z, .set_flying
 	cp DIG
 	jr nz, .dont_set_digging
@@ -5508,6 +5522,10 @@ BattleCommand_Charge:
 	cp FLY
 	ld hl, .BattleFlewText
 	jr z, .done
+	
+	cp BOUNCE
+	ld hl, .BattleJumpedText
+	jr z, .done
 
 	cp DIG
 	ld hl, .BattleDugText
@@ -5533,6 +5551,10 @@ BattleCommand_Charge:
 
 .BattleFlewText:
 	text_far _BattleFlewText
+	text_end
+
+.BattleJumpedText:
+	text_far _BattleJumpedText
 	text_end
 
 .BattleDugText:

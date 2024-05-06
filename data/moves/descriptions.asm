@@ -190,7 +190,7 @@ MoveDescriptions::
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
-	dw OctazookaDescription
+	dw BounceDescription
 	dw SpikesDescription
 	dw XScissorDescription
 	dw ForesightDescription
@@ -343,6 +343,10 @@ WhirlwindDescription:
 
 FlyDescription:
 	db   "1st turn: Fly"
+	next "2nd turn: Attack@"
+
+BounceDescription:
+	db   "1st turn: Jump"
 	next "2nd turn: Attack@"
 
 BindDescription:
@@ -983,10 +987,6 @@ SludgeBombDescription:
 MudSlapDescription:
 	db   "Reduces the foe's"
 	next "accuracy.@"
-
-OctazookaDescription:
-	db   "An attack that may"
-	next "reduce accuracy.@"
 
 SpikesDescription:
 	db   "Hurts foes when"
