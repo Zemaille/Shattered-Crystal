@@ -121,7 +121,7 @@ MoveDescriptions::
 	dw MetronomeDescription
 	dw DragonDartsDescription
 	dw SelfdestructDescription
-	dw EggBombDescription
+	dw SeedBombDescription
 	dw LickDescription
 	dw SmogDescription
 	dw SludgeDescription
@@ -753,9 +753,9 @@ SelfdestructDescription:
 	db   "Powerful but makes"
 	next "the user faint.@"
 
-EggBombDescription:
-	db   "Eggs are hurled at"
-	next "the foe.@"
+SeedBombDescription:
+	db   "Slams a barrage of"
+	next "seeds at the foe.@"
 
 LickDescription:
 	db   "An attack that may"

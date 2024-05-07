@@ -120,7 +120,7 @@ MoveNames::
 	li "Metronome"
 	li "Dragon Darts"
 	li "SELFDESTRUCT"
-	li "EGG BOMB"
+	li "Seed Bomb"
 	li "Lick"
 	li "Smog"
 	li "Sludge"
