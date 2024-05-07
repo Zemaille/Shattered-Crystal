@@ -176,7 +176,7 @@ BattleAnimations::
 	dw BattleAnim_FlameWheel
 	dw BattleAnim_Snore
 	dw BattleAnim_Curse
-	dw BattleAnim_Flail
+	dw BattleAnim_SandScorch
 	dw BattleAnim_Conversion2
 	dw BattleAnim_Aeroblast
 	dw BattleAnim_FocusBlast
@@ -3569,20 +3569,10 @@ BattleAnim_Curse:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Flail:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_sound 0, 0, SFX_SUBMISSION
-	anim_bgeffect BATTLE_BG_EFFECT_FLAIL, $0, BG_EFFECT_USER, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 48, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 152, 48, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 48, $0
-	anim_wait 8
-	anim_incbgeffect BATTLE_BG_EFFECT_FLAIL
-	anim_call BattleAnim_ShowMon_0
+BattleAnim_SandScorch:
+	anim_2gfx BATTLE_ANIM_GFX_SAND, BATTLE_ANIM_GFX_FIRE
+	anim_call BattleAnimSub_SandOrMud
+	anim_call BattleAnimSub_Fire
 	anim_ret
 
 BattleAnim_Conversion:

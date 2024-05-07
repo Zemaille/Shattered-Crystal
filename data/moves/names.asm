@@ -174,7 +174,7 @@ MoveNames::
 	li "Flame Wheel"
 	li "Snore"
 	li "Curse"
-	li "FLAIL"
+	li "Sand Scorch"
 	li "CONVERSION2"
 	li "Aeroblast"
 	li "Focus Blast"

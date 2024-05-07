@@ -180,7 +180,7 @@
 	const FLAME_WHEEL  ; ac
 	const SNORE        ; ad
 	const CURSE        ; ae
-	const FLAIL        ; af
+	const SAND_SCORCH  ; af
 	const CONVERSION2  ; b0
 	const AEROBLAST    ; b1
 	const FOCUS_BLAST  ; b2

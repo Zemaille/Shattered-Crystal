@@ -1468,7 +1468,7 @@ BattleTowerMons:
 
 	db LANTURN
 	db GOLD_BERRY
-	db RAIN_DANCE, THUNDER, SURF, FLAIL
+	db RAIN_DANCE, THUNDER, SURF, NO_MOVE
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp

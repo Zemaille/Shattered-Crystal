@@ -175,7 +175,7 @@ MoveDescriptions::
 	dw FlameWheelDescription
 	dw SnoreDescription
 	dw CurseDescription
-	dw FlailDescription
+	dw SandScorchDescription
 	dw Conversion2Description
 	dw AeroblastDescription
 	dw FocusBlastDescription
@@ -488,10 +488,8 @@ AcidDescription:
 	next "lower DEFENSE.@"
 
 EmberDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
-
 FlamethrowerDescription:
+SandScorchDescription:
 	db   "An attack that may"
 	next "inflict a burn.@"
 
@@ -928,10 +926,6 @@ SnoreDescription:
 CurseDescription:
 	db   "Works differently"
 	next "for ghost-types.@"
-
-FlailDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
 
 Conversion2Description:
 	db   "The user's type is"
