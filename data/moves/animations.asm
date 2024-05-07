@@ -133,7 +133,7 @@ BattleAnimations::
 	dw BattleAnim_Swift
 	dw BattleAnim_SkullBash
 	dw BattleAnim_SpikeCannon
-	dw BattleAnim_Constrict
+	dw BattleAnim_EnergyBall
 	dw BattleAnim_Amnesia
 	dw BattleAnim_AirSlash
 	dw BattleAnim_Softboiled
@@ -1235,7 +1235,7 @@ BattleAnim_RazorLeaf:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_Chloroblast:
+BattleAnim_EnergyBall: 
 	anim_1gfx BATTLE_ANIM_GFX_CHARGE
 	anim_sound 0, 0, SFX_CHARGE
 	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER, 48, 84, $0
@@ -1255,6 +1255,7 @@ BattleAnim_Chloroblast:
 	anim_call BattleAnimSub_Beam
 	anim_wait 48
 	anim_ret
+
 
 BattleAnim_Solarbeam:
 	anim_if_param_equal $0, .FireSolarBeam
@@ -1362,30 +1363,6 @@ BattleAnim_RazorWind:
 	anim_wait 24
 	anim_ret
 
-BattleAnim_Sonicboom_JP: ; unreferenced
-	anim_2gfx BATTLE_ANIM_GFX_WHIP, BATTLE_ANIM_GFX_HIT
-.loop
-	anim_sound 3, 0, SFX_RAZOR_WIND
-	anim_obj BATTLE_ANIM_OBJ_SONICBOOM_JP, 64, 80, $3
-	anim_wait 8
-	anim_sound 3, 0, SFX_RAZOR_WIND
-	anim_obj BATTLE_ANIM_OBJ_SONICBOOM_JP, 64, 88, $2
-	anim_wait 8
-	anim_sound 3, 0, SFX_RAZOR_WIND
-	anim_obj BATTLE_ANIM_OBJ_SONICBOOM_JP, 64, 96, $4
-	anim_wait 8
-	anim_loop 2, .loop
-	anim_wait 32
-	anim_incobj 1
-	anim_incobj 2
-	anim_incobj 3
-	anim_incobj 4
-	anim_incobj 5
-	anim_incobj 6
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
-	anim_wait 16
-	anim_ret
-
 BattleAnim_Gust:
 BattleAnim_Sonicboom:
 	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
@@ -1401,19 +1378,6 @@ BattleAnim_Sonicboom:
 	anim_ret
 
 BattleAnim_Selfdestruct:
-	anim_1gfx BATTLE_ANIM_GFX_EXPLOSION
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $24
-	anim_if_param_equal $1, .loop
-	anim_call BattleAnimSub_Explosion2
-	anim_wait 16
-	anim_ret
-
-.loop
-	anim_call BattleAnimSub_Explosion1
-	anim_wait 5
-	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
-	anim_loop 2, .loop
-	anim_wait 16
 	anim_ret
 
 BattleAnim_Explosion:
@@ -1824,19 +1788,6 @@ BattleAnim_Confusion:
 	anim_wait 128
 	anim_incbgeffect BATTLE_BG_EFFECT_NIGHT_SHADE
 	anim_call BattleAnim_ShowMon_1
-	anim_ret
-
-BattleAnim_Constrict:
-	anim_1gfx BATTLE_ANIM_GFX_ROPE
-	anim_sound 0, 1, SFX_BIND
-	anim_obj BATTLE_ANIM_OBJ_BIND2, 132, 64, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_BIND1, 132, 48, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_BIND2, 132, 40, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_BIND1, 132, 56, $0
-	anim_wait 64
 	anim_ret
 
 BattleAnim_Earthquake:
@@ -3697,16 +3648,33 @@ BattleAnim_FocusBlast:
 	anim_bgp $e4
 	anim_ret
 
-;BattleAnim_CottonSpore:
-;	anim_obp0 $54
-;	anim_1gfx BATTLE_ANIM_GFX_MISC
-;	anim_sound 0, 1, SFX_POWDER
-;.loop
-;	anim_obj BATTLE_ANIM_OBJ_COTTON_SPORE, 132, 32, $0
-;	anim_wait 8
-;	anim_loop 5, .loop
-;	anim_wait 96
-;	anim_ret
+BattleAnim_Chloroblast:
+	anim_2gfx BATTLE_ANIM_GFX_CHARGE, BATTLE_ANIM_GFX_EGG
+	anim_sound 0, 0, SFX_GIGA_DRAIN
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 0
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 8
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 16
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 24
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 32
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 40
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 48
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE,  6, 0, 10, 4, 56
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER,  6, 0, 10, 4, $0
+	anim_wait 64
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $0
+.loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_obj BATTLE_ANIM_OBJ_ENERGY_BALL,  7, 6, 11, 4, $2
+	anim_wait 3
+	anim_obj BATTLE_ANIM_OBJ_ENERGY_BALL,  8, 2, 11, 4, $2
+	anim_wait 3
+	anim_loop 8, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+	anim_wait 32
+	anim_call BattleAnim_ShowMon_1
+	anim_wait 1
+	anim_ret
 
 ;BattleAnim_Reversal:
 ;	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_HIT

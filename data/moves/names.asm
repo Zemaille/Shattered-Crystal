@@ -131,7 +131,7 @@ MoveNames::
 	li "Swift"
 	li "SKULL BASH"
 	li "Spike Cannon"
-	li "CONSTRICT"
+	li "Energy Ball"
 	li "Amnesia"
 	li "Air Slash"
 	li "Softboiled"

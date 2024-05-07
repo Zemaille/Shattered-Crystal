@@ -132,7 +132,7 @@ MoveDescriptions::
 	dw SwiftDescription
 	dw SkullBashDescription
 	dw SpikeCannonDescription
-	dw ConstrictDescription
+	dw EnergyBallDescription
 	dw AmnesiaDescription
 	dw AirSlashDescription
 	dw SoftboiledDescription
@@ -652,6 +652,7 @@ BugBuzzDescription:
 PsychicMDescription:
 CrunchDescription:
 ShadowBallDescription:
+EnergyBallDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 
@@ -792,10 +793,6 @@ SkullBashDescription:
 SpikeCannonDescription:
 	db   "Fires spikes to"
 	next "hit 2-5 times.@"
-
-ConstrictDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
 
 AmnesiaDescription:
 	db   "Sharply raises the"

@@ -137,7 +137,7 @@
 	const SWIFT        ; 81
 	const SKULL_BASH   ; 82
 	const SPIKE_CANNON ; 83
-	const CONSTRICT    ; 84
+	const ENERGY_BALL  ; 84
 	const AMNESIA      ; 85
 	const AIR_SLASH    ; 86
 	const SOFTBOILED   ; 87
