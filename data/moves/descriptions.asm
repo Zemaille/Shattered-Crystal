@@ -31,7 +31,7 @@ MoveDescriptions::
 	dw SandAttackDescription
 	dw HeadbuttDescription
 	dw HornAttackDescription
-	dw FuryAttackDescription
+	dw MudShotDescription
 	dw HornDrillDescription
 	dw TackleDescription
 	dw BodySlamDescription
@@ -391,10 +391,6 @@ HornAttackDescription:
 	db   "An attack using a"
 	next "horn to jab.@"
 
-FuryAttackDescription:
-	db   "Jabs the target"
-	next "2-5 times.@"
-
 HornDrillDescription:
 	db   "A one-hit KO,"
 	next "drill attack.@"
@@ -600,6 +596,7 @@ PetalDanceDescription:
 
 PounceDescription:
 StringShotDescription:
+MudShotDescription:
 	db   "A move that lowers"
 	next "the foe's Speed.@"
 
