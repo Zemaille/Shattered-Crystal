@@ -20,7 +20,7 @@ MoveDescriptions::
 	dw WingAttackDescription
 	dw WhirlwindDescription
 	dw FlyDescription
-	dw BindDescription
+	dw ChloroblastDescription
 	dw SlamDescription
 	dw VineWhipDescription
 	dw StompDescription
@@ -350,10 +350,6 @@ BounceDescription:
 	db   "1st turn: Jump"
 	next "2nd turn: Attack@"
 
-BindDescription:
-	db   "Binds the target"
-	next "for 2-5 turns.@"
-
 SlamDescription:
 	db   "Slams the foe with"
 	next "a tail, vine, etc.@"
@@ -418,6 +414,10 @@ WrapDescription:
 BraveBirdDescription:
 TakeDownDescription:
 	db   "A tackle that also"
+	next "hurts the user.@"
+
+ChloroblastDescription:
+	db   "A beam that also"
 	next "hurts the user.@"
 
 ThrashDescription:

@@ -21,7 +21,7 @@ BattleAnimations::
 	dw BattleAnim_WingAttack
 	dw BattleAnim_Whirlwind
 	dw BattleAnim_Fly
-	dw BattleAnim_Bind
+	dw BattleAnim_Chloroblast
 	dw BattleAnim_Slam
 	dw BattleAnim_VineWhip
 	dw BattleAnim_Stomp
@@ -1235,6 +1235,27 @@ BattleAnim_RazorLeaf:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_Chloroblast:
+	anim_1gfx BATTLE_ANIM_GFX_CHARGE
+	anim_sound 0, 0, SFX_CHARGE
+	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER, 48, 84, $0
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $0
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $8
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $10
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $18
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $20
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $28
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $30
+	anim_obj BATTLE_ANIM_OBJ_SOLAR_BEAM_CHARGE, 48, 84, $38
+	anim_wait 104
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_WHITE, $0, $4, $2
+	anim_wait 64
+	anim_1gfx BATTLE_ANIM_GFX_BEAM
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_call BattleAnimSub_Beam
+	anim_wait 48
+	anim_ret
+
 BattleAnim_Solarbeam:
 	anim_if_param_equal $0, .FireSolarBeam
 	; charge turn
@@ -1777,22 +1798,6 @@ BattleAnim_FocusEnergy:
 	anim_wait 8
 	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT
 	anim_call BattleAnim_ShowMon_0
-	anim_ret
-
-BattleAnim_Bind:
-	anim_1gfx BATTLE_ANIM_GFX_ROPE
-	anim_sound 0, 1, SFX_BIND
-	anim_obj BATTLE_ANIM_OBJ_BIND1, 132, 64, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_BIND2, 132, 56, $0
-	anim_wait 8
-	anim_obj BATTLE_ANIM_OBJ_BIND1, 132, 48, $0
-	anim_wait 64
-	anim_sound 0, 1, SFX_BIND
-	anim_incobj 1
-	anim_incobj 2
-	anim_incobj 3
-	anim_wait 96
 	anim_ret
 
 BattleAnim_Wrap:
