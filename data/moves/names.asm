@@ -116,7 +116,7 @@ MoveNames::
 	li "Haze"
 	li "Reflect"
 	li "FOCUS ENERGY"
-	li "BIDE"
+	li "Poltergeist"
 	li "Metronome"
 	li "Dragon Darts"
 	li "SELFDESTRUCT"

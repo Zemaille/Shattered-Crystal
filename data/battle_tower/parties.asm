@@ -4619,7 +4619,7 @@ BattleTowerMons:
 	db 10, 15, 15, 10 ; PP
 	db 100 ; Happiness
 	db 0, 0, 0 ; Pokerus, Caught data
-	db 90 ; Level
+	db 90 ; Level1
 	db 0, 0 ; Status
 	bigdw 405 ; HP
 	bigdw 405 ; Max HP

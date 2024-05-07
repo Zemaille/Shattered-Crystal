@@ -117,7 +117,7 @@ MoveDescriptions::
 	dw HazeDescription
 	dw ReflectDescription
 	dw FocusEnergyDescription
-	dw BideDescription
+	dw PoltergeistDescription
 	dw MetronomeDescription
 	dw DragonDartsDescription
 	dw SelfdestructDescription
@@ -739,10 +739,6 @@ FocusEnergyDescription:
 	db   "Raises the criti-"
 	next "cal hit ratio.@"
 
-BideDescription:
-	db   "Waits 2-3 turns &"
-	next "hits back double.@"
-
 MetronomeDescription:
 	db   "Randomly uses any"
 	next "Pokémon move.@"
@@ -913,6 +909,7 @@ DragonClawDescription:
 	db   "Slashes the foe"
 	next "with sharp claws.@"
 
+PoltergeistDescription:
 ThiefDescription:
 	db   "An attack that may"
 	next "steal a held item.@"

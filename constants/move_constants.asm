@@ -122,7 +122,7 @@
 	const HAZE         ; 72
 	const REFLECT      ; 73
 	const FOCUS_ENERGY ; 74
-	const BIDE         ; 75
+	const POLTERGEIST  ; 75
 	const METRONOME    ; 76
 	const DRAGON_DARTS ; 77
 	const SELFDESTRUCT ; 78

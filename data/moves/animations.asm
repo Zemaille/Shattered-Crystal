@@ -118,7 +118,7 @@ BattleAnimations::
 	dw BattleAnim_Haze
 	dw BattleAnim_Reflect
 	dw BattleAnim_FocusEnergy
-	dw BattleAnim_Bide
+	dw BattleAnim_Poltergeist
 	dw BattleAnim_Metronome
 	dw BattleAnim_DragonDarts
 	dw BattleAnim_Selfdestruct
@@ -1776,17 +1776,6 @@ BattleAnim_FocusEnergy:
 	anim_loop 3, .loop
 	anim_wait 8
 	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT
-	anim_call BattleAnim_ShowMon_0
-	anim_ret
-
-BattleAnim_Bide:
-	anim_if_param_equal $0, BattleAnim_MegaPunch
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_sound 0, 0, SFX_ESCAPE_ROPE
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING, $0, BG_EFFECT_USER, $20
-	anim_wait 72
-	anim_incbgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
@@ -4325,6 +4314,7 @@ BattleAnim_SteelWing:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_Poltergeist:
 BattleAnim_MeanLook:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 	anim_obp0 $e0

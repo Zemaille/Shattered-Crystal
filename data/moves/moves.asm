@@ -130,7 +130,7 @@ Moves:
 	move HAZE,         EFFECT_RESET_STATS,         0, ICE,           STATUS,   100, 30,   0
 	move REFLECT,      EFFECT_REFLECT,             0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
 	move FOCUS_ENERGY, EFFECT_FOCUS_ENERGY,        0, NORMAL,        STATUS,   100, 30,   0
-	move BIDE,         EFFECT_BIDE,                0, NORMAL,        PHYSICAL, 100, 10,   0
+	move POLTERGEIST,  EFFECT_THIEF,             110, GHOST,         PHYSICAL,  90,  5, 100
 	move METRONOME,    EFFECT_METRONOME,           0, NORMAL,        STATUS,   100, 10,   0
 	move DRAGON_DARTS, EFFECT_DOUBLE_HIT,         50, DRAGON,        PHYSICAL, 100, 10,   0
 	move SELFDESTRUCT, EFFECT_SELFDESTRUCT,      200, NORMAL,        PHYSICAL, 100,  5,   0
