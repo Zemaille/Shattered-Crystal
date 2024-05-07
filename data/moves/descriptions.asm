@@ -186,7 +186,7 @@ MoveDescriptions::
 	dw MachPunchDescription
 	dw ScaryFaceDescription
 	dw FaintAttackDescription
-	dw SweetKissDescription
+	dw AstonishDescription
 	dw BellyDrumDescription
 	dw SludgeBombDescription
 	dw MudSlapDescription
@@ -361,6 +361,7 @@ VineWhipDescription:
 	db   "Whips the foe with"
 	next "slender vines.@"
 
+AstonishDescription:
 StompDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
@@ -971,10 +972,6 @@ ScaryFaceDescription:
 FaintAttackDescription:
 	db   "An attack that"
 	next "never misses.@"
-
-SweetKissDescription:
-	db   "A move that causes"
-	next "confusion.@"
 
 BellyDrumDescription:
 	db   "Reduces own HP to"

@@ -185,7 +185,7 @@ MoveNames::
 	li "Mach Punch"
 	li "SCARY FACE"
 	li "FAINT ATTACK"
-	li "SWEET KISS"
+	li "Astonish"
 	li "Belly Drum"
 	li "Sludge Bomb"
 	li "Mud-Slap"

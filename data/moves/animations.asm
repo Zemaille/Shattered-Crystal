@@ -187,7 +187,7 @@ BattleAnimations::
 	dw BattleAnim_MachPunch
 	dw BattleAnim_ScaryFace
 	dw BattleAnim_FaintAttack
-	dw BattleAnim_SweetKiss
+	dw BattleAnim_Astonish
 	dw BattleAnim_BellyDrum
 	dw BattleAnim_SludgeBomb
 	dw BattleAnim_MudSlap
@@ -3841,16 +3841,28 @@ BattleAnim_FaintAttack:
 	anim_wait 4
 	anim_ret
 
-BattleAnim_SweetKiss:
-	anim_2gfx BATTLE_ANIM_GFX_OBJECTS, BATTLE_ANIM_GFX_ANGELS
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_SWEET_KISS, 96, 40, $0
-	anim_sound 0, 1, SFX_SWEET_KISS
-	anim_wait 32
-	anim_sound 0, 1, SFX_SWEET_KISS_2
-	anim_obj BATTLE_ANIM_OBJ_HEART, 120, 40, $0
-	anim_wait 40
+BattleAnim_Astonish:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, $1, $0
+	anim_wait 4
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $2
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $2, $2, $0
+	anim_sound 0, 1, SFX_KINESIS_2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 16, 0,  6, 0, $0
+	anim_wait 16
+	anim_call BattleAnim_ShowMon_0
 	anim_ret
+
+;BattleAnim_SweetKiss:
+;	anim_2gfx BATTLE_ANIM_GFX_OBJECTS, BATTLE_ANIM_GFX_ANGELS
+;	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+;	anim_obj BATTLE_ANIM_OBJ_SWEET_KISS, 96, 40, $0
+;	anim_sound 0, 1, SFX_SWEET_KISS
+;	anim_wait 32
+;	anim_sound 0, 1, SFX_SWEET_KISS_2
+;	anim_obj BATTLE_ANIM_OBJ_HEART, 120, 40, $0
+;	anim_wait 40
+;	anim_ret
 
 BattleAnim_BellyDrum:
 	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_NOISE
