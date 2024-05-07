@@ -151,7 +151,7 @@
 	const NUZZLE       ; 8f
 	const TRANSFORM    ; 90
 	const BUBBLE       ; 91
-	const DIZZY_PUNCH  ; 92
+	const HORN_LEECH   ; 92
 	const SPORE        ; 93
 	const FLASH        ; 94
 	const AERIAL_ACE   ; 95

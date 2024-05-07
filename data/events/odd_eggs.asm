@@ -38,7 +38,7 @@ OddEggs:
 
 	db PIKACHU
 	db NO_ITEM
-	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
+	db THUNDERSHOCK, CHARM, PROTECT, 0
 	dw 02048 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -64,7 +64,7 @@ OddEggs:
 
 	db PIKACHU
 	db NO_ITEM
-	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
+	db THUNDERSHOCK, CHARM, PROTECT, 0
 	dw 00256 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -90,7 +90,7 @@ OddEggs:
 
 	db CLEFAIRY
 	db NO_ITEM
-	db POUND, CHARM, DIZZY_PUNCH, 0
+	db POUND, CHARM, PROTECT, 0
 	dw 04096 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -116,7 +116,7 @@ OddEggs:
 
 	db CLEFAIRY
 	db NO_ITEM
-	db POUND, CHARM, DIZZY_PUNCH, 0
+	db POUND, CHARM, PROTECT, 0
 	dw 00768 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -142,7 +142,7 @@ OddEggs:
 
 	db JIGGLYPUFF
 	db NO_ITEM
-	db SING, CHARM, DIZZY_PUNCH, 0
+	db SING, CHARM, PROTECT, 0
 	dw 04096 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -168,7 +168,7 @@ OddEggs:
 
 	db JIGGLYPUFF
 	db NO_ITEM
-	db SING, CHARM, DIZZY_PUNCH, 0
+	db SING, CHARM, PROTECT, 0
 	dw 00768 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -194,7 +194,7 @@ OddEggs:
 
 	db DRAGAPULT
 	db NO_ITEM
-	db POUND, LICK, DIZZY_PUNCH, 0
+	db POUND, LICK, PROTECT, 0
 	dw 03584 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -220,7 +220,7 @@ OddEggs:
 
 	db DRAGAPULT
 	db NO_ITEM
-	db POUND, LICK, DIZZY_PUNCH, 0
+	db POUND, LICK, PROTECT, 0
 	dw 00512 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -246,7 +246,7 @@ OddEggs:
 
 	db PORYGON_Z
 	db NO_ITEM
-	db EMBER, DIZZY_PUNCH, 0, 0
+	db EMBER, PROTECT, 0, 0
 	dw 02560 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -272,7 +272,7 @@ OddEggs:
 
 	db PORYGON_Z
 	db NO_ITEM
-	db EMBER, DIZZY_PUNCH, 0, 0
+	db EMBER, PROTECT, 0, 0
 	dw 00512 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -298,7 +298,7 @@ OddEggs:
 
 	db WEAVILE
 	db NO_ITEM
-	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
+	db QUICK_ATTACK, LEER, PROTECT, 0
 	dw 03072 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -324,7 +324,7 @@ OddEggs:
 
 	db WEAVILE
 	db NO_ITEM
-	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
+	db QUICK_ATTACK, LEER, PROTECT, 0
 	dw 00512 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -350,7 +350,7 @@ OddEggs:
 
 	db DREEPY
 	db NO_ITEM
-	db TACKLE, DIZZY_PUNCH, 0, 0
+	db TACKLE, PROTECT, 0, 0
 	dw 02560 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -376,7 +376,7 @@ OddEggs:
 
 	db DREEPY
 	db NO_ITEM
-	db TACKLE, DIZZY_PUNCH, 0, 0
+	db TACKLE, PROTECT, 0, 0
 	dw 00256 ; OT ID
 	dt 125 ; Exp
 	; Stat exp

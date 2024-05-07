@@ -159,7 +159,7 @@ Moves:
 	move NUZZLE,       EFFECT_PARALYZE_HIT,       20, ELECTRIC,      PHYSICAL, 100, 20, 100
 	move TRANSFORM,    EFFECT_TRANSFORM,           0, NORMAL,        STATUS,   100, 10,   0
 	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     40, WATER,         SPECIAL,  100, 30,  10
-	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,        PHYSICAL, 100, 10,  20
+	move HORN_LEECH,   EFFECT_LEECH_HIT,          75, GRASS,         PHYSICAL, 100, 10,   0
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,         STATUS,   100, 15,   0
 	move FLASH,        EFFECT_ACCURACY_DOWN,       0, NORMAL,        STATUS,    70, 20,   0
 	move AERIAL_ACE,   EFFECT_ALWAYS_HIT,         60, FLYING,        PHYSICAL, 100, 15,   0

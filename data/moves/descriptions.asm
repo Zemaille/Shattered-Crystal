@@ -146,7 +146,7 @@ MoveDescriptions::
 	dw NuzzleDescription
 	dw TransformDescription
 	dw BubbleDescription
-	dw DizzyPunchDescription
+	dw HornLeechDescription
 	dw SporeDescription
 	dw FlashDescription
 	dw AerialAceDescription
@@ -563,6 +563,7 @@ DrainPunchDescription:
 MegaDrainDescription:
 GigaDrainDescription:
 LeechLifeDescription:
+HornLeechDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
 
@@ -825,10 +826,6 @@ TransformDescription:
 BubbleDescription:
 	db   "An attack that may"
 	next "reduce SPEED.@"
-
-DizzyPunchDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
 
 SporeDescription:
 	db   "A move that"

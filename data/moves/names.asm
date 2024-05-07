@@ -145,7 +145,7 @@ MoveNames::
 	li "Nuzzle"
 	li "Transform"
 	li "Bubble"
-	li "Dizzy Punch"
+	li "Horn Leech"
 	li "Spore"
 	li "Flash"
 	li "Aerial Ace"
