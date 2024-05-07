@@ -219,7 +219,7 @@ BattleAnimations::
 	dw BattleAnim_HealBell
 	dw BattleAnim_Return
 	dw BattleAnim_Present
-	dw BattleAnim_Frustration
+	dw BattleAnim_EarthPower
 	dw BattleAnim_Safeguard
 	dw BattleAnim_PainSplit
 	dw BattleAnim_SacredFire
@@ -4420,27 +4420,37 @@ BattleAnim_Present:
 	anim_wait 128
 	anim_ret
 
-BattleAnim_Frustration:
-	anim_1gfx BATTLE_ANIM_GFX_MISC
-	anim_sound 0, 0, SFX_KINESIS_2
-	anim_obj BATTLE_ANIM_OBJ_ANGER, 72, 80, $0
+BattleAnim_EarthPower:
+	anim_2gfx BATTLE_ANIM_GFX_FIRE, BATTLE_ANIM_GFX_ROCKS
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgp $1b
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $5c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $9c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 120, 68, $50
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 120, 68, $30
 	anim_wait 40
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect BATTLE_BG_EFFECT_WOBBLE_MON, $0, BG_EFFECT_USER, $0
+	anim_clearobjs
 	anim_wait 8
-	anim_sound 0, 1, SFX_COMET_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 48, $0
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $5c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $d0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 144, 68, $10
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 144, 68, $30
+	anim_wait 40
+	anim_clearobjs
 	anim_wait 8
-	anim_sound 0, 1, SFX_COMET_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 152, 48, $0
-	anim_wait 8
-	anim_sound 0, 1, SFX_COMET_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 48, $0
-	anim_wait 8
-	anim_incbgeffect BATTLE_BG_EFFECT_WOBBLE_MON
-	anim_wait 1
-	anim_call BattleAnim_ShowMon_0
+	anim_sound 0, 0, SFX_EGG_BOMB
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $28, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $28
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $d0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 132, 68, $50
+	anim_obj BATTLE_ANIM_OBJ_EMBER, 132, 68, $30
+	anim_wait 48
 	anim_ret
 
 BattleAnim_Safeguard:

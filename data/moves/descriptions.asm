@@ -218,7 +218,7 @@ MoveDescriptions::
 	dw HealBellDescription
 	dw ReturnDescription
 	dw PresentDescription
-	dw FrustrationDescription
+	dw EarthPowerDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
 	dw SacredFireDescription
@@ -653,6 +653,7 @@ PsychicMDescription:
 CrunchDescription:
 ShadowBallDescription:
 EnergyBallDescription:
+EarthPowerDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 
@@ -1063,10 +1064,6 @@ ReturnDescription:
 PresentDescription:
 	db   "A bomb that may"
 	next "restore HP.@"
-
-FrustrationDescription:
-	db   "An attack based on"
-	next "lack of loyalty.@"
 
 SafeguardDescription:
 	db   "Prevents all"
