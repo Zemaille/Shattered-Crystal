@@ -205,7 +205,7 @@ MoveNames::
 	li "ENDURE"
 	li "CHARM"
 	li "ROLLOUT"
-	li "FALSE SWIPE"
+	li "Wood Hammer"
 	li "SWAGGER"
 	li "MILK DRINK"
 	li "Spark"

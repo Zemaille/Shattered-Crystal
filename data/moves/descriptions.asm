@@ -206,7 +206,7 @@ MoveDescriptions::
 	dw EndureDescription
 	dw CharmDescription
 	dw RolloutDescription
-	dw FalseSwipeDescription
+	dw WoodHammerDescription
 	dw SwaggerDescription
 	dw MilkDrinkDescription
 	dw SparkDescription
@@ -413,6 +413,7 @@ WrapDescription:
 
 BraveBirdDescription:
 TakeDownDescription:
+WoodHammerDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
 
@@ -1024,10 +1025,6 @@ CharmDescription:
 RolloutDescription:
 	db   "Attacks 5 turns"
 	next "with rising power.@"
-
-FalseSwipeDescription:
-	db   "Leaves the foe"
-	next "with at least 1HP.@"
 
 SwaggerDescription:
 	db   "Causes confusion"

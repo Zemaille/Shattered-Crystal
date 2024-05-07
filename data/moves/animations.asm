@@ -207,7 +207,7 @@ BattleAnimations::
 	dw BattleAnim_Endure
 	dw BattleAnim_Charm
 	dw BattleAnim_Rollout
-	dw BattleAnim_FalseSwipe
+	dw BattleAnim_WoodHammer
 	dw BattleAnim_Swagger
 	dw BattleAnim_MilkDrink
 	dw BattleAnim_Spark
@@ -4208,15 +4208,32 @@ BattleAnim_Rollout:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_FalseSwipe:
-	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_CUT
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
-	anim_sound 0, 1, SFX_CUT
-	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 136, 40, $0
-	anim_wait 32
+BattleAnim_WoodHammer:
+	anim_2gfx BATTLE_ANIM_GFX_PLANT, BATTLE_ANIM_GFX_EXPLOSION
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED,  6, 0, 10, 0, $20
+	anim_wait 2
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED,  6, 0, 10, 0, $28
+	anim_wait 2
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED,  6, 0, 10, 0, $30
+	anim_wait 28
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $10
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $24
+	anim_wait 16
+	anim_bgp $e4
 	anim_ret
+
+;BattleAnim_FalseSwipe:
+;	anim_2gfx BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_CUT
+;	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
+;	anim_sound 0, 1, SFX_CUT
+;	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+;	anim_wait 4
+;	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 136, 40, $0
+;	anim_wait 32
+;	anim_ret
 
 BattleAnim_Swagger:
 	anim_2gfx BATTLE_ANIM_GFX_MISC, BATTLE_ANIM_GFX_WIND

@@ -211,7 +211,7 @@
 	const ENDURE       ; cb
 	const CHARM        ; cc
 	const ROLLOUT      ; cd
-	const FALSE_SWIPE  ; ce
+	const WOOD_HAMMER  ; ce
 	const SWAGGER      ; cf
 	const MILK_DRINK   ; d0
 	const SPARK        ; d1
