@@ -139,7 +139,7 @@ MoveNames::
 	li "Glare"
 	li "Fire Fang"
 	li "Flare Blitz"
-	li "BARRAGE"
+	li "Shadow Claw"
 	li "Leech Life"
 	li "Lovely Kiss"
 	li "Nuzzle"

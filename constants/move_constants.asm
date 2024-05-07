@@ -145,7 +145,7 @@
 	const GLARE        ; 89
 	const FIRE_FANG    ; 8a
 	const FLARE_BLITZ  ; 8b
-	const BARRAGE      ; 8c
+	const SHADOW_CLAW  ; 8c
 	const LEECH_LIFE   ; 8d
 	const LOVELY_KISS  ; 8e
 	const NUZZLE       ; 8f

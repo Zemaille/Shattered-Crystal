@@ -140,7 +140,7 @@ MoveDescriptions::
 	dw GlareDescription
 	dw FireFangDescription
 	dw FlareBlitzDescription
-	dw BarrageDescription
+	dw ShadowClawDescription
 	dw LeechLifeDescription
 	dw LovelyKissDescription
 	dw NuzzleDescription
@@ -274,6 +274,7 @@ AirCutterDescription:
 KarateChopDescription:
 NightSlashDescription:
 XScissorDescription:
+ShadowClawDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
@@ -815,10 +816,6 @@ GlareDescription:
 FlareBlitzDescription:
 	db   "A self-damaging,"
 	next "burning tackle.@"
-
-BarrageDescription:
-	db   "Throws orbs to hit"
-	next "2-5 times.@"
 
 LovelyKissDescription:
 	db   "May cause the foe"
