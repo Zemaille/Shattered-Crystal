@@ -12,7 +12,7 @@ MoveNames::
 	li "Scratch"
 	li "VICEGRIP"
 	li "Ice Shard"
-	li "RAZOR WIND"
+	li "Gunk Shot"
 	li "Swords Dance"
 	li "Cut"
 	li "Gust"

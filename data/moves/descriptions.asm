@@ -13,7 +13,7 @@ MoveDescriptions::
 	dw ScratchDescription
 	dw VicegripDescription
 	dw IceShardDescription
-	dw RazorWindDescription
+	dw GunkShotDescription
 	dw SwordsDanceDescription
 	dw CutDescription
 	dw GustDescription
@@ -313,10 +313,6 @@ ScratchDescription:
 VicegripDescription:
 	db   "Grips with power-"
 	next "ful pincers.@"
-
-RazorWindDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
 
 SwordsDanceDescription:
 	db   "A dance that in-"
@@ -951,6 +947,7 @@ BellyDrumDescription:
 PoisonJabDescription:
 SludgeBombDescription:
 PoisonFangDescription:
+GunkShotDescription:
 	db   "An attack that may"
 	next "poison the foe.@"
 
