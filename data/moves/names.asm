@@ -48,7 +48,7 @@ MoveNames::
 	li "Roar"
 	li "Sing"
 	li "Supersonic"
-	li "SONICBOOM"
+	li "Twin Beam"
 	li "Disable"
 	li "Acid"
 	li "Ember"

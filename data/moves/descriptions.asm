@@ -49,7 +49,7 @@ MoveDescriptions::
 	dw RoarDescription
 	dw SingDescription
 	dw SupersonicDescription
-	dw SonicboomDescription
+	dw TwinBeamDescription
 	dw DisableDescription
 	dw AcidDescription
 	dw EmberDescription
@@ -451,10 +451,6 @@ SingDescription:
 SupersonicDescription:
 	db   "Sound waves that"
 	next "cause confusion.@"
-
-SonicboomDescription:
-	db   "Always inflicts"
-	next "20HP damage.@"
 
 DisableDescription:
 	db   "Disables the foe's"
@@ -1034,6 +1030,10 @@ SleepTalkDescription:
 HealBellDescription:
 	db   "Eliminates all"
 	next "status problems.@"
+
+TwinBeamDescription:
+	db	 "Two beams that"
+	next "hit twice.@"
 
 ReturnDescription:
 	db   "An attack that is"

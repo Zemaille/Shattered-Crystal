@@ -50,7 +50,7 @@ BattleAnimations::
 	dw BattleAnim_Roar
 	dw BattleAnim_Sing
 	dw BattleAnim_Supersonic
-	dw BattleAnim_Sonicboom
+	dw BattleAnim_TwinBeam
 	dw BattleAnim_Disable
 	dw BattleAnim_Acid
 	dw BattleAnim_Ember
@@ -1366,7 +1366,6 @@ BattleAnim_GunkShot:
 ;	anim_ret
 
 BattleAnim_Gust:
-BattleAnim_Sonicboom:
 	anim_2gfx BATTLE_ANIM_GFX_WIND, BATTLE_ANIM_GFX_HIT
 .loop
 	anim_sound 0, 1, SFX_RAZOR_WIND
@@ -1922,6 +1921,7 @@ BattleAnim_ConfuseRay:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_TwinBeam:
 BattleAnim_Leer:
 	anim_1gfx BATTLE_ANIM_GFX_BEAM
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
