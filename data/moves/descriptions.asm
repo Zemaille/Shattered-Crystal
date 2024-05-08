@@ -32,7 +32,7 @@ MoveDescriptions::
 	dw HeadbuttDescription
 	dw HornAttackDescription
 	dw MudShotDescription
-	dw HornDrillDescription
+	dw IcicleCrashDescription
 	dw TackleDescription
 	dw BodySlamDescription
 	dw WrapDescription
@@ -387,10 +387,6 @@ HornAttackDescription:
 	db   "An attack using a"
 	next "horn to jab.@"
 
-HornDrillDescription:
-	db   "A one-hit KO,"
-	next "drill attack.@"
-
 TackleDescription:
 	db   "A full-body charge"
 	next "attack.@"
@@ -448,6 +444,7 @@ LeerDescription:
 DarkPulseDescription:
 BiteDescription:
 AirSlashDescription:
+IcicleCrashDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 

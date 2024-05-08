@@ -37,7 +37,7 @@
 	const HEADBUTT     ; 1d
 	const HORN_ATTACK  ; 1e
 	const MUD_SHOT     ; 1f
-	const HORN_DRILL   ; 20
+	const ICICLE_CRASH ; 20
 	const TACKLE       ; 21
 	const BODY_SLAM    ; 22
 	const WRAP         ; 23

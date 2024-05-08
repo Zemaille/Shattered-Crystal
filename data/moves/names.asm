@@ -31,7 +31,7 @@ MoveNames::
 	li "Headbutt"
 	li "HORN ATTACK"
 	li "Mud Shot"
-	li "HORN DRILL"
+	li "Icicle Crash"
 	li "Tackle"
 	li "Body Slam"
 	li "WRAP"
