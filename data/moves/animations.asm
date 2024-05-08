@@ -26,7 +26,7 @@ BattleAnimations::
 	dw BattleAnim_VineWhip
 	dw BattleAnim_Stomp
 	dw BattleAnim_DoubleKick
-	dw BattleAnim_MegaKick
+	dw BattleAnim_IceFang
 	dw BattleAnim_DarkPulse
 	dw BattleAnim_RollingKick
 	dw BattleAnim_SandAttack
@@ -838,21 +838,6 @@ BattleAnim_RollingKick:
 	anim_wait 12
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 48, $0
 	anim_wait 16
-	anim_ret
-
-BattleAnim_MegaKick:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
-	anim_wait 67
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
-.loop
-	anim_sound 0, 1, SFX_MEGA_KICK
-	anim_obj BATTLE_ANIM_OBJ_KICK, 136, 56, $0
-	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
-	anim_wait 6
-	anim_obj BATTLE_ANIM_OBJ_KICK, 136, 56, $0
-	anim_wait 6
-	anim_loop 3, .loop
 	anim_ret
 
 BattleAnim_SuperFang:
@@ -2806,6 +2791,13 @@ BattleAnim_FireFang:
 	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $43
 	anim_call BattleAnimSub_Fire
 	anim_wait 16
+	anim_ret
+
+BattleAnim_IceFang:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_ICE
+	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $43
+	anim_call BattleAnimSub_Ice
+	anim_wait 32
 	anim_ret
 
 ;BattleAnim_DreamEater:

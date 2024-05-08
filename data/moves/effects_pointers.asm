@@ -171,4 +171,5 @@ MoveEffectsPointers:
 	dw FireFang
 	dw Hurricane
 	dw Bounce
+	dw IceFang
 	assert_table_length NUM_MOVE_EFFECTS

@@ -25,7 +25,7 @@ MoveDescriptions::
 	dw VineWhipDescription
 	dw StompDescription
 	dw DoubleKickDescription
-	dw MegaKickDescription
+	dw IceFangDescription
 	dw DarkPulseDescription
 	dw RollingKickDescription
 	dw SandAttackDescription
@@ -367,10 +367,6 @@ DualWingbeatDescription:
 	db   "Attacks twice with"
 	next "wings.@"
 
-MegaKickDescription:
-	db   "A powerful kicking"
-	next "attack.@"
-
 RollingKickDescription:
 	db   "A fast, spinning"
 	next "kick.@"
@@ -675,6 +671,10 @@ ThunderFangDescription:
 FireFangDescription:
 	db   "May burn or flinch"
 	next "the foe.@"
+
+IceFangDescription:
+	db   "May freeze or"
+	next "flinch the foe.@"
 
 MimicDescription:
 	db   "Copies a move used"

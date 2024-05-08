@@ -3716,7 +3716,7 @@ BattleTowerMons:
 
 	db YAMASK
 	db FOCUS_BAND
-	db NO_MOVE, ENDURE, BODY_SLAM, MEGA_KICK
+	db NO_MOVE, ENDURE, BODY_SLAM, NO_MOVE
 	dw 0 ; OT ID
 	dt 343000 ; Exp
 	; Stat exp

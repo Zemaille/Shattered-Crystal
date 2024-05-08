@@ -24,7 +24,7 @@ MoveNames::
 	li "Vine Whip"
 	li "Stomp"
 	li "Double Kick"
-	li "MEGA KICK"
+	li "Ice Fang"
 	li "Dark Pulse"
 	li "Rolling Kick"
 	li "Sand-Attack"
