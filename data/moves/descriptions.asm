@@ -162,7 +162,7 @@ MoveDescriptions::
 	dw SharpenDescription
 	dw ConversionDescription
 	dw TriAttackDescription
-	dw SuperFangDescription
+	dw ZenHeadbuttDescription
 	dw SlashDescription
 	dw SubstituteDescription
 	dw StruggleDescription
@@ -834,6 +834,7 @@ RestDescription:
 	db   "Sleep for 2 turns"
 	next "to fully recover.@"
 
+ZenHeadbuttDescription:
 RockSlideDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
@@ -849,10 +850,6 @@ ConversionDescription:
 TriAttackDescription:
 	db   "Fires three kinds"
 	next "of beams at once.@"
-
-SuperFangDescription:
-	db   "Cuts the foe's HP"
-	next "by 1/2.@"
 
 SlashDescription:
 	db   "Has a high criti-"

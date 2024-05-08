@@ -161,7 +161,7 @@ MoveNames::
 	li "SHARPEN"
 	li "CONVERSION"
 	li "Tri Attack"
-	li "Super Fang"
+	li "Zen Headbutt"
 	li "Slash"
 	li "Substitute"
 	li "Struggle"
