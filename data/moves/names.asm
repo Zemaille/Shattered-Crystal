@@ -212,7 +212,7 @@ MoveNames::
 	li "Fury Cutter"
 	li "Steel Wing"
 	li "MEAN LOOK"
-	li "ATTRACT"
+	li "Stone Edge"
 	li "Sleep Talk"
 	li "Heal Bell"
 	li "Return"

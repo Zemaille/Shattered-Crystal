@@ -213,7 +213,7 @@ MoveDescriptions::
 	dw FuryCutterDescription
 	dw SteelWingDescription
 	dw MeanLookDescription
-	dw AttractDescription
+	dw StoneEdgeDescription
 	dw SleepTalkDescription
 	dw HealBellDescription
 	dw ReturnDescription
@@ -276,6 +276,7 @@ KarateChopDescription:
 NightSlashDescription:
 XScissorDescription:
 ShadowClawDescription:
+StoneEdgeDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
@@ -1012,10 +1013,6 @@ SteelWingDescription:
 MeanLookDescription:
 	db   "Prevents fleeing"
 	next "or switching.@"
-
-AttractDescription:
-	db   "Makes the opposite"
-	next "gender infatuated.@"
 
 SleepTalkDescription:
 	db   "Randomly attacks"

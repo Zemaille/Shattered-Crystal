@@ -218,7 +218,7 @@
 	const FURY_CUTTER  ; d2
 	const STEEL_WING   ; d3
 	const MEAN_LOOK    ; d4
-	const ATTRACT      ; d5
+	const STONE_EDGE   ; d5
 	const SLEEP_TALK   ; d6
 	const HEAL_BELL    ; d7
 	const RETURN       ; d8

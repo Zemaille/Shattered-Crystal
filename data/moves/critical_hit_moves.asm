@@ -11,4 +11,5 @@ CriticalHitMoves:
 	db CROSS_POISON
 	db PSYCHO_CUT
 	db STONE_AXE
+	db STONE_EDGE
 	db -1
