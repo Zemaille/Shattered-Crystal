@@ -13,7 +13,7 @@ BattleAnimations::
 	dw BattleAnim_Thunderpunch
 	dw BattleAnim_Scratch
 	dw BattleAnim_Vicegrip
-	dw BattleAnim_Guillotine
+	dw BattleAnim_IceShard
 	dw BattleAnim_RazorWind
 	dw BattleAnim_SwordsDance
 	dw BattleAnim_Cut
@@ -2606,20 +2606,39 @@ BattleAnim_DrillPeck:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Guillotine:
-	anim_1gfx BATTLE_ANIM_GFX_CUT
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $10
-	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
-	anim_sound 0, 1, SFX_VICEGRIP
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 156, 44, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 152, 40, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 148, 36, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 124, 76, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 116, 68, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+BattleAnim_IceShard:
+	anim_1gfx BATTLE_ANIM_GFX_ICE
+.loop
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  11, 0, $23
+	anim_wait 2
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  10, 0, $24
+	anim_wait 2
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  12, 0, $23
+	anim_wait 2
+	anim_loop 2, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_WHITE_HUES, $0, $8, $0
+	anim_wait 40
+	anim_call BattleAnimSub_Ice
 	anim_wait 32
 	anim_ret
+
+;BattleAnim_Guillotine:
+;	anim_1gfx BATTLE_ANIM_GFX_CUT
+;	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $10
+;	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+;	anim_sound 0, 1, SFX_VICEGRIP
+;	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 156, 44, $0
+;	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 152, 40, $0
+;	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 148, 36, $0
+;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 124, 76, $0
+;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 116, 68, $0
+;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+;	anim_wait 32
+;	anim_ret
 
 BattleAnim_Flash:
 	anim_1gfx BATTLE_ANIM_GFX_SPEED

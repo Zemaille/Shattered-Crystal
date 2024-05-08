@@ -12,7 +12,7 @@ MoveDescriptions::
 	dw ThunderpunchDescription
 	dw ScratchDescription
 	dw VicegripDescription
-	dw GuillotineDescription
+	dw IceShardDescription
 	dw RazorWindDescription
 	dw SwordsDanceDescription
 	dw CutDescription
@@ -313,10 +313,6 @@ ScratchDescription:
 VicegripDescription:
 	db   "Grips with power-"
 	next "ful pincers.@"
-
-GuillotineDescription:
-	db   "A one-hit KO,"
-	next "pincer attack.@"
 
 RazorWindDescription:
 	db   "1st turn: Prepare"
@@ -662,6 +658,7 @@ AgilityDescription:
 	db   "Sharply increases"
 	next "the user's Speed.@"
 
+IceShardDescription:
 QuickAttackDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
