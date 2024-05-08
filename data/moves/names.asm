@@ -175,7 +175,7 @@ MoveNames::
 	li "Snore"
 	li "Curse"
 	li "Sand Scorch"
-	li "CONVERSION2"
+	li "Head Smash"
 	li "Aeroblast"
 	li "Focus Blast"
 	li "Night Slash"

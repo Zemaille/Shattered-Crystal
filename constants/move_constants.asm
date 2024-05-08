@@ -181,7 +181,7 @@
 	const SNORE        ; ad
 	const CURSE        ; ae
 	const SAND_SCORCH  ; af
-	const CONVERSION2  ; b0
+	const HEAD_SMASH   ; b0
 	const AEROBLAST    ; b1
 	const FOCUS_BLAST  ; b2
 	const NIGHT_SLASH  ; b3

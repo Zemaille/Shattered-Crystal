@@ -176,7 +176,7 @@ MoveDescriptions::
 	dw SnoreDescription
 	dw CurseDescription
 	dw SandScorchDescription
-	dw Conversion2Description
+	dw HeadSmashDescription
 	dw AeroblastDescription
 	dw FocusBlastDescription
 	dw NightSlashDescription
@@ -388,6 +388,7 @@ WrapDescription:
 BraveBirdDescription:
 TakeDownDescription:
 WoodHammerDescription:
+HeadSmashDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
 
@@ -894,10 +895,6 @@ SnoreDescription:
 CurseDescription:
 	db   "Works differently"
 	next "for ghost-types.@"
-
-Conversion2Description:
-	db   "The user's type is"
-	next "made resistant.@"
 
 AeroblastDescription:
 	db   "Has a high criti-"

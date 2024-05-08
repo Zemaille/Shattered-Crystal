@@ -177,7 +177,7 @@ BattleAnimations::
 	dw BattleAnim_Snore
 	dw BattleAnim_Curse
 	dw BattleAnim_SandScorch
-	dw BattleAnim_Conversion2
+	dw BattleAnim_HeadSmash
 	dw BattleAnim_Aeroblast
 	dw BattleAnim_FocusBlast
 	dw BattleAnim_NightSlash
@@ -2552,6 +2552,7 @@ BattleAnim_BraveBird:
 ;	anim_loop 3, .loop
 ;	anim_ret
 
+BattleAnim_HeadSmash:
 BattleAnim_PsyhornBash:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
@@ -2955,20 +2956,20 @@ BattleAnim_Growth:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_Conversion2:
-	anim_1gfx BATTLE_ANIM_GFX_EXPLOSION
-	anim_sound 63, 3, SFX_SHARPEN
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $0
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $8
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $10
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $18
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $20
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $28
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $30
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $38
-	anim_wait 128
-	anim_wait 48
-	anim_ret
+;BattleAnim_Conversion2:
+;	anim_1gfx BATTLE_ANIM_GFX_EXPLOSION
+;	anim_sound 63, 3, SFX_SHARPEN
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $0
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $8
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $10
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $18
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $20
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $28
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $30
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION2, 132, 44, $38
+;	anim_wait 128
+;	anim_wait 48
+;	anim_ret
 
 BattleAnim_Smokescreen:
 	anim_3gfx BATTLE_ANIM_GFX_HAZE, BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_SMOKE
