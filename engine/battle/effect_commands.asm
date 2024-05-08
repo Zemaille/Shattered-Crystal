@@ -1080,7 +1080,6 @@ BattleCommand_DoTurn:
 	ret
 
 .continuousmoves
-	db EFFECT_SKULL_BASH
 	db EFFECT_SOLARBEAM
 	db EFFECT_FLY
 	db EFFECT_BOUNCE
@@ -1909,8 +1908,6 @@ BattleCommand_LowerSub:
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
-	cp EFFECT_SKULL_BASH
-	jr z, .charge_turn
 	cp EFFECT_SOLARBEAM
 	jr z, .charge_turn
 	cp EFFECT_FLY
@@ -5505,10 +5502,6 @@ BattleCommand_Charge:
 	call GetBattleVar
 	cp SOLARBEAM
 	ld hl, .BattleTookSunlightText
-	jr z, .done
-
-	cp SKULL_BASH
-	ld hl, .BattleLoweredHeadText
 	jr z, .done
 
 	cp FLY

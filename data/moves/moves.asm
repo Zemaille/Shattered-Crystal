@@ -143,7 +143,7 @@ Moves:
 	move WATERFALL,    EFFECT_NORMAL_HIT,         80, WATER,         PHYSICAL, 100, 15,   0
 	move CLAMP,        EFFECT_TRAP_TARGET,        35, WATER,         PHYSICAL,  85, 15,   0
 	move SWIFT,        EFFECT_ALWAYS_HIT,         60, NORMAL,        SPECIAL,  100, 20,   0
-	move SKULL_BASH,   EFFECT_SKULL_BASH,        100, NORMAL,        PHYSICAL, 100, 15,   0
+	move CALM_MIND,    EFFECT_CALM_MIND,         100, PSYCHIC_TYPE,  STATUS,   100, 20,   0
 	move SPIKE_CANNON, EFFECT_MULTI_HIT,          20, NORMAL,        PHYSICAL, 100, 15,   0
 	move ENERGY_BALL,  EFFECT_SP_DEF_DOWN_HIT,    80, GRASS,         SPECIAL,  100, 10,  10
 	move AMNESIA,      EFFECT_SP_DEF_UP_2,         0, PSYCHIC_TYPE,  STATUS,   100, 20,   0

@@ -130,7 +130,7 @@ MoveDescriptions::
 	dw WaterfallDescription
 	dw ClampDescription
 	dw SwiftDescription
-	dw SkullBashDescription
+	dw CalmMindDescription
 	dw SpikeCannonDescription
 	dw EnergyBallDescription
 	dw AmnesiaDescription
@@ -766,9 +766,9 @@ AerialAceDescription:
 	db   "An attack that"
 	next "never misses.@"
 
-SkullBashDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+CalmMindDescription:
+	db   "Raises Spcl.Atk"
+	next "and Spcl.Def.@"
 
 SpikeCannonDescription:
 	db   "Fires spikes to"

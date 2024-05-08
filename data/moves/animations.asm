@@ -131,7 +131,7 @@ BattleAnimations::
 	dw BattleAnim_Waterfall
 	dw BattleAnim_Clamp
 	dw BattleAnim_Swift
-	dw BattleAnim_SkullBash
+	dw BattleAnim_CalmMind
 	dw BattleAnim_SpikeCannon
 	dw BattleAnim_EnergyBall
 	dw BattleAnim_Amnesia
@@ -2553,7 +2553,6 @@ BattleAnim_BraveBird:
 ;	anim_ret
 
 BattleAnim_PsyhornBash:
-BattleAnim_SkullBash:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
 	anim_wait 32
@@ -3459,14 +3458,15 @@ BattleAnim_SpiderWeb:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_CalmMind:
 BattleAnim_MindReader:
 	anim_1gfx BATTLE_ANIM_GFX_MISC
 	anim_sound 0, 1, SFX_MIND_READER
 .loop
-	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 132, 48, $3
-	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 132, 48, $12
-	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 132, 48, $20
-	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 132, 48, $31
+	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 48, 88, $3
+	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 48, 88, $12
+	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 48, 88, $20
+	anim_obj BATTLE_ANIM_OBJ_MIND_READER, 48, 88, $31
 	anim_wait 16
 	anim_loop 2, .loop
 	anim_wait 32

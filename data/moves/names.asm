@@ -129,7 +129,7 @@ MoveNames::
 	li "Waterfall"
 	li "Clamp"
 	li "Swift"
-	li "SKULL BASH"
+	li "Calm Mind"
 	li "Spike Cannon"
 	li "Energy Ball"
 	li "Amnesia"
