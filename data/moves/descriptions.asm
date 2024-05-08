@@ -11,7 +11,7 @@ MoveDescriptions::
 	dw IcePunchDescription
 	dw ThunderpunchDescription
 	dw ScratchDescription
-	dw VicegripDescription
+	dw RockBlastDescription
 	dw IceShardDescription
 	dw GunkShotDescription
 	dw SwordsDanceDescription
@@ -310,10 +310,6 @@ ThunderpunchDescription:
 ScratchDescription:
 	db   "Scratches with"
 	next "sharp claws.@"
-
-VicegripDescription:
-	db   "Grips with power-"
-	next "ful pincers.@"
 
 SwordsDanceDescription:
 	db   "A dance that in-"
@@ -822,6 +818,10 @@ ExplosionDescription:
 FurySwipesDescription:
 	db   "Quickly scratches"
 	next "2-5 times.@"
+
+RockBlastDescription:
+	db	 "Shoots 2-5 rocks"
+	next "at the foe.@"
 
 PyroclasmDescription:
 	db   "Volcanic explosion"

@@ -10,7 +10,7 @@ MoveNames::
 	li "Ice Punch"
 	li "ThunderPunch"
 	li "Scratch"
-	li "VICEGRIP"
+	li "Rock Blast"
 	li "Ice Shard"
 	li "Gunk Shot"
 	li "Swords Dance"

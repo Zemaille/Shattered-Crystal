@@ -12,7 +12,7 @@ BattleAnimations::
 	dw BattleAnim_IcePunch
 	dw BattleAnim_Thunderpunch
 	dw BattleAnim_Scratch
-	dw BattleAnim_Vicegrip
+	dw BattleAnim_RockBlast
 	dw BattleAnim_IceShard
 	dw BattleAnim_GunkShot
 	dw BattleAnim_SwordsDance
@@ -1507,13 +1507,13 @@ BattleAnim_AuroraBeam:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_Vicegrip:
-	anim_1gfx BATTLE_ANIM_GFX_CUT
-	anim_sound 0, 1, SFX_VICEGRIP
-	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 152, 40, $0
-	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
-	anim_wait 32
-	anim_ret
+;BattleAnim_Vicegrip:
+;	anim_1gfx BATTLE_ANIM_GFX_CUT
+;	anim_sound 0, 1, SFX_VICEGRIP
+;	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 152, 40, $0
+;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+;	anim_wait 32
+;	anim_ret
 
 BattleAnim_Scratch:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
@@ -2650,6 +2650,20 @@ BattleAnim_IceShard:
 	anim_bgeffect BATTLE_BG_EFFECT_WHITE_HUES, $0, $8, $0
 	anim_wait 40
 	anim_call BattleAnimSub_Ice
+	anim_wait 32
+	anim_ret
+
+BattleAnim_RockBlast:
+	anim_2gfx BATTLE_ANIM_GFX_ROCKS, BATTLE_ANIM_GFX_HIT
+	anim_sound 6, 2, SFX_SPARK
+	anim_obj BATTLE_ANIM_OBJ_ROCK_BLAST, 64, 92, $4
+	anim_wait 16
+	anim_sound 0, 1, SFX_KARATE_CHOP
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $5c
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $e8
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $d0
+	anim_obj BATTLE_ANIM_OBJ_ROCK_SMASH, 128, 56, $50
 	anim_wait 32
 	anim_ret
 

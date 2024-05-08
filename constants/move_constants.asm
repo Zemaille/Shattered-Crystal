@@ -16,7 +16,7 @@
 	const ICE_PUNCH    ; 08
 	const THUNDERPUNCH ; 09
 	const SCRATCH      ; 0a
-	const VICEGRIP     ; 0b
+	const ROCK_BLAST   ; 0b
 	const ICE_SHARD    ; 0c
 	const GUNK_SHOT    ; 0d
 	const SWORDS_DANCE ; 0e
