@@ -9,4 +9,5 @@ CriticalHitMoves:
 	db NIGHT_SLASH
 	db AIR_CUTTER
 	db SHADOW_CLAW
+	db CROSS_POISON
 	db -1

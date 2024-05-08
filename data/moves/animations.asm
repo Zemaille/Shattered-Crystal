@@ -6,7 +6,7 @@ BattleAnimations::
 	dw BattleAnim_KarateChop
 	dw BattleAnim_Doubleslap
 	dw BattleAnim_CometPunch
-	dw BattleAnim_MegaPunch
+	dw BattleAnim_CrossPoison
 	dw BattleAnim_PayDay
 	dw BattleAnim_FirePunch
 	dw BattleAnim_IcePunch
@@ -716,7 +716,6 @@ BattleAnim_CometPunch:
 	anim_ret
 
 BattleAnim_CloseCombat:
-BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
 	anim_wait 48
@@ -4802,6 +4801,7 @@ BattleAnim_HiddenPower:
 	anim_ret
 
 BattleAnim_CrossChop:
+BattleAnim_CrossPoison:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
 	anim_obj BATTLE_ANIM_OBJ_CROSS_CHOP1, 152, 40, $0

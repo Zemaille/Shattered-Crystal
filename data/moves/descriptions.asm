@@ -5,7 +5,7 @@ MoveDescriptions::
 	dw KarateChopDescription
 	dw DoubleslapDescription
 	dw CometPunchDescription
-	dw MegaPunchDescription
+	dw CrossPoisonDescription
 	dw PayDayDescription
 	dw FirePunchDescription
 	dw IcePunchDescription
@@ -286,9 +286,9 @@ CometPunchDescription:
 	db   "Repeatedly punches"
 	next "2-5 times.@"
 
-MegaPunchDescription:
-	db   "A powerful punch"
-	next "thrown very hard.@"
+CrossPoisonDescription:
+	db   "High crit rate,"
+	next "may poison.@"
 
 PayDayDescription:
 	db   "Throws coins. Gets"
