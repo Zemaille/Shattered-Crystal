@@ -22,7 +22,7 @@ BattleAnimations::
 	dw BattleAnim_Whirlwind
 	dw BattleAnim_Fly
 	dw BattleAnim_Chloroblast
-	dw BattleAnim_Slam
+	dw BattleAnim_PsychoCut
 	dw BattleAnim_VineWhip
 	dw BattleAnim_Stomp
 	dw BattleAnim_DoubleKick
@@ -3335,13 +3335,38 @@ BattleAnim_WingAttack:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Slam:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_WING_ATTACK
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $2
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 40, $0
-	anim_wait 16
+BattleAnim_PsychoCut:
+	anim_2gfx BATTLE_ANIM_GFX_MISC, BATTLE_ANIM_GFX_NOISE
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_obj BATTLE_ANIM_OBJ_KINESIS,  10, 0,   9, 4, $0
+	anim_bgp $1b
+	anim_wait 8
+.loop
+	anim_sound 0, 0, SFX_AEROBLAST
+	anim_obj BATTLE_ANIM_OBJ_SOUND,   8, 0,  11, 0, $0
+	anim_wait 32
+	anim_loop 3, .loop
+	anim_wait 48
+	anim_sound 0, 0, SFX_PLACE_PUZZLE_PIECE_DOWN
+	anim_wait 10
+	anim_sound 0, 0, SFX_PLACE_PUZZLE_PIECE_DOWN
+	anim_wait 10
+	anim_sound 0, 0, SFX_PLACE_PUZZLE_PIECE_DOWN
+	anim_wait 10
+	anim_sound 0, 1, SFX_CUT
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 148, 36, $0
+	anim_wait 32
+	anim_bgp $e4
 	anim_ret
+
+;BattleAnim_Slam:
+;	anim_1gfx BATTLE_ANIM_GFX_HIT
+;	anim_sound 0, 1, SFX_WING_ATTACK
+;	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $2
+;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 40, $0
+;	anim_wait 16
+;	anim_ret
 
 BattleAnim_Disable:
 	anim_2gfx BATTLE_ANIM_GFX_LIGHTNING, BATTLE_ANIM_GFX_STATUS

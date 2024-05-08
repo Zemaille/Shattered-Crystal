@@ -9,4 +9,5 @@ CriticalHitMoves:
 	db AIR_CUTTER
 	db SHADOW_CLAW
 	db CROSS_POISON
+	db PSYCHO_CUT
 	db -1

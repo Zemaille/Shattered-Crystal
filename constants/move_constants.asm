@@ -26,7 +26,7 @@
 	const WHIRLWIND    ; 12
 	const FLY          ; 13
 	const CHLOROBLAST  ; 14
-	const SLAM         ; 15
+	const PSYCHO_CUT   ; 15
 	const VINE_WHIP    ; 16
 	const STOMP        ; 17
 	const DOUBLE_KICK  ; 18

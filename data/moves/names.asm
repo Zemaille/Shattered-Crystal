@@ -20,7 +20,7 @@ MoveNames::
 	li "Whirlwind"
 	li "Fly"
 	li "Chloroblast"
-	li "SLAM"
+	li "Psycho Cut"
 	li "Vine Whip"
 	li "Stomp"
 	li "Double Kick"

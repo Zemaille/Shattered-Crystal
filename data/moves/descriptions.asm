@@ -21,7 +21,7 @@ MoveDescriptions::
 	dw WhirlwindDescription
 	dw FlyDescription
 	dw ChloroblastDescription
-	dw SlamDescription
+	dw PsychoCutDescription
 	dw VineWhipDescription
 	dw StompDescription
 	dw DoubleKickDescription
@@ -341,10 +341,6 @@ FlyDescription:
 BounceDescription:
 	db   "1st turn: Jump"
 	next "2nd turn: Attack@"
-
-SlamDescription:
-	db   "Slams the foe with"
-	next "a tail, vine, etc.@"
 
 VineWhipDescription:
 	db   "Whips the foe with"
@@ -1119,6 +1115,7 @@ HiddenPowerDescription:
 	db   "The power varies"
 	next "with the #MON.@"
 
+PsychoCutDescription:
 CrossChopDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
