@@ -104,7 +104,7 @@
 	const HURRICANE    ; 60
 	const AGILITY      ; 61
 	const QUICK_ATTACK ; 62
-	const RAGE         ; 63
+	const POISON_FANG  ; 63
 	const TELEPORT     ; 64
 	const THUNDER_FANG ; 65
 	const MIMIC        ; 66

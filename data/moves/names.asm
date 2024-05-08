@@ -98,7 +98,7 @@ MoveNames::
 	li "Hurricane"
 	li "Agility"
 	li "Quick Attack"
-	li "Rage"
+	li "Poison Fang"
 	li "Teleport"
 	li "Thunder Fang"
 	li "MIMIC"

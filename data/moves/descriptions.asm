@@ -99,7 +99,7 @@ MoveDescriptions::
 	dw HurricaneDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
-	dw RageDescription
+	dw PoisonFangDescription
 	dw TeleportDescription
 	dw ThunderFangDescription
 	dw MimicDescription
@@ -656,10 +656,6 @@ QuickAttackDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
 
-RageDescription:
-	db   "Raises Atk if the"
-	next "user is hit.@"
-
 TeleportDescription:
 	db   "A move for fleeing"
 	next "from battle.@"
@@ -954,6 +950,7 @@ BellyDrumDescription:
 
 PoisonJabDescription:
 SludgeBombDescription:
+PoisonFangDescription:
 	db   "An attack that may"
 	next "poison the foe.@"
 

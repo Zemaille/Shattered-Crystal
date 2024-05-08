@@ -112,7 +112,7 @@ Moves:
 	move HURRICANE,    EFFECT_HURRICANE,         110, FLYING,        SPECIAL,   70, 10,  30
 	move AGILITY,      EFFECT_SPEED_UP_2,          0, PSYCHIC_TYPE,  STATUS,   100, 30,   0
 	move QUICK_ATTACK, EFFECT_PRIORITY_HIT,       40, NORMAL,        PHYSICAL, 100, 30,   0
-	move RAGE,         EFFECT_RAGE,               20, NORMAL,        PHYSICAL, 100, 20,   0
+	move POISON_FANG,  EFFECT_POISON_HIT,         50, POISON,        PHYSICAL, 100, 15,  50
 	move TELEPORT,     EFFECT_TELEPORT,            0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
 	move THUNDER_FANG, EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  95, 15,  10
 	move MIMIC,        EFFECT_MIMIC,               0, NORMAL,        STATUS,   100, 10,   0
