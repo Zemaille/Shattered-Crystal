@@ -217,7 +217,7 @@ MoveDescriptions::
 	dw SleepTalkDescription
 	dw HealBellDescription
 	dw ReturnDescription
-	dw PresentDescription
+	dw PoisonJabDescription
 	dw EarthPowerDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
@@ -952,6 +952,7 @@ BellyDrumDescription:
 	db   "Reduces own HP to"
 	next "maximize ATTACK.@"
 
+PoisonJabDescription:
 SludgeBombDescription:
 	db   "An attack that may"
 	next "poison the foe.@"
@@ -1051,10 +1052,6 @@ HealBellDescription:
 ReturnDescription:
 	db   "An attack that is"
 	next "based on loyalty.@"
-
-PresentDescription:
-	db   "A bomb that may"
-	next "restore HP.@"
 
 SafeguardDescription:
 	db   "Prevents all"

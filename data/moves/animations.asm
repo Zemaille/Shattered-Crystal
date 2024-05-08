@@ -218,7 +218,7 @@ BattleAnimations::
 	dw BattleAnim_SleepTalk
 	dw BattleAnim_HealBell
 	dw BattleAnim_Return
-	dw BattleAnim_Present
+	dw BattleAnim_PoisonJab
 	dw BattleAnim_EarthPower
 	dw BattleAnim_Safeguard
 	dw BattleAnim_PainSplit
@@ -4404,32 +4404,15 @@ BattleAnim_Return:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Present:
-	anim_2gfx BATTLE_ANIM_GFX_STATUS, BATTLE_ANIM_GFX_BUBBLE
-	anim_sound 0, 1, SFX_PRESENT
-	anim_obj BATTLE_ANIM_OBJ_PRESENT, 64, 88, $6c
-	anim_wait 56
-	anim_obj BATTLE_ANIM_OBJ_AMNESIA, 104, 48, $0
-	anim_wait 48
-	anim_incobj 2
-	anim_if_param_equal $3, .heal
-	anim_incobj 1
-	anim_wait 1
-	anim_1gfx BATTLE_ANIM_GFX_EXPLOSION
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $12
-.loop
-	anim_call BattleAnimSub_Explosion2
-	anim_wait 16
-	anim_jumpuntil .loop
-	anim_ret
-
-.heal
-	anim_sound 0, 1, SFX_METRONOME
-.loop2
-	anim_obj BATTLE_ANIM_OBJ_RECOVER, 132, 48, $24
+BattleAnim_PoisonJab:
+	anim_3gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_POISON
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HORN,   9, 0,  12, 0, $1
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 17, 0,  7, 0, $0
 	anim_wait 8
-	anim_loop 8, .loop2
-	anim_wait 128
+	anim_call BattleAnimSub_Sludge
+	anim_wait 24
 	anim_ret
 
 BattleAnim_EarthPower:

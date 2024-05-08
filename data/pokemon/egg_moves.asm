@@ -179,9 +179,7 @@ RhyhornEggMoves:
 	db -1 ; end
 
 ChanseyEggMoves:
-	db PRESENT
-	db METRONOME
-	db HEAL_BELL
+
 	db -1 ; end
 
 RhyperiorEggMoves:

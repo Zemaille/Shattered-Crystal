@@ -222,7 +222,7 @@
 	const SLEEP_TALK   ; d6
 	const HEAL_BELL    ; d7
 	const RETURN       ; d8
-	const PRESENT      ; d9
+	const POISON_JAB   ; d9
 	const EARTH_POWER  ; da
 	const SAFEGUARD    ; db
 	const PAIN_SPLIT   ; dc
