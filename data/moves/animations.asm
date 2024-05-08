@@ -38,7 +38,7 @@ BattleAnimations::
 	dw BattleAnim_BodySlam
 	dw BattleAnim_Wrap
 	dw BattleAnim_TakeDown
-	dw BattleAnim_Thrash
+	dw BattleAnim_StoneAxe
 	dw BattleAnim_DoubleEdge
 	dw BattleAnim_TailWhip
 	dw BattleAnim_PoisonSting
@@ -2653,20 +2653,20 @@ BattleAnim_IceShard:
 	anim_wait 32
 	anim_ret
 
-;BattleAnim_Guillotine:
-;	anim_1gfx BATTLE_ANIM_GFX_CUT
-;	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $10
-;	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
-;	anim_sound 0, 1, SFX_VICEGRIP
-;	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 156, 44, $0
-;	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 152, 40, $0
-;	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 148, 36, $0
-;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 124, 76, $0
-;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
-;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 116, 68, $0
-;	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
-;	anim_wait 32
-;	anim_ret
+BattleAnim_StoneAxe:
+	anim_1gfx BATTLE_ANIM_GFX_CUT
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $10
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_sound 0, 1, SFX_VICEGRIP
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 156, 44, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 152, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_DOWN_LEFT, 148, 36, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 124, 76, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 116, 68, $0
+	anim_obj BATTLE_ANIM_OBJ_CUT_UP_RIGHT, 120, 72, $0
+	anim_wait 32
+	anim_ret
 
 BattleAnim_Flash:
 	anim_1gfx BATTLE_ANIM_GFX_SPEED

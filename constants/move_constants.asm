@@ -42,7 +42,7 @@
 	const BODY_SLAM    ; 22
 	const WRAP         ; 23
 	const TAKE_DOWN    ; 24
-	const THRASH       ; 25
+	const STONE_AXE    ; 25
 	const DOUBLE_EDGE  ; 26
 	const TAIL_WHIP    ; 27
 	const POISON_STING ; 28

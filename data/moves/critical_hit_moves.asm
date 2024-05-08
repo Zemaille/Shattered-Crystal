@@ -10,4 +10,5 @@ CriticalHitMoves:
 	db SHADOW_CLAW
 	db CROSS_POISON
 	db PSYCHO_CUT
+	db STONE_AXE
 	db -1

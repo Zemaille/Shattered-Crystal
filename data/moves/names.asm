@@ -36,7 +36,7 @@ MoveNames::
 	li "Body Slam"
 	li "Wrap"
 	li "Take Down"
-	li "THRASH"
+	li "Stone Axe"
 	li "Double-Edge"
 	li "Tail Whip"
 	li "Poison Sting"

@@ -37,7 +37,7 @@ MoveDescriptions::
 	dw BodySlamDescription
 	dw WrapDescription
 	dw TakeDownDescription
-	dw ThrashDescription
+	dw StoneAxeDescription
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
@@ -270,6 +270,7 @@ PoundDescription:
 	db   "Pounds with fore-"
 	next "legs or tail.@"
 
+StoneAxeDescription:
 AirCutterDescription:
 KarateChopDescription:
 NightSlashDescription:
@@ -396,10 +397,6 @@ WoodHammerDescription:
 ChloroblastDescription:
 	db   "A beam that also"
 	next "hurts the user.@"
-
-ThrashDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
 
 DoubleEdgeDescription:
 	db   "A tackle that also"

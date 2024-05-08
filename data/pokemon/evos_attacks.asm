@@ -116,6 +116,7 @@ PidgeotEvosAttacks:
 HonchkrowEvosAttacks:
 	db EVOLVE_LEVEL, 20, MAMOSWINE
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 MamoswineEvosAttacks:
@@ -728,6 +729,7 @@ MewEvosAttacks:
 ChikoritaEvosAttacks:
 	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
+	db 1, GROWTH
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -756,7 +758,9 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, ZEN_HEADBUTT
+	db 1, WATERFALL
+	db 1, ICE_PUNCH
+	db 1, STONE_AXE
 	db 1, RAIN_DANCE
 	db 0 ; no more level-up moves
 
@@ -772,6 +776,7 @@ FeraligatrEvosAttacks:
 SentretEvosAttacks:
 	db EVOLVE_LEVEL, 15, FURRET
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 FurretEvosAttacks:
