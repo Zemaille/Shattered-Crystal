@@ -165,7 +165,7 @@
 	const ROCK_SLIDE   ; 9d
 	const ICICLE_SPEAR ; 9e
 	const SHARPEN      ; 9f
-	const CONVERSION   ; a0
+	const POWER_GEM    ; a0
 	const TRI_ATTACK   ; a1
 	const ZEN_HEADBUTT ; a2
 	const SLASH        ; a3

@@ -159,7 +159,7 @@ MoveNames::
 	li "Rock Slide"
 	li "Icicle Spear"
 	li "SHARPEN"
-	li "CONVERSION"
+	li "Power Gem"
 	li "Tri Attack"
 	li "Zen Headbutt"
 	li "Slash"

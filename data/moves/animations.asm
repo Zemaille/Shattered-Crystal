@@ -161,7 +161,7 @@ BattleAnimations::
 	dw BattleAnim_RockSlide
 	dw BattleAnim_IcicleSpear
 	dw BattleAnim_Sharpen
-	dw BattleAnim_Conversion
+	dw BattleAnim_PowerGem
 	dw BattleAnim_TriAttack
 	dw BattleAnim_ZenHeadbutt
 	dw BattleAnim_Slash
@@ -3645,20 +3645,72 @@ BattleAnim_SandScorch:
 	anim_call BattleAnimSub_Fire
 	anim_ret
 
-BattleAnim_Conversion:
-	anim_1gfx BATTLE_ANIM_GFX_EXPLOSION
-	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
-	anim_sound 63, 3, SFX_SHARPEN
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $0
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $8
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $10
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $18
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $20
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $28
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $30
-	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $38
-	anim_wait 128
+BattleAnim_PowerGem:
+	anim_1gfx BATTLE_ANIM_GFX_SHINE
+	anim_bgp $1b
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_sound 0, 0, SFX_METRONOME
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 70, 108, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 46, 88, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 64, 92, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 24, 90, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 36, 72, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 44, 112, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 30, 106, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 56, 104, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 54, 68, $0
+	anim_wait 1
+	anim_obj BATTLE_ANIM_OBJ_POWER_GEM, 76, 78, $0
+	anim_wait 80
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  5
+	anim_wait 2
+	anim_incobj  1
+	anim_wait 2
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  3
+	anim_wait 2
+	anim_incobj  10
+	anim_wait 2
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  8
+	anim_wait 2
+	anim_incobj  2
+	anim_wait 2
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  4
+	anim_wait 2
+	anim_incobj  6
+	anim_wait 2
+	anim_sound 0, 1, SFX_SHINE
+	anim_incobj  7
+	anim_wait 2
+	anim_incobj  9
+	anim_wait 32
 	anim_ret
+
+;BattleAnim_Conversion:
+;	anim_1gfx BATTLE_ANIM_GFX_EXPLOSION
+;	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
+;	anim_sound 63, 3, SFX_SHARPEN
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $0
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $8
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $10
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $18
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $20
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $28
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $30
+;	anim_obj BATTLE_ANIM_OBJ_CONVERSION, 48, 88, $38
+;	anim_wait 128
+;	anim_ret
 
 BattleAnim_Aeroblast:
 	anim_2gfx BATTLE_ANIM_GFX_BEAM, BATTLE_ANIM_GFX_AEROBLAST

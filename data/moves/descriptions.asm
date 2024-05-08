@@ -160,7 +160,7 @@ MoveDescriptions::
 	dw RockSlideDescription
 	dw IcicleSpearDescription
 	dw SharpenDescription
-	dw ConversionDescription
+	dw PowerGemDescription
 	dw TriAttackDescription
 	dw ZenHeadbuttDescription
 	dw SlashDescription
@@ -841,9 +841,10 @@ SharpenDescription:
 	db   "A move that raises"
 	next "the user's ATTACK.@"
 
-ConversionDescription:
-	db   "Change user's type"
-	next "to a move's type.@"
+PowerGemDescription:
+	db   "Attacks with a ray"
+	next "of gem-like light.@"
+
 
 TriAttackDescription:
 	db   "Fires three kinds"
