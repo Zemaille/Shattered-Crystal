@@ -121,7 +121,7 @@ BattleAnimations::
 	dw BattleAnim_Poltergeist
 	dw BattleAnim_Metronome
 	dw BattleAnim_DragonDarts
-	dw BattleAnim_Selfdestruct
+	dw BattleAnim_PsyhornBash
 	dw BattleAnim_SeedBomb
 	dw BattleAnim_Lick
 	dw BattleAnim_Smog
@@ -1379,9 +1379,6 @@ BattleAnim_Sonicboom:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Selfdestruct:
-	anim_ret
-
 BattleAnim_Explosion:
 	anim_1gfx BATTLE_ANIM_GFX_EXPLOSION
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $4, $10
@@ -2555,8 +2552,8 @@ BattleAnim_BraveBird:
 ;	anim_loop 3, .loop
 ;	anim_ret
 
+BattleAnim_PsyhornBash:
 BattleAnim_SkullBash:
-	anim_if_param_equal $1, BattleAnim_FocusEnergy
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
 	anim_wait 32
@@ -2564,11 +2561,9 @@ BattleAnim_SkullBash:
 	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
 	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, BG_EFFECT_USER, $0
 	anim_wait 4
-.loop
 	anim_sound 0, 1, SFX_HEADBUTT
 	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
 	anim_wait 8
-	anim_loop 3, .loop
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 

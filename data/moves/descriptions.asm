@@ -120,7 +120,7 @@ MoveDescriptions::
 	dw PoltergeistDescription
 	dw MetronomeDescription
 	dw DragonDartsDescription
-	dw SelfdestructDescription
+	dw PsyhornBashDescription
 	dw SeedBombDescription
 	dw LickDescription
 	dw SmogDescription
@@ -732,10 +732,6 @@ DragonDartsDescription:
 	db	 "Shoots two Dreepy"
 	next "at the foe.@"
 
-SelfdestructDescription:
-	db   "Powerful but makes"
-	next "the user faint.@"
-
 SeedBombDescription:
 	db   "Slams a barrage of"
 	next "seeds at the foe.@"
@@ -1102,6 +1098,10 @@ MetalClawDescription:
 DragonDanceDescription:
 	db   "Raises the user's"
 	next "Attack and Speed.@"
+
+PsyhornBashDescription:
+	db	 "Hits the foe and"
+	next "raises Defense.@"
 
 MorningSunDescription:
 	db   "Restores HP"

@@ -2333,3 +2333,25 @@ IceFang:
 	flinchtarget
 	kingsrock
 	endmove
+
+PsyhornBash:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	defenseup
+	statupmessage
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove

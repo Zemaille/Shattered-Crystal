@@ -172,4 +172,5 @@ MoveEffectsPointers:
 	dw Hurricane
 	dw Bounce
 	dw IceFang
+	dw PsyhornBash
 	assert_table_length NUM_MOVE_EFFECTS

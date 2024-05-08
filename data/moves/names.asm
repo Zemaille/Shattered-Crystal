@@ -119,7 +119,7 @@ MoveNames::
 	li "Poltergeist"
 	li "Metronome"
 	li "Dragon Darts"
-	li "SELFDESTRUCT"
+	li "Psyhorn Bash"
 	li "Seed Bomb"
 	li "Lick"
 	li "Smog"

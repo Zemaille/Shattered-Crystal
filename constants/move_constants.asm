@@ -125,7 +125,7 @@
 	const POLTERGEIST  ; 75
 	const METRONOME    ; 76
 	const DRAGON_DARTS ; 77
-	const SELFDESTRUCT ; 78
+	const PSYHORN_BASH ; 78
 	const SEED_BOMB    ; 79
 	const LICK         ; 7a
 	const SMOG         ; 7b
