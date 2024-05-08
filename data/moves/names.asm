@@ -157,7 +157,7 @@ MoveNames::
 	li "Pyroclasm"
 	li "Rest"
 	li "Rock Slide"
-	li "HYPER FANG"
+	li "Icicle Spear"
 	li "SHARPEN"
 	li "CONVERSION"
 	li "Tri Attack"

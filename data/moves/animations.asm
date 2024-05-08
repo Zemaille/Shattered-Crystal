@@ -159,7 +159,7 @@ BattleAnimations::
 	dw BattleAnim_Pyroclasm
 	dw BattleAnim_Rest
 	dw BattleAnim_RockSlide
-	dw BattleAnim_HyperFang
+	dw BattleAnim_IcicleSpear
 	dw BattleAnim_Sharpen
 	dw BattleAnim_Conversion
 	dw BattleAnim_TriAttack
@@ -853,16 +853,6 @@ BattleAnim_MegaKick:
 	anim_obj BATTLE_ANIM_OBJ_KICK, 136, 56, $0
 	anim_wait 6
 	anim_loop 3, .loop
-	anim_ret
-
-BattleAnim_HyperFang:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $20, $1, $0
-	anim_sound 0, 1, SFX_BITE
-	anim_obj BATTLE_ANIM_OBJ_FANG, 136, 56, $0
-	anim_wait 6
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
-	anim_wait 16
 	anim_ret
 
 BattleAnim_SuperFang:
@@ -2399,6 +2389,25 @@ BattleAnim_SpikeCannon:
 	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL, 132, 52, $0
 	anim_loop 3, .loop
 	anim_wait 16
+	anim_ret
+
+BattleAnim_IcicleSpear:
+	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT
+	anim_obj BATTLE_ANIM_OBJ_ICICLE,   9, 0,   9, 0, $2
+	anim_wait 8
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT,  16, 0,   5, 0, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_ICICLE,  10, 0,  11, 0, $2
+	anim_wait 8
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT, -15, 0,   7, 0, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_ICICLE,   9, 4,  10, 0, $2
+	anim_wait 8
+	anim_sound 0, 1, SFX_HORN_ATTACK
+	anim_obj BATTLE_ANIM_OBJ_HIT, -16, 4,   6, 0, $0
+	anim_wait 8
 	anim_ret
 
 BattleAnim_Transform:

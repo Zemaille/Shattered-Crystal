@@ -163,7 +163,7 @@
 	const PYROCLASM    ; 9b
 	const REST         ; 9c
 	const ROCK_SLIDE   ; 9d
-	const HYPER_FANG   ; 9e
+	const ICICLE_SPEAR ; 9e
 	const SHARPEN      ; 9f
 	const CONVERSION   ; a0
 	const TRI_ATTACK   ; a1

@@ -158,7 +158,7 @@ MoveDescriptions::
 	dw PyroclasmDescription
 	dw RestDescription
 	dw RockSlideDescription
-	dw HyperFangDescription
+	dw IcicleSpearDescription
 	dw SharpenDescription
 	dw ConversionDescription
 	dw TriAttackDescription
@@ -786,6 +786,10 @@ SpikeCannonDescription:
 	db   "Fires spikes to"
 	next "hit 2-5 times.@"
 
+IcicleSpearDescription:
+	db   "Fires icicles to"
+	next "hit 2-5 times.@"
+	
 AmnesiaDescription:
 	db   "Sharply raises the"
 	next "user's SPCL.DEF.@"
@@ -851,10 +855,6 @@ RestDescription:
 	next "to fully recover.@"
 
 RockSlideDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
-
-HyperFangDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
