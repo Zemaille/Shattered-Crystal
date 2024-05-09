@@ -73,7 +73,7 @@ MoveNames::
 	li "Absorb"
 	li "Mega Drain"
 	li "Leech Seed"
-	li "GROWTH"
+	li "Tachyon Ray"
 	li "Razor Leaf"
 	li "Solar Beam"
 	li "PoisonPowder"

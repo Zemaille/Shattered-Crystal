@@ -74,7 +74,7 @@ MoveDescriptions::
 	dw AbsorbDescription
 	dw MegaDrainDescription
 	dw LeechSeedDescription
-	dw GrowthDescription
+	dw TachyonRayDescription
 	dw RazorLeafDescription
 	dw SolarbeamDescription
 	dw PoisonpowderDescription
@@ -539,10 +539,6 @@ LeechSeedDescription:
 	db   "Steals HP from the"
 	next "foe on every turn.@"
 
-GrowthDescription:
-	db   "Raises the SPCL."
-	next "ATK rating.@"
-
 RazorLeafDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
@@ -916,6 +912,7 @@ ScaryFaceDescription:
 	db   "Sharply reduces"
 	next "the foe's SPEED.@"
 
+TachyonRayDescription:
 FaintAttackDescription:
 	db   "An attack that"
 	next "never misses.@"

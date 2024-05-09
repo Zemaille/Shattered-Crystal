@@ -729,7 +729,6 @@ MewEvosAttacks:
 ChikoritaEvosAttacks:
 	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
-	db 1, GROWTH
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
@@ -758,7 +757,7 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, BULLET_PUNCH
+	db 1, TACHYON_RAY
 	db 1, RAIN_DANCE
 	db 0 ; no more level-up moves
 
