@@ -193,7 +193,7 @@ MoveDescriptions::
 	dw BounceDescription
 	dw SpikesDescription
 	dw XScissorDescription
-	dw ForesightDescription
+	dw BulletPunchDescription
 	dw WildChargeDescription
 	dw PerishSongDescription
 	dw IcyWindDescription
@@ -908,6 +908,7 @@ ProtectDescription:
 
 VacuumWaveDescription:
 MachPunchDescription:
+BulletPunchDescription:
 	db   "A fast punch that"
 	next "lands first.@"
 

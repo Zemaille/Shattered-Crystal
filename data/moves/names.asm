@@ -192,7 +192,7 @@ MoveNames::
 	li "Bounce"
 	li "Spikes"
 	li "X-Scissor"
-	li "FORESIGHT"
+	li "Bullet Punch"
 	li "Wild Charge"
 	li "Perish Song"
 	li "Icy Wind"

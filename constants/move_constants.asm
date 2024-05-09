@@ -198,7 +198,7 @@
 	const BOUNCE       ; be
 	const SPIKES       ; bf
 	const X_SCISSOR    ; c0
-	const FORESIGHT    ; c1
+	const BULLET_PUNCH ; c1
 	const WILD_CHARGE  ; c2
 	const PERISH_SONG  ; c3
 	const ICY_WIND     ; c4
