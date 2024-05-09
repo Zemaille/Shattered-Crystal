@@ -117,7 +117,7 @@ Moves:
 	move THUNDER_FANG, EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  95, 15,  10
 	move MIMIC,        EFFECT_MIMIC,               0, NORMAL,        STATUS,   100, 10,   0
 	move SCREECH,      EFFECT_DEFENSE_DOWN_2,      0, NORMAL,        STATUS,    85, 40,   0
-	move DOUBLE_TEAM,  EFFECT_EVASION_UP,          0, NORMAL,        STATUS,   100, 15,   0
+	move FLASH_CANNON, EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,         SPECIAL,  100, 10,  10
 	move RECOVER,      EFFECT_HEAL,                0, NORMAL,        STATUS,   100, 20,   0
 	move HARDEN,       EFFECT_DEFENSE_UP,          0, NORMAL,        STATUS,   100, 30,   0
 	move MINIMIZE,     EFFECT_EVASION_UP,          0, NORMAL,        STATUS,   100, 20,   0

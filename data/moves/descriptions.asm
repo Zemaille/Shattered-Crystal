@@ -104,7 +104,7 @@ MoveDescriptions::
 	dw ThunderFangDescription
 	dw MimicDescription
 	dw ScreechDescription
-	dw DoubleTeamDescription
+	dw FlashCannonDescription
 	dw RecoverDescription
 	dw HardenDescription
 	dw MinimizeDescription
@@ -623,6 +623,7 @@ CrunchDescription:
 ShadowBallDescription:
 EnergyBallDescription:
 EarthPowerDescription:
+FlashCannonDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 

@@ -105,7 +105,7 @@ BattleAnimations::
 	dw BattleAnim_ThunderFang
 	dw BattleAnim_Mimic
 	dw BattleAnim_Screech
-	dw BattleAnim_DoubleTeam
+	dw BattleAnim_FlashCannon
 	dw BattleAnim_Recover
 	dw BattleAnim_Harden
 	dw BattleAnim_Minimize
@@ -1634,16 +1634,35 @@ BattleAnim_Fly:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_DoubleTeam:
-	anim_call BattleAnim_TargetObj_2Row
-	anim_sound 0, 0, SFX_PSYBEAM
-	anim_bgeffect BATTLE_BG_EFFECT_DOUBLE_TEAM, $0, BG_EFFECT_USER, $0
-	anim_wait 96
-	anim_incbgeffect BATTLE_BG_EFFECT_DOUBLE_TEAM
-	anim_wait 24
-	anim_incbgeffect BATTLE_BG_EFFECT_DOUBLE_TEAM
-	anim_call BattleAnim_ShowMon_0
+BattleAnim_FlashCannon:
+	anim_1gfx BATTLE_ANIM_GFX_EGG
+	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $60, $2, $0
+.loop
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
+	anim_sound 0, 1, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_OCTAZOOKA,  8, 0, 11, 4, $4
+	anim_wait 4
+	anim_sound 0, 1, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_OCTAZOOKA,  8, 0, 11, 4, $4
+	anim_wait 4
+	anim_loop 10, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+	anim_wait 32
+	anim_wait 1
+	anim_bgp $e4
 	anim_ret
+
+;BattleAnim_DoubleTeam:
+;	anim_call BattleAnim_TargetObj_2Row
+;	anim_sound 0, 0, SFX_PSYBEAM
+;	anim_bgeffect BATTLE_BG_EFFECT_DOUBLE_TEAM, $0, BG_EFFECT_USER, $0
+;	anim_wait 96
+;	anim_incbgeffect BATTLE_BG_EFFECT_DOUBLE_TEAM
+;	anim_wait 24
+;	anim_incbgeffect BATTLE_BG_EFFECT_DOUBLE_TEAM
+;	anim_call BattleAnim_ShowMon_0
+;	anim_ret
 
 BattleAnim_Recover:
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE

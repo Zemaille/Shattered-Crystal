@@ -109,7 +109,7 @@
 	const THUNDER_FANG ; 65
 	const MIMIC        ; 66
 	const SCREECH      ; 67
-	const DOUBLE_TEAM  ; 68
+	const FLASH_CANNON ; 68
 	const RECOVER      ; 69
 	const HARDEN       ; 6a
 	const MINIMIZE     ; 6b

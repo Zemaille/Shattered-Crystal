@@ -103,7 +103,7 @@ MoveNames::
 	li "Thunder Fang"
 	li "MIMIC"
 	li "Screech"
-	li "DOUBLE TEAM"
+	li "Flash Cannon"
 	li "Recover"
 	li "Harden"
 	li "Minimize"
