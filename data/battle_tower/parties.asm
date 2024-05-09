@@ -1624,7 +1624,7 @@ BattleTowerMons:
 
 	db BRELOOM
 	db MIRACLEBERRY
-	db NO_MOVE, KARATE_CHOP, NO_MOVE, FOCUS_ENERGY
+	db NO_MOVE, KARATE_CHOP, NO_MOVE, NO_MOVE
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp

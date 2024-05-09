@@ -121,7 +121,7 @@
 	const LIGHT_SCREEN ; 71
 	const HAZE         ; 72
 	const REFLECT      ; 73
-	const FOCUS_ENERGY ; 74
+	const IRON_HEAD    ; 74
 	const POLTERGEIST  ; 75
 	const METRONOME    ; 76
 	const DRAGON_DARTS ; 77

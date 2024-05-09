@@ -116,7 +116,7 @@ MoveDescriptions::
 	dw LightScreenDescription
 	dw HazeDescription
 	dw ReflectDescription
-	dw FocusEnergyDescription
+	dw IronHeadDescription
 	dw PoltergeistDescription
 	dw MetronomeDescription
 	dw DragonDartsDescription
@@ -427,6 +427,7 @@ LeerDescription:
 DarkPulseDescription:
 BiteDescription:
 AirSlashDescription:
+IronHeadDescription:
 IcicleCrashDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
@@ -707,10 +708,6 @@ HazeDescription:
 ReflectDescription:
 	db   "Raises DEFENSE"
 	next "with a barrier.@"
-
-FocusEnergyDescription:
-	db   "Raises the criti-"
-	next "cal hit ratio.@"
 
 MetronomeDescription:
 	db   "Randomly uses any"

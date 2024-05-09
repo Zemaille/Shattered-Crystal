@@ -115,7 +115,7 @@ MoveNames::
 	li "Light Screen"
 	li "Haze"
 	li "Reflect"
-	li "FOCUS ENERGY"
+	li "Iron Head"
 	li "Poltergeist"
 	li "Metronome"
 	li "Dragon Darts"
