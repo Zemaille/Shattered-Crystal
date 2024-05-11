@@ -198,7 +198,7 @@ MoveNames::
 	li "Icy Wind"
 	li "Detect"
 	li "Close Combat"
-	li "LOCK-ON"
+	li "Jaw Roll"
 	li "Outgrage"
 	li "Sandstorm"
 	li "Giga Drain"

@@ -200,7 +200,7 @@ BattleAnimations::
 	dw BattleAnim_IcyWind
 	dw BattleAnim_Detect
 	dw BattleAnim_CloseCombat
-	dw BattleAnim_LockOn
+	dw BattleAnim_JawRoll
 	dw BattleAnim_Outrage
 	dw BattleAnim_Sandstorm
 	dw BattleAnim_GigaDrain
@@ -3410,13 +3410,13 @@ BattleAnim_PsychoCut:
 	anim_bgp $e4
 	anim_ret
 
-;BattleAnim_Slam:
-;	anim_1gfx BATTLE_ANIM_GFX_HIT
-;	anim_sound 0, 1, SFX_WING_ATTACK
-;	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $2
-;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 40, $0
-;	anim_wait 16
-;	anim_ret
+BattleAnim_JawRoll:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_WING_ATTACK
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $2
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 124, 40, $0
+	anim_wait 16
+	anim_ret
 
 BattleAnim_Disable:
 	anim_2gfx BATTLE_ANIM_GFX_LIGHTNING, BATTLE_ANIM_GFX_STATUS
@@ -4250,18 +4250,18 @@ BattleAnim_Detect:
 	anim_wait 24
 	anim_ret
 
-BattleAnim_LockOn:
-	anim_1gfx BATTLE_ANIM_GFX_MISC
-	anim_sound 0, 1, SFX_MIND_READER
-.loop
-	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $3
-	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $12
-	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $20
-	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $31
-	anim_wait 16
-	anim_loop 2, .loop
-	anim_wait 32
-	anim_ret
+;BattleAnim_LockOn:
+;	anim_1gfx BATTLE_ANIM_GFX_MISC
+;	anim_sound 0, 1, SFX_MIND_READER
+;.loop
+;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $3
+;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $12
+;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $20
+;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $31
+;	anim_wait 16
+;	anim_loop 2, .loop
+;	anim_wait 32
+;	anim_ret
 
 BattleAnim_Outrage:
 	anim_1gfx BATTLE_ANIM_GFX_HIT

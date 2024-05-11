@@ -5598,11 +5598,12 @@ BattleCommand_TrapTarget:
 	jp StdBattleTextbox
 
 .Traps:
-	dbw WRAP,        WrappedByText       ; 'was WRAPPED by'
+	dbw WRAP,        WrappedByText       ; 'was Wrapped by'
 	dbw FIRE_SPIN,   FireSpinTrapText    ; 'was trapped!'
-	dbw CLAMP,       ClampedByText       ; 'was CLAMPED by'
+	dbw CLAMP,       ClampedByText       ; 'was Clamped by'
 	dbw WHIRLPOOL,   WhirlpoolTrapText   ; 'was trapped!'
 	dbw INFESTATION, InfestationTrapText ; 'became infested!'
+	dbw JAW_ROLL,    FireSpinTrapText
 
 INCLUDE "engine/battle/move_effects/mist.asm"
 

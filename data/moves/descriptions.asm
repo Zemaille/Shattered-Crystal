@@ -199,7 +199,7 @@ MoveDescriptions::
 	dw IcyWindDescription
 	dw DetectDescription
 	dw CloseCombatDescription
-	dw LockOnDescription
+	dw JawRollDescription
 	dw OutrageDescription
 	dw SandstormDescription
 	dw GigaDrainDescription
@@ -960,10 +960,6 @@ CloseCombatDescription:
 	db	 "An attack that"
 	next "leaves you weak."
 
-LockOnDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
-
 OutrageDescription:
 	db   "Works 2-3 turns"
 	next "and confuses user.@"
@@ -1058,7 +1054,7 @@ EncoreDescription:
 
 PursuitDescription:
 	db   "Heavily strikes"
-	next "switching #MON.@"
+	next "switching Pokémon.@"
 
 RapidSpinDescription:
 	db   "A high-speed"
@@ -1136,6 +1132,10 @@ AncientpowerDescription:
 RockSmashDescription:
 	db   "An attack that may"
 	next "lower DEFENSE.@"
+
+JawRollDescription:
+	db   "Traps the foe and"
+	next "lowers Defense.@"
 
 ClampDescription:
 WhirlpoolDescription:
