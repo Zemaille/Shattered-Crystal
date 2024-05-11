@@ -107,7 +107,7 @@
 	const POISON_FANG  ; 63
 	const TELEPORT     ; 64
 	const THUNDER_FANG ; 65
-	const MIMIC        ; 66
+	const SCALD        ; 66
 	const SCREECH      ; 67
 	const FLASH_CANNON ; 68
 	const RECOVER      ; 69

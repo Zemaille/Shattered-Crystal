@@ -115,7 +115,7 @@ Moves:
 	move POISON_FANG,  EFFECT_POISON_HIT,         50, POISON,        PHYSICAL, 100, 15,  50
 	move TELEPORT,     EFFECT_TELEPORT,            0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
 	move THUNDER_FANG, EFFECT_THUNDER_FANG,       65, ELECTRIC,      PHYSICAL,  95, 15,  10
-	move MIMIC,        EFFECT_MIMIC,               0, NORMAL,        STATUS,   100, 10,   0
+	move SCALD,        EFFECT_BURN_HIT,           80, WATER,         SPECIAL,  100, 15,  30
 	move SCREECH,      EFFECT_DEFENSE_DOWN_2,      0, NORMAL,        STATUS,    85, 40,   0
 	move FLASH_CANNON, EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,         SPECIAL,  100, 10,  10
 	move RECOVER,      EFFECT_HEAL,                0, NORMAL,        STATUS,   100, 20,   0

@@ -1046,18 +1046,16 @@ BattleCommand_DoTurn:
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	cp MIMIC
+	cp STRUGGLE
 	jr z, .mimic
 	ld hl, wWildMonMoves
 	add hl, bc
 	ld a, [hl]
-	cp MIMIC
+	cp STRUGGLE
 	ret z
 
 .mimic
-	ld hl, wWildMonPP
-	call .consume_pp
-	ret
+
 
 .out_of_pp
 	call BattleCommand_MoveDelay
@@ -1101,20 +1099,19 @@ CheckMimicUsed:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	cp MIMIC
+	cp STRUGGLE
 	jr z, .mimic
 
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	cp MIMIC
+	cp STRUGGLE
 	jr nz, .mimic
 
 	scf
 	ret
 
 .mimic
-	and a
 	ret
 
 BattleCommand_Critical:
@@ -5483,17 +5480,6 @@ BattleCommand_Charge:
 	ld [hl], b
 
 .mimic
-	call ResetDamage
-
-	ld hl, .UsedText
-	call BattleTextbox
-
-	ld a, BATTLE_VARS_MOVE_EFFECT
-	call GetBattleVar
-	cp EFFECT_SKULL_BASH
-	ld b, endturn_command
-	jp z, SkipToBattleCommand
-	jp EndMoveEffect
 
 .UsedText:
 	text_far Text_BattleUser ; "<USER>"

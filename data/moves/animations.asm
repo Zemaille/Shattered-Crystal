@@ -103,7 +103,7 @@ BattleAnimations::
 	dw BattleAnim_PoisonFang
 	dw BattleAnim_Teleport
 	dw BattleAnim_ThunderFang
-	dw BattleAnim_Mimic
+	dw BattleAnim_Scald
 	dw BattleAnim_Screech
 	dw BattleAnim_FlashCannon
 	dw BattleAnim_Recover
@@ -2519,21 +2519,51 @@ BattleAnim_PayDay:
 	anim_wait 64
 	anim_ret
 
-BattleAnim_Mimic:
-	anim_1gfx BATTLE_ANIM_GFX_SPEED
-	anim_obp0 $fc
-	anim_sound 63, 3, SFX_LICK
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $0
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $8
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $10
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $18
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $20
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $28
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $30
-	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $38
-	anim_wait 128
-	anim_wait 48
+BattleAnim_Scald:
+	anim_bgeffect BATTLE_BG_EFFECT_START_WATER, $0, $0, $0
+	anim_1gfx BATTLE_ANIM_GFX_WATER
+	anim_sound 0, 1, SFX_HYDRO_PUMP
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP,  14, 4,   9, 0, $0
+	anim_bgeffect BATTLE_BG_EFFECT_WATER, $1c, $0, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP,  15, 4,   9, 0, $0
+	anim_bgeffect BATTLE_BG_EFFECT_WATER, $8, $0, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, -16, 4,   9, 0, $0
+	anim_bgeffect BATTLE_BG_EFFECT_WATER, $30, $0, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, -15, 4,   9, 0, $0
+	anim_bgeffect BATTLE_BG_EFFECT_WATER, $1c, $0, $0
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HYDRO_PUMP, -14, 4,   9, 0, $0
+	anim_bgeffect BATTLE_BG_EFFECT_WATER, $8, $0, $0
+	anim_wait 16
+	anim_bgeffect BATTLE_BG_EFFECT_END_WATER, $0, $0, $0
+	anim_wait 16
+	anim_1gfx BATTLE_ANIM_GFX_FIRE
+.loop
+	anim_sound 0, 0, SFX_BURN
+	anim_obj BATTLE_ANIM_OBJ_BURNED,  17, 0,   7, 0, $10
+	anim_wait 4
+	anim_loop 3, .loop
+	anim_wait 6
 	anim_ret
+
+;BattleAnim_Mimic:
+;	anim_1gfx BATTLE_ANIM_GFX_SPEED
+;	anim_obp0 $fc
+;	anim_sound 63, 3, SFX_LICK
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $0
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $8
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $10
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $18
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $20
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $28
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $30
+;	anim_obj BATTLE_ANIM_OBJ_MIMIC, 132, 44, $38
+;	anim_wait 128
+;	anim_wait 48
+;	anim_ret
 
 BattleAnim_LovelyKiss:
 	anim_2gfx BATTLE_ANIM_GFX_OBJECTS, BATTLE_ANIM_GFX_ANGELS

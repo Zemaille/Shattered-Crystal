@@ -102,7 +102,7 @@ MoveDescriptions::
 	dw PoisonFangDescription
 	dw TeleportDescription
 	dw ThunderFangDescription
-	dw MimicDescription
+	dw ScaldDescription
 	dw ScreechDescription
 	dw FlashCannonDescription
 	dw RecoverDescription
@@ -459,6 +459,7 @@ AcidDescription:
 EmberDescription:
 FlamethrowerDescription:
 SandScorchDescription:
+ScaldDescription:
 	db   "An attack that may"
 	next "inflict a burn.@"
 
@@ -653,10 +654,6 @@ FireFangDescription:
 IceFangDescription:
 	db   "May freeze or"
 	next "flinch the foe.@"
-
-MimicDescription:
-	db   "Copies a move used"
-	next "by the foe.@"
 
 ScreechDescription:
 	db   "Sharply reduces"

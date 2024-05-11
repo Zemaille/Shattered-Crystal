@@ -757,7 +757,7 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, AQUA_JET
+	db 1, SCALD
 	db 1, RAIN_DANCE
 	db 0 ; no more level-up moves
 
@@ -773,7 +773,6 @@ FeraligatrEvosAttacks:
 SentretEvosAttacks:
 	db EVOLVE_LEVEL, 15, FURRET
 	db 0 ; no more evolutions
-	db 1, TACKLE
 	db 0 ; no more level-up moves
 
 FurretEvosAttacks:

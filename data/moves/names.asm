@@ -101,7 +101,7 @@ MoveNames::
 	li "Poison Fang"
 	li "Teleport"
 	li "Thunder Fang"
-	li "MIMIC"
+	li "Scald"
 	li "Screech"
 	li "Flash Cannon"
 	li "Recover"
