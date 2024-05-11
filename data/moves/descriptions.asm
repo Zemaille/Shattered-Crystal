@@ -170,7 +170,7 @@ MoveDescriptions::
 	dw DragonClawDescription
 	dw ThiefDescription
 	dw SpiderWebDescription
-	dw MindReaderDescription
+	dw WaterPulseDescription
 	dw AuraSphereDescription
 	dw FlameWheelDescription
 	dw SnoreDescription
@@ -488,6 +488,7 @@ SignalBeamDescription:
 InfestationDescription:
 PsybeamDescription:
 HurricaneDescription:
+WaterPulseDescription:
 	db   "An attack that may"
 	next "confuse the foe.@"
 
@@ -871,10 +872,6 @@ ThiefDescription:
 SpiderWebDescription:
 	db   "Prevents fleeing"
 	next "or switching.@"
-
-MindReaderDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
 
 FlameWheelDescription:
 	db   "An attack that may"

@@ -418,7 +418,6 @@ SECTION "bank32", ROMX
 
 INCLUDE "engine/battle_anims/bg_effects.asm"
 INCLUDE "data/moves/animations.asm"
-INCLUDE "engine/events/poisonstep_pals.asm"
 
 
 SECTION "Move Animations", ROMX
@@ -522,6 +521,7 @@ SECTION "Title", ROMX
 
 INCLUDE "engine/movie/unused_title.asm"
 INCLUDE "engine/movie/title.asm"
+INCLUDE "engine/events/poisonstep_pals.asm"
 
 
 SECTION "mobile45", ROMX

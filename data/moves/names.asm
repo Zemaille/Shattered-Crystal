@@ -169,7 +169,7 @@ MoveNames::
 	li "Dragon Claw"
 	li "Thief"
 	li "Spider Web"
-	li "MIND READER"
+	li "Water Pulse"
 	li "Aura Sphere"
 	li "Flame Wheel"
 	li "Snore"

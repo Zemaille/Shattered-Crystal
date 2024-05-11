@@ -171,7 +171,7 @@ BattleAnimations::
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_Thief
 	dw BattleAnim_SpiderWeb
-	dw BattleAnim_MindReader
+	dw BattleAnim_WaterPulse
 	dw BattleAnim_AuraSphere
 	dw BattleAnim_FlameWheel
 	dw BattleAnim_Snore
@@ -3563,8 +3563,26 @@ BattleAnim_SpiderWeb:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_WaterPulse:
+	anim_2gfx BATTLE_ANIM_GFX_BUBBLE, BATTLE_ANIM_GFX_PSYCHIC
+	anim_bgeffect BATTLE_BG_EFFECT_WHIRLPOOL, $0, $0, $0
+	anim_wait 64
+.loop
+	anim_sound 0, 1, SFX_TOXIC
+	anim_obj BATTLE_ANIM_OBJ_WATER_PULSE, 64, 88, $2
+	anim_wait 6
+	anim_loop 3, .loop
+	anim_wait 6
+	anim_incbgeffect BATTLE_BG_EFFECT_WHIRLPOOL
+	anim_bgeffect BATTLE_BG_EFFECT_VIBRATE_MON, $0, $0, $0
+.loop2
+	anim_sound 0, 1, SFX_LICK
+	anim_wait 3
+	anim_loop 3, .loop2
+	anim_wait 40
+	anim_ret
+
 BattleAnim_CalmMind:
-BattleAnim_MindReader:
 	anim_1gfx BATTLE_ANIM_GFX_MISC
 	anim_sound 0, 1, SFX_MIND_READER
 .loop
