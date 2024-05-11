@@ -212,7 +212,7 @@ MoveDescriptions::
 	dw SparkDescription
 	dw FuryCutterDescription
 	dw SteelWingDescription
-	dw MeanLookDescription
+	dw AquaJetDescription
 	dw StoneEdgeDescription
 	dw SleepTalkDescription
 	dw HealBellDescription
@@ -634,6 +634,7 @@ AgilityDescription:
 
 IceShardDescription:
 QuickAttackDescription:
+AquaJetDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
 
@@ -999,10 +1000,6 @@ FuryCutterDescription:
 SteelWingDescription:
 	db   "Stiff wings strike"
 	next "the foe.@"
-
-MeanLookDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
 
 SleepTalkDescription:
 	db   "Randomly attacks"

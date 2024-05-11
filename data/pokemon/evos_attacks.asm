@@ -757,7 +757,7 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	db 1, JAW_ROLL
+	db 1, AQUA_JET
 	db 1, RAIN_DANCE
 	db 0 ; no more level-up moves
 

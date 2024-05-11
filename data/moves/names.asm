@@ -211,7 +211,7 @@ MoveNames::
 	li "Spark"
 	li "Fury Cutter"
 	li "Steel Wing"
-	li "MEAN LOOK"
+	li "Aqua Jet"
 	li "Stone Edge"
 	li "Sleep Talk"
 	li "Heal Bell"
