@@ -448,7 +448,7 @@ BattleTowerMons:
 
 	db HERACROSS
 	db GOLD_BERRY
-	db NO_MOVE, ENDURE, COUNTER, ROCK_SMASH
+	db NO_MOVE, NO_MOVE, COUNTER, ROCK_SMASH
 	dw 0 ; OT ID
 	dt 1000 ; Exp
 	; Stat exp
@@ -711,7 +711,7 @@ BattleTowerMons:
 
 	db HERACROSS
 	db FOCUS_BAND
-	db ENDURE, NO_MOVE, MEGAHORN, EARTHQUAKE
+	db NO_MOVE, NO_MOVE, MEGAHORN, EARTHQUAKE
 	dw 0 ; OT ID
 	dt 8000 ; Exp
 	; Stat exp
@@ -3716,7 +3716,7 @@ BattleTowerMons:
 
 	db YAMASK
 	db FOCUS_BAND
-	db NO_MOVE, ENDURE, BODY_SLAM, NO_MOVE
+	db NO_MOVE, NO_MOVE, BODY_SLAM, NO_MOVE
 	dw 0 ; OT ID
 	dt 343000 ; Exp
 	; Stat exp
@@ -3742,7 +3742,7 @@ BattleTowerMons:
 
 	db HERACROSS
 	db BRIGHTPOWDER
-	db NO_MOVE, ENDURE, MEGAHORN, EARTHQUAKE
+	db NO_MOVE, NO_MOVE, MEGAHORN, EARTHQUAKE
 	dw 0 ; OT ID
 	dt 343000 ; Exp
 	; Stat exp

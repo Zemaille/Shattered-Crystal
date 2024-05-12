@@ -237,7 +237,7 @@ DEF TM01 EQU const_value
 	add_tm PROTECT      ; d0
 	add_tm RAIN_DANCE   ; d1
 	add_tm GIGA_DRAIN   ; d2
-	add_tm ENDURE       ; d3
+	add_tm CHARM        ; d3
 	add_tm EARTH_POWER  ; d4
 	add_tm SOLARBEAM    ; d5
 	add_tm IRON_TAIL    ; d6

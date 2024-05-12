@@ -203,7 +203,7 @@ MoveDescriptions::
 	dw OutrageDescription
 	dw SandstormDescription
 	dw GigaDrainDescription
-	dw EndureDescription
+	dw AIReturnDescription
 	dw CharmDescription
 	dw RolloutDescription
 	dw WoodHammerDescription
@@ -961,10 +961,6 @@ SandstormDescription:
 	db   "Inflicts damage"
 	next "every turn.@"
 
-EndureDescription:
-	db   "Always leaves at"
-	next "least 1HP.@"
-
 CharmDescription:
 	db   "Sharply lowers the"
 	next "foe's ATTACK.@"
@@ -1006,6 +1002,7 @@ TwinBeamDescription:
 	next "hit twice.@"
 
 ReturnDescription:
+AIReturnDescription:
 	db   "An attack that is"
 	next "based on loyalty.@"
 
