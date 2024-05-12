@@ -12,23 +12,45 @@ SECTION "Evolutions and Attacks", ROMX
 ;    * db level, move
 ; - db 0 ; no more level-up moves
 
+INCLUDE "data/pokemon/evolution_moves.asm"
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
 BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, GROWL
+	db 3, VINE_WHIP
+	db 6, STUN_SPORE
+	db 9, LEECH_SEED
+	db 12, RAZOR_LEAF
+	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
 	db 0 ; no more level-up moves
 
 IvysaurEvosAttacks:
 	db EVOLVE_LEVEL, 32, VENUSAUR
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 9, LEECH_SEED
+	db 12, RAZOR_LEAF
+	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
+	db 18, SEED_BOMB
+	db 21, TAKE_DOWN
+	db 24, SLUDGE
+	db 27, SYNTHESIS
+	db 30, TOXIC
 	db 0 ; no more level-up moves
 
 VenusaurEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 21, TAKE_DOWN
+	db 24, SLUDGE
+	db 27, SYNTHESIS
+	db 30, TOXIC
+	db 32, PETAL_DANCE
+	db 33, WOOD_HAMMER
+	db 36, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:
