@@ -1055,7 +1055,7 @@ BattleCommand_DoTurn:
 	ret z
 
 .mimic
-
+	ret
 
 .out_of_pp
 	call BattleCommand_MoveDelay
@@ -5480,6 +5480,7 @@ BattleCommand_Charge:
 	ld [hl], b
 
 .mimic
+	ret
 
 .UsedText:
 	text_far Text_BattleUser ; "<USER>"

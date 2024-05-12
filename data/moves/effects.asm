@@ -2393,3 +2393,21 @@ JawRoll:
 	statdownmessage
 	endmove
 	
+ShellSmash:
+	checkobedience
+	usedmovetext
+	doturn
+	lowersub
+	statupanim
+	raisesub
+	attackup2
+	statupmessage
+	specialattackup2
+	statupmessage
+	speedup2
+	statupmessage
+	closecombat
+	statupfailtext
+	endmove
+
+	

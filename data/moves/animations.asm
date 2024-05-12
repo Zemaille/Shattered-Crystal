@@ -245,7 +245,7 @@ BattleAnimations::
 	dw BattleAnim_SunnyDay
 	dw BattleAnim_Crunch
 	dw BattleAnim_MirrorCoat
-	dw BattleAnim_PsychUp
+	dw BattleAnim_ShellSmash
 	dw BattleAnim_Extremespeed
 	dw BattleAnim_Ancientpower
 	dw BattleAnim_ShadowBall
@@ -2873,6 +2873,7 @@ BattleAnim_TriAttack:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_ShellSmash:
 BattleAnim_Withdraw:
 	anim_1gfx BATTLE_ANIM_GFX_REFLECT
 	anim_call BattleAnim_TargetObj_2Row
@@ -3964,6 +3965,7 @@ BattleAnim_PowderSnow:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_Detect:
 BattleAnim_Protect:
 	anim_1gfx BATTLE_ANIM_GFX_OBJECTS
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -4289,27 +4291,6 @@ BattleAnim_IcyWind:
 	anim_incobj 7
 	anim_wait 1
 	anim_ret
-
-BattleAnim_Detect:
-	anim_1gfx BATTLE_ANIM_GFX_SHINE
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $0, $0
-	anim_sound 0, 0, SFX_FORESIGHT
-	anim_obj BATTLE_ANIM_OBJ_FORESIGHT, 64, 88, $0
-	anim_wait 24
-	anim_ret
-
-;BattleAnim_LockOn:
-;	anim_1gfx BATTLE_ANIM_GFX_MISC
-;	anim_sound 0, 1, SFX_MIND_READER
-;.loop
-;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $3
-;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $12
-;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $20
-;	anim_obj BATTLE_ANIM_OBJ_LOCK_ON, 132, 48, $31
-;	anim_wait 16
-;	anim_loop 2, .loop
-;	anim_wait 32
-;	anim_ret
 
 BattleAnim_Outrage:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
@@ -5169,9 +5150,7 @@ BattleAnim_MirrorCoat:
 	anim_loop 3, .loop
 	anim_wait 32
 	anim_ret
-
 BattleAnim_NastyPlot:
-BattleAnim_PsychUp:
 	anim_1gfx BATTLE_ANIM_GFX_STATUS
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MON_LIGHT_DARK_REPEATING, $0, BG_EFFECT_USER, $20

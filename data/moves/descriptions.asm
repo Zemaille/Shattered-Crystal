@@ -244,7 +244,7 @@ MoveDescriptions::
 	dw SunnyDayDescription
 	dw CrunchDescription
 	dw MirrorCoatDescription
-	dw PsychUpDescription
+	dw ShellSmashDescription
 	dw ExtremespeedDescription
 	dw AncientpowerDescription
 	dw ShadowBallDescription
@@ -1108,9 +1108,9 @@ MirrorCoatDescription:
 	db   "Counters a SPCL."
 	next "ATK move double.@"
 
-PsychUpDescription:
-	db   "Copies the foe's"
-	next "stat changes.@"
+ShellSmashDescription:
+	db   "Lowers defenses,"
+	next "raises offenses.@"
 
 ExtremespeedDescription:
 	db   "A powerful first-"
