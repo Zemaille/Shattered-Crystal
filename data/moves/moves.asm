@@ -31,7 +31,7 @@ Moves:
 	move CUT,          EFFECT_NORMAL_HIT,         50, NORMAL,        PHYSICAL,  95, 30,   0
 	move GUST,         EFFECT_GUST,               40, FLYING,        SPECIAL,  100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,        PHYSICAL, 100, 35,   0
-	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,        STATUS,   100, 20,   0
+	move BOOMBURST,    EFFECT_NORMAL_HIT,        140, NORMAL,        SPECIAL,  100, 10,   0
 	move FLY,          EFFECT_FLY,                90, FLYING,        PHYSICAL,  95, 15,   0
 	move CHLOROBLAST,  EFFECT_RECOIL_HIT,        150, GRASS,         SPECIAL,  100,  5,   0
 	move PSYCHO_CUT,   EFFECT_NORMAL_HIT,         70, PSYCHIC_TYPE,  PHYSICAL, 100, 20,   0

@@ -18,7 +18,7 @@ MoveDescriptions::
 	dw CutDescription
 	dw GustDescription
 	dw WingAttackDescription
-	dw WhirlwindDescription
+	dw BoomburstDescription
 	dw FlyDescription
 	dw ChloroblastDescription
 	dw PsychoCutDescription
@@ -328,10 +328,10 @@ WingAttackDescription:
 	db   "Strikes the target"
 	next "with wings.@"
 
-WhirlwindDescription:
-	db   "Blows away the foe"
-	next "& ends battle.@"
-
+BoomburstDescription:
+	db   "Attack the foe"
+	next "with sound waves.@"
+	
 FlyDescription:
 	db   "1st turn: Fly"
 	next "2nd turn: Attack@"

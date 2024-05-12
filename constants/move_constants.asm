@@ -23,7 +23,7 @@
 	const CUT          ; 0f
 	const GUST         ; 10
 	const WING_ATTACK  ; 11
-	const WHIRLWIND    ; 12
+	const BOOMBURST    ; 12
 	const FLY          ; 13
 	const CHLOROBLAST  ; 14
 	const PSYCHO_CUT   ; 15

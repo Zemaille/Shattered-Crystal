@@ -19,7 +19,7 @@ BattleAnimations::
 	dw BattleAnim_Cut
 	dw BattleAnim_Gust
 	dw BattleAnim_WingAttack
-	dw BattleAnim_Whirlwind
+	dw BattleAnim_Boomburst
 	dw BattleAnim_Fly
 	dw BattleAnim_Chloroblast
 	dw BattleAnim_PsychoCut
@@ -2204,7 +2204,20 @@ BattleAnim_Submission:
 	anim_call BattleAnim_ShowMon_1
 	anim_ret
 
-BattleAnim_Whirlwind:
+BattleAnim_Boomburst:
+	anim_2gfx BATTLE_ANIM_GFX_NOISE, BATTLE_ANIM_GFX_PSYCHIC
+.loop
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $14, $2, $0
+	anim_sound 0, 0, SFX_SNORE
+	anim_call BattleAnimSub_Sound
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 0, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  7, 0, 13, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  9, 0, 11, 0, $2
+	anim_obj BATTLE_ANIM_OBJ_WAVE,  9, 0, 13, 0, $2
+	anim_sound 6, 2, SFX_SCREECH
+	anim_wait 24
+	anim_loop 2, .loop
+	anim_wait 24
 	anim_ret
 
 BattleAnim_Hypnosis:

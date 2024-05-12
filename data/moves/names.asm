@@ -17,7 +17,7 @@ MoveNames::
 	li "Cut"
 	li "Gust"
 	li "Wing Attack"
-	li "Whirlwind"
+	li "Boomburst"
 	li "Fly"
 	li "Chloroblast"
 	li "Psycho Cut"
