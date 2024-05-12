@@ -230,7 +230,7 @@ MoveDescriptions::
 	dw EncoreDescription
 	dw PursuitDescription
 	dw RapidSpinDescription
-	dw SweetScentDescription
+	dw PlayRoughDescription
 	dw IronTailDescription
 	dw MetalClawDescription
 	dw DragonDanceDescription
@@ -1045,9 +1045,9 @@ RapidSpinDescription:
 	db   "A high-speed"
 	next "spinning attack.@"
 
-SweetScentDescription:
-	db   "Reduces the foe's"
-	next "evasiveness.@"
+PlayRoughDescription:
+	db   "An attack that may"
+	next "reduce Attack.@"
 
 IronTailDescription:
 	db   "An attack that may"

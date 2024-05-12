@@ -229,7 +229,7 @@ MoveNames::
 	li "Encore"
 	li "Pursuit"
 	li "Rapid Spin"
-	li "SWEET SCENT"
+	li "Play Rough"
 	li "Iron Tail"
 	li "Metal Claw"
 	li "Dragon Dance"
