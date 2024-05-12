@@ -84,7 +84,7 @@ BattleTowerMons:
 
 	db MISMAGIUS
 	db FOCUS_BAND
-	db COUNTER, MIRROR_COAT, SAFEGUARD, NO_MOVE
+	db COUNTER, MIRROR_COAT, NO_MOVE, NO_MOVE
 	dw 0 ; OT ID
 	dt 1000 ; Exp
 	; Stat exp
@@ -1835,7 +1835,7 @@ BattleTowerMons:
 
 	db MISMAGIUS
 	db GOLD_BERRY
-	db COUNTER, MIRROR_COAT, SAFEGUARD, NO_MOVE
+	db COUNTER, MIRROR_COAT, NO_MOVE, NO_MOVE
 	dw 0 ; OT ID
 	dt 64000 ; Exp
 	; Stat exp
@@ -2907,7 +2907,7 @@ BattleTowerMons:
 
 	db MISMAGIUS
 	db GOLD_BERRY
-	db COUNTER, MIRROR_COAT, NO_MOVE, SAFEGUARD
+	db COUNTER, MIRROR_COAT, NO_MOVE, NO_MOVE
 	dw 0 ; OT ID
 	dt 216000 ; Exp
 	; Stat exp

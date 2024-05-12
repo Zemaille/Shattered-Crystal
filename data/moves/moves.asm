@@ -232,7 +232,7 @@ Moves:
 	move RETURN,       EFFECT_RETURN,              1, NORMAL,        PHYSICAL, 100, 20,   0
 	move POISON_JAB,   EFFECT_POISON_HIT,         80, POISON,        PHYSICAL, 100, 20,  30
 	move EARTH_POWER,  EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        SPECIAL,  100, 10,  10
-	move SAFEGUARD,    EFFECT_SAFEGUARD,           0, NORMAL,        STATUS,   100, 25,   0
+	move DISARM_VOICE, EFFECT_ALWAYS_HIT,         40, FAIRY,         SPECIAL,  100, 15,   0
 	move PAIN_SPLIT,   EFFECT_PAIN_SPLIT,          0, NORMAL,        STATUS,   100, 20,   0
 	move SACRED_FIRE,  EFFECT_SACRED_FIRE,       100, FIRE,          PHYSICAL,  95,  5,  50
 	move MAGNITUDE,    EFFECT_MAGNITUDE,           1, GROUND,        PHYSICAL, 100, 30,   0

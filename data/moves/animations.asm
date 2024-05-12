@@ -220,7 +220,7 @@ BattleAnimations::
 	dw BattleAnim_Return
 	dw BattleAnim_PoisonJab
 	dw BattleAnim_EarthPower
-	dw BattleAnim_Safeguard
+	dw BattleAnim_DisarmVoice
 	dw BattleAnim_PainSplit
 	dw BattleAnim_SacredFire
 	dw BattleAnim_Magnitude
@@ -4724,17 +4724,26 @@ BattleAnim_EarthPower:
 	anim_wait 48
 	anim_ret
 
-BattleAnim_Safeguard:
-	anim_1gfx BATTLE_ANIM_GFX_MISC
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_SAFEGUARD, 80, 80, $0
-	anim_obj BATTLE_ANIM_OBJ_SAFEGUARD, 80, 80, $d
-	anim_obj BATTLE_ANIM_OBJ_SAFEGUARD, 80, 80, $1a
-	anim_obj BATTLE_ANIM_OBJ_SAFEGUARD, 80, 80, $27
-	anim_obj BATTLE_ANIM_OBJ_SAFEGUARD, 80, 80, $34
-	anim_sound 0, 0, SFX_PROTECT
-	anim_wait 96
+BattleAnim_DisarmVoice:
+	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $1, $20
+	anim_sound 6, 2, SFX_METRONOME
+.loop
+	anim_obj BATTLE_ANIM_OBJ_WAVE,   8, 0,  11, 0, $2
+	anim_wait 2
+	anim_loop 2, .loop
+	anim_wait 48
+.loop2
+	anim_1gfx BATTLE_ANIM_GFX_OBJECTS
+	anim_obj BATTLE_ANIM_OBJ_HEART,   16, 0,   7, 0, $0
+	anim_sound 0, 0, SFX_SWEET_KISS
+	anim_wait 24
+	anim_sound 0, 0, SFX_SWEET_KISS
+	anim_obj BATTLE_ANIM_OBJ_HEART,   16, 12,   7, 0, $0
+	anim_loop 2, .loop2
+	anim_wait 32
 	anim_ret
+
 
 BattleAnim_PainSplit:
 	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_OBJECTS

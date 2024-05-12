@@ -218,7 +218,7 @@ MoveNames::
 	li "Return"
 	li "Poison Jab"
 	li "Earth Power"
-	li "Safeguard"
+	li "Disarm Voice"
 	li "Pain Split"
 	li "Sacred Fire"
 	li "Magnitude"

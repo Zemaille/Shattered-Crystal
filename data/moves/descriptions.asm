@@ -219,7 +219,7 @@ MoveDescriptions::
 	dw ReturnDescription
 	dw PoisonJabDescription
 	dw EarthPowerDescription
-	dw SafeguardDescription
+	dw DisarmVoiceDescription
 	dw PainSplitDescription
 	dw SacredFireDescription
 	dw MagnitudeDescription
@@ -740,6 +740,7 @@ WaterfallDescription:
 AuraSphereDescription:
 SwiftDescription:
 AerialAceDescription:
+DisarmVoiceDescription:
 	db   "An attack that"
 	next "never misses.@"
 
@@ -1007,10 +1008,6 @@ TwinBeamDescription:
 ReturnDescription:
 	db   "An attack that is"
 	next "based on loyalty.@"
-
-SafeguardDescription:
-	db   "Prevents all"
-	next "status problems.@"
 
 PainSplitDescription:
 	db   "Adds user & foe's"

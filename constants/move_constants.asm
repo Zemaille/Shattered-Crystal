@@ -224,7 +224,7 @@
 	const RETURN       ; d8
 	const POISON_JAB   ; d9
 	const EARTH_POWER  ; da
-	const SAFEGUARD    ; db
+	const DISARM_VOICE ; db
 	const PAIN_SPLIT   ; dc
 	const SACRED_FIRE  ; dd
 	const MAGNITUDE    ; de
