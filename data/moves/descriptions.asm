@@ -46,7 +46,7 @@ MoveDescriptions::
 	dw LeerDescription
 	dw BiteDescription
 	dw GrowlDescription
-	dw RoarDescription
+	dw MoonblastDescription
 	dw SingDescription
 	dw SupersonicDescription
 	dw TwinBeamDescription
@@ -436,10 +436,6 @@ GrowlDescription:
 	db   "Reduces the foe's"
 	next "ATTACK.@"
 
-RoarDescription:
-	db   "Scares wild foes"
-	next "to end battle.@"
-
 SingDescription:
 	db   "May cause the foe"
 	next "to fall asleep.@"
@@ -623,6 +619,7 @@ ShadowBallDescription:
 EnergyBallDescription:
 EarthPowerDescription:
 FlashCannonDescription:
+MoonblastDescription:
 	db   "An attack that may"
 	next "lower Spcl.Def.@"
 

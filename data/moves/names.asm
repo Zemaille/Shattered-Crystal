@@ -45,7 +45,7 @@ MoveNames::
 	li "Leer"
 	li "Bite"
 	li "Growl"
-	li "Roar"
+	li "Moonblast"
 	li "Sing"
 	li "Supersonic"
 	li "Twin Beam"

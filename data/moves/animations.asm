@@ -47,7 +47,7 @@ BattleAnimations::
 	dw BattleAnim_Leer
 	dw BattleAnim_Bite
 	dw BattleAnim_Growl
-	dw BattleAnim_Roar
+	dw BattleAnim_Moonblast
 	dw BattleAnim_Sing
 	dw BattleAnim_Supersonic
 	dw BattleAnim_TwinBeam
@@ -1664,6 +1664,7 @@ BattleAnim_FlashCannon:
 ;	anim_call BattleAnim_ShowMon_0
 ;	anim_ret
 
+BattleAnim_Softboiled:
 BattleAnim_Recover:
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
 	anim_call BattleAnim_TargetObj_1Row
@@ -1746,26 +1747,6 @@ BattleAnim_SeedBomb:
 	anim_call BattleAnimSub_Explosion2
 	anim_wait 16
 	anim_bgp $e4
-	anim_ret
-
-BattleAnim_Softboiled:
-	anim_2gfx BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_BUBBLE
-	anim_call BattleAnim_TargetObj_1Row
-	anim_sound 0, 0, SFX_SWITCH_POKEMON
-	anim_obj BATTLE_ANIM_OBJ_EGG, 44, 104, $6
-	anim_wait 128
-	anim_incobj 2
-	anim_obj BATTLE_ANIM_OBJ_EGG, 76, 104, $b
-	anim_wait 16
-	anim_bgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING, $0, BG_EFFECT_USER, $40
-	anim_sound 0, 0, SFX_METRONOME
-.loop
-	anim_obj BATTLE_ANIM_OBJ_RECOVER, 44, 88, $20
-	anim_wait 8
-	anim_loop 8, .loop
-	anim_wait 128
-	anim_incbgeffect BATTLE_BG_EFFECT_FADE_MON_TO_LIGHT_REPEATING
-	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnim_IronHead:
@@ -1898,8 +1879,35 @@ BattleAnim_Growl:
 	anim_wait 8
 	anim_ret
 
+BattleAnim_Moonblast:
+	anim_3gfx BATTLE_ANIM_GFX_MOON, BATTLE_ANIM_GFX_SHINE, BATTLE_ANIM_GFX_CHARGE
+	anim_bgp $1b
+	anim_obj BATTLE_ANIM_OBJ_MOON, 44, 104, $1
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $30
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $31
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $32
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $33
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $34
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $35
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $36
+	anim_obj BATTLE_ANIM_OBJ_MOON_CHARGE, 44, 88, $37
+	anim_wait 1
+	anim_sound 0, 0, SFX_MOONLIGHT
+	anim_wait 96
+	anim_clearobjs
+	anim_sound 3, 0, SFX_RAZOR_WIND
+	anim_obj BATTLE_ANIM_OBJ_MOONBLAST, 64, 92, $4
+	anim_wait 16
+	anim_sound 0, 0, SFX_METRONOME
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 132, 28, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 112, 60, $0
+	anim_wait 5
+	anim_obj BATTLE_ANIM_OBJ_GLIMMER, 144, 68, $0
+	anim_wait 21
+	anim_ret
+
 BattleAnim_Snarl:
-BattleAnim_Roar:
 	anim_1gfx BATTLE_ANIM_GFX_NOISE
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_cry $1

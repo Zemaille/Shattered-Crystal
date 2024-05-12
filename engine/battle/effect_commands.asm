@@ -1716,8 +1716,6 @@ BattleCommand_CheckHit:
 
 	cp GUST
 	ret z
-	cp WHIRLWIND
-	ret z
 	cp THUNDER
 	ret z
 	cp TWISTER
@@ -5103,7 +5101,6 @@ BattleCommand_ForceSwitch:
 	pop af
 
 	ld hl, FledInFearText
-	cp ROAR
 	jr z, .do_text
 	ld hl, BlownAwayText
 .do_text

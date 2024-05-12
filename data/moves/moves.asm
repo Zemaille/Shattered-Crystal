@@ -59,7 +59,7 @@ Moves:
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,        STATUS,   100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,          PHYSICAL, 100, 25,  30
 	move GROWL,        EFFECT_ATTACK_DOWN,         0, NORMAL,        STATUS,   100, 40,   0
-	move ROAR,         EFFECT_FORCE_SWITCH,        0, NORMAL,        STATUS,   100, 20,   0
+	move MOONBLAST,    EFFECT_SP_DEF_DOWN_HIT,    95, FAIRY,         SPECIAL,  100, 15,  30
 	move SING,         EFFECT_SLEEP,               0, NORMAL,        STATUS,    55, 15,   0
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, NORMAL,        STATUS,    55, 20,   0
 	move TWIN_BEAM,    EFFECT_DOUBLE_HIT,         40, PSYCHIC_TYPE,  SPECIAL,  100, 10,   0
