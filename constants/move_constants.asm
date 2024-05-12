@@ -164,7 +164,7 @@
 	const REST         ; 9c
 	const ROCK_SLIDE   ; 9d
 	const ICICLE_SPEAR ; 9e
-	const SHARPEN      ; 9f
+	const DAZZLE_GLEAM ; 9f
 	const POWER_GEM    ; a0
 	const TRI_ATTACK   ; a1
 	const ZEN_HEADBUTT ; a2

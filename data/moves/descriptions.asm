@@ -159,7 +159,7 @@ MoveDescriptions::
 	dw RestDescription
 	dw RockSlideDescription
 	dw IcicleSpearDescription
-	dw SharpenDescription
+	dw DazzleGleamDescription
 	dw PowerGemDescription
 	dw TriAttackDescription
 	dw ZenHeadbuttDescription
@@ -829,9 +829,9 @@ RockSlideDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
 
-SharpenDescription:
-	db   "A move that raises"
-	next "the user's ATTACK.@"
+DazzleGleamDescription:
+	db   "Dazzles with a"
+	next "powerful flash.@"
 
 PowerGemDescription:
 	db   "Attacks with a ray"

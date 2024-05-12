@@ -158,7 +158,7 @@ MoveNames::
 	li "Rest"
 	li "Rock Slide"
 	li "Icicle Spear"
-	li "SHARPEN"
+	li "Dazzle Gleam"
 	li "Power Gem"
 	li "Tri Attack"
 	li "Zen Headbutt"
