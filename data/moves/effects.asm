@@ -1762,6 +1762,9 @@ RapidSpin:
 	criticaltext
 	supereffectivetext
 	clearhazards
+	speedup
+	statupmessage
+	statupfailtext
 	checkfaint
 	buildopponentrage
 	kingsrock
@@ -2351,6 +2354,7 @@ PsyhornBash:
 	supereffectivetext
 	defenseup
 	statupmessage
+	statupfailtext
 	checkfaint
 	buildopponentrage
 	kingsrock
