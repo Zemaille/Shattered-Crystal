@@ -17,6 +17,76 @@ EcruteakCityFlypointCallback:
 	setflag ENGINE_FLYPOINT_ECRUTEAK
 	endcallback
 
+FangTutorScript:
+	faceplayer
+	opentext
+	writetext AskTeachAMoveText
+	yesorno
+	iffalse .Refused
+	writetext EcruteakCityFangTutorWhichMoveShouldITeachText
+	loadmenu .MoveMenuHeader
+	verticalmenu
+	closewindow
+	ifequal 1, .FireFang
+	ifequal 2, .ThunderFang
+	ifequal 3, .IceFang
+	sjump .Incompatible
+
+.FireFang:
+	setval FIRE_FANG
+	writetext EcruteakCityFangTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.ThunderFang:
+	setval THUNDER_FANG
+	writetext EcruteakCityFangTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.IceFang:
+	setval ICE_FANG
+	writetext EcruteakCityFangTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.Refused:
+	writetext EcruteakCityFangTutorAwwButTheyreAmazingText
+	waitbutton
+	closetext
+	end
+	
+.Incompatible:
+	writetext EcruteakCityFangTutorBButText
+	waitbutton
+	closetext
+	end
+
+.TeachMove:
+	writetext EcruteakCityFangTutorIfYouUnderstandYouveMadeItText
+	promptbutton
+	writetext EcruteakCityFangTutorFarewellKidText
+	waitbutton
+	closetext
+	end
+
+.MoveMenuHeader:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	dw .MenuData
+	db 1 ; default option
+
+.MenuData:
+	db STATICMENU_CURSOR ; flags
+	db 4 ; items
+	db "Fire Fang@"
+	db "Thunder Fang@"
+	db "Ice Fang@"
+	db "CANCEL@"
+
 EcruteakCityGramps1Script:
 	jumptextfaceplayer EcruteakCityGramps1Text
 
@@ -256,6 +326,61 @@ BurnedTowerSignText:
 	line "as it is unsafe."
 	done
 
+AskTeachAMoveText:
+	text "I can teach your"
+	line "Pokémon amazing"
+
+	para "moves if you'd"
+	line "like."
+
+	para "Should I teach a"
+	line "new move?"
+	done
+
+
+EcruteakCityFangTutorAwwButTheyreAmazingText:
+	text "Come back here"
+	line "if you want to"
+	
+	para "teach your"
+	line "Pokémon a new"
+	cont "move!"
+	done
+
+EcruteakCityFangTutorWhichMoveShouldITeachText:
+	text "Great! You won't"
+	line "regret it!"
+
+	para "Which move should"
+	line "I teach?"
+	done
+
+
+EcruteakCityFangTutorIfYouUnderstandYouveMadeItText:
+	text "If you understand"
+	line "what's so amazing"
+
+	para "about this move,"
+	line "you've made it as"
+	cont "a trainer."
+	done
+
+EcruteakCityFangTutorFarewellKidText:
+	text "Farewell and"
+	line "good luck on"
+	cont "your journey!"
+	done
+
+EcruteakCityFangTutorBButText:
+	text "Your Pokémon"
+	line "can't learn this"
+	cont "move…"
+	done
+
+EcruteakCityFangTutorMoveText:
+	text_start
+	done
+
 EcruteakCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -296,3 +421,4 @@ EcruteakCity_MapEvents:
 	object_event  9, 22, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, EcruteakCityFisherScript, -1
 	object_event 10, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakCityYoungsterScript, -1
 	object_event  3,  7, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps3Script, EVENT_ECRUTEAK_CITY_GRAMPS
+	object_event 14, 20, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FangTutorScript, -1
