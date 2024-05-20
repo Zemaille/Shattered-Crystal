@@ -2838,7 +2838,7 @@ HeracrossEvosAttacks:
 	db 10, FURY_CUTTER
 	db 15, DETECT
 	db 20, HORN_ATTACK
-	db 25, COUNTER
+	db 25, AERIAL_ACE
 	db 30, ROLLING_KICK
 	db 35, PIN_MISSILE
 	db 40, PURSUIT

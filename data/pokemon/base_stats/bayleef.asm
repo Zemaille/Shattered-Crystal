@@ -17,5 +17,5 @@
 	dn EGG_MONSTER, EGG_PLANT ; egg groups
 
 	; tm/hm learnset
-	tmhm FIRE_FANG, ICE_FANG, THUNDER_FANG
+	tmhm 
 	; end
