@@ -23,21 +23,21 @@ PunchTutorScript:
 	sjump .Incompatible
 
 .IcePunch:
-	setval ICE_FANG
+	setval ICE_PUNCH
 	writetext PunchTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
 	sjump .Incompatible
 
 .ThunderPunch:
-	setval ICE_FANG
+	setval THUNDERPUNCH
 	writetext PunchTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove
 	sjump .Incompatible
 
 .FirePunch:
-	setval ICE_FANG
+	setval FIRE_PUNCH
 	writetext PunchTutorMoveText
 	special MoveTutor
 	ifequal FALSE, .TeachMove

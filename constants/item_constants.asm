@@ -308,7 +308,10 @@ DEF MT01 EQU const_value
 	add_mt FIRE_FANG
 	add_mt THUNDER_FANG
 	add_mt ICE_FANG
-
+	add_mt ICE_PUNCH
+	add_mt THUNDERPUNCH
+	add_mt FIRE_PUNCH
+	
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
 DEF NUM_TM_HM_TUTOR EQU NUM_TMS + NUM_HMS + NUM_TUTORS

@@ -308,9 +308,9 @@ ArbokEvosAttacks:
 PikachuEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, RAICHU
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
 	db 1, TAIL_WHIP
 	db 1, CHARM
+	db 1, THUNDERSHOCK
 	db 4, THUNDER_WAVE
 	db 8, QUICK_ATTACK
 	db 12, NASTY_PLOT
