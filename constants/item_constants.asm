@@ -217,59 +217,58 @@ ENDM
 
 ; see data/moves/tmhm_moves.asm for moves
 DEF TM01 EQU const_value
-	add_tm DYNAMICPUNCH ; bf
-	add_tm HEADBUTT     ; c0
-	add_tm CURSE        ; c1
-	add_tm ROLLOUT      ; c2
-	const ITEM_C3       ; c3
-	add_tm MOONBLAST    ; c4
-	add_tm TOXIC        ; c5
-	add_tm X_SCISSOR    ; c6
-	add_tm ROCK_SMASH   ; c7
-	add_tm SHELL_SMASH  ; c8
-	add_tm HIDDEN_POWER ; c9
-	add_tm SUNNY_DAY    ; ca
-	add_tm PLAY_ROUGH   ; cb
-	add_tm SNORE        ; cc
-	add_tm ICE_BEAM     ; cd
-	add_tm HYPER_BEAM   ; ce
-	add_tm ICY_WIND     ; cf
-	add_tm PROTECT      ; d0
-	add_tm RAIN_DANCE   ; d1
-	add_tm GIGA_DRAIN   ; d2
-	add_tm CHARM        ; d3
-	add_tm EARTH_POWER  ; d4
-	add_tm SOLARBEAM    ; d5
-	add_tm IRON_TAIL    ; d6
-	add_tm SIGNAL_BEAM  ; d7
-	add_tm THUNDERBOLT  ; d8
-	add_tm EARTHQUAKE   ; d9
-	add_tm RETURN       ; da
-	add_tm DIG          ; db
-	const ITEM_DC       ; dc
-	add_tm PSYCHIC_M    ; dd
-	add_tm SHADOW_BALL  ; de
-	add_tm MUD_SLAP     ; df
-	add_tm FLASH_CANNON ; e0
-	add_tm ICE_PUNCH    ; e1
-	add_tm SWAGGER      ; e2
-	add_tm SLEEP_TALK   ; e3
-	add_tm SLUDGE_BOMB  ; e4
-	add_tm SANDSTORM    ; e5
-	add_tm FLAMETHROWER ; e6
-	add_tm SWIFT        ; e7
-	add_tm DEFENSE_CURL ; e8
-	add_tm THUNDERPUNCH ; e9
-	add_tm SNARL        ; ea
-	add_tm DETECT       ; eb
-	add_tm REST         ; ec
-	add_tm STONE_EDGE   ; ed
-	add_tm THIEF        ; ee
-	add_tm STEEL_WING   ; ef
-	add_tm FIRE_PUNCH   ; f0
-	add_tm FURY_CUTTER  ; f1
-	add_tm AURA_SPHERE  ; f2
-	add_tm THUNDER_WAVE 
+	add_tm HIDDEN_POWER ; Lake of Rage Hidden House
+	add_tm BUG_BUZZ     ; Celadon Shop
+	add_tm FURY_CUTTER  ; Bugsy Reward
+	add_tm LEECH_LIFE   ; Lake of Rage
+	const ITEM_C3
+	add_tm SIGNAL_BEAM  ; GPC Mart 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	add_tm X_SCISSOR    ; Viridian City
+	add_tm DARK_PULSE   ; Ice Path B2F
+	add_tm NASTY_PLOT   ; Goldenrod Mart
+	add_tm SNARL        ; Route 32 (Roar NPC)
+	add_tm THIEF        ; Celadon Mansion
+	add_tm DRAGON_CLAW  ; Route 27 Sandstorm House
+	add_tm DRAGON_PULSE ; Clair Reward
+	add_tm THUNDER_WAVE ; Union Cave B1F
+	add_tm THUNDERBOLT  ; Lighthouse
+	add_tm AURA_SPHERE  ; Chuck Reward
+	add_tm FOCUS_BLAST  ; Celadon Shop
+	add_tm ROCK_SMASH   ; Route 36 (Sudowoodo Reward)
+	add_tm FLAMETHROWER ; Mt. Mortar 2F Inside
+	add_tm WILL_O_WISP  ; Burned Tower B1F
+	add_tm AERIAL_ACE   ; Faulkner Reward
+	add_tm DUALWINGBEAT ; Route 31 (Spearow Delivery Reward)
+	add_tm HURRICANE    ; Route 44
+	add_tm CURSE        ; Goldenrod Mart
+	add_tm HEX          ; Morty Reward
+	add_tm SHADOW_BALL  ; Route 35
+	add_tm SHADOW_CLAW  ; GPC Mart 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	add_tm ENERGY_BALL  ; Route 45
+	add_tm GIGA_DRAIN   ; Erika Reward
+	const ITEM_DC 
+	add_tm DIG          ; National Park
+	add_tm EARTH_POWER  ; GPC Mart 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	add_tm EARTHQUAKE   ; Victory Road
+	add_tm ICE_BEAM     ; Pryce Reward
+	add_tm POISON_JAB   ; Janine Reward
+	add_tm SLUDGE_BOMB  ; Route 43 Gate (Post Team Rocket Base)
+	add_tm TOXIC        ; Team Rocket Base B2F
+	add_tm CALM_MIND    ; Goldenrod Mart
+	add_tm PSYCHIC_M    ; Mr. Psychic's House
+	add_tm ROCK_SLIDE   ; Rock Tunnel B1F
+	add_tm FLASH_CANNON ; Tohjo Falls
+	add_tm IRON_HEAD    ; Jasmine Reward
+	add_tm IRON_TAIL    ; Farmhouse (Sick Moomoo Reward)
+	add_tm STEEL_WING   ; Route 28 House
+	add_tm SCALD        ; Celadon Mart
+	add_tm WATER_PULSE  ; Slowpoke Well B2F
+	add_tm DAZZLE_GLEAM ; Goldenrod Underground Warehouse
+	add_tm HEADBUTT     ; Ilex Forest
+	add_tm HYPER_BEAM   ; Route 27
+	add_tm PROTECT      ; Route 34 - Ilex Gate
+	add_tm RETURN       ; Whitney Reward
+	add_tm SWORDS_DANCE ; Goldenrod Mart
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm

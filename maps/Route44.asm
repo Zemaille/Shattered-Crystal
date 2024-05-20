@@ -307,7 +307,7 @@ Route44FruitTree:
 	fruittree FRUITTREE_ROUTE_44
 
 Route44MaxRevive:
-	itemball MAX_REVIVE
+	itemball TM_HURRICANE
 
 Route44UltraBall:
 	itemball ULTRA_BALL

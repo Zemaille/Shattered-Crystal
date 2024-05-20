@@ -131,10 +131,11 @@ MartGoldenrod4F:
 	db -1 ; end
 
 MartGoldenrod5F:
-	db 3 ; # items
-	db TM_THUNDERPUNCH
-	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
+	db 4 ; # items
+	db TM_NASTY_PLOT
+	db TM_CURSE
+	db TM_CALM_MIND
+	db TM_SWORDS_DANCE
 	db -1 ; end
 
 MartOlivine:
@@ -285,12 +286,10 @@ MartCeladon2F2:
 	db -1 ; end
 
 MartCeladon3F:
-	db 5 ; # items
-	db TM_SHELL_SMASH
-	db TM_PROTECT
-	db TM_THUNDERPUNCH
-	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
+	db 3 ; # items
+	db TM_BUG_BUZZ
+	db TM_FOCUS_BLAST
+	db TM_SCALD
 	db -1 ; end
 
 MartCeladon4F:
