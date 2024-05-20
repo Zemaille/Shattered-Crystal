@@ -6,89 +6,143 @@ Route27SandstormHouse_MapScripts:
 
 	def_callbacks
 
-SandstormHouseWoman:
+WeatherTutorScript:
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TM37_SANDSTORM
-	iftrue .AlreadyGotItem
-	special GetFirstPokemonHappiness
-	writetext SandstormHouseWomanText1
-	promptbutton
-	ifgreater 150 - 1, .Loyal
-	sjump .Disloyal
+	writetext AskTeachAWeatherMoveText
+	yesorno
+	iffalse .Refused
+	writetext WeatherTutorWhichMoveShouldITeachText
+	loadmenu .MoveMenuHeader
+	verticalmenu
+	closewindow
+	ifequal 1, .SunnyDay
+	ifequal 2, .RainDance
+	ifequal 3, .Sandstorm
+	ifequal 4, .Hail
+	sjump .Incompatible
 
-.Loyal:
-	writetext SandstormHouseWomanLoyalText
-	promptbutton
-	verbosegiveitem TM_DRAGON_CLAW
-	iffalse .Done
-	setevent EVENT_GOT_TM37_SANDSTORM
-.AlreadyGotItem:
-	writetext SandstormHouseSandstormDescription
+.SunnyDay:
+	setval SUNNY_DAY
+	writetext WeatherTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.RainDance:
+	setval RAIN_DANCE
+	writetext WeatherTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.Sandstorm:
+	setval SANDSTORM
+	writetext WeatherTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+
+.Hail:
+	setval HAIL
+	writetext WeatherTutorMoveText
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+	sjump .Incompatible
+	
+.Refused:
+	writetext WeatherTutorAwwButTheyreAmazingText
 	waitbutton
-.Done:
+	closetext
+	end
+	
+.Incompatible:
+	writetext WeatherTutorBButText
+	waitbutton
 	closetext
 	end
 
-.Disloyal:
-	writetext SandstormHouseWomanDisloyalText
+.TeachMove:
+	writetext WeatherTutorIfYouUnderstandYouveMadeItText
+	promptbutton
+	writetext WeatherTutorFarewellKidText
 	waitbutton
 	closetext
 	end
+	
+.MoveMenuHeader:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 15, TEXTBOX_Y
+	dw .MenuData
+	db 1 ; default option
+
+.MenuData:
+	db STATICMENU_CURSOR ; flags
+	db 5 ; items
+	db "Sunny Day@"
+	db "Rain Dance@"
+	db "Sandstorm@"
+	db "Hail@"
+	db "CANCEL@"
+
+
 
 SandstormHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
-SandstormHouseWomanText1:
-	text "Where are you off"
-	line "to with #MON?"
+AskTeachAWeatherMoveText:
+	text "I can teach your"
+	line "Pokémon weather"
 
-	para "#MON LEAGUE?"
+	para "moves if you'd"
+	line "like."
 
-	para "Are your #MON"
-	line "loyal enough for"
-	cont "you to win?"
-
-	para "Let me see…"
+	para "Should I teach a"
+	line "new move?"
 	done
 
-SandstormHouseWomanLoyalText:
-	text "Ah! Your #MON"
-	line "trusts you very"
-	cont "much."
 
-	para "It's nice to see a"
-	line "good trainer."
-
-	para "Here. A gift for"
-	line "your journey."
+WeatherTutorAwwButTheyreAmazingText:
+	text "Come back here"
+	line "if you want to"
+	
+	para "teach your"
+	line "Pokémon a new"
+	cont "weather move!"
 	done
 
-SandstormHouseSandstormDescription:
-	text "TM37 happens to be"
-	line "SANDSTORM."
+WeatherTutorWhichMoveShouldITeachText:
+	text "Great! You won't"
+	line "regret it!"
 
-	para "It's a move that"
-	line "inflicts damage on"
-	cont "both battlers."
-
-	para "It's for advanced"
-	line "trainers only."
-
-	para "Use it if you"
-	line "dare. Good luck!"
+	para "Which move should"
+	line "I teach?"
 	done
 
-SandstormHouseWomanDisloyalText:
-	text "If it doesn't come"
-	line "to trust you some"
 
-	para "more, it could be"
-	line "tough going."
+WeatherTutorIfYouUnderstandYouveMadeItText:
+	text "If you understand"
+	line "what's so amazing"
 
-	para "Trust is the tie"
-	line "that binds #MON"
-	cont "and trainers."
+	para "about weather,"
+	line "you've made it as"
+	cont "a trainer."
+	done
+
+WeatherTutorFarewellKidText:
+	text "Farewell and"
+	line "good luck on"
+	cont "your journey!"
+	done
+
+WeatherTutorBButText:
+	text "Your Pokémon"
+	line "can't learn this"
+	cont "move…"
+	done
+
+WeatherTutorMoveText:
+	text_start
 	done
 
 Route27SandstormHouse_MapEvents:
@@ -105,4 +159,4 @@ Route27SandstormHouse_MapEvents:
 	bg_event  1,  1, BGEVENT_READ, SandstormHouseBookshelf
 
 	def_object_events
-	object_event  2,  4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SandstormHouseWoman, -1
+	object_event  2,  4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WeatherTutorScript, -1

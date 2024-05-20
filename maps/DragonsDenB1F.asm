@@ -174,7 +174,7 @@ DragonShrineSignpost:
 	jumptext DragonShrineSignpostText
 
 DragonsDenB1FCalcium:
-	itemball CALCIUM
+	itemball TM_DRAGON_CLAW
 
 DragonsDenB1FMaxElixer:
 	itemball MAX_ELIXER

@@ -228,7 +228,7 @@ DEF TM01 EQU const_value
 	add_tm NASTY_PLOT   ; Goldenrod Mart
 	add_tm SNARL        ; Route 32 (Roar NPC)
 	add_tm THIEF        ; Celadon Mansion
-	add_tm DRAGON_CLAW  ; Route 27 Sandstorm House
+	add_tm DRAGON_CLAW  ; Route 27 Dragon's Den
 	add_tm DRAGON_PULSE ; Clair Reward
 	add_tm THUNDER_WAVE ; Union Cave B1F
 	add_tm THUNDERBOLT  ; Lighthouse
@@ -311,6 +311,9 @@ DEF MT01 EQU const_value
 	add_mt ICE_PUNCH
 	add_mt THUNDERPUNCH
 	add_mt FIRE_PUNCH
+	add_mt REST
+	add_mt SLEEP_TALK
+	add_mt SNORE
 	
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 
