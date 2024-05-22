@@ -318,6 +318,7 @@ DEF MT01 EQU const_value
 	add_mt SANDSTORM
 	add_mt HAIL
 	add_mt SNORE
+	add_mt SUBSTITUTE
 	
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
 

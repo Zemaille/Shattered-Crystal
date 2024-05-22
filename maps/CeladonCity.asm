@@ -33,8 +33,29 @@ CeladonCityPoliwrath:
 CeladonCityTeacher1Script:
 	jumptextfaceplayer CeladonCityTeacher1Text
 
-CeladonCityGramps1Script:
-	jumptextfaceplayer CeladonCityGramps1Text
+CeladonCityTutorSubstituteScript:
+	faceplayer
+	opentext
+	writetext CeladonCityTutorSubstituteText
+	waitbutton
+	writetext CeladonCityTutorSubstituteText2
+	yesorno
+	iffalse .TutorRefused
+	setval SUBSTITUTE
+	writetext CeladonCityTutorSubstituteClear
+	special MoveTutor
+	ifequal FALSE, .TeachMove
+.TutorRefused
+	writetext CeladonCityTutorSubstituteRefused
+	waitbutton
+	closetext
+	end
+
+.TeachMove
+	writetext CeladonCityTutorSubstituteTaught
+	waitbutton
+	closetext
+	end
 
 CeladonCityGramps2Script:
 	jumptextfaceplayer CeladonCityGramps2Text
@@ -105,20 +126,37 @@ else
 	done
 endc
 
-CeladonCityGramps1Text:
-	text "GRIMER have been"
-	line "appearing lately."
+CeladonCityTutorSubstituteText:
+	text "Hello there!"
+	line "I've seen you"
+	cont "running around."
 
-	para "See that pond out"
-	line "in front of the"
-
-	para "house? GRIMER live"
-	line "there now."
-
-	para "Where did they"
-	line "come from? This is"
-	cont "a serious problem…"
+	para "It must be good"
+	line "luck that brought"
+	cont "us together."
 	done
+
+CeladonCityTutorSubstituteText2:
+	text "Would you like me"
+	line "to teach your"
+
+	para "Pokémon to use"
+	line "Substitute?"
+
+CeladonCityTutorSubstituteRefused:
+	text "OK then."
+	done
+
+CeladonCityTutorSubstituteClear:
+	text_start
+	done
+
+CeladonCityTutorSubstituteTaught:
+	text "Now your Pokémon"
+	line "can trick your"
+	cont "opponents!"
+	done
+	
 
 CeladonCityGramps2Text:
 	text "Nihihi! This GYM"
@@ -274,7 +312,7 @@ CeladonCity_MapEvents:
 	object_event 26, 11, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeladonCityFisherScript, -1
 	object_event 27, 11, SPRITE_POLIWAG, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonCityPoliwrath, -1
 	object_event 20, 24, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonCityTeacher1Script, -1
-	object_event 14, 16, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CeladonCityGramps1Script, -1
+	object_event 14, 16, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CeladonCityTutorSubstituteScript, -1
 	object_event  8, 31, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CeladonCityGramps2Script, -1
 	object_event 18, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonCityYoungster1Script, -1
 	object_event 24, 33, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CeladonCityYoungster2Script, -1
