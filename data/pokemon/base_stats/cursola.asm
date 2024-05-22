@@ -17,6 +17,6 @@
 	dn EGG_WATER_1, EGG_WATER_3  ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm RETURN, PROTECT, TOXIC, REST, SNORE, SLEEP_TALK, HYPER_BEAM, HIDDEN_POWER 
 	; end
 	

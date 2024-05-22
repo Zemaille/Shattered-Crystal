@@ -17,6 +17,6 @@
 	dn EGG_MONSTER, EGG_DRAGON  ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm RETURN, PROTECT, TOXIC, REST, SNORE, SLEEP_TALK, HYPER_BEAM, HIDDEN_POWER 
 	; end
 	

@@ -313,6 +313,10 @@ DEF MT01 EQU const_value
 	add_mt FIRE_PUNCH
 	add_mt REST
 	add_mt SLEEP_TALK
+	add_mt SUNNY_DAY
+	add_mt RAIN_DANCE
+	add_mt SANDSTORM
+	add_mt HAIL
 	add_mt SNORE
 	
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1
