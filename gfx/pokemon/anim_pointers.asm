@@ -99,7 +99,7 @@ AnimationPointers:
 	dw MalamarAnimation
 	dw FeebasAnimation
 	dw MiloticAnimation
-	dw SkrelpAnimation
+	dw VoltorbAnimation
 	dw DragalgeAnimation
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation

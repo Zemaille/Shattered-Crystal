@@ -99,7 +99,7 @@ BitmasksPointers:
 	dw MalamarBitmasks
 	dw FeebasBitmasks
 	dw MiloticBitmasks
-	dw SkrelpBitmasks
+	dw VoltorbBitmasks
 	dw DragalgeBitmasks
 	dw ExeggcuteBitmasks
 	dw ExeggutorBitmasks

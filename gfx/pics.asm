@@ -31,7 +31,7 @@ GliscorFrontpic:      INCBIN "gfx/pokemon/gliscor/front.animated.2bpp.lz"
 VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
 EnteiFrontpic:       INCBIN "gfx/pokemon/entei/front.animated.2bpp.lz"
 SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
-TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
+
 
 
 SECTION "Pics 2", ROMX
@@ -145,7 +145,6 @@ MagmarFrontpic:      INCBIN "gfx/pokemon/magmar/front.animated.2bpp.lz"
 TentacruelFrontpic:  INCBIN "gfx/pokemon/tentacruel/front.animated.2bpp.lz"
 WeavileFrontpic:      INCBIN "gfx/pokemon/weavile/front.animated.2bpp.lz"
 GoodraFrontpic:    INCBIN "gfx/pokemon/goodra/front.animated.2bpp.lz"
-SabrawlerFrontpic:     INCBIN "gfx/pokemon/sabrawler/front.animated.2bpp.lz"
 VulpixFrontpic:      INCBIN "gfx/pokemon/vulpix/front.animated.2bpp.lz"
 GligarFrontpic:      INCBIN "gfx/pokemon/gligar/front.animated.2bpp.lz"
 DunsparceFrontpic:   INCBIN "gfx/pokemon/dunsparce/front.animated.2bpp.lz"
@@ -722,6 +721,10 @@ DragapultFrontpic:   INCBIN "gfx/pokemon/dragapult/front.animated.2bpp.lz"
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).
 
 SECTION "Pics 20", ROMX
+SabrawlerFrontpic:     INCBIN "gfx/pokemon/sabrawler/front.animated.2bpp.lz"
+TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
+
+
 
 SECTION "Pics 21", ROMX
 
