@@ -118,7 +118,7 @@
 	const MALAMAR      ; 61
 	const FEEBAS     ; 62
 	const MILOTIC    ; 63
-	const SKRELP    ; 64
+	const VOLTORB    ; 64
 	const DRAGALGE  ; 65
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67

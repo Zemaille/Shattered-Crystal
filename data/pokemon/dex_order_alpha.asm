@@ -200,7 +200,7 @@ AlphabeticalPokedexOrder:
 	db SHROOMISH
 	db SHUCKLE
 	db SKARMORY
-	db SKRELP
+	db VOLTORB
 	db SLIGGOO
 	db SLOWBRO
 	db SLOWKING

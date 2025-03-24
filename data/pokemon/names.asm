@@ -99,7 +99,7 @@ PokemonNames::
 	db "Malamar@@@"
 	db "Feebas@@@@"
 	db "Milotic@@@"
-	db "Skrelp@@@@"
+	db "Voltorb@@@"
 	db "Dragalge@@"
 	db "Exeggcute@"
 	db "Exeggutor@"

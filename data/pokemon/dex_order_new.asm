@@ -200,7 +200,7 @@ NewPokedexOrder:
 	db CLOYSTER
 	db STARYU
 	db STARMIE
-	db SKRELP
+	db VOLTORB
 	db DRAGALGE
 	db ABYSSEEL
 	db SMEARGLE

@@ -101,7 +101,7 @@ EvosAttacksPointers::
 	dw MalamarEvosAttacks
 	dw FeebasEvosAttacks
 	dw MiloticEvosAttacks
-	dw SkrelpEvosAttacks
+	dw VoltorbEvosAttacks
 	dw DragalgeEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorEvosAttacks

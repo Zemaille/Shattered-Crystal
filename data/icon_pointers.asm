@@ -101,7 +101,7 @@ IconPointers:
 	dw MalamarIcon
 	dw FeebasIcon
 	dw MiloticIcon
-	dw SkrelpIcon
+	dw VoltorbIcon
 	dw DragalgeIcon
 	dw ExeggcuteIcon
 	dw ExeggutorIcon

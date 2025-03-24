@@ -104,7 +104,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, TEAL   ; Malamar
 	icon_pals BLUE, TEAL   ; Feebas
 	icon_pals RED, BLUE   ; Milotic
-	icon_pals PURPLE, TEAL   ; Skrelp
+	icon_pals PURPLE, TEAL   ; Voltorb
 	icon_pals PURPLE, TEAL   ; Dragalge
 	icon_pals PINK, TEAL   ; Exeggcute
 	icon_pals GREEN, TEAL   ; Exeggutor

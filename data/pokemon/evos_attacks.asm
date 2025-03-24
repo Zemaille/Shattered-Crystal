@@ -1269,7 +1269,7 @@ MiloticEvosAttacks:
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-SkrelpEvosAttacks:
+VoltorbEvosAttacks:
 	db EVOLVE_LEVEL, 48, DRAGALGE
 	db 0 ; no more evolutions
 	db 1, TACKLE

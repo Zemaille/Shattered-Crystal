@@ -100,7 +100,7 @@
 	const ICON_MALAMAR      ; 61
 	const ICON_FEEBAS     ; 62
 	const ICON_MILOTIC    ; 63
-	const ICON_SKRELP    ; 64
+	const ICON_VOLTORB    ; 64
 	const ICON_DRAGALGE  ; 65
 	const ICON_EXEGGCUTE  ; 66
 	const ICON_EXEGGUTOR  ; 67

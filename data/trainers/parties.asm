@@ -418,14 +418,14 @@ SchoolboyGroup:
 	; SCHOOLBOY (1)
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 12, ODDISH
-	db 15, SKRELP
+	db 15, VOLTORB
 	db -1 ; end
 
 	; SCHOOLBOY (2)
 	db "KIPP@", TRAINERTYPE_NORMAL
-	db 27, SKRELP
+	db 27, VOLTORB
 	db 27, MAGNEMITE
-	db 31, SKRELP
+	db 31, VOLTORB
 	db 31, MAGNETON
 	db -1 ; end
 
@@ -493,7 +493,7 @@ SchoolboyGroup:
 	; SCHOOLBOY (13)
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 14, ODDISH
-	db 17, SKRELP
+	db 17, VOLTORB
 	db -1 ; end
 
 	; SCHOOLBOY (14)
@@ -2165,7 +2165,7 @@ SuperNerdGroup:
 	; SUPER_NERD (10)
 	db "TERU@", TRAINERTYPE_NORMAL
 	db  7, MAGNEMITE
-	db 11, SKRELP
+	db 11, VOLTORB
 	db  7, MAGNEMITE
 	db  9, MAGNEMITE
 	db -1 ; end
@@ -2262,7 +2262,7 @@ GuitaristGroup:
 	; GUITARIST (2)
 	db "VINCENT@", TRAINERTYPE_NORMAL
 	db 27, MAGNEMITE
-	db 33, SKRELP
+	db 33, VOLTORB
 	db 32, MAGNEMITE
 	db 32, MAGNEMITE
 	db -1 ; end
@@ -2554,10 +2554,10 @@ FirebreatherGroup:
 JugglerGroup:
 	; JUGGLER (1)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  2, SKRELP
-	db  6, SKRELP
-	db 10, SKRELP
-	db 14, SKRELP
+	db  2, VOLTORB
+	db  6, VOLTORB
+	db 10, VOLTORB
+	db 14, VOLTORB
 	db -1 ; end
 
 	; JUGGLER (2)
@@ -2577,25 +2577,25 @@ JugglerGroup:
 
 	; JUGGLER (4)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  6, SKRELP
-	db 10, SKRELP
-	db 14, SKRELP
-	db 18, SKRELP
+	db  6, VOLTORB
+	db 10, VOLTORB
+	db 14, VOLTORB
+	db 18, VOLTORB
 	db -1 ; end
 
 	; JUGGLER (5)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 18, SKRELP
-	db 22, SKRELP
-	db 26, SKRELP
+	db 18, VOLTORB
+	db 22, VOLTORB
+	db 26, VOLTORB
 	db 30, DRAGALGE
 	db -1 ; end
 
 	; JUGGLER (6)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 18, SKRELP
-	db 22, SKRELP
-	db 26, SKRELP
+	db 18, VOLTORB
+	db 22, VOLTORB
+	db 26, VOLTORB
 	db 30, DRAGALGE
 	db -1 ; end
 
