@@ -103,7 +103,7 @@ AnimationIdlePointers:
 	dw ElectrodeAnimationIdle
 	dw ExeggcuteAnimationIdle
 	dw ExeggutorAnimationIdle
-	dw ImipupAnimationIdle
+	dw CuboneAnimationIdle
 	dw SabrawlerAnimationIdle
 	dw YamaskAnimationIdle
 	dw CofagrigusAnimationIdle

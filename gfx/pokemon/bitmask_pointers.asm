@@ -103,7 +103,7 @@ BitmasksPointers:
 	dw ElectrodeBitmasks
 	dw ExeggcuteBitmasks
 	dw ExeggutorBitmasks
-	dw ImipupBitmasks
+	dw CuboneBitmasks
 	dw SabrawlerBitmasks
 	dw YamaskBitmasks
 	dw CofagrigusBitmasks

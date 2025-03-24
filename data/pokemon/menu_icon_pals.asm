@@ -108,8 +108,8 @@ MonMenuIconPals:
 	icon_pals RED, RED   ; Electrode
 	icon_pals PINK, TEAL   ; Exeggcute
 	icon_pals GREEN, TEAL   ; Exeggutor
-	icon_pals GRAY, TEAL   ; Imipup
-	icon_pals GRAY, TEAL   ; Sabrawler
+	icon_pals BROWN, TEAL   ; Cubone
+	icon_pals PURPLE, TEAL   ; Sabrawler
 	icon_pals RED, TEAL   ; Yamask
 	icon_pals TEAL, TEAL   ; Cofagrigus
 	icon_pals BROWN, TEAL   ; Farigiraf

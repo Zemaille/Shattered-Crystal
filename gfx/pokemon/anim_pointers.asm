@@ -103,7 +103,7 @@ AnimationPointers:
 	dw ElectrodeAnimation
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation
-	dw ImipupAnimation
+	dw CuboneAnimation
 	dw SabrawlerAnimation
 	dw YamaskAnimation
 	dw CofagrigusAnimation

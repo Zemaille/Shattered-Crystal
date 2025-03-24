@@ -709,7 +709,7 @@ LassGroup:
 	; LASS (4)
 	db "KRISE@", TRAINERTYPE_NORMAL
 	db 12, ODDISH
-	db 15, IMIPUP
+	db 15, CUBONE
 	db -1 ; end
 
 	; LASS (5)
@@ -1477,7 +1477,7 @@ TeacherGroup:
 	; TEACHER (2)
 	db "HILLARY@", TRAINERTYPE_NORMAL
 	db 32, RANCHOR
-	db 36, IMIPUP
+	db 36, CUBONE
 	db -1 ; end
 
 	; TEACHER (3)

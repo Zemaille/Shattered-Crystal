@@ -103,7 +103,7 @@ PokemonNames::
 	db "Electrode@"
 	db "Exeggcute@"
 	db "Exeggutor@"
-	db "Imipup@@@@"
+	db "Cubone@@@@"
 	db "Sabrawler@"
 	db "Yamask@@@@"
 	db "Cofagrigus"

@@ -105,7 +105,7 @@ IconPointers:
 	dw ElectrodeIcon
 	dw ExeggcuteIcon
 	dw ExeggutorIcon
-	dw ImipupIcon
+	dw CuboneIcon
 	dw SabrawlerIcon
 	dw YamaskIcon
 	dw CofagrigusIcon

@@ -16,7 +16,7 @@ Pokered_MonIndices:
 	db GENGAR
 	db NIDORAN_F
 	db NIDOQUEEN
-	db IMIPUP
+	db CUBONE
 	db RHYHORN
 	db LAPRAS
 	db ARCANINE

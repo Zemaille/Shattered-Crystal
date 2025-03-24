@@ -1320,7 +1320,7 @@ ExeggutorEvosAttacks:
 	db 1, HYPNOSIS
 	db 0 ; no more level-up moves
 
-ImipupEvosAttacks:
+CuboneEvosAttacks:
 	db EVOLVE_LEVEL, 28, SABRAWLER
 	db 0 ; no more evolutions
 	db 1, SCRATCH

@@ -100,7 +100,7 @@ AlphabeticalPokedexOrder:
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
-	db IMIPUP
+	db CUBONE
 	db INKAY
 	db IVYSAUR
 	db JIGGLYPUFF

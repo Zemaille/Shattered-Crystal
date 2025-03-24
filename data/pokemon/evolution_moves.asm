@@ -103,7 +103,7 @@ EvolutionMoves::
 	db NO_MOVE      ; ELECTRODE  
 	db NO_MOVE      ; EXEGGCUTE  
 	db STOMP    	; EXEGGUTOR  
-	db NO_MOVE      ; IMIPUP     
+	db NO_MOVE      ; CUBONE     
 	db MACH_PUNCH   ; SABRAWLER    
 	db NO_MOVE      ; YAMASK  
 	db SHADOW_CLAW  ; COFAGRIGUS 

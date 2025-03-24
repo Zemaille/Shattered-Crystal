@@ -162,7 +162,7 @@ ExeggcuteEggMoves:
 
 	db -1 ; end
 
-ImipupEggMoves:
+CuboneEggMoves:
 
 	db -1 ; end
 

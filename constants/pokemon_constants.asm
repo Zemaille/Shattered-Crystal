@@ -122,7 +122,7 @@
 	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67
-	const IMIPUP     ; 68
+	const CUBONE     ; 68
 	const SABRAWLER    ; 69
 	const YAMASK  ; 6a
 	const COFAGRIGUS ; 6b

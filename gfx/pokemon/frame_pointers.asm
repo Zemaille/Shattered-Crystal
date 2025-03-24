@@ -103,7 +103,7 @@ FramesPointers:
 	dw ElectrodeFrames
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
-	dw ImipupFrames
+	dw CuboneFrames
 	dw SabrawlerFrames
 	dw YamaskFrames
 	dw CofagrigusFrames

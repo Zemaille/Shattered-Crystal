@@ -186,7 +186,7 @@ NewPokedexOrder:
 	db GALVANTULA
 	db SNEASEL
 	db WEAVILE
-	db IMIPUP
+	db CUBONE
 	db SABRAWLER
 	db DODUO
 	db DODRIO
