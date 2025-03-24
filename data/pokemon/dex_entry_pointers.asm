@@ -107,7 +107,7 @@ PokedexDataPointerTable:
 	dw CubonePokedexEntry
 	dw MarowakPokedexEntry
 	dw QwilfishPokedexEntry
-	dw CofagrigusPokedexEntry
+	dw OverqwilPokedexEntry
 	dw FarigirafPokedexEntry
 	dw KoffingPokedexEntry
 	dw WeezingPokedexEntry

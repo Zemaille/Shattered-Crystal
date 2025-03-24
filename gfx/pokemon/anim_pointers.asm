@@ -106,7 +106,7 @@ AnimationPointers:
 	dw CuboneAnimation
 	dw MarowakAnimation
 	dw QwilfishAnimation
-	dw CofagrigusAnimation
+	dw OverqwilAnimation
 	dw FarigirafAnimation
 	dw KoffingAnimation
 	dw WeezingAnimation

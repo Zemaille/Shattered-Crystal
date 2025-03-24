@@ -106,7 +106,7 @@ EvolutionMoves::
 	db NO_MOVE      ; CUBONE     
 	db MACH_PUNCH   ; MAROWAK    
 	db NO_MOVE      ; QWILFISH  
-	db SHADOW_CLAW  ; COFAGRIGUS 
+	db SHADOW_CLAW  ; OVERQWIL 
 	db TWIN_BEAM    ; FARIGIRAF  
 	db NO_MOVE      ; KOFFING    
 	db NO_MOVE      ; WEEZING    

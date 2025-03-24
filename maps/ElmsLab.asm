@@ -161,8 +161,8 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic QWILFISH
-	cry QWILFISH
+	pokepic OVERQWIL
+	cry OVERQWIL
 	waitbutton
 	closepokepic
 	opentext
@@ -174,12 +174,12 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, QWILFISH
+	getmonname STRING_BUFFER_3, OVERQWIL
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke QWILFISH, 5, BERRY
+	givepoke OVERQWIL, 5, BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript

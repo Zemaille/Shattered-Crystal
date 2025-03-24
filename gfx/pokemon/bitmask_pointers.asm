@@ -106,7 +106,7 @@ BitmasksPointers:
 	dw CuboneBitmasks
 	dw MarowakBitmasks
 	dw QwilfishBitmasks
-	dw CofagrigusBitmasks
+	dw OverqwilBitmasks
 	dw FarigirafBitmasks
 	dw KoffingBitmasks
 	dw WeezingBitmasks

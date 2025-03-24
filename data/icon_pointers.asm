@@ -108,7 +108,7 @@ IconPointers:
 	dw CuboneIcon
 	dw MarowakIcon
 	dw QwilfishIcon
-	dw CofagrigusIcon
+	dw OverqwilIcon
 	dw FarigirafIcon
 	dw KoffingIcon
 	dw WeezingIcon

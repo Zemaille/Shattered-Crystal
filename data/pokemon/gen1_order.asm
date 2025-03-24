@@ -43,7 +43,7 @@ Pokered_MonIndices:
 	db MACHOKE
 	db MR__MIME
 	db QWILFISH
-	db COFAGRIGUS
+	db OVERQWIL
 	db ARBOK
 	db TREVENANT
 	db DEWPIDER

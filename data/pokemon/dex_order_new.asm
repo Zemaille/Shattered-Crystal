@@ -85,7 +85,7 @@ NewPokedexOrder:
 	db DUDUNSPARCE
 	db UNOWN
 	db QWILFISH
-	db COFAGRIGUS
+	db OVERQWIL
 	db NATU
 	db XATU
 	db SPIRITOMB

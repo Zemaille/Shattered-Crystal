@@ -1348,7 +1348,7 @@ MarowakEvosAttacks:
 	db 0 ; no more level-up moves
 
 QwilfishEvosAttacks:
-	db EVOLVE_LEVEL, 34, COFAGRIGUS
+	db EVOLVE_LEVEL, 34, OVERQWIL
 	db 0 ; no more evolutions
 	db 1, ASTONISH
 	db 1, PROTECT
@@ -1362,7 +1362,7 @@ QwilfishEvosAttacks:
 	db 32, TOXIC
 	db 0 ; no more level-up moves
 
-CofagrigusEvosAttacks:
+OverqwilEvosAttacks:
 	db 0 ; no more evolutions
 	db 20, WILL_O_WISP
 	db 24, HEX

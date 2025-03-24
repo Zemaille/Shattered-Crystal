@@ -108,7 +108,7 @@ MonMenuIcons:
 	db ICON_CUBONE     ; 68
 	db ICON_MAROWAK    ; 69
 	db ICON_QWILFISH  ; 6a
-	db ICON_COFAGRIGUS ; 6b
+	db ICON_OVERQWIL ; 6b
 	db ICON_FARIGIRAF  ; 6c
 	db ICON_KOFFING    ; 6d
 	db ICON_WEEZING    ; 6e

@@ -107,7 +107,7 @@
 	const ICON_CUBONE     ; 68
 	const ICON_MAROWAK    ; 69
 	const ICON_QWILFISH  ; 6a
-	const ICON_COFAGRIGUS ; 6b
+	const ICON_OVERQWIL ; 6b
 	const ICON_FARIGIRAF  ; 6c
 	const ICON_KOFFING    ; 6d
 	const ICON_WEEZING    ; 6e

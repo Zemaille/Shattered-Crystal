@@ -215,8 +215,8 @@ PokemonPicPointers::
 	dba MarowakBackpic
 	dba QwilfishFrontpic
 	dba QwilfishBackpic
-	dba CofagrigusFrontpic
-	dba CofagrigusBackpic
+	dba OverqwilFrontpic
+	dba OverqwilBackpic
 	dba FarigirafFrontpic
 	dba FarigirafBackpic
 	dba KoffingFrontpic

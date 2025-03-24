@@ -106,7 +106,7 @@ AnimationIdlePointers:
 	dw CuboneAnimationIdle
 	dw MarowakAnimationIdle
 	dw QwilfishAnimationIdle
-	dw CofagrigusAnimationIdle
+	dw OverqwilAnimationIdle
 	dw FarigirafAnimationIdle
 	dw KoffingAnimationIdle
 	dw WeezingAnimationIdle

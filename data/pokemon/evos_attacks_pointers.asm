@@ -108,7 +108,7 @@ EvosAttacksPointers::
 	dw CuboneEvosAttacks
 	dw MarowakEvosAttacks
 	dw QwilfishEvosAttacks
-	dw CofagrigusEvosAttacks
+	dw OverqwilEvosAttacks
 	dw FarigirafEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks

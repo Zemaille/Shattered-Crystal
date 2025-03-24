@@ -106,7 +106,7 @@ FramesPointers:
 	dw CuboneFrames
 	dw MarowakFrames
 	dw QwilfishFrames
-	dw CofagrigusFrames
+	dw OverqwilFrames
 	dw FarigirafFrames
 	dw KoffingFrames
 	dw WeezingFrames

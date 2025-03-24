@@ -111,7 +111,7 @@ MonMenuIconPals:
 	icon_pals BROWN, TEAL   ; Cubone
 	icon_pals PURPLE, TEAL   ; Marowak
 	icon_pals BLUE, TEAL   ; Qwilfish
-	icon_pals TEAL, TEAL   ; Cofagrigus
+	icon_pals GRAY, TEAL   ; Overqwil
 	icon_pals BROWN, TEAL   ; Farigiraf
 	icon_pals PURPLE, TEAL   ; Koffing
 	icon_pals PURPLE, TEAL   ; Weezing

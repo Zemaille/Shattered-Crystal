@@ -36,7 +36,7 @@ AlphabeticalPokedexOrder:
 	db CLEFAIRY
 	db CLODSIRE
 	db CLOYSTER
-	db COFAGRIGUS
+	db OVERQWIL
 	db CORSOLA
 	db CROBAT
 	db CROCONAW

@@ -125,7 +125,7 @@
 	const CUBONE     ; 68
 	const MAROWAK    ; 69
 	const QWILFISH  ; 6a
-	const COFAGRIGUS ; 6b
+	const OVERQWIL ; 6b
 	const FARIGIRAF  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
