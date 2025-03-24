@@ -84,7 +84,7 @@ NewPokedexOrder:
 	db DUNSPARCE
 	db DUDUNSPARCE
 	db UNOWN
-	db YAMASK
+	db QWILFISH
 	db COFAGRIGUS
 	db NATU
 	db XATU

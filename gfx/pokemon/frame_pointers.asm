@@ -105,7 +105,7 @@ FramesPointers:
 	dw ExeggutorFrames
 	dw CuboneFrames
 	dw MarowakFrames
-	dw YamaskFrames
+	dw QwilfishFrames
 	dw CofagrigusFrames
 	dw FarigirafFrames
 	dw KoffingFrames

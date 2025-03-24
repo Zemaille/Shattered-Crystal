@@ -105,7 +105,7 @@ AnimationPointers:
 	dw ExeggutorAnimation
 	dw CuboneAnimation
 	dw MarowakAnimation
-	dw YamaskAnimation
+	dw QwilfishAnimation
 	dw CofagrigusAnimation
 	dw FarigirafAnimation
 	dw KoffingAnimation

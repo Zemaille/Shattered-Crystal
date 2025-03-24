@@ -3714,7 +3714,7 @@ BattleTowerMons:
 	bigdw 152 ; SDef
 	db "KIRINRIKI@@"
 
-	db YAMASK
+	db QWILFISH
 	db FOCUS_BAND
 	db NO_MOVE, NO_MOVE, BODY_SLAM, NO_MOVE
 	dw 0 ; OT ID

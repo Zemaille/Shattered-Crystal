@@ -105,7 +105,7 @@ BitmasksPointers:
 	dw ExeggutorBitmasks
 	dw CuboneBitmasks
 	dw MarowakBitmasks
-	dw YamaskBitmasks
+	dw QwilfishBitmasks
 	dw CofagrigusBitmasks
 	dw FarigirafBitmasks
 	dw KoffingBitmasks

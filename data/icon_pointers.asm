@@ -107,7 +107,7 @@ IconPointers:
 	dw ExeggutorIcon
 	dw CuboneIcon
 	dw MarowakIcon
-	dw YamaskIcon
+	dw QwilfishIcon
 	dw CofagrigusIcon
 	dw FarigirafIcon
 	dw KoffingIcon

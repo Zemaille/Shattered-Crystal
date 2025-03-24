@@ -106,7 +106,7 @@
 	const ICON_EXEGGUTOR  ; 67
 	const ICON_CUBONE     ; 68
 	const ICON_MAROWAK    ; 69
-	const ICON_YAMASK  ; 6a
+	const ICON_QWILFISH  ; 6a
 	const ICON_COFAGRIGUS ; 6b
 	const ICON_FARIGIRAF  ; 6c
 	const ICON_KOFFING    ; 6d

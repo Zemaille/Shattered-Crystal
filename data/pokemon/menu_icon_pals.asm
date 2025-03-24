@@ -110,7 +110,7 @@ MonMenuIconPals:
 	icon_pals GREEN, TEAL   ; Exeggutor
 	icon_pals BROWN, TEAL   ; Cubone
 	icon_pals PURPLE, TEAL   ; Marowak
-	icon_pals RED, TEAL   ; Yamask
+	icon_pals BLUE, TEAL   ; Qwilfish
 	icon_pals TEAL, TEAL   ; Cofagrigus
 	icon_pals BROWN, TEAL   ; Farigiraf
 	icon_pals PURPLE, TEAL   ; Koffing

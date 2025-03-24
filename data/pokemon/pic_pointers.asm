@@ -213,8 +213,8 @@ PokemonPicPointers::
 	dba CuboneBackpic
 	dba MarowakFrontpic
 	dba MarowakBackpic
-	dba YamaskFrontpic
-	dba YamaskBackpic
+	dba QwilfishFrontpic
+	dba QwilfishBackpic
 	dba CofagrigusFrontpic
 	dba CofagrigusBackpic
 	dba FarigirafFrontpic

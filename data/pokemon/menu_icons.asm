@@ -107,7 +107,7 @@ MonMenuIcons:
 	db ICON_EXEGGUTOR  ; 67
 	db ICON_CUBONE     ; 68
 	db ICON_MAROWAK    ; 69
-	db ICON_YAMASK  ; 6a
+	db ICON_QWILFISH  ; 6a
 	db ICON_COFAGRIGUS ; 6b
 	db ICON_FARIGIRAF  ; 6c
 	db ICON_KOFFING    ; 6d

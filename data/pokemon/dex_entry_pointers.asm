@@ -106,7 +106,7 @@ PokedexDataPointerTable:
 	dw ExeggutorPokedexEntry
 	dw CubonePokedexEntry
 	dw MarowakPokedexEntry
-	dw YamaskPokedexEntry
+	dw QwilfishPokedexEntry
 	dw CofagrigusPokedexEntry
 	dw FarigirafPokedexEntry
 	dw KoffingPokedexEntry

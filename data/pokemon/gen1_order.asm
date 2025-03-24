@@ -42,7 +42,7 @@ Pokered_MonIndices:
 	db CHANSEY
 	db MACHOKE
 	db MR__MIME
-	db YAMASK
+	db QWILFISH
 	db COFAGRIGUS
 	db ARBOK
 	db TREVENANT

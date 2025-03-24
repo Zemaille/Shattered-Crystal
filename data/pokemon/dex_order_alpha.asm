@@ -250,7 +250,7 @@ AlphabeticalPokedexOrder:
 	db WOOPER
 	db WYRDEER
 	db XATU
-	db YAMASK
+	db QWILFISH
 	db YANMA
 	db YANMEGA
 	db ZAPDOS

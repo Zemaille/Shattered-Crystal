@@ -124,7 +124,7 @@
 	const EXEGGUTOR  ; 67
 	const CUBONE     ; 68
 	const MAROWAK    ; 69
-	const YAMASK  ; 6a
+	const QWILFISH  ; 6a
 	const COFAGRIGUS ; 6b
 	const FARIGIRAF  ; 6c
 	const KOFFING    ; 6d

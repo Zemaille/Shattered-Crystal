@@ -105,7 +105,7 @@ EvolutionMoves::
 	db STOMP    	; EXEGGUTOR  
 	db NO_MOVE      ; CUBONE     
 	db MACH_PUNCH   ; MAROWAK    
-	db NO_MOVE      ; YAMASK  
+	db NO_MOVE      ; QWILFISH  
 	db SHADOW_CLAW  ; COFAGRIGUS 
 	db TWIN_BEAM    ; FARIGIRAF  
 	db NO_MOVE      ; KOFFING    

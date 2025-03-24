@@ -1347,7 +1347,7 @@ MarowakEvosAttacks:
 	db 52, SUBSTITUTE
 	db 0 ; no more level-up moves
 
-YamaskEvosAttacks:
+QwilfishEvosAttacks:
 	db EVOLVE_LEVEL, 34, COFAGRIGUS
 	db 0 ; no more evolutions
 	db 1, ASTONISH
