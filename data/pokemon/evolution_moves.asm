@@ -100,7 +100,7 @@ EvolutionMoves::
 	db NO_MOVE      ; FEEBAS     
 	db WATER_PULSE  ; MILOTIC    
 	db NO_MOVE      ; VOLTORB    
-	db NO_MOVE      ; DRAGALGE  
+	db NO_MOVE      ; ELECTRODE  
 	db NO_MOVE      ; EXEGGCUTE  
 	db STOMP    	; EXEGGUTOR  
 	db NO_MOVE      ; IMIPUP     

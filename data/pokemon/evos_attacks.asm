@@ -1270,7 +1270,7 @@ MiloticEvosAttacks:
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:
-	db EVOLVE_LEVEL, 48, DRAGALGE
+	db EVOLVE_LEVEL, 48, ELECTRODE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, ACID
@@ -1283,7 +1283,7 @@ VoltorbEvosAttacks:
 	db 40, DRAGON_PULSE
 	db 0 ; no more level-up moves
 
-DragalgeEvosAttacks:
+ElectrodeEvosAttacks:
 	db 0 ; no more evolutions
 	db 25, POISON_FANG
 	db 30, WATER_PULSE

@@ -102,7 +102,7 @@ IconPointers:
 	dw FeebasIcon
 	dw MiloticIcon
 	dw VoltorbIcon
-	dw DragalgeIcon
+	dw ElectrodeIcon
 	dw ExeggcuteIcon
 	dw ExeggutorIcon
 	dw ImipupIcon

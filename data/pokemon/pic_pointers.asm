@@ -203,8 +203,8 @@ PokemonPicPointers::
 	dba MiloticBackpic
 	dba VoltorbFrontpic
 	dba VoltorbBackpic
-	dba DragalgeFrontpic
-	dba DragalgeBackpic
+	dba ElectrodeFrontpic
+	dba ElectrodeBackpic
 	dba ExeggcuteFrontpic
 	dba ExeggcuteBackpic
 	dba ExeggutorFrontpic

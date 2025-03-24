@@ -119,7 +119,7 @@
 	const FEEBAS     ; 62
 	const MILOTIC    ; 63
 	const VOLTORB    ; 64
-	const DRAGALGE  ; 65
+	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67
 	const IMIPUP     ; 68

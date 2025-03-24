@@ -100,7 +100,7 @@ AnimationPointers:
 	dw FeebasAnimation
 	dw MiloticAnimation
 	dw VoltorbAnimation
-	dw DragalgeAnimation
+	dw ElectrodeAnimation
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation
 	dw ImipupAnimation

@@ -100,7 +100,7 @@ BitmasksPointers:
 	dw FeebasBitmasks
 	dw MiloticBitmasks
 	dw VoltorbBitmasks
-	dw DragalgeBitmasks
+	dw ElectrodeBitmasks
 	dw ExeggcuteBitmasks
 	dw ExeggutorBitmasks
 	dw ImipupBitmasks

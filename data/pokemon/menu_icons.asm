@@ -102,7 +102,7 @@ MonMenuIcons:
 	db ICON_FEEBAS     ; 62
 	db ICON_MILOTIC    ; 63
 	db ICON_VOLTORB          ; 64
-	db ICON_DRAGALGE  ; 65
+	db ICON_ELECTRODE  ; 65
 	db ICON_EXEGGCUTE  ; 66
 	db ICON_EXEGGUTOR  ; 67
 	db ICON_IMIPUP     ; 68

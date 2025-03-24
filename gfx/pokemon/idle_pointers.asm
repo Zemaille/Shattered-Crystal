@@ -100,7 +100,7 @@ AnimationIdlePointers:
 	dw FeebasAnimationIdle
 	dw MiloticAnimationIdle
 	dw VoltorbAnimationIdle
-	dw DragalgeAnimationIdle
+	dw ElectrodeAnimationIdle
 	dw ExeggcuteAnimationIdle
 	dw ExeggutorAnimationIdle
 	dw ImipupAnimationIdle

@@ -201,7 +201,7 @@ NewPokedexOrder:
 	db STARYU
 	db STARMIE
 	db VOLTORB
-	db DRAGALGE
+	db ELECTRODE
 	db ABYSSEEL
 	db SMEARGLE
 	db SCYTHER

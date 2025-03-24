@@ -100,7 +100,7 @@ FramesPointers:
 	dw FeebasFrames
 	dw MiloticFrames
 	dw VoltorbFrames
-	dw DragalgeFrames
+	dw ElectrodeFrames
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
 	dw ImipupFrames

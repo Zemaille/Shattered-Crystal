@@ -102,7 +102,7 @@ EvosAttacksPointers::
 	dw FeebasEvosAttacks
 	dw MiloticEvosAttacks
 	dw VoltorbEvosAttacks
-	dw DragalgeEvosAttacks
+	dw ElectrodeEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorEvosAttacks
 	dw ImipupEvosAttacks

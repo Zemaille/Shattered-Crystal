@@ -49,7 +49,7 @@ AlphabeticalPokedexOrder:
 	db DODRIO
 	db DODUO
 	db DONPHAN
-	db DRAGALGE
+	db ELECTRODE
 	db DRAGAPULT
 	db DRAGONAIR
 	db DRAGONITE

@@ -1414,7 +1414,7 @@ BattleTowerMons:
 	bigdw 72 ; SDef
 	db "GARAGARA@@@"
 
-	db DRAGALGE
+	db ELECTRODE
 	db BRIGHTPOWDER
 	db LIGHT_SCREEN, THUNDERBOLT, PROTECT, THUNDER
 	dw 0 ; OT ID
@@ -2486,7 +2486,7 @@ BattleTowerMons:
 	bigdw 116 ; SDef
 	db "DAGUTORIO@@"
 
-	db DRAGALGE
+	db ELECTRODE
 	db MIRACLEBERRY
 	db THUNDERBOLT, EXPLOSION, MIRROR_COAT, REST
 	dw 0 ; OT ID
@@ -4263,7 +4263,7 @@ BattleTowerMons:
 	bigdw 189 ; SDef
 	db "PUTERA@@@@@"
 
-	db DRAGALGE
+	db ELECTRODE
 	db KINGS_ROCK
 	db THUNDERBOLT, EXPLOSION, MIRROR_COAT, TOXIC
 	dw 0 ; OT ID
@@ -5127,7 +5127,7 @@ BattleTowerMons:
 	bigdw 263 ; SDef
 	db "RIZA-DON@@@"
 
-	db DRAGALGE
+	db ELECTRODE
 	db BRIGHTPOWDER
 	db THUNDER_WAVE, THUNDERBOLT, EXPLOSION, MIRROR_COAT
 	dw 0 ; OT ID

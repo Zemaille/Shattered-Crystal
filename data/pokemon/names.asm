@@ -100,7 +100,7 @@ PokemonNames::
 	db "Feebas@@@@"
 	db "Milotic@@@"
 	db "Voltorb@@@"
-	db "Dragalge@@"
+	db "Electrode@"
 	db "Exeggcute@"
 	db "Exeggutor@"
 	db "Imipup@@@@"
