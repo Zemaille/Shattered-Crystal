@@ -55,8 +55,8 @@ AnimationIdlePointers:
 	dw PersianAnimationIdle
 	dw DewpiderAnimationIdle
 	dw AraquanidAnimationIdle
-	dw ShroomishAnimationIdle
-	dw BreloomAnimationIdle
+	dw TangelaAnimationIdle
+	dw TangrowthAnimationIdle
 	dw GrowlitheAnimationIdle
 	dw ArcanineAnimationIdle
 	dw PoliwagAnimationIdle
@@ -104,7 +104,7 @@ AnimationIdlePointers:
 	dw ExeggcuteAnimationIdle
 	dw ExeggutorAnimationIdle
 	dw CuboneAnimationIdle
-	dw SabrawlerAnimationIdle
+	dw MarowakAnimationIdle
 	dw YamaskAnimationIdle
 	dw CofagrigusAnimationIdle
 	dw FarigirafAnimationIdle

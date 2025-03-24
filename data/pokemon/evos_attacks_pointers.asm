@@ -57,8 +57,8 @@ EvosAttacksPointers::
 	dw PersianEvosAttacks
 	dw DewpiderEvosAttacks
 	dw AraquanidEvosAttacks
-	dw ShroomishEvosAttacks
-	dw BreloomEvosAttacks
+	dw TangelaEvosAttacks
+	dw TangrowthEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
 	dw PoliwagEvosAttacks
@@ -106,7 +106,7 @@ EvosAttacksPointers::
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorEvosAttacks
 	dw CuboneEvosAttacks
-	dw SabrawlerEvosAttacks
+	dw MarowakEvosAttacks
 	dw YamaskEvosAttacks
 	dw CofagrigusEvosAttacks
 	dw FarigirafEvosAttacks

@@ -57,8 +57,8 @@ MonMenuIcons:
 	db ICON_PERSIAN    ; 35
 	db ICON_DEWPIDER    ; 36
 	db ICON_ARAQUANID    ; 37
-	db ICON_SHROOMISH     ; 38
-	db ICON_BRELOOM   ; 39
+	db ICON_TANGELA     ; 38
+	db ICON_TANGROWTH   ; 39
 	db ICON_GROWLITHE  ; 3a
 	db ICON_ARCANINE   ; 3b
 	db ICON_POLIWAG    ; 3c
@@ -106,7 +106,7 @@ MonMenuIcons:
 	db ICON_EXEGGCUTE  ; 66
 	db ICON_EXEGGUTOR  ; 67
 	db ICON_CUBONE     ; 68
-	db ICON_SABRAWLER    ; 69
+	db ICON_MAROWAK    ; 69
 	db ICON_YAMASK  ; 6a
 	db ICON_COFAGRIGUS ; 6b
 	db ICON_FARIGIRAF  ; 6c

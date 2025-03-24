@@ -82,7 +82,7 @@ DewpiderEggMoves:
 
 	db -1 ; end
 
-ShroomishEggMoves:
+TangelaEggMoves:
 
 	db -1 ; end
 

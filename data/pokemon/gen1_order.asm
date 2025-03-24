@@ -56,7 +56,7 @@ Pokered_MonIndices:
 	db MAGNETON
 	db KOFFING
 	db SNEASEL ; MISSINGNO.
-	db SHROOMISH
+	db TANGELA
 	db PRIMEAPE
 	db DIGLETT
 	db GLISCOR
@@ -116,7 +116,7 @@ Pokered_MonIndices:
 	db DELPHOX
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
-	db BRELOOM
+	db TANGROWTH
 	db DUGTRIO
 	db CLODSIRE
 	db ANNIHILAPE
@@ -144,7 +144,7 @@ Pokered_MonIndices:
 	db CLEFABLE
 	db WEEZING
 	db PERSIAN
-	db SABRAWLER
+	db MAROWAK
 	db DRAKLOAK ; MISSINGNO.
 	db HAUNTER
 	db ABRA

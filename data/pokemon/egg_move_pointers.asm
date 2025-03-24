@@ -55,7 +55,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DewpiderEggMoves
 	dw NoEggMoves
-	dw ShroomishEggMoves
+	dw TangelaEggMoves
 	dw NoEggMoves
 	dw GrowlitheEggMoves
 	dw NoEggMoves

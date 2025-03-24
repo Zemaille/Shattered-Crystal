@@ -1388,7 +1388,7 @@ BattleTowerMons:
 	bigdw 81 ; SDef
 	db "PORIGON2@@@"
 
-	db SABRAWLER
+	db MAROWAK
 	db THICK_CLUB
 	db EARTHQUAKE, RETURN, HYPER_BEAM, NO_MOVE
 	dw 0 ; OT ID
@@ -1622,7 +1622,7 @@ BattleTowerMons:
 	bigdw 58 ; SDef
 	db "ONIDORIRU@@"
 
-	db BRELOOM
+	db TANGROWTH
 	db MIRACLEBERRY
 	db NO_MOVE, KARATE_CHOP, NO_MOVE, NO_MOVE
 	dw 0 ; OT ID
@@ -3662,7 +3662,7 @@ BattleTowerMons:
 	bigdw 226 ; SDef
 	db "BARIYA-DO@@"
 
-	db BRELOOM
+	db TANGROWTH
 	db QUICK_CLAW
 	db CROSS_CHOP, ICE_PUNCH, THUNDERPUNCH, ROCK_SLIDE
 	dw 0 ; OT ID

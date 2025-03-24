@@ -56,8 +56,8 @@
 	const ICON_PERSIAN    ; 35
 	const ICON_DEWPIDER    ; 36
 	const ICON_ARAQUANID    ; 37
-	const ICON_SHROOMISH     ; 38
-	const ICON_BRELOOM   ; 39
+	const ICON_TANGELA     ; 38
+	const ICON_TANGROWTH   ; 39
 	const ICON_GROWLITHE  ; 3a
 	const ICON_ARCANINE   ; 3b
 	const ICON_POLIWAG    ; 3c
@@ -105,7 +105,7 @@
 	const ICON_EXEGGCUTE  ; 66
 	const ICON_EXEGGUTOR  ; 67
 	const ICON_CUBONE     ; 68
-	const ICON_SABRAWLER    ; 69
+	const ICON_MAROWAK    ; 69
 	const ICON_YAMASK  ; 6a
 	const ICON_COFAGRIGUS ; 6b
 	const ICON_FARIGIRAF  ; 6c

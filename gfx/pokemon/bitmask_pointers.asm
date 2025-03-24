@@ -55,8 +55,8 @@ BitmasksPointers:
 	dw PersianBitmasks
 	dw DewpiderBitmasks
 	dw AraquanidBitmasks
-	dw ShroomishBitmasks
-	dw BreloomBitmasks
+	dw TangelaBitmasks
+	dw TangrowthBitmasks
 	dw GrowlitheBitmasks
 	dw ArcanineBitmasks
 	dw PoliwagBitmasks
@@ -104,7 +104,7 @@ BitmasksPointers:
 	dw ExeggcuteBitmasks
 	dw ExeggutorBitmasks
 	dw CuboneBitmasks
-	dw SabrawlerBitmasks
+	dw MarowakBitmasks
 	dw YamaskBitmasks
 	dw CofagrigusBitmasks
 	dw FarigirafBitmasks

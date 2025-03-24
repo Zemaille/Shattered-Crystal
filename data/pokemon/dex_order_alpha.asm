@@ -20,7 +20,7 @@ AlphabeticalPokedexOrder:
 	db BLASTOISE
 	db BLISSEY
 	db BRAIXEN
-	db BRELOOM
+	db TANGROWTH
 	db BULBASAUR
 	db BUTTERFREE
 	db CATERPIE
@@ -191,13 +191,13 @@ AlphabeticalPokedexOrder:
 	db RHYDON
 	db RHYHORN
 	db RHYPERIOR
-	db SABRAWLER
+	db MAROWAK
 	db SCIZOR
 	db SCYTHER
 	db SEADRA
 	db SENTRET
 	db SHELLDER
-	db SHROOMISH
+	db TANGELA
 	db SHUCKLE
 	db SKARMORY
 	db VOLTORB

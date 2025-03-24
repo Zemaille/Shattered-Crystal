@@ -56,8 +56,8 @@ PokedexDataPointerTable:
 	dw PersianPokedexEntry
 	dw DewpiderPokedexEntry
 	dw AraquanidPokedexEntry
-	dw ShroomishPokedexEntry
-	dw BreloomPokedexEntry
+	dw TangelaPokedexEntry
+	dw TangrowthPokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
 	dw PoliwagPokedexEntry
@@ -105,7 +105,7 @@ PokedexDataPointerTable:
 	dw ExeggcutePokedexEntry
 	dw ExeggutorPokedexEntry
 	dw CubonePokedexEntry
-	dw SabrawlerPokedexEntry
+	dw MarowakPokedexEntry
 	dw YamaskPokedexEntry
 	dw CofagrigusPokedexEntry
 	dw FarigirafPokedexEntry

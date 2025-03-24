@@ -100,8 +100,8 @@ NewPokedexOrder:
 	db SLOWPOKE
 	db SLOWBRO
 	db SLOWKING
-	db SHROOMISH
-	db BRELOOM
+	db TANGELA
+	db TANGROWTH
 	db MURKROW
 	db HONCHKROW
 	db PHANTUMP
@@ -187,7 +187,7 @@ NewPokedexOrder:
 	db SNEASEL
 	db WEAVILE
 	db CUBONE
-	db SABRAWLER
+	db MAROWAK
 	db DODUO
 	db DODRIO
 	db GLIGAR

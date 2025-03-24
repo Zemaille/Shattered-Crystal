@@ -60,7 +60,7 @@ JasmineGroup:
 ChuckGroup:
 	; CHUCK (1)
 	db "CHUCK@", TRAINERTYPE_MOVES
-	db 27, BRELOOM,   LEER, NO_MOVE, KARATE_CHOP, FURY_SWIPES
+	db 27, TANGROWTH,   LEER, NO_MOVE, KARATE_CHOP, FURY_SWIPES
 	db 30, POLIWRATH,  SPORE, NO_MOVE, SURF, DYNAMICPUNCH
 	db -1 ; end
 
@@ -368,7 +368,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (6)
 	db "IAN@", TRAINERTYPE_NORMAL
-	db 10, SHROOMISH
+	db 10, TANGELA
 	db 12, DIGLETT
 	db -1 ; end
 
@@ -1165,8 +1165,8 @@ PokemaniacGroup:
 
 	; POKEMANIAC (2)
 	db "ANDREW@", TRAINERTYPE_NORMAL
-	db 24, SABRAWLER
-	db 24, SABRAWLER
+	db 24, MAROWAK
+	db 24, MAROWAK
 	db -1 ; end
 
 	; POKEMANIAC (3)
@@ -2640,9 +2640,9 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (7)
 	db "LUNG@", TRAINERTYPE_NORMAL
-	db 23, SHROOMISH
-	db 23, SHROOMISH
-	db 25, BRELOOM
+	db 23, TANGELA
+	db 23, TANGELA
+	db 25, TANGROWTH
 	db -1 ; end
 
 	; BLACKBELT_T (8)
@@ -2957,7 +2957,7 @@ CamperGroup:
 	; CAMPER (8)
 	db "SID@", TRAINERTYPE_NORMAL
 	db 32, DUGTRIO
-	db 29, BRELOOM
+	db 29, TANGROWTH
 	db 29, POLIWRATH
 	db -1 ; end
 
@@ -2973,7 +2973,7 @@ CamperGroup:
 
 	; CAMPER (11)
 	db "TED@", TRAINERTYPE_NORMAL
-	db 17, SHROOMISH
+	db 17, TANGELA
 	db -1 ; end
 
 	; CAMPER (12)
@@ -3053,7 +3053,7 @@ CamperGroup:
 	; CAMPER (22)
 	db "QUENTIN@", TRAINERTYPE_NORMAL
 	db 30, ALTARIA
-	db 30, BRELOOM
+	db 30, TANGROWTH
 	db 30, GLISCOR
 	db -1 ; end
 

@@ -57,8 +57,8 @@ IconPointers:
 	dw PersianIcon
 	dw DewpiderIcon
 	dw AraquanidIcon
-	dw ShroomishIcon
-	dw BreloomIcon
+	dw TangelaIcon
+	dw TangrowthIcon
 	dw GrowlitheIcon
 	dw ArcanineIcon
 	dw PoliwagIcon
@@ -106,7 +106,7 @@ IconPointers:
 	dw ExeggcuteIcon
 	dw ExeggutorIcon
 	dw CuboneIcon
-	dw SabrawlerIcon
+	dw MarowakIcon
 	dw YamaskIcon
 	dw CofagrigusIcon
 	dw FarigirafIcon

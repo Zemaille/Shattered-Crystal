@@ -74,8 +74,8 @@
 	const PERSIAN    ; 35
 	const DEWPIDER    ; 36
 	const ARAQUANID    ; 37
-	const SHROOMISH     ; 38
-	const BRELOOM   ; 39
+	const TANGELA     ; 38
+	const TANGROWTH   ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
 	const POLIWAG    ; 3c
@@ -123,7 +123,7 @@
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67
 	const CUBONE     ; 68
-	const SABRAWLER    ; 69
+	const MAROWAK    ; 69
 	const YAMASK  ; 6a
 	const COFAGRIGUS ; 6b
 	const FARIGIRAF  ; 6c

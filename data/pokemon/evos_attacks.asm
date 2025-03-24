@@ -686,8 +686,8 @@ AraquanidEvosAttacks:
 	db 44, LEECH_LIFE
 	db 0 ; no more level-up moves
 
-ShroomishEvosAttacks:
-	db EVOLVE_LEVEL, 23, BRELOOM
+TangelaEvosAttacks:
+	db EVOLVE_LEVEL, 23, TANGROWTH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, ABSORB
@@ -698,7 +698,7 @@ ShroomishEvosAttacks:
 	db 19, POISONPOWDER
 	db 0 ; no more level-up moves
 
-BreloomEvosAttacks:
+TangrowthEvosAttacks:
 	db 0 ; no more evolutions
 	db 8, LEECH_SEED
 	db 12, MEGA_DRAIN
@@ -1321,7 +1321,7 @@ ExeggutorEvosAttacks:
 	db 0 ; no more level-up moves
 
 CuboneEvosAttacks:
-	db EVOLVE_LEVEL, 28, SABRAWLER
+	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, DEFENSE_CURL
@@ -1333,7 +1333,7 @@ CuboneEvosAttacks:
 	db 24, SCARY_FACE
 	db 0 ; no more level-up moves
 
-SabrawlerEvosAttacks:
+MarowakEvosAttacks:
 	db 0 ; no more evolutions
 	db 16, HEADBUTT
 	db 20, SNARL

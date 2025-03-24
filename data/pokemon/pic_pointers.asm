@@ -113,10 +113,10 @@ PokemonPicPointers::
 	dba DewpiderBackpic
 	dba AraquanidFrontpic
 	dba AraquanidBackpic
-	dba ShroomishFrontpic
-	dba ShroomishBackpic
-	dba BreloomFrontpic
-	dba BreloomBackpic
+	dba TangelaFrontpic
+	dba TangelaBackpic
+	dba TangrowthFrontpic
+	dba TangrowthBackpic
 	dba GrowlitheFrontpic
 	dba GrowlitheBackpic
 	dba ArcanineFrontpic
@@ -211,8 +211,8 @@ PokemonPicPointers::
 	dba ExeggutorBackpic
 	dba CuboneFrontpic
 	dba CuboneBackpic
-	dba SabrawlerFrontpic
-	dba SabrawlerBackpic
+	dba MarowakFrontpic
+	dba MarowakBackpic
 	dba YamaskFrontpic
 	dba YamaskBackpic
 	dba CofagrigusFrontpic

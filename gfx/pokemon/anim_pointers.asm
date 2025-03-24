@@ -55,8 +55,8 @@ AnimationPointers:
 	dw PersianAnimation
 	dw DewpiderAnimation
 	dw AraquanidAnimation
-	dw ShroomishAnimation
-	dw BreloomAnimation
+	dw TangelaAnimation
+	dw TangrowthAnimation
 	dw GrowlitheAnimation
 	dw ArcanineAnimation
 	dw PoliwagAnimation
@@ -104,7 +104,7 @@ AnimationPointers:
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation
 	dw CuboneAnimation
-	dw SabrawlerAnimation
+	dw MarowakAnimation
 	dw YamaskAnimation
 	dw CofagrigusAnimation
 	dw FarigirafAnimation

@@ -55,8 +55,8 @@ EvolutionMoves::
 	db POWER_GEM    ; PERSIAN    
 	db NO_MOVE      ; DEWPIDER    
 	db NO_MOVE      ; ARAQUANID    
-	db NO_MOVE      ; SHROOMISH     
-	db MACH_PUNCH   ; BRELOOM   
+	db NO_MOVE      ; TANGELA     
+	db MACH_PUNCH   ; TANGROWTH   
 	db NO_MOVE      ; GROWLITHE  
 	db EXTREMESPEED ; ARCANINE   
 	db NO_MOVE      ; POLIWAG    
@@ -104,7 +104,7 @@ EvolutionMoves::
 	db NO_MOVE      ; EXEGGCUTE  
 	db STOMP    	; EXEGGUTOR  
 	db NO_MOVE      ; CUBONE     
-	db MACH_PUNCH   ; SABRAWLER    
+	db MACH_PUNCH   ; MAROWAK    
 	db NO_MOVE      ; YAMASK  
 	db SHADOW_CLAW  ; COFAGRIGUS 
 	db TWIN_BEAM    ; FARIGIRAF  

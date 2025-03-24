@@ -60,8 +60,8 @@ MonMenuIconPals:
 	icon_pals BROWN, TEAL   ; Persian
 	icon_pals GREEN, TEAL   ; Dewpider
 	icon_pals GREEN, TEAL   ; Araquanid
-	icon_pals GREEN, TEAL   ; Shroomish
-	icon_pals GREEN, TEAL   ; Breloom
+	icon_pals BLUE, TEAL   ; Tangela
+	icon_pals BLUE, TEAL   ; Tangrowth
 	icon_pals RED, TEAL   ; Growlithe
 	icon_pals RED, TEAL   ; Arcanine
 	icon_pals BLUE, TEAL   ; Poliwag
@@ -109,7 +109,7 @@ MonMenuIconPals:
 	icon_pals PINK, TEAL   ; Exeggcute
 	icon_pals GREEN, TEAL   ; Exeggutor
 	icon_pals BROWN, TEAL   ; Cubone
-	icon_pals PURPLE, TEAL   ; Sabrawler
+	icon_pals PURPLE, TEAL   ; Marowak
 	icon_pals RED, TEAL   ; Yamask
 	icon_pals TEAL, TEAL   ; Cofagrigus
 	icon_pals BROWN, TEAL   ; Farigiraf

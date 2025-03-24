@@ -55,8 +55,8 @@ FramesPointers:
 	dw PersianFrames
 	dw DewpiderFrames
 	dw AraquanidFrames
-	dw ShroomishFrames
-	dw BreloomFrames
+	dw TangelaFrames
+	dw TangrowthFrames
 	dw GrowlitheFrames
 	dw ArcanineFrames
 	dw PoliwagFrames
@@ -104,7 +104,7 @@ FramesPointers:
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
 	dw CuboneFrames
-	dw SabrawlerFrames
+	dw MarowakFrames
 	dw YamaskFrames
 	dw CofagrigusFrames
 	dw FarigirafFrames
