@@ -3,7 +3,7 @@
 AlphabeticalPokedexOrder:
 	table_width 1, AlphabeticalPokedexOrder
 	db ABRA
-	db ABYSSEEL
+	db MANTINE
 	db AERODACTYL
 	db ALAKAZAM
 	db ALTARIA
@@ -20,7 +20,7 @@ AlphabeticalPokedexOrder:
 	db BLASTOISE
 	db BLISSEY
 	db BRAIXEN
-	db BRELOOM
+	db TANGROWTH
 	db BULBASAUR
 	db BUTTERFREE
 	db CATERPIE
@@ -36,7 +36,7 @@ AlphabeticalPokedexOrder:
 	db CLEFAIRY
 	db CLODSIRE
 	db CLOYSTER
-	db COFAGRIGUS
+	db OVERQWIL
 	db CORSOLA
 	db CROBAT
 	db CROCONAW
@@ -49,7 +49,7 @@ AlphabeticalPokedexOrder:
 	db DODRIO
 	db DODUO
 	db DONPHAN
-	db DRAGALGE
+	db ELECTRODE
 	db DRAGAPULT
 	db DRAGONAIR
 	db DRAGONITE
@@ -75,7 +75,7 @@ AlphabeticalPokedexOrder:
 	db FLAREON
 	db FORRETRESS
 	db FURRET
-	db GALVANTULA
+	db VENOMOTH
 	db GASTLY
 	db GENGAR
 	db GEODUDE
@@ -89,7 +89,7 @@ AlphabeticalPokedexOrder:
 	db GOODRA
 	db GOOMY
 	db GRAVELER
-	db GROTLE
+	db SKIPLOOM
 	db GROWLITHE
 	db GYARADOS
 	db HAUNTER
@@ -100,12 +100,12 @@ AlphabeticalPokedexOrder:
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
-	db IMIPUP
+	db CUBONE
 	db INKAY
 	db IVYSAUR
 	db JIGGLYPUFF
 	db JOLTEON
-	db JOLTIK
+	db VENONAT
 	db JYNX
 	db KABUTO
 	db KABUTOPS
@@ -141,7 +141,7 @@ AlphabeticalPokedexOrder:
 	db MEOWTH
 	db METAPOD
 	db MEW
-	db MEWTWO
+	db DELIBIRD
 	db MILOTIC
 	db MILTANK
 	db MISDREAVUS
@@ -186,21 +186,21 @@ AlphabeticalPokedexOrder:
 	db QUILAVA
 	db RAICHU
 	db RAIKOU
-	db RANCHOR
+	db SNEASLER
 	db RAPIDASH
 	db RHYDON
 	db RHYHORN
 	db RHYPERIOR
-	db SABRAWLER
+	db MAROWAK
 	db SCIZOR
 	db SCYTHER
 	db SEADRA
 	db SENTRET
 	db SHELLDER
-	db SHROOMISH
+	db TANGELA
 	db SHUCKLE
 	db SKARMORY
-	db SKRELP
+	db VOLTORB
 	db SLIGGOO
 	db SLOWBRO
 	db SLOWKING
@@ -229,10 +229,10 @@ AlphabeticalPokedexOrder:
 	db TOGEKISS
 	db TOGEPI
 	db TOGETIC
-	db TORTERRA
+	db JUMPLUFF
 	db TOTODILE
 	db TREVENANT
-	db TURTWIG
+	db HOPPIP
 	db TYPHLOSION
 	db TYRANITAR
 	db UMBREON
@@ -250,7 +250,7 @@ AlphabeticalPokedexOrder:
 	db WOOPER
 	db WYRDEER
 	db XATU
-	db YAMASK
+	db QWILFISH
 	db YANMA
 	db YANMEGA
 	db ZAPDOS

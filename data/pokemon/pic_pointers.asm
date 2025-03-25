@@ -113,10 +113,10 @@ PokemonPicPointers::
 	dba DewpiderBackpic
 	dba AraquanidFrontpic
 	dba AraquanidBackpic
-	dba ShroomishFrontpic
-	dba ShroomishBackpic
-	dba BreloomFrontpic
-	dba BreloomBackpic
+	dba TangelaFrontpic
+	dba TangelaBackpic
+	dba TangrowthFrontpic
+	dba TangrowthBackpic
 	dba GrowlitheFrontpic
 	dba GrowlitheBackpic
 	dba ArcanineFrontpic
@@ -139,12 +139,12 @@ PokemonPicPointers::
 	dba MachokeBackpic
 	dba MachampFrontpic
 	dba MachampBackpic
-	dba TurtwigFrontpic
-	dba TurtwigBackpic
-	dba GrotleFrontpic
-	dba GrotleBackpic
-	dba TorterraFrontpic
-	dba TorterraBackpic
+	dba HoppipFrontpic
+	dba HoppipBackpic
+	dba SkiploomFrontpic
+	dba SkiploomBackpic
+	dba JumpluffFrontpic
+	dba JumpluffBackpic
 	dba TentacoolFrontpic
 	dba TentacoolBackpic
 	dba TentacruelFrontpic
@@ -201,22 +201,22 @@ PokemonPicPointers::
 	dba FeebasBackpic
 	dba MiloticFrontpic
 	dba MiloticBackpic
-	dba SkrelpFrontpic
-	dba SkrelpBackpic
-	dba DragalgeFrontpic
-	dba DragalgeBackpic
+	dba VoltorbFrontpic
+	dba VoltorbBackpic
+	dba ElectrodeFrontpic
+	dba ElectrodeBackpic
 	dba ExeggcuteFrontpic
 	dba ExeggcuteBackpic
 	dba ExeggutorFrontpic
 	dba ExeggutorBackpic
-	dba ImipupFrontpic
-	dba ImipupBackpic
-	dba SabrawlerFrontpic
-	dba SabrawlerBackpic
-	dba YamaskFrontpic
-	dba YamaskBackpic
-	dba CofagrigusFrontpic
-	dba CofagrigusBackpic
+	dba CuboneFrontpic
+	dba CuboneBackpic
+	dba MarowakFrontpic
+	dba MarowakBackpic
+	dba QwilfishFrontpic
+	dba QwilfishBackpic
+	dba OverqwilFrontpic
+	dba OverqwilBackpic
 	dba FarigirafFrontpic
 	dba FarigirafBackpic
 	dba KoffingFrontpic
@@ -277,10 +277,10 @@ PokemonPicPointers::
 	dba FlareonBackpic
 	dba PorygonFrontpic
 	dba PorygonBackpic
-	dba JoltikFrontpic
-	dba JoltikBackpic
-	dba GalvantulaFrontpic
-	dba GalvantulaBackpic
+	dba VenonatFrontpic
+	dba VenonatBackpic
+	dba VenomothFrontpic
+	dba VenomothBackpic
 	dba KabutoFrontpic
 	dba KabutoBackpic
 	dba KabutopsFrontpic
@@ -301,8 +301,8 @@ PokemonPicPointers::
 	dba DragonairBackpic
 	dba DragoniteFrontpic
 	dba DragoniteBackpic
-	dba MewtwoFrontpic
-	dba MewtwoBackpic
+	dba DelibirdFrontpic
+	dba DelibirdBackpic
 	dba MewFrontpic
 	dba MewBackpic
 	dba ChikoritaFrontpic
@@ -381,8 +381,8 @@ PokemonPicPointers::
 	dba SliggooBackpic
 	dba GoodraFrontpic
 	dba GoodraBackpic
-	dba RanchorFrontpic
-	dba RanchorBackpic
+	dba SneaslerFrontpic
+	dba SneaslerBackpic
 	dba SunkernFrontpic
 	dba SunkernBackpic
 	dba SunfloraFrontpic
@@ -456,8 +456,8 @@ PokemonPicPointers::
 	dba KittringBackpic
 	dba CaterungFrontpic
 	dba CaterungBackpic
-	dba AbysseelFrontpic
-	dba AbysseelBackpic
+	dba MantineFrontpic
+	dba MantineBackpic
 	dba SkarmoryFrontpic
 	dba SkarmoryBackpic
 	dba HoundourFrontpic

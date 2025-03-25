@@ -57,8 +57,8 @@ IconPointers:
 	dw PersianIcon
 	dw DewpiderIcon
 	dw AraquanidIcon
-	dw ShroomishIcon
-	dw BreloomIcon
+	dw TangelaIcon
+	dw TangrowthIcon
 	dw GrowlitheIcon
 	dw ArcanineIcon
 	dw PoliwagIcon
@@ -70,9 +70,9 @@ IconPointers:
 	dw MachopIcon
 	dw MachokeIcon
 	dw MachampIcon
-	dw TurtwigIcon
-	dw GrotleIcon
-	dw TorterraIcon
+	dw HoppipIcon
+	dw SkiploomIcon
+	dw JumpluffIcon
 	dw TentacoolIcon
 	dw TentacruelIcon
 	dw GeodudeIcon
@@ -101,14 +101,14 @@ IconPointers:
 	dw MalamarIcon
 	dw FeebasIcon
 	dw MiloticIcon
-	dw SkrelpIcon
-	dw DragalgeIcon
+	dw VoltorbIcon
+	dw ElectrodeIcon
 	dw ExeggcuteIcon
 	dw ExeggutorIcon
-	dw ImipupIcon
-	dw SabrawlerIcon
-	dw YamaskIcon
-	dw CofagrigusIcon
+	dw CuboneIcon
+	dw MarowakIcon
+	dw QwilfishIcon
+	dw OverqwilIcon
 	dw FarigirafIcon
 	dw KoffingIcon
 	dw WeezingIcon
@@ -139,8 +139,8 @@ IconPointers:
 	dw JolteonIcon
 	dw FlareonIcon
 	dw PorygonIcon
-	dw JoltikIcon
-	dw GalvantulaIcon
+	dw VenonatIcon
+	dw VenomothIcon
 	dw KabutoIcon
 	dw KabutopsIcon
 	dw AerodactylIcon
@@ -151,7 +151,7 @@ IconPointers:
 	dw DratiniIcon
 	dw DragonairIcon
 	dw DragoniteIcon
-	dw MewtwoIcon
+	dw DelibirdIcon
 	dw MewIcon
 	dw ChikoritaIcon
 	dw BayleefIcon
@@ -191,7 +191,7 @@ IconPointers:
 	dw GoomyIcon
 	dw SliggooIcon
 	dw GoodraIcon
-	dw RanchorIcon
+	dw SneaslerIcon
 	dw SunkernIcon
 	dw SunfloraIcon
 	dw YanmaIcon
@@ -227,7 +227,7 @@ IconPointers:
 	dw CursolaIcon
 	dw KittringIcon
 	dw CaterungIcon
-	dw AbysseelIcon
+	dw MantineIcon
 	dw SkarmoryIcon
 	dw HoundourIcon
 	dw HoundoomIcon

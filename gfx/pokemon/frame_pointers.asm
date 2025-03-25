@@ -55,8 +55,8 @@ FramesPointers:
 	dw PersianFrames
 	dw DewpiderFrames
 	dw AraquanidFrames
-	dw ShroomishFrames
-	dw BreloomFrames
+	dw TangelaFrames
+	dw TangrowthFrames
 	dw GrowlitheFrames
 	dw ArcanineFrames
 	dw PoliwagFrames
@@ -68,9 +68,9 @@ FramesPointers:
 	dw MachopFrames
 	dw MachokeFrames
 	dw MachampFrames
-	dw TurtwigFrames
-	dw GrotleFrames
-	dw TorterraFrames
+	dw HoppipFrames
+	dw SkiploomFrames
+	dw JumpluffFrames
 	dw TentacoolFrames
 	dw TentacruelFrames
 	dw GeodudeFrames
@@ -99,14 +99,14 @@ FramesPointers:
 	dw MalamarFrames
 	dw FeebasFrames
 	dw MiloticFrames
-	dw SkrelpFrames
-	dw DragalgeFrames
+	dw VoltorbFrames
+	dw ElectrodeFrames
 	dw ExeggcuteFrames
 	dw ExeggutorFrames
-	dw ImipupFrames
-	dw SabrawlerFrames
-	dw YamaskFrames
-	dw CofagrigusFrames
+	dw CuboneFrames
+	dw MarowakFrames
+	dw QwilfishFrames
+	dw OverqwilFrames
 	dw FarigirafFrames
 	dw KoffingFrames
 	dw WeezingFrames
@@ -137,8 +137,8 @@ FramesPointers:
 	dw JolteonFrames
 	dw FlareonFrames
 	dw PorygonFrames
-	dw JoltikFrames
-	dw GalvantulaFrames
+	dw VenonatFrames
+	dw VenomothFrames
 	dw KabutoFrames
 	dw KabutopsFrames
 	dw AerodactylFrames
@@ -149,7 +149,7 @@ FramesPointers:
 	dw DratiniFrames
 	dw DragonairFrames
 	dw DragoniteFrames
-	dw MewtwoFrames
+	dw DelibirdFrames
 	dw MewFrames
 	dw ChikoritaFrames
 	dw BayleefFrames
@@ -189,7 +189,7 @@ FramesPointers:
 	dw GoomyFrames
 	dw SliggooFrames
 	dw GoodraFrames
-	dw RanchorFrames
+	dw SneaslerFrames
 	dw SunkernFrames
 	dw SunfloraFrames
 	dw YanmaFrames
@@ -225,7 +225,7 @@ FramesPointers:
 	dw CursolaFrames
 	dw KittringFrames
 	dw CaterungFrames
-	dw AbysseelFrames
+	dw MantineFrames
 	dw SkarmoryFrames
 	dw HoundourFrames
 	dw HoundoomFrames

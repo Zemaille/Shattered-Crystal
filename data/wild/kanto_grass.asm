@@ -61,21 +61,21 @@ KantoGrassWildMons:
 	def_grass_wildmons ROCK_TUNNEL_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, IMIPUP
+	db 10, CUBONE
 	db 11, GEODUDE
 	db 12, MACHOP
 	db 12, ZUBAT
 	db 15, MACHOKE
-	db 12, SABRAWLER
-	db 12, SABRAWLER
+	db 12, MAROWAK
+	db 12, MAROWAK
 	; day
-	db 10, IMIPUP
+	db 10, CUBONE
 	db 11, GEODUDE
 	db 12, MACHOP
 	db 12, ZUBAT
 	db 15, MACHOKE
-	db 12, SABRAWLER
-	db 12, SABRAWLER
+	db 12, MAROWAK
+	db 12, MAROWAK
 	; nite
 	db 12, ZUBAT
 	db 11, GEODUDE
@@ -89,19 +89,19 @@ KantoGrassWildMons:
 	def_grass_wildmons ROCK_TUNNEL_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, IMIPUP
+	db 12, CUBONE
 	db 14, GEODUDE
 	db 16, ONIX
 	db 12, ZUBAT
-	db 15, SABRAWLER
+	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	; day
-	db 12, IMIPUP
+	db 12, CUBONE
 	db 14, GEODUDE
 	db 16, ONIX
 	db 12, ZUBAT
-	db 15, SABRAWLER
+	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	; nite
@@ -402,16 +402,16 @@ KantoGrassWildMons:
 	db 15, MAMOSWINE
 	db 15, ALTARIA
 	db 15, ALTARIA
-	db 18, SABRAWLER
-	db 18, SABRAWLER
+	db 18, MAROWAK
+	db 18, MAROWAK
 	; day
 	db 15, HONCHKROW
 	db 15, SWABLU
 	db 15, MAMOSWINE
 	db 15, ALTARIA
 	db 15, ALTARIA
-	db 18, SABRAWLER
-	db 18, SABRAWLER
+	db 18, MAROWAK
+	db 18, MAROWAK
 	; nite
 	db 15, HONCHKROW
 	db 15, DUDUNSPARCE
@@ -426,23 +426,23 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, SWABLU
-	db 17, SKRELP
+	db 17, VOLTORB
 	db 15, MAMOSWINE
 	db 15, ALTARIA
-	db 15, SABRAWLER
+	db 15, MAROWAK
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
 	; day
 	db 15, SWABLU
-	db 17, SKRELP
+	db 17, VOLTORB
 	db 15, MAMOSWINE
 	db 15, ALTARIA
-	db 15, SABRAWLER
+	db 15, MAROWAK
 	db 18, ELECTABUZZ
 	db 18, ELECTABUZZ
 	; nite
 	db 15, DUDUNSPARCE
-	db 17, SKRELP
+	db 17, VOLTORB
 	db 15, MAMOSWINE
 	db 15, CLODSIRE
 	db 15, ZUBAT
@@ -709,7 +709,7 @@ KantoGrassWildMons:
 	db 10, CATERPIE
 	db 12, METAPOD
 	db 12, ABRA
-	db 10, TURTWIG
+	db 10, HOPPIP
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; day
@@ -717,7 +717,7 @@ KantoGrassWildMons:
 	db 12, SUNKERN
 	db 10, CATERPIE
 	db 12, ABRA
-	db 10, TURTWIG
+	db 10, HOPPIP
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; nite
@@ -725,7 +725,7 @@ KantoGrassWildMons:
 	db 10, ODDISH
 	db 12, ODDISH
 	db 12, ABRA
-	db 10, TURTWIG
+	db 10, HOPPIP
 	db 14, GLOOM
 	db 14, GLOOM
 	end_grass_wildmons
@@ -737,7 +737,7 @@ KantoGrassWildMons:
 	db 10, PIDGEY
 	db 12, PIDGEOTTO
 	db 12, METAPOD
-	db 10, TURTWIG
+	db 10, HOPPIP
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; day
@@ -745,7 +745,7 @@ KantoGrassWildMons:
 	db 10, PIDGEY
 	db 12, PIDGEOTTO
 	db 12, METAPOD
-	db 10, TURTWIG
+	db 10, HOPPIP
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; nite
@@ -753,7 +753,7 @@ KantoGrassWildMons:
 	db 10, HOOTHOOT
 	db 10, DUDUNSPARCE
 	db 12, NOCTOWL
-	db 10, TURTWIG
+	db 10, HOPPIP
 	db 14, NOCTOWL
 	db 14, NOCTOWL
 	end_grass_wildmons

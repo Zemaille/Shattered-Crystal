@@ -74,8 +74,8 @@
 	const PERSIAN    ; 35
 	const DEWPIDER    ; 36
 	const ARAQUANID    ; 37
-	const SHROOMISH     ; 38
-	const BRELOOM   ; 39
+	const TANGELA     ; 38
+	const TANGROWTH   ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
 	const POLIWAG    ; 3c
@@ -87,9 +87,9 @@
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
-	const TURTWIG ; 45
-	const GROTLE ; 46
-	const TORTERRA ; 47
+	const HOPPIP ; 45
+	const SKIPLOOM ; 46
+	const JUMPLUFF ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const GEODUDE    ; 4a
@@ -118,14 +118,14 @@
 	const MALAMAR      ; 61
 	const FEEBAS     ; 62
 	const MILOTIC    ; 63
-	const SKRELP    ; 64
-	const DRAGALGE  ; 65
+	const VOLTORB    ; 64
+	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
 	const EXEGGUTOR  ; 67
-	const IMIPUP     ; 68
-	const SABRAWLER    ; 69
-	const YAMASK  ; 6a
-	const COFAGRIGUS ; 6b
+	const CUBONE     ; 68
+	const MAROWAK    ; 69
+	const QWILFISH  ; 6a
+	const OVERQWIL ; 6b
 	const FARIGIRAF  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
@@ -156,8 +156,8 @@
 	const JOLTEON    ; 87
 	const FLAREON    ; 88
 	const PORYGON    ; 89
-	const JOLTIK    ; 8a
-	const GALVANTULA    ; 8b
+	const VENONAT    ; 8a
+	const VENOMOTH    ; 8b
 	const KABUTO     ; 8c
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e
@@ -168,7 +168,7 @@
 	const DRATINI    ; 93
 	const DRAGONAIR  ; 94
 	const DRAGONITE  ; 95
-	const MEWTWO     ; 96
+	const DELIBIRD     ; 96
 	const MEW        ; 97
 DEF JOHTO_POKEMON EQU const_value
 	const CHIKORITA  ; 98
@@ -209,7 +209,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const GOOMY     ; bb
 	const SLIGGOO   ; bc
 	const GOODRA   ; bd
-	const RANCHOR      ; be
+	const SNEASLER      ; be
 	const SUNKERN    ; bf
 	const SUNFLORA   ; c0
 	const YANMA      ; c1
@@ -245,7 +245,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const CURSOLA   ; df
 	const KITTRING  ; e0
 	const CATERUNG   ; e1
-	const ABYSSEEL    ; e2
+	const MANTINE    ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4
 	const HOUNDOOM   ; e5

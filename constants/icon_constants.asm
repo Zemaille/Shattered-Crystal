@@ -56,8 +56,8 @@
 	const ICON_PERSIAN    ; 35
 	const ICON_DEWPIDER    ; 36
 	const ICON_ARAQUANID    ; 37
-	const ICON_SHROOMISH     ; 38
-	const ICON_BRELOOM   ; 39
+	const ICON_TANGELA     ; 38
+	const ICON_TANGROWTH   ; 39
 	const ICON_GROWLITHE  ; 3a
 	const ICON_ARCANINE   ; 3b
 	const ICON_POLIWAG    ; 3c
@@ -69,9 +69,9 @@
 	const ICON_MACHOP     ; 42
 	const ICON_MACHOKE    ; 43
 	const ICON_MACHAMP    ; 44
-	const ICON_TURTWIG ; 45
-	const ICON_GROTLE ; 46
-	const ICON_TORTERRA ; 47
+	const ICON_HOPPIP ; 45
+	const ICON_SKIPLOOM ; 46
+	const ICON_JUMPLUFF ; 47
 	const ICON_TENTACOOL  ; 48
 	const ICON_TENTACRUEL ; 49
 	const ICON_GEODUDE    ; 4a
@@ -100,14 +100,14 @@
 	const ICON_MALAMAR      ; 61
 	const ICON_FEEBAS     ; 62
 	const ICON_MILOTIC    ; 63
-	const ICON_SKRELP    ; 64
-	const ICON_DRAGALGE  ; 65
+	const ICON_VOLTORB    ; 64
+	const ICON_ELECTRODE  ; 65
 	const ICON_EXEGGCUTE  ; 66
 	const ICON_EXEGGUTOR  ; 67
-	const ICON_IMIPUP     ; 68
-	const ICON_SABRAWLER    ; 69
-	const ICON_YAMASK  ; 6a
-	const ICON_COFAGRIGUS ; 6b
+	const ICON_CUBONE     ; 68
+	const ICON_MAROWAK    ; 69
+	const ICON_QWILFISH  ; 6a
+	const ICON_OVERQWIL ; 6b
 	const ICON_FARIGIRAF  ; 6c
 	const ICON_KOFFING    ; 6d
 	const ICON_WEEZING    ; 6e
@@ -138,8 +138,8 @@
 	const ICON_JOLTEON    ; 87
 	const ICON_FLAREON    ; 88
 	const ICON_PORYGON    ; 89
-	const ICON_JOLTIK    ; 8a
-	const ICON_GALVANTULA    ; 8b
+	const ICON_VENONAT    ; 8a
+	const ICON_VENOMOTH    ; 8b
 	const ICON_KABUTO     ; 8c
 	const ICON_KABUTOPS   ; 8d
 	const ICON_AERODACTYL ; 8e
@@ -150,7 +150,7 @@
 	const ICON_DRATINI    ; 93
 	const ICON_DRAGONAIR  ; 94
 	const ICON_DRAGONITE  ; 95
-	const ICON_MEWTWO     ; 96
+	const ICON_DELIBIRD     ; 96
 	const ICON_MEW        ; 97
 	const ICON_CHIKORITA  ; 98
 	const ICON_BAYLEEF    ; 99
@@ -190,7 +190,7 @@
 	const ICON_GOOMY     ; bb
 	const ICON_SLIGGOO   ; bc
 	const ICON_GOODRA   ; bd
-	const ICON_RANCHOR      ; be
+	const ICON_SNEASLER      ; be
 	const ICON_SUNKERN    ; bf
 	const ICON_SUNFLORA   ; c0
 	const ICON_YANMA      ; c1
@@ -226,7 +226,7 @@
 	const ICON_CURSOLA   ; df
 	const ICON_KITTRING  ; e0
 	const ICON_CATERUNG   ; e1
-	const ICON_ABYSSEEL    ; e2
+	const ICON_MANTINE    ; e2
 	const ICON_SKARMORY   ; e3
 	const ICON_HOUNDOUR   ; e4
 	const ICON_HOUNDOOM   ; e5

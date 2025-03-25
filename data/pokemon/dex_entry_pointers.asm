@@ -56,8 +56,8 @@ PokedexDataPointerTable:
 	dw PersianPokedexEntry
 	dw DewpiderPokedexEntry
 	dw AraquanidPokedexEntry
-	dw ShroomishPokedexEntry
-	dw BreloomPokedexEntry
+	dw TangelaPokedexEntry
+	dw TangrowthPokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
 	dw PoliwagPokedexEntry
@@ -69,9 +69,9 @@ PokedexDataPointerTable:
 	dw MachopPokedexEntry
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
-	dw TurtwigPokedexEntry
-	dw GrotlePokedexEntry
-	dw TorterraPokedexEntry
+	dw HoppipPokedexEntry
+	dw SkiploomPokedexEntry
+	dw JumpluffPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
 	dw GeodudePokedexEntry
@@ -100,14 +100,14 @@ PokedexDataPointerTable:
 	dw MalamarPokedexEntry
 	dw FeebasPokedexEntry
 	dw MiloticPokedexEntry
-	dw SkrelpPokedexEntry
-	dw DragalgePokedexEntry
+	dw VoltorbPokedexEntry
+	dw ElectrodePokedexEntry
 	dw ExeggcutePokedexEntry
 	dw ExeggutorPokedexEntry
-	dw ImipupPokedexEntry
-	dw SabrawlerPokedexEntry
-	dw YamaskPokedexEntry
-	dw CofagrigusPokedexEntry
+	dw CubonePokedexEntry
+	dw MarowakPokedexEntry
+	dw QwilfishPokedexEntry
+	dw OverqwilPokedexEntry
 	dw FarigirafPokedexEntry
 	dw KoffingPokedexEntry
 	dw WeezingPokedexEntry
@@ -138,8 +138,8 @@ PokedexDataPointerTable:
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry
 	dw PorygonPokedexEntry
-	dw JoltikPokedexEntry
-	dw GalvantulaPokedexEntry
+	dw VenonatPokedexEntry
+	dw VenomothPokedexEntry
 	dw KabutoPokedexEntry
 	dw KabutopsPokedexEntry
 	dw AerodactylPokedexEntry
@@ -150,7 +150,7 @@ PokedexDataPointerTable:
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
 	dw DragonitePokedexEntry
-	dw MewtwoPokedexEntry
+	dw DelibirdPokedexEntry
 	dw MewPokedexEntry
 	dw ChikoritaPokedexEntry
 	dw BayleefPokedexEntry
@@ -190,7 +190,7 @@ PokedexDataPointerTable:
 	dw GoomyPokedexEntry
 	dw SliggooPokedexEntry
 	dw GoodraPokedexEntry
-	dw RanchorPokedexEntry
+	dw SneaslerPokedexEntry
 	dw SunkernPokedexEntry
 	dw SunfloraPokedexEntry
 	dw YanmaPokedexEntry
@@ -226,7 +226,7 @@ PokedexDataPointerTable:
 	dw CursolaPokedexEntry
 	dw KittringPokedexEntry
 	dw CaterungPokedexEntry
-	dw AbysseelPokedexEntry
+	dw MantinePokedexEntry
 	dw SkarmoryPokedexEntry
 	dw HoundourPokedexEntry
 	dw HoundoomPokedexEntry

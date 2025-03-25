@@ -60,8 +60,8 @@ MonMenuIconPals:
 	icon_pals BROWN, TEAL   ; Persian
 	icon_pals GREEN, TEAL   ; Dewpider
 	icon_pals GREEN, TEAL   ; Araquanid
-	icon_pals GREEN, TEAL   ; Shroomish
-	icon_pals GREEN, TEAL   ; Breloom
+	icon_pals BLUE, TEAL   ; Tangela
+	icon_pals BLUE, TEAL   ; Tangrowth
 	icon_pals RED, TEAL   ; Growlithe
 	icon_pals RED, TEAL   ; Arcanine
 	icon_pals BLUE, TEAL   ; Poliwag
@@ -73,9 +73,9 @@ MonMenuIconPals:
 	icon_pals GRAY, TEAL   ; Machop
 	icon_pals GRAY, TEAL   ; Machoke
 	icon_pals GRAY, TEAL   ; Machamp
-	icon_pals GREEN, TEAL   ; Turtwig
-	icon_pals GREEN, TEAL   ; Grotle
-	icon_pals GREEN, TEAL   ; Torterra
+	icon_pals PINK, TEAL   ; Hoppip
+	icon_pals GREEN, TEAL   ; Skiploom
+	icon_pals BLUE, TEAL   ; Jumpluff
 	icon_pals BLUE, TEAL   ; Tentacool
 	icon_pals BLUE, TEAL   ; Tentacruel
 	icon_pals GRAY, TEAL   ; Geodude
@@ -104,14 +104,14 @@ MonMenuIconPals:
 	icon_pals PURPLE, TEAL   ; Malamar
 	icon_pals BLUE, TEAL   ; Feebas
 	icon_pals RED, BLUE   ; Milotic
-	icon_pals PURPLE, TEAL   ; Skrelp
-	icon_pals PURPLE, TEAL   ; Dragalge
+	icon_pals RED, RED   ; Voltorb
+	icon_pals RED, RED   ; Electrode
 	icon_pals PINK, TEAL   ; Exeggcute
 	icon_pals GREEN, TEAL   ; Exeggutor
-	icon_pals GRAY, TEAL   ; Imipup
-	icon_pals GRAY, TEAL   ; Sabrawler
-	icon_pals RED, TEAL   ; Yamask
-	icon_pals TEAL, TEAL   ; Cofagrigus
+	icon_pals BROWN, TEAL   ; Cubone
+	icon_pals PURPLE, TEAL   ; Marowak
+	icon_pals BLUE, TEAL   ; Qwilfish
+	icon_pals GRAY, TEAL   ; Overqwil
 	icon_pals BROWN, TEAL   ; Farigiraf
 	icon_pals PURPLE, TEAL   ; Koffing
 	icon_pals PURPLE, TEAL   ; Weezing
@@ -142,8 +142,8 @@ MonMenuIconPals:
 	icon_pals BROWN, TEAL   ; Jolteon
 	icon_pals RED, TEAL   ; Flareon
 	icon_pals PINK, TEAL   ; Porygon
-	icon_pals BLUE, TEAL   ; Joltik
-	icon_pals BLUE, TEAL   ; Galvantula
+	icon_pals RED, TEAL   ; Venonat
+	icon_pals PURPLE, TEAL   ; Venomoth
 	icon_pals BROWN, TEAL   ; Kabuto
 	icon_pals BROWN, TEAL   ; Kabutops
 	icon_pals GRAY, TEAL   ; Aerodactyl
@@ -154,7 +154,7 @@ MonMenuIconPals:
 	icon_pals BLUE, TEAL   ; Dratini
 	icon_pals BLUE, TEAL   ; Dragonair
 	icon_pals RED, GREEN   ; Dragonite
-	icon_pals PURPLE, TEAL   ; Mewtwo
+	icon_pals RED, TEAL   ; Delibird
 	icon_pals PINK, BLUE   ; Mew
 	icon_pals GREEN, TEAL   ; Chikorita
 	icon_pals GREEN, TEAL   ; Bayleef
@@ -194,7 +194,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, TEAL   ; Goomy
 	icon_pals PURPLE, TEAL   ; Sliggoo
 	icon_pals PURPLE, TEAL   ; Goodra
-	icon_pals GRAY, TEAL   ; Ranchor
+	icon_pals PURPLE, TEAL   ; Sneasler
 	icon_pals GREEN, TEAL   ; Sunkern
 	icon_pals GREEN, TEAL   ; Sunflora
 	icon_pals PINK, TEAL   ; Yanma
@@ -230,7 +230,7 @@ MonMenuIconPals:
 	icon_pals GRAY, TEAL   ; Cursola
 	icon_pals BLUE, TEAL   ; Kittring
 	icon_pals BLUE, TEAL   ; Caterung
-	icon_pals BLUE, TEAL   ; Abysseel
+	icon_pals BLUE, TEAL   ; Mantine
 	icon_pals GRAY, TEAL   ; Skarmory
 	icon_pals RED, TEAL   ; Houndour
 	icon_pals RED, TEAL   ; Houndoom

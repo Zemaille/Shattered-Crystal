@@ -55,8 +55,8 @@ EvolutionMoves::
 	db POWER_GEM    ; PERSIAN    
 	db NO_MOVE      ; DEWPIDER    
 	db NO_MOVE      ; ARAQUANID    
-	db NO_MOVE      ; SHROOMISH     
-	db MACH_PUNCH   ; BRELOOM   
+	db NO_MOVE      ; TANGELA     
+	db MACH_PUNCH   ; TANGROWTH   
 	db NO_MOVE      ; GROWLITHE  
 	db EXTREMESPEED ; ARCANINE   
 	db NO_MOVE      ; POLIWAG    
@@ -68,9 +68,9 @@ EvolutionMoves::
 	db NO_MOVE      ; MACHOP     
 	db NO_MOVE      ; MACHOKE    
 	db NO_MOVE      ; MACHAMP    
-	db NO_MOVE      ; TURTWIG 
-	db NO_MOVE      ; GROTLE 
-	db EARTHQUAKE   ; TORTERRA 
+	db NO_MOVE      ; HOPPIP 
+	db GUST         ; SKIPLOOM 
+	db NO_MOVE      ; JUMPLUFF 
 	db NO_MOVE      ; TENTACOOL  
 	db NO_MOVE      ; TENTACRUEL 
 	db NO_MOVE      ; GEODUDE    
@@ -99,14 +99,14 @@ EvolutionMoves::
 	db NO_MOVE      ; MALAMAR      
 	db NO_MOVE      ; FEEBAS     
 	db WATER_PULSE  ; MILOTIC    
-	db NO_MOVE      ; SKRELP    
-	db NO_MOVE      ; DRAGALGE  
+	db NO_MOVE      ; VOLTORB    
+	db NO_MOVE      ; ELECTRODE  
 	db NO_MOVE      ; EXEGGCUTE  
 	db STOMP    	; EXEGGUTOR  
-	db NO_MOVE      ; IMIPUP     
-	db MACH_PUNCH   ; SABRAWLER    
-	db NO_MOVE      ; YAMASK  
-	db SHADOW_CLAW  ; COFAGRIGUS 
+	db NO_MOVE      ; CUBONE     
+	db FIRE_PUNCH   ; MAROWAK    
+	db NO_MOVE      ; QWILFISH  
+	db POISON_JAB   ; OVERQWIL 
 	db TWIN_BEAM    ; FARIGIRAF  
 	db NO_MOVE      ; KOFFING    
 	db NO_MOVE      ; WEEZING    
@@ -137,8 +137,8 @@ EvolutionMoves::
 	db THUNDERSHOCK ; JOLTEON    
 	db EMBER        ; FLAREON    
 	db NO_MOVE      ; PORYGON    
-	db NO_MOVE      ; JOLTIK    
-	db SPIDER_WEB   ; GALVANTULA    
+	db NO_MOVE      ; VENONAT    
+	db AIR_SLASH    ; VENOMOTH    
 	db NO_MOVE      ; KABUTO     
 	db SLASH      ; KABUTOPS   
 	db NO_MOVE      ; AERODACTYL 
@@ -149,7 +149,7 @@ EvolutionMoves::
 	db NO_MOVE      ; DRATINI    
 	db NO_MOVE      ; DRAGONAIR  
 	db OUTRAGE      ; DRAGONITE  
-	db NO_MOVE      ; MEWTWO     
+	db NO_MOVE      ; DELIBIRD     
 	db NO_MOVE      ; MEW        
 	db NO_MOVE      ; CHIKORITA  
 	db NO_MOVE      ; BAYLEEF    
@@ -189,7 +189,7 @@ EvolutionMoves::
 	db NO_MOVE      ; GOOMY     
 	db NO_MOVE      ; SLIGGOO   
 	db ACID         ; GOODRA   
-	db WATERFALL    ; RANCHOR      
+	db WATERFALL    ; SNEASLER      
 	db NO_MOVE      ; SUNKERN    
 	db FLAMETHROWER ; SUNFLORA   
 	db NO_MOVE      ; YANMA      
@@ -225,7 +225,7 @@ EvolutionMoves::
 	db PERISH_SONG  ; CURSOLA   
 	db NO_MOVE      ; KITTRING  
 	db NO_MOVE      ; CATERUNG   
-	db NO_MOVE      ; ABYSSEEL    
+	db NO_MOVE      ; MANTINE    
 	db NO_MOVE      ; SKARMORY   
 	db NO_MOVE      ; HOUNDOUR   
 	db NO_MOVE      ; HOUNDOOM   

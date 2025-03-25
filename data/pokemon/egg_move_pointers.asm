@@ -55,7 +55,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DewpiderEggMoves
 	dw NoEggMoves
-	dw ShroomishEggMoves
+	dw TangelaEggMoves
 	dw NoEggMoves
 	dw GrowlitheEggMoves
 	dw NoEggMoves
@@ -68,7 +68,7 @@ EggMovePointers::
 	dw MachopEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TurtwigEggMoves
+	dw HoppipEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw TentacoolEggMoves
@@ -103,7 +103,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw ExeggcuteEggMoves
 	dw NoEggMoves
-	dw ImipupEggMoves
+	dw CuboneEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -137,7 +137,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw JoltikEggMoves
+	dw VenonatEggMoves
 	dw NoEggMoves
 	dw KabutoEggMoves
 	dw NoEggMoves
@@ -189,7 +189,7 @@ EggMovePointers::
 	dw GoomyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw RanchorEggMoves
+	dw SneaslerEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw YanmaEggMoves
@@ -225,7 +225,7 @@ EggMovePointers::
 	dw CursolaEggMoves
 	dw NoEggMoves
 	dw CaterungEggMoves
-	dw AbysseelEggMoves
+	dw MantineEggMoves
 	dw SkarmoryEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves

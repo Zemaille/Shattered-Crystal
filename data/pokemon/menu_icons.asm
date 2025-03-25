@@ -57,8 +57,8 @@ MonMenuIcons:
 	db ICON_PERSIAN    ; 35
 	db ICON_DEWPIDER    ; 36
 	db ICON_ARAQUANID    ; 37
-	db ICON_SHROOMISH     ; 38
-	db ICON_BRELOOM   ; 39
+	db ICON_TANGELA     ; 38
+	db ICON_TANGROWTH   ; 39
 	db ICON_GROWLITHE  ; 3a
 	db ICON_ARCANINE   ; 3b
 	db ICON_POLIWAG    ; 3c
@@ -70,9 +70,9 @@ MonMenuIcons:
 	db ICON_MACHOP     ; 42
 	db ICON_MACHOKE    ; 43
 	db ICON_MACHAMP    ; 44
-	db ICON_TURTWIG ; 45
-	db ICON_GROTLE ; 46
-	db ICON_TORTERRA ; 47
+	db ICON_HOPPIP ; 45
+	db ICON_SKIPLOOM ; 46
+	db ICON_JUMPLUFF ; 47
 	db ICON_TENTACOOL  ; 48
 	db ICON_TENTACRUEL ; 49
 	db ICON_GEODUDE    ; 4a
@@ -101,14 +101,14 @@ MonMenuIcons:
 	db ICON_MALAMAR      ; 61
 	db ICON_FEEBAS     ; 62
 	db ICON_MILOTIC    ; 63
-	db ICON_SKRELP    ; 64
-	db ICON_DRAGALGE  ; 65
+	db ICON_VOLTORB          ; 64
+	db ICON_ELECTRODE  ; 65
 	db ICON_EXEGGCUTE  ; 66
 	db ICON_EXEGGUTOR  ; 67
-	db ICON_IMIPUP     ; 68
-	db ICON_SABRAWLER    ; 69
-	db ICON_YAMASK  ; 6a
-	db ICON_COFAGRIGUS ; 6b
+	db ICON_CUBONE     ; 68
+	db ICON_MAROWAK    ; 69
+	db ICON_QWILFISH  ; 6a
+	db ICON_OVERQWIL ; 6b
 	db ICON_FARIGIRAF  ; 6c
 	db ICON_KOFFING    ; 6d
 	db ICON_WEEZING    ; 6e
@@ -139,8 +139,8 @@ MonMenuIcons:
 	db ICON_JOLTEON    ; 87
 	db ICON_FLAREON    ; 88
 	db ICON_PORYGON    ; 89
-	db ICON_JOLTIK    ; 8a
-	db ICON_GALVANTULA    ; 8b
+	db ICON_VENONAT    ; 8a
+	db ICON_VENOMOTH    ; 8b
 	db ICON_KABUTO     ; 8c
 	db ICON_KABUTOPS   ; 8d
 	db ICON_AERODACTYL ; 8e
@@ -151,7 +151,7 @@ MonMenuIcons:
 	db ICON_DRATINI    ; 93
 	db ICON_DRAGONAIR  ; 94
 	db ICON_DRAGONITE  ; 95
-	db ICON_MEWTWO     ; 96
+	db ICON_DELIBIRD     ; 96
 	db ICON_MEW        ; 97
 	db ICON_CHIKORITA  ; 98
 	db ICON_BAYLEEF    ; 99
@@ -191,7 +191,7 @@ MonMenuIcons:
 	db ICON_GOOMY     ; bb
 	db ICON_SLIGGOO   ; bc
 	db ICON_GOODRA   ; bd
-	db ICON_RANCHOR      ; be
+	db ICON_SNEASLER      ; be
 	db ICON_SUNKERN    ; bf
 	db ICON_SUNFLORA   ; c0
 	db ICON_YANMA      ; c1
@@ -227,7 +227,7 @@ MonMenuIcons:
 	db ICON_CURSOLA   ; df
 	db ICON_KITTRING  ; e0
 	db ICON_CATERUNG   ; e1
-	db ICON_ABYSSEEL    ; e2
+	db ICON_MANTINE    ; e2
 	db ICON_SKARMORY   ; e3
 	db ICON_HOUNDOUR   ; e4
 	db ICON_HOUNDOOM   ; e5

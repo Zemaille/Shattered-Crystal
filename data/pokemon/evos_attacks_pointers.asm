@@ -57,8 +57,8 @@ EvosAttacksPointers::
 	dw PersianEvosAttacks
 	dw DewpiderEvosAttacks
 	dw AraquanidEvosAttacks
-	dw ShroomishEvosAttacks
-	dw BreloomEvosAttacks
+	dw TangelaEvosAttacks
+	dw TangrowthEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
 	dw PoliwagEvosAttacks
@@ -70,9 +70,9 @@ EvosAttacksPointers::
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
-	dw TurtwigEvosAttacks
-	dw GrotleEvosAttacks
-	dw TorterraEvosAttacks
+	dw HoppipEvosAttacks
+	dw SkiploomEvosAttacks
+	dw JumpluffEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
 	dw GeodudeEvosAttacks
@@ -101,14 +101,14 @@ EvosAttacksPointers::
 	dw MalamarEvosAttacks
 	dw FeebasEvosAttacks
 	dw MiloticEvosAttacks
-	dw SkrelpEvosAttacks
-	dw DragalgeEvosAttacks
+	dw VoltorbEvosAttacks
+	dw ElectrodeEvosAttacks
 	dw ExeggcuteEvosAttacks
 	dw ExeggutorEvosAttacks
-	dw ImipupEvosAttacks
-	dw SabrawlerEvosAttacks
-	dw YamaskEvosAttacks
-	dw CofagrigusEvosAttacks
+	dw CuboneEvosAttacks
+	dw MarowakEvosAttacks
+	dw QwilfishEvosAttacks
+	dw OverqwilEvosAttacks
 	dw FarigirafEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks
@@ -139,8 +139,8 @@ EvosAttacksPointers::
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
-	dw JoltikEvosAttacks
-	dw GalvantulaEvosAttacks
+	dw VenonatEvosAttacks
+	dw VenomothEvosAttacks
 	dw KabutoEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks
@@ -151,7 +151,7 @@ EvosAttacksPointers::
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks
-	dw MewtwoEvosAttacks
+	dw DelibirdEvosAttacks
 	dw MewEvosAttacks
 	dw ChikoritaEvosAttacks
 	dw BayleefEvosAttacks
@@ -191,7 +191,7 @@ EvosAttacksPointers::
 	dw GoomyEvosAttacks
 	dw SliggooEvosAttacks
 	dw GoodraEvosAttacks
-	dw RanchorEvosAttacks
+	dw SneaslerEvosAttacks
 	dw SunkernEvosAttacks
 	dw SunfloraEvosAttacks
 	dw YanmaEvosAttacks
@@ -227,7 +227,7 @@ EvosAttacksPointers::
 	dw CursolaEvosAttacks
 	dw KittringEvosAttacks
 	dw CaterungEvosAttacks
-	dw AbysseelEvosAttacks
+	dw MantineEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks

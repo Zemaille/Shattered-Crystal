@@ -55,8 +55,8 @@ AnimationPointers:
 	dw PersianAnimation
 	dw DewpiderAnimation
 	dw AraquanidAnimation
-	dw ShroomishAnimation
-	dw BreloomAnimation
+	dw TangelaAnimation
+	dw TangrowthAnimation
 	dw GrowlitheAnimation
 	dw ArcanineAnimation
 	dw PoliwagAnimation
@@ -68,9 +68,9 @@ AnimationPointers:
 	dw MachopAnimation
 	dw MachokeAnimation
 	dw MachampAnimation
-	dw TurtwigAnimation
-	dw GrotleAnimation
-	dw TorterraAnimation
+	dw HoppipAnimation
+	dw SkiploomAnimation
+	dw JumpluffAnimation
 	dw TentacoolAnimation
 	dw TentacruelAnimation
 	dw GeodudeAnimation
@@ -99,14 +99,14 @@ AnimationPointers:
 	dw MalamarAnimation
 	dw FeebasAnimation
 	dw MiloticAnimation
-	dw SkrelpAnimation
-	dw DragalgeAnimation
+	dw VoltorbAnimation
+	dw ElectrodeAnimation
 	dw ExeggcuteAnimation
 	dw ExeggutorAnimation
-	dw ImipupAnimation
-	dw SabrawlerAnimation
-	dw YamaskAnimation
-	dw CofagrigusAnimation
+	dw CuboneAnimation
+	dw MarowakAnimation
+	dw QwilfishAnimation
+	dw OverqwilAnimation
 	dw FarigirafAnimation
 	dw KoffingAnimation
 	dw WeezingAnimation
@@ -137,8 +137,8 @@ AnimationPointers:
 	dw JolteonAnimation
 	dw FlareonAnimation
 	dw PorygonAnimation
-	dw JoltikAnimation
-	dw GalvantulaAnimation
+	dw VenonatAnimation
+	dw VenomothAnimation
 	dw KabutoAnimation
 	dw KabutopsAnimation
 	dw AerodactylAnimation
@@ -149,7 +149,7 @@ AnimationPointers:
 	dw DratiniAnimation
 	dw DragonairAnimation
 	dw DragoniteAnimation
-	dw MewtwoAnimation
+	dw DelibirdAnimation
 	dw MewAnimation
 	dw ChikoritaAnimation
 	dw BayleefAnimation
@@ -189,7 +189,7 @@ AnimationPointers:
 	dw GoomyAnimation
 	dw SliggooAnimation
 	dw GoodraAnimation
-	dw RanchorAnimation
+	dw SneaslerAnimation
 	dw SunkernAnimation
 	dw SunfloraAnimation
 	dw YanmaAnimation
@@ -225,7 +225,7 @@ AnimationPointers:
 	dw CursolaAnimation
 	dw KittringAnimation
 	dw CaterungAnimation
-	dw AbysseelAnimation
+	dw MantineAnimation
 	dw SkarmoryAnimation
 	dw HoundourAnimation
 	dw HoundoomAnimation

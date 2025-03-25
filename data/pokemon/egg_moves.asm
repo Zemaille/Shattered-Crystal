@@ -82,7 +82,7 @@ DewpiderEggMoves:
 
 	db -1 ; end
 
-ShroomishEggMoves:
+TangelaEggMoves:
 
 	db -1 ; end
 
@@ -102,7 +102,7 @@ MachopEggMoves:
 
 	db -1 ; end
 
-TurtwigEggMoves:
+HoppipEggMoves:
 
 	db -1 ; end
 
@@ -162,7 +162,7 @@ ExeggcuteEggMoves:
 
 	db -1 ; end
 
-ImipupEggMoves:
+CuboneEggMoves:
 
 	db -1 ; end
 
@@ -217,7 +217,7 @@ EeveeEggMoves:
 
 	db -1 ; end
 
-JoltikEggMoves:
+VenonatEggMoves:
 
 	db -1 ; end
 
@@ -305,7 +305,7 @@ GoomyEggMoves:
 
 	db -1 ; end
 
-RanchorEggMoves:
+SneaslerEggMoves:
 
 	db -1 ; end
 
@@ -385,7 +385,7 @@ CaterungEggMoves:
 
 	db -1 ; end
 
-AbysseelEggMoves:
+MantineEggMoves:
 
 	db -1 ; end
 

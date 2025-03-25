@@ -5,7 +5,7 @@ Pokered_MonIndices:
 	db NIDORAN_M
 	db CLEFAIRY
 	db SWABLU
-	db SKRELP
+	db VOLTORB
 	db NIDOKING
 	db SLOWBRO
 	db IVYSAUR
@@ -16,7 +16,7 @@ Pokered_MonIndices:
 	db GENGAR
 	db NIDORAN_F
 	db NIDOQUEEN
-	db IMIPUP
+	db CUBONE
 	db RHYHORN
 	db LAPRAS
 	db ARCANINE
@@ -42,8 +42,8 @@ Pokered_MonIndices:
 	db CHANSEY
 	db MACHOKE
 	db MR__MIME
-	db YAMASK
-	db COFAGRIGUS
+	db QWILFISH
+	db OVERQWIL
 	db ARBOK
 	db TREVENANT
 	db DEWPIDER
@@ -56,7 +56,7 @@ Pokered_MonIndices:
 	db MAGNETON
 	db KOFFING
 	db SNEASEL ; MISSINGNO.
-	db SHROOMISH
+	db TANGELA
 	db PRIMEAPE
 	db DIGLETT
 	db GLISCOR
@@ -86,7 +86,7 @@ Pokered_MonIndices:
 	db PIKACHU
 	db RAICHU
 	db CATERUNG ; MISSINGNO.
-	db ABYSSEEL ; MISSINGNO.
+	db MANTINE ; MISSINGNO.
 	db DRATINI
 	db DRAGONAIR
 	db KABUTO
@@ -97,8 +97,8 @@ Pokered_MonIndices:
 	db HOUNDOUR ; MISSINGNO.
 	db MANKEY
 	db MUNCHLAX
-	db JOLTIK
-	db GALVANTULA
+	db VENONAT
+	db VENOMOTH
 	db JIGGLYPUFF
 	db WIGGLYTUFF
 	db EEVEE
@@ -116,7 +116,7 @@ Pokered_MonIndices:
 	db DELPHOX
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
-	db BRELOOM
+	db TANGROWTH
 	db DUGTRIO
 	db CLODSIRE
 	db ANNIHILAPE
@@ -130,7 +130,7 @@ Pokered_MonIndices:
 	db ARAQUANID
 	db MALAMAR
 	db GOLBAT
-	db MEWTWO
+	db DELIBIRD
 	db SNORLAX
 	db MAGIKARP
 	db PORYGON2 ; MISSINGNO.
@@ -140,11 +140,11 @@ Pokered_MonIndices:
 	db MILOTIC
 	db CLOYSTER
 	db DREEPY ; MISSINGNO.
-	db DRAGALGE
+	db ELECTRODE
 	db CLEFABLE
 	db WEEZING
 	db PERSIAN
-	db SABRAWLER
+	db MAROWAK
 	db DRAKLOAK ; MISSINGNO.
 	db HAUNTER
 	db ABRA
@@ -187,9 +187,9 @@ Pokered_MonIndices:
 	db ODDISH
 	db GLOOM
 	db VILEPLUME
-	db TURTWIG
-	db GROTLE
-	db TORTERRA
+	db HOPPIP
+	db SKIPLOOM
+	db JUMPLUFF
 	assert_table_length 190 ; gen 1 mon indexes
 	db CHIKORITA
 	db BAYLEEF
@@ -229,7 +229,7 @@ Pokered_MonIndices:
 	db GOOMY
 	db SLIGGOO
 	db GOODRA
-	db RANCHOR
+	db SNEASLER
 	db SUNKERN
 	db SUNFLORA
 	db YANMA

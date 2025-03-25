@@ -55,8 +55,8 @@ AnimationIdlePointers:
 	dw PersianAnimationIdle
 	dw DewpiderAnimationIdle
 	dw AraquanidAnimationIdle
-	dw ShroomishAnimationIdle
-	dw BreloomAnimationIdle
+	dw TangelaAnimationIdle
+	dw TangrowthAnimationIdle
 	dw GrowlitheAnimationIdle
 	dw ArcanineAnimationIdle
 	dw PoliwagAnimationIdle
@@ -68,9 +68,9 @@ AnimationIdlePointers:
 	dw MachopAnimationIdle
 	dw MachokeAnimationIdle
 	dw MachampAnimationIdle
-	dw TurtwigAnimationIdle
-	dw GrotleAnimationIdle
-	dw TorterraAnimationIdle
+	dw HoppipAnimationIdle
+	dw SkiploomAnimationIdle
+	dw JumpluffAnimationIdle
 	dw TentacoolAnimationIdle
 	dw TentacruelAnimationIdle
 	dw GeodudeAnimationIdle
@@ -99,14 +99,14 @@ AnimationIdlePointers:
 	dw MalamarAnimationIdle
 	dw FeebasAnimationIdle
 	dw MiloticAnimationIdle
-	dw SkrelpAnimationIdle
-	dw DragalgeAnimationIdle
+	dw VoltorbAnimationIdle
+	dw ElectrodeAnimationIdle
 	dw ExeggcuteAnimationIdle
 	dw ExeggutorAnimationIdle
-	dw ImipupAnimationIdle
-	dw SabrawlerAnimationIdle
-	dw YamaskAnimationIdle
-	dw CofagrigusAnimationIdle
+	dw CuboneAnimationIdle
+	dw MarowakAnimationIdle
+	dw QwilfishAnimationIdle
+	dw OverqwilAnimationIdle
 	dw FarigirafAnimationIdle
 	dw KoffingAnimationIdle
 	dw WeezingAnimationIdle
@@ -137,8 +137,8 @@ AnimationIdlePointers:
 	dw JolteonAnimationIdle
 	dw FlareonAnimationIdle
 	dw PorygonAnimationIdle
-	dw JoltikAnimationIdle
-	dw GalvantulaAnimationIdle
+	dw VenonatAnimationIdle
+	dw VenomothAnimationIdle
 	dw KabutoAnimationIdle
 	dw KabutopsAnimationIdle
 	dw AerodactylAnimationIdle
@@ -149,7 +149,7 @@ AnimationIdlePointers:
 	dw DratiniAnimationIdle
 	dw DragonairAnimationIdle
 	dw DragoniteAnimationIdle
-	dw MewtwoAnimationIdle
+	dw DelibirdAnimationIdle
 	dw MewAnimationIdle
 	dw ChikoritaAnimationIdle
 	dw BayleefAnimationIdle
@@ -189,7 +189,7 @@ AnimationIdlePointers:
 	dw GoomyAnimationIdle
 	dw SliggooAnimationIdle
 	dw GoodraAnimationIdle
-	dw RanchorAnimationIdle
+	dw SneaslerAnimationIdle
 	dw SunkernAnimationIdle
 	dw SunfloraAnimationIdle
 	dw YanmaAnimationIdle
@@ -225,7 +225,7 @@ AnimationIdlePointers:
 	dw CursolaAnimationIdle
 	dw KittringAnimationIdle
 	dw CaterungAnimationIdle
-	dw AbysseelAnimationIdle
+	dw MantineAnimationIdle
 	dw SkarmoryAnimationIdle
 	dw HoundourAnimationIdle
 	dw HoundoomAnimationIdle

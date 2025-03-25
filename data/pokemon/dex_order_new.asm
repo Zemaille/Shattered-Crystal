@@ -84,8 +84,8 @@ NewPokedexOrder:
 	db DUNSPARCE
 	db DUDUNSPARCE
 	db UNOWN
-	db YAMASK
-	db COFAGRIGUS
+	db QWILFISH
+	db OVERQWIL
 	db NATU
 	db XATU
 	db SPIRITOMB
@@ -94,14 +94,14 @@ NewPokedexOrder:
 	db MACHOP
 	db MACHOKE
 	db MACHAMP
-	db TURTWIG
-	db GROTLE
-	db TORTERRA
+	db HOPPIP
+	db SKIPLOOM
+	db JUMPLUFF
 	db SLOWPOKE
 	db SLOWBRO
 	db SLOWKING
-	db SHROOMISH
-	db BRELOOM
+	db TANGELA
+	db TANGROWTH
 	db MURKROW
 	db HONCHKROW
 	db PHANTUMP
@@ -181,13 +181,13 @@ NewPokedexOrder:
 	db BLISSEY
 	db CORSOLA
 	db CURSOLA
-	db RANCHOR
-	db JOLTIK
-	db GALVANTULA
+	db SNEASLER
+	db VENONAT
+	db VENOMOTH
 	db SNEASEL
 	db WEAVILE
-	db IMIPUP
-	db SABRAWLER
+	db CUBONE
+	db MAROWAK
 	db DODUO
 	db DODRIO
 	db GLIGAR
@@ -200,9 +200,9 @@ NewPokedexOrder:
 	db CLOYSTER
 	db STARYU
 	db STARMIE
-	db SKRELP
-	db DRAGALGE
-	db ABYSSEEL
+	db VOLTORB
+	db ELECTRODE
+	db MANTINE
 	db SMEARGLE
 	db SCYTHER
 	db SCIZOR
@@ -252,7 +252,7 @@ NewPokedexOrder:
 	db SUICUNE
 	db LUGIA
 	db HO_OH
-	db MEWTWO
+	db DELIBIRD
 	db MEW
 	db CELEBI
 	assert_table_length NUM_POKEMON

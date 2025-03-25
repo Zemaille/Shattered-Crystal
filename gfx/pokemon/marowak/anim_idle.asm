@@ -1,5 +1,5 @@
-	setrepeat 3
-	frame 0, 15
-	frame 5, 15
-	dorepeat 1
+	frame 0, 08
+	frame 5, 08
+	frame 0, 08
+	frame 5, 08
 	endanim
