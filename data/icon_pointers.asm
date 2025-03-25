@@ -70,9 +70,9 @@ IconPointers:
 	dw MachopIcon
 	dw MachokeIcon
 	dw MachampIcon
-	dw TurtwigIcon
-	dw GrotleIcon
-	dw TorterraIcon
+	dw HoppipIcon
+	dw SkiploomIcon
+	dw JumpluffIcon
 	dw TentacoolIcon
 	dw TentacruelIcon
 	dw GeodudeIcon
@@ -139,8 +139,8 @@ IconPointers:
 	dw JolteonIcon
 	dw FlareonIcon
 	dw PorygonIcon
-	dw JoltikIcon
-	dw GalvantulaIcon
+	dw VenonatIcon
+	dw VenomothIcon
 	dw KabutoIcon
 	dw KabutopsIcon
 	dw AerodactylIcon
@@ -227,7 +227,7 @@ IconPointers:
 	dw CursolaIcon
 	dw KittringIcon
 	dw CaterungIcon
-	dw AbysseelIcon
+	dw MantineIcon
 	dw SkarmoryIcon
 	dw HoundourIcon
 	dw HoundoomIcon

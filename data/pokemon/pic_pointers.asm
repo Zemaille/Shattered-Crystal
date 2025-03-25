@@ -139,12 +139,12 @@ PokemonPicPointers::
 	dba MachokeBackpic
 	dba MachampFrontpic
 	dba MachampBackpic
-	dba TurtwigFrontpic
-	dba TurtwigBackpic
-	dba GrotleFrontpic
-	dba GrotleBackpic
-	dba TorterraFrontpic
-	dba TorterraBackpic
+	dba HoppipFrontpic
+	dba HoppipBackpic
+	dba SkiploomFrontpic
+	dba SkiploomBackpic
+	dba JumpluffFrontpic
+	dba JumpluffBackpic
 	dba TentacoolFrontpic
 	dba TentacoolBackpic
 	dba TentacruelFrontpic
@@ -277,10 +277,10 @@ PokemonPicPointers::
 	dba FlareonBackpic
 	dba PorygonFrontpic
 	dba PorygonBackpic
-	dba JoltikFrontpic
-	dba JoltikBackpic
-	dba GalvantulaFrontpic
-	dba GalvantulaBackpic
+	dba VenonatFrontpic
+	dba VenonatBackpic
+	dba VenomothFrontpic
+	dba VenomothBackpic
 	dba KabutoFrontpic
 	dba KabutoBackpic
 	dba KabutopsFrontpic
@@ -456,8 +456,8 @@ PokemonPicPointers::
 	dba KittringBackpic
 	dba CaterungFrontpic
 	dba CaterungBackpic
-	dba AbysseelFrontpic
-	dba AbysseelBackpic
+	dba MantineFrontpic
+	dba MantineBackpic
 	dba SkarmoryFrontpic
 	dba SkarmoryBackpic
 	dba HoundourFrontpic

@@ -3,7 +3,7 @@
 AlphabeticalPokedexOrder:
 	table_width 1, AlphabeticalPokedexOrder
 	db ABRA
-	db ABYSSEEL
+	db MANTINE
 	db AERODACTYL
 	db ALAKAZAM
 	db ALTARIA
@@ -75,7 +75,7 @@ AlphabeticalPokedexOrder:
 	db FLAREON
 	db FORRETRESS
 	db FURRET
-	db GALVANTULA
+	db VENOMOTH
 	db GASTLY
 	db GENGAR
 	db GEODUDE
@@ -89,7 +89,7 @@ AlphabeticalPokedexOrder:
 	db GOODRA
 	db GOOMY
 	db GRAVELER
-	db GROTLE
+	db SKIPLOOM
 	db GROWLITHE
 	db GYARADOS
 	db HAUNTER
@@ -105,7 +105,7 @@ AlphabeticalPokedexOrder:
 	db IVYSAUR
 	db JIGGLYPUFF
 	db JOLTEON
-	db JOLTIK
+	db VENONAT
 	db JYNX
 	db KABUTO
 	db KABUTOPS
@@ -229,10 +229,10 @@ AlphabeticalPokedexOrder:
 	db TOGEKISS
 	db TOGEPI
 	db TOGETIC
-	db TORTERRA
+	db JUMPLUFF
 	db TOTODILE
 	db TREVENANT
-	db TURTWIG
+	db HOPPIP
 	db TYPHLOSION
 	db TYRANITAR
 	db UMBREON

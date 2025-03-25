@@ -845,8 +845,8 @@ MachampEvosAttacks:
 	db 66, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
-TurtwigEvosAttacks:
-	db EVOLVE_LEVEL, 18, GROTLE
+HoppipEvosAttacks:
+	db EVOLVE_LEVEL, 18, SKIPLOOM
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 3, WITHDRAW
@@ -855,8 +855,8 @@ TurtwigEvosAttacks:
 	db 17, CURSE
 	db 0 ; no more level-up moves
 
-GrotleEvosAttacks:
-	db EVOLVE_LEVEL, 32, TORTERRA
+SkiploomEvosAttacks:
+	db EVOLVE_LEVEL, 32, JUMPLUFF
 	db 0 ; no more evolutions
 	db 3, WITHDRAW
 	db 9, ABSORB
@@ -867,7 +867,7 @@ GrotleEvosAttacks:
 	db 32, LEECH_SEED
 	db 0 ; no more level-up moves
 
-TorterraEvosAttacks:
+JumpluffEvosAttacks:
 	db 0 ; no more evolutions
 	db 22, BITE
 	db 27, MEGA_DRAIN
@@ -1814,8 +1814,8 @@ PorygonEvosAttacks:
 	db 50, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-JoltikEvosAttacks:
-	db EVOLVE_LEVEL, 36, GALVANTULA
+VenonatEvosAttacks:
+	db EVOLVE_LEVEL, 36, VENOMOTH
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, FURY_CUTTER
@@ -1828,7 +1828,7 @@ JoltikEvosAttacks:
 	db 32, SIGNAL_BEAM
 	db 0 ; no more level-up moves
 
-GalvantulaEvosAttacks:
+VenomothEvosAttacks:
 	db 0 ; no more evolutions
 	db 24, AGILITY
 	db 28, SLASH
@@ -3000,7 +3000,7 @@ CaterungEvosAttacks:
 	db 56, MOONLIGHT
 	db 0 ; no more level-up moves
 
-AbysseelEvosAttacks:
+MantineEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, THUNDERSHOCK

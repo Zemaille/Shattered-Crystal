@@ -69,9 +69,9 @@
 	const ICON_MACHOP     ; 42
 	const ICON_MACHOKE    ; 43
 	const ICON_MACHAMP    ; 44
-	const ICON_TURTWIG ; 45
-	const ICON_GROTLE ; 46
-	const ICON_TORTERRA ; 47
+	const ICON_HOPPIP ; 45
+	const ICON_SKIPLOOM ; 46
+	const ICON_JUMPLUFF ; 47
 	const ICON_TENTACOOL  ; 48
 	const ICON_TENTACRUEL ; 49
 	const ICON_GEODUDE    ; 4a
@@ -138,8 +138,8 @@
 	const ICON_JOLTEON    ; 87
 	const ICON_FLAREON    ; 88
 	const ICON_PORYGON    ; 89
-	const ICON_JOLTIK    ; 8a
-	const ICON_GALVANTULA    ; 8b
+	const ICON_VENONAT    ; 8a
+	const ICON_VENOMOTH    ; 8b
 	const ICON_KABUTO     ; 8c
 	const ICON_KABUTOPS   ; 8d
 	const ICON_AERODACTYL ; 8e
@@ -226,7 +226,7 @@
 	const ICON_CURSOLA   ; df
 	const ICON_KITTRING  ; e0
 	const ICON_CATERUNG   ; e1
-	const ICON_ABYSSEEL    ; e2
+	const ICON_MANTINE    ; e2
 	const ICON_SKARMORY   ; e3
 	const ICON_HOUNDOUR   ; e4
 	const ICON_HOUNDOOM   ; e5

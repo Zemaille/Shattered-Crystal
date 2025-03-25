@@ -2041,7 +2041,7 @@ BattleTowerMons:
 	bigdw 87 ; SDef
 	db "HUoRETOSU@@"
 
-	db GALVANTULA
+	db VENOMOTH
 	db GOLD_BERRY
 	db CURSE, NO_MOVE, ANCIENTPOWER, ROCK_SMASH
 	dw 0 ; OT ID
@@ -4159,7 +4159,7 @@ BattleTowerMons:
 	bigdw 225 ; SDef
 	db "RU-ZIyuRA@@"
 
-	db ABYSSEEL
+	db MANTINE
 	db GOLD_BERRY
 	db SURF, CONFUSE_RAY, BLIZZARD, WING_ATTACK
 	dw 0 ; OT ID
@@ -4315,7 +4315,7 @@ BattleTowerMons:
 	bigdw 177 ; SDef
 	db "DAGUTORIO@@"
 
-	db TORTERRA
+	db JUMPLUFF
 	db QUICK_CLAW
 	db GIGA_DRAIN, SLUDGE_BOMB, HYPER_BEAM, TOXIC
 	dw 0 ; OT ID
@@ -5387,7 +5387,7 @@ BattleTowerMons:
 	bigdw 218 ; SDef
 	db "NAtuSI-@@@@"
 
-	db GALVANTULA
+	db VENOMOTH
 	db LEFTOVERS
 	db SURF, ANCIENTPOWER, BLIZZARD, TOXIC
 	dw 0 ; OT ID

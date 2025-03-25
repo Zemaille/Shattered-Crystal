@@ -94,9 +94,9 @@ NewPokedexOrder:
 	db MACHOP
 	db MACHOKE
 	db MACHAMP
-	db TURTWIG
-	db GROTLE
-	db TORTERRA
+	db HOPPIP
+	db SKIPLOOM
+	db JUMPLUFF
 	db SLOWPOKE
 	db SLOWBRO
 	db SLOWKING
@@ -182,8 +182,8 @@ NewPokedexOrder:
 	db CORSOLA
 	db CURSOLA
 	db RANCHOR
-	db JOLTIK
-	db GALVANTULA
+	db VENONAT
+	db VENOMOTH
 	db SNEASEL
 	db WEAVILE
 	db CUBONE
@@ -202,7 +202,7 @@ NewPokedexOrder:
 	db STARMIE
 	db VOLTORB
 	db ELECTRODE
-	db ABYSSEEL
+	db MANTINE
 	db SMEARGLE
 	db SCYTHER
 	db SCIZOR

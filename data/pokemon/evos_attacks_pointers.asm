@@ -70,9 +70,9 @@ EvosAttacksPointers::
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
-	dw TurtwigEvosAttacks
-	dw GrotleEvosAttacks
-	dw TorterraEvosAttacks
+	dw HoppipEvosAttacks
+	dw SkiploomEvosAttacks
+	dw JumpluffEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
 	dw GeodudeEvosAttacks
@@ -139,8 +139,8 @@ EvosAttacksPointers::
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
-	dw JoltikEvosAttacks
-	dw GalvantulaEvosAttacks
+	dw VenonatEvosAttacks
+	dw VenomothEvosAttacks
 	dw KabutoEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks
@@ -227,7 +227,7 @@ EvosAttacksPointers::
 	dw CursolaEvosAttacks
 	dw KittringEvosAttacks
 	dw CaterungEvosAttacks
-	dw AbysseelEvosAttacks
+	dw MantineEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks

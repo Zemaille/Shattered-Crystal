@@ -68,7 +68,7 @@ EggMovePointers::
 	dw MachopEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TurtwigEggMoves
+	dw HoppipEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw TentacoolEggMoves
@@ -137,7 +137,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw JoltikEggMoves
+	dw VenonatEggMoves
 	dw NoEggMoves
 	dw KabutoEggMoves
 	dw NoEggMoves
@@ -225,7 +225,7 @@ EggMovePointers::
 	dw CursolaEggMoves
 	dw NoEggMoves
 	dw CaterungEggMoves
-	dw AbysseelEggMoves
+	dw MantineEggMoves
 	dw SkarmoryEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves

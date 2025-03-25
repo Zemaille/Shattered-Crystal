@@ -87,9 +87,9 @@
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
-	const TURTWIG ; 45
-	const GROTLE ; 46
-	const TORTERRA ; 47
+	const HOPPIP ; 45
+	const SKIPLOOM ; 46
+	const JUMPLUFF ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const GEODUDE    ; 4a
@@ -156,8 +156,8 @@
 	const JOLTEON    ; 87
 	const FLAREON    ; 88
 	const PORYGON    ; 89
-	const JOLTIK    ; 8a
-	const GALVANTULA    ; 8b
+	const VENONAT    ; 8a
+	const VENOMOTH    ; 8b
 	const KABUTO     ; 8c
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e
@@ -245,7 +245,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const CURSOLA   ; df
 	const KITTRING  ; e0
 	const CATERUNG   ; e1
-	const ABYSSEEL    ; e2
+	const MANTINE    ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4
 	const HOUNDOOM   ; e5

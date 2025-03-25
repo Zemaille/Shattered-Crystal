@@ -68,9 +68,9 @@ BitmasksPointers:
 	dw MachopBitmasks
 	dw MachokeBitmasks
 	dw MachampBitmasks
-	dw TurtwigBitmasks
-	dw GrotleBitmasks
-	dw TorterraBitmasks
+	dw HoppipBitmasks
+	dw SkiploomBitmasks
+	dw JumpluffBitmasks
 	dw TentacoolBitmasks
 	dw TentacruelBitmasks
 	dw GeodudeBitmasks
@@ -137,8 +137,8 @@ BitmasksPointers:
 	dw JolteonBitmasks
 	dw FlareonBitmasks
 	dw PorygonBitmasks
-	dw JoltikBitmasks
-	dw GalvantulaBitmasks
+	dw VenonatBitmasks
+	dw VenomothBitmasks
 	dw KabutoBitmasks
 	dw KabutopsBitmasks
 	dw AerodactylBitmasks
@@ -225,7 +225,7 @@ BitmasksPointers:
 	dw CursolaBitmasks
 	dw KittringBitmasks
 	dw CaterungBitmasks
-	dw AbysseelBitmasks
+	dw MantineBitmasks
 	dw SkarmoryBitmasks
 	dw HoundourBitmasks
 	dw HoundoomBitmasks

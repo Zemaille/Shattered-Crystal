@@ -68,9 +68,9 @@ AnimationIdlePointers:
 	dw MachopAnimationIdle
 	dw MachokeAnimationIdle
 	dw MachampAnimationIdle
-	dw TurtwigAnimationIdle
-	dw GrotleAnimationIdle
-	dw TorterraAnimationIdle
+	dw HoppipAnimationIdle
+	dw SkiploomAnimationIdle
+	dw JumpluffAnimationIdle
 	dw TentacoolAnimationIdle
 	dw TentacruelAnimationIdle
 	dw GeodudeAnimationIdle
@@ -137,8 +137,8 @@ AnimationIdlePointers:
 	dw JolteonAnimationIdle
 	dw FlareonAnimationIdle
 	dw PorygonAnimationIdle
-	dw JoltikAnimationIdle
-	dw GalvantulaAnimationIdle
+	dw VenonatAnimationIdle
+	dw VenomothAnimationIdle
 	dw KabutoAnimationIdle
 	dw KabutopsAnimationIdle
 	dw AerodactylAnimationIdle
@@ -225,7 +225,7 @@ AnimationIdlePointers:
 	dw CursolaAnimationIdle
 	dw KittringAnimationIdle
 	dw CaterungAnimationIdle
-	dw AbysseelAnimationIdle
+	dw MantineAnimationIdle
 	dw SkarmoryAnimationIdle
 	dw HoundourAnimationIdle
 	dw HoundoomAnimationIdle

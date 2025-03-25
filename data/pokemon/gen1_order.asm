@@ -86,7 +86,7 @@ Pokered_MonIndices:
 	db PIKACHU
 	db RAICHU
 	db CATERUNG ; MISSINGNO.
-	db ABYSSEEL ; MISSINGNO.
+	db MANTINE ; MISSINGNO.
 	db DRATINI
 	db DRAGONAIR
 	db KABUTO
@@ -97,8 +97,8 @@ Pokered_MonIndices:
 	db HOUNDOUR ; MISSINGNO.
 	db MANKEY
 	db MUNCHLAX
-	db JOLTIK
-	db GALVANTULA
+	db VENONAT
+	db VENOMOTH
 	db JIGGLYPUFF
 	db WIGGLYTUFF
 	db EEVEE
@@ -187,9 +187,9 @@ Pokered_MonIndices:
 	db ODDISH
 	db GLOOM
 	db VILEPLUME
-	db TURTWIG
-	db GROTLE
-	db TORTERRA
+	db HOPPIP
+	db SKIPLOOM
+	db JUMPLUFF
 	assert_table_length 190 ; gen 1 mon indexes
 	db CHIKORITA
 	db BAYLEEF

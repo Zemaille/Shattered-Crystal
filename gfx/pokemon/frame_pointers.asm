@@ -68,9 +68,9 @@ FramesPointers:
 	dw MachopFrames
 	dw MachokeFrames
 	dw MachampFrames
-	dw TurtwigFrames
-	dw GrotleFrames
-	dw TorterraFrames
+	dw HoppipFrames
+	dw SkiploomFrames
+	dw JumpluffFrames
 	dw TentacoolFrames
 	dw TentacruelFrames
 	dw GeodudeFrames
@@ -137,8 +137,8 @@ FramesPointers:
 	dw JolteonFrames
 	dw FlareonFrames
 	dw PorygonFrames
-	dw JoltikFrames
-	dw GalvantulaFrames
+	dw VenonatFrames
+	dw VenomothFrames
 	dw KabutoFrames
 	dw KabutopsFrames
 	dw AerodactylFrames
@@ -225,7 +225,7 @@ FramesPointers:
 	dw CursolaFrames
 	dw KittringFrames
 	dw CaterungFrames
-	dw AbysseelFrames
+	dw MantineFrames
 	dw SkarmoryFrames
 	dw HoundourFrames
 	dw HoundoomFrames

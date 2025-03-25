@@ -102,7 +102,7 @@ MachopEggMoves:
 
 	db -1 ; end
 
-TurtwigEggMoves:
+HoppipEggMoves:
 
 	db -1 ; end
 
@@ -217,7 +217,7 @@ EeveeEggMoves:
 
 	db -1 ; end
 
-JoltikEggMoves:
+VenonatEggMoves:
 
 	db -1 ; end
 
@@ -385,7 +385,7 @@ CaterungEggMoves:
 
 	db -1 ; end
 
-AbysseelEggMoves:
+MantineEggMoves:
 
 	db -1 ; end
 

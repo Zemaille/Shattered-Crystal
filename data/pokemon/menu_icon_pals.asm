@@ -73,9 +73,9 @@ MonMenuIconPals:
 	icon_pals GRAY, TEAL   ; Machop
 	icon_pals GRAY, TEAL   ; Machoke
 	icon_pals GRAY, TEAL   ; Machamp
-	icon_pals GREEN, TEAL   ; Turtwig
-	icon_pals GREEN, TEAL   ; Grotle
-	icon_pals GREEN, TEAL   ; Torterra
+	icon_pals PINK, TEAL   ; Hoppip
+	icon_pals GREEN, TEAL   ; Skiploom
+	icon_pals BLUE, TEAL   ; Jumpluff
 	icon_pals BLUE, TEAL   ; Tentacool
 	icon_pals BLUE, TEAL   ; Tentacruel
 	icon_pals GRAY, TEAL   ; Geodude
@@ -142,8 +142,8 @@ MonMenuIconPals:
 	icon_pals BROWN, TEAL   ; Jolteon
 	icon_pals RED, TEAL   ; Flareon
 	icon_pals PINK, TEAL   ; Porygon
-	icon_pals BLUE, TEAL   ; Joltik
-	icon_pals BLUE, TEAL   ; Galvantula
+	icon_pals RED, TEAL   ; Venonat
+	icon_pals PURPLE, TEAL   ; Venomoth
 	icon_pals BROWN, TEAL   ; Kabuto
 	icon_pals BROWN, TEAL   ; Kabutops
 	icon_pals GRAY, TEAL   ; Aerodactyl
@@ -230,7 +230,7 @@ MonMenuIconPals:
 	icon_pals GRAY, TEAL   ; Cursola
 	icon_pals BLUE, TEAL   ; Kittring
 	icon_pals BLUE, TEAL   ; Caterung
-	icon_pals BLUE, TEAL   ; Abysseel
+	icon_pals BLUE, TEAL   ; Mantine
 	icon_pals GRAY, TEAL   ; Skarmory
 	icon_pals RED, TEAL   ; Houndour
 	icon_pals RED, TEAL   ; Houndoom

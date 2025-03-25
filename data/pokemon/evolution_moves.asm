@@ -68,9 +68,9 @@ EvolutionMoves::
 	db NO_MOVE      ; MACHOP     
 	db NO_MOVE      ; MACHOKE    
 	db NO_MOVE      ; MACHAMP    
-	db NO_MOVE      ; TURTWIG 
-	db NO_MOVE      ; GROTLE 
-	db EARTHQUAKE   ; TORTERRA 
+	db NO_MOVE      ; HOPPIP 
+	db NO_MOVE      ; SKIPLOOM 
+	db EARTHQUAKE   ; JUMPLUFF 
 	db NO_MOVE      ; TENTACOOL  
 	db NO_MOVE      ; TENTACRUEL 
 	db NO_MOVE      ; GEODUDE    
@@ -137,8 +137,8 @@ EvolutionMoves::
 	db THUNDERSHOCK ; JOLTEON    
 	db EMBER        ; FLAREON    
 	db NO_MOVE      ; PORYGON    
-	db NO_MOVE      ; JOLTIK    
-	db SPIDER_WEB   ; GALVANTULA    
+	db NO_MOVE      ; VENONAT    
+	db SPIDER_WEB   ; VENOMOTH    
 	db NO_MOVE      ; KABUTO     
 	db SLASH      ; KABUTOPS   
 	db NO_MOVE      ; AERODACTYL 
@@ -225,7 +225,7 @@ EvolutionMoves::
 	db PERISH_SONG  ; CURSOLA   
 	db NO_MOVE      ; KITTRING  
 	db NO_MOVE      ; CATERUNG   
-	db NO_MOVE      ; ABYSSEEL    
+	db NO_MOVE      ; MANTINE    
 	db NO_MOVE      ; SKARMORY   
 	db NO_MOVE      ; HOUNDOUR   
 	db NO_MOVE      ; HOUNDOOM   

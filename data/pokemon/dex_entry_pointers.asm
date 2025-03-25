@@ -69,9 +69,9 @@ PokedexDataPointerTable:
 	dw MachopPokedexEntry
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
-	dw TurtwigPokedexEntry
-	dw GrotlePokedexEntry
-	dw TorterraPokedexEntry
+	dw HoppipPokedexEntry
+	dw SkiploomPokedexEntry
+	dw JumpluffPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
 	dw GeodudePokedexEntry
@@ -138,8 +138,8 @@ PokedexDataPointerTable:
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry
 	dw PorygonPokedexEntry
-	dw JoltikPokedexEntry
-	dw GalvantulaPokedexEntry
+	dw VenonatPokedexEntry
+	dw VenomothPokedexEntry
 	dw KabutoPokedexEntry
 	dw KabutopsPokedexEntry
 	dw AerodactylPokedexEntry
@@ -226,7 +226,7 @@ PokedexDataPointerTable:
 	dw CursolaPokedexEntry
 	dw KittringPokedexEntry
 	dw CaterungPokedexEntry
-	dw AbysseelPokedexEntry
+	dw MantinePokedexEntry
 	dw SkarmoryPokedexEntry
 	dw HoundourPokedexEntry
 	dw HoundoomPokedexEntry

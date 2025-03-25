@@ -68,9 +68,9 @@ AnimationPointers:
 	dw MachopAnimation
 	dw MachokeAnimation
 	dw MachampAnimation
-	dw TurtwigAnimation
-	dw GrotleAnimation
-	dw TorterraAnimation
+	dw HoppipAnimation
+	dw SkiploomAnimation
+	dw JumpluffAnimation
 	dw TentacoolAnimation
 	dw TentacruelAnimation
 	dw GeodudeAnimation
@@ -137,8 +137,8 @@ AnimationPointers:
 	dw JolteonAnimation
 	dw FlareonAnimation
 	dw PorygonAnimation
-	dw JoltikAnimation
-	dw GalvantulaAnimation
+	dw VenonatAnimation
+	dw VenomothAnimation
 	dw KabutoAnimation
 	dw KabutopsAnimation
 	dw AerodactylAnimation
@@ -225,7 +225,7 @@ AnimationPointers:
 	dw CursolaAnimation
 	dw KittringAnimation
 	dw CaterungAnimation
-	dw AbysseelAnimation
+	dw MantineAnimation
 	dw SkarmoryAnimation
 	dw HoundourAnimation
 	dw HoundoomAnimation

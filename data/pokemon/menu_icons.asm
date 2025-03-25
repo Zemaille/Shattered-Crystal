@@ -70,9 +70,9 @@ MonMenuIcons:
 	db ICON_MACHOP     ; 42
 	db ICON_MACHOKE    ; 43
 	db ICON_MACHAMP    ; 44
-	db ICON_TURTWIG ; 45
-	db ICON_GROTLE ; 46
-	db ICON_TORTERRA ; 47
+	db ICON_HOPPIP ; 45
+	db ICON_SKIPLOOM ; 46
+	db ICON_JUMPLUFF ; 47
 	db ICON_TENTACOOL  ; 48
 	db ICON_TENTACRUEL ; 49
 	db ICON_GEODUDE    ; 4a
@@ -139,8 +139,8 @@ MonMenuIcons:
 	db ICON_JOLTEON    ; 87
 	db ICON_FLAREON    ; 88
 	db ICON_PORYGON    ; 89
-	db ICON_JOLTIK    ; 8a
-	db ICON_GALVANTULA    ; 8b
+	db ICON_VENONAT    ; 8a
+	db ICON_VENOMOTH    ; 8b
 	db ICON_KABUTO     ; 8c
 	db ICON_KABUTOPS   ; 8d
 	db ICON_AERODACTYL ; 8e
@@ -227,7 +227,7 @@ MonMenuIcons:
 	db ICON_CURSOLA   ; df
 	db ICON_KITTRING  ; e0
 	db ICON_CATERUNG   ; e1
-	db ICON_ABYSSEEL    ; e2
+	db ICON_MANTINE    ; e2
 	db ICON_SKARMORY   ; e3
 	db ICON_HOUNDOUR   ; e4
 	db ICON_HOUNDOOM   ; e5
