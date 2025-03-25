@@ -1295,7 +1295,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, LEDYBA
 	db 4, CATERPIE
-	db 5, TURTWIG
+	db 5, HOPPIP
 	db 5, PIDGEY
 	db 4, FENNEKIN
 	db 5, GOOMY
@@ -1303,7 +1303,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, PIDGEY
 	db 4, CATERPIE
-	db 5, TURTWIG
+	db 5, HOPPIP
 	db 5, PIDGEY
 	db 4, FENNEKIN
 	db 5, GOOMY
@@ -1311,7 +1311,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
-	db 5, TURTWIG
+	db 5, HOPPIP
 	db 5, HOOTHOOT
 	db 4, ZUBAT
 	db 5, GASTLY
@@ -1323,7 +1323,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, EKANS
 	db 5, HONCHKROW
-	db 7, TURTWIG
+	db 7, HOPPIP
 	db 6, GOOMY
 	db 7, PIDGEY
 	db 7, GOOMY
@@ -1331,7 +1331,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, EKANS
 	db 5, HONCHKROW
-	db 7, TURTWIG
+	db 7, HOPPIP
 	db 6, GOOMY
 	db 7, PIDGEY
 	db 7, GOOMY
@@ -1339,7 +1339,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, WOOPER
 	db 5, HONCHKROW
-	db 7, TURTWIG
+	db 7, HOPPIP
 	db 6, ZUBAT
 	db 7, HOOTHOOT
 	db 7, GASTLY
@@ -1435,7 +1435,7 @@ JohtoGrassWildMons:
 	; morn
 	db 4, LEDYBA
 	db 4, PIDGEY
-	db 5, TURTWIG
+	db 5, HOPPIP
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
@@ -1443,7 +1443,7 @@ JohtoGrassWildMons:
 	; day
 	db 4, PIDGEY
 	db 4, PIDGEY
-	db 5, TURTWIG
+	db 5, HOPPIP
 	db 5, GROWLITHE
 	db 5, PIDGEY
 	db 6, PIDGEY
@@ -1451,7 +1451,7 @@ JohtoGrassWildMons:
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
-	db 5, TURTWIG
+	db 5, HOPPIP
 	db 5, HOOTHOOT
 	db 5, HOOTHOOT
 	db 5, GASTLY
@@ -1603,24 +1603,24 @@ JohtoGrassWildMons:
 	; morn
 	db 23, RHYPERIOR
 	db 22, FARIGIRAF
-	db 22, TURTWIG
-	db 24, GROTLE
+	db 22, HOPPIP
+	db 24, SKIPLOOM
 	db 24, FARIGIRAF
 	db 26, FARIGIRAF
 	db 26, FARIGIRAF
 	; day
 	db 23, RHYPERIOR
 	db 22, FARIGIRAF
-	db 22, TURTWIG
-	db 24, GROTLE
+	db 22, HOPPIP
+	db 24, SKIPLOOM
 	db 24, FARIGIRAF
 	db 26, FARIGIRAF
 	db 26, FARIGIRAF
 	; nite
 	db 23, RHYPERIOR
 	db 22, POLIWAG
-	db 22, TURTWIG
-	db 24, GROTLE
+	db 22, HOPPIP
+	db 24, SKIPLOOM
 	db 24, POLIWHIRL
 	db 26, POLIWHIRL
 	db 26, POLIWHIRL

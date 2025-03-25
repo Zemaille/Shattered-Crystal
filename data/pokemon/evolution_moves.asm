@@ -69,8 +69,8 @@ EvolutionMoves::
 	db NO_MOVE      ; MACHOKE    
 	db NO_MOVE      ; MACHAMP    
 	db NO_MOVE      ; HOPPIP 
-	db NO_MOVE      ; SKIPLOOM 
-	db EARTHQUAKE   ; JUMPLUFF 
+	db GUST         ; SKIPLOOM 
+	db NO_MOVE      ; JUMPLUFF 
 	db NO_MOVE      ; TENTACOOL  
 	db NO_MOVE      ; TENTACRUEL 
 	db NO_MOVE      ; GEODUDE    
@@ -104,9 +104,9 @@ EvolutionMoves::
 	db NO_MOVE      ; EXEGGCUTE  
 	db STOMP    	; EXEGGUTOR  
 	db NO_MOVE      ; CUBONE     
-	db MACH_PUNCH   ; MAROWAK    
+	db FIRE_PUNCH   ; MAROWAK    
 	db NO_MOVE      ; QWILFISH  
-	db SHADOW_CLAW  ; OVERQWIL 
+	db POISON_JAB   ; OVERQWIL 
 	db TWIN_BEAM    ; FARIGIRAF  
 	db NO_MOVE      ; KOFFING    
 	db NO_MOVE      ; WEEZING    
@@ -138,7 +138,7 @@ EvolutionMoves::
 	db EMBER        ; FLAREON    
 	db NO_MOVE      ; PORYGON    
 	db NO_MOVE      ; VENONAT    
-	db SPIDER_WEB   ; VENOMOTH    
+	db AIR_SLASH    ; VENOMOTH    
 	db NO_MOVE      ; KABUTO     
 	db SLASH      ; KABUTOPS   
 	db NO_MOVE      ; AERODACTYL 
