@@ -181,7 +181,7 @@ NewPokedexOrder:
 	db BLISSEY
 	db CORSOLA
 	db CURSOLA
-	db RANCHOR
+	db SNEASLER
 	db VENONAT
 	db VENOMOTH
 	db SNEASEL

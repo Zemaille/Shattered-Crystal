@@ -189,7 +189,7 @@ EggMovePointers::
 	dw GoomyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw RanchorEggMoves
+	dw SneaslerEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw YanmaEggMoves

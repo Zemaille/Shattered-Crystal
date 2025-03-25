@@ -191,7 +191,7 @@ MonMenuIcons:
 	db ICON_GOOMY     ; bb
 	db ICON_SLIGGOO   ; bc
 	db ICON_GOODRA   ; bd
-	db ICON_RANCHOR      ; be
+	db ICON_SNEASLER      ; be
 	db ICON_SUNKERN    ; bf
 	db ICON_SUNFLORA   ; c0
 	db ICON_YANMA      ; c1

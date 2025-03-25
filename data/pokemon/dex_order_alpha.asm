@@ -186,7 +186,7 @@ AlphabeticalPokedexOrder:
 	db QUILAVA
 	db RAICHU
 	db RAIKOU
-	db RANCHOR
+	db SNEASLER
 	db RAPIDASH
 	db RHYDON
 	db RHYHORN

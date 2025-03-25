@@ -191,7 +191,7 @@ IconPointers:
 	dw GoomyIcon
 	dw SliggooIcon
 	dw GoodraIcon
-	dw RanchorIcon
+	dw SneaslerIcon
 	dw SunkernIcon
 	dw SunfloraIcon
 	dw YanmaIcon

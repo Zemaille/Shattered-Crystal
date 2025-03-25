@@ -190,7 +190,7 @@ PokedexDataPointerTable:
 	dw GoomyPokedexEntry
 	dw SliggooPokedexEntry
 	dw GoodraPokedexEntry
-	dw RanchorPokedexEntry
+	dw SneaslerPokedexEntry
 	dw SunkernPokedexEntry
 	dw SunfloraPokedexEntry
 	dw YanmaPokedexEntry

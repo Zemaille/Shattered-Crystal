@@ -2468,7 +2468,7 @@ GoodraEvosAttacks:
 	db 67, OUTRAGE
 	db 0 ; no more level-up moves
 
-RanchorEvosAttacks:
+SneaslerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER

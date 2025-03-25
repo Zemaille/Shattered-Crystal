@@ -189,7 +189,7 @@ FramesPointers:
 	dw GoomyFrames
 	dw SliggooFrames
 	dw GoodraFrames
-	dw RanchorFrames
+	dw SneaslerFrames
 	dw SunkernFrames
 	dw SunfloraFrames
 	dw YanmaFrames

@@ -194,7 +194,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, TEAL   ; Goomy
 	icon_pals PURPLE, TEAL   ; Sliggoo
 	icon_pals PURPLE, TEAL   ; Goodra
-	icon_pals GRAY, TEAL   ; Ranchor
+	icon_pals GRAY, TEAL   ; Sneasler
 	icon_pals GREEN, TEAL   ; Sunkern
 	icon_pals GREEN, TEAL   ; Sunflora
 	icon_pals PINK, TEAL   ; Yanma

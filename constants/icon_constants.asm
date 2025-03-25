@@ -190,7 +190,7 @@
 	const ICON_GOOMY     ; bb
 	const ICON_SLIGGOO   ; bc
 	const ICON_GOODRA   ; bd
-	const ICON_RANCHOR      ; be
+	const ICON_SNEASLER      ; be
 	const ICON_SUNKERN    ; bf
 	const ICON_SUNFLORA   ; c0
 	const ICON_YANMA      ; c1

@@ -381,8 +381,8 @@ PokemonPicPointers::
 	dba SliggooBackpic
 	dba GoodraFrontpic
 	dba GoodraBackpic
-	dba RanchorFrontpic
-	dba RanchorBackpic
+	dba SneaslerFrontpic
+	dba SneaslerBackpic
 	dba SunkernFrontpic
 	dba SunkernBackpic
 	dba SunfloraFrontpic

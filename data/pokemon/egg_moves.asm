@@ -305,7 +305,7 @@ GoomyEggMoves:
 
 	db -1 ; end
 
-RanchorEggMoves:
+SneaslerEggMoves:
 
 	db -1 ; end
 

@@ -189,7 +189,7 @@ PokemonNames::
 	db "Goomy@@@@@"
 	db "Sliggoo@@@"
 	db "Goodra@@@@"
-	db "Ranchor@@@"
+	db "Sneasler@@"
 	db "Sunkern@@@"
 	db "Sunflora@@"
 	db "Yanma@@@@@"
