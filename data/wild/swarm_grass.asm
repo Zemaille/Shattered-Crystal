@@ -6,56 +6,62 @@ SwarmGrassWildMons:
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, GEODUDE
-	db 3, DUNSPARCE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 2, DUNSPARCE
-	db 4, DUNSPARCE
-	db 4, DUNSPARCE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 3, GEODUDE
-	db 3, DUNSPARCE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 2, DUNSPARCE
-	db 4, DUNSPARCE
-	db 4, DUNSPARCE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 3, GEODUDE
-	db 3, DUNSPARCE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 2, DUNSPARCE
-	db 4, DUNSPARCE
-	db 4, DUNSPARCE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 
 ; Yanma swarm
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, NIDORAN_M
-	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
-	db 14, PIDGEY
-	db 10, DITTO
-	db 10, DITTO
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 12, NIDORAN_M
-	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
-	db 14, PIDGEY
-	db 10, DITTO
-	db 10, DITTO
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 12, NIDORAN_M
-	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
-	db 14, HOOTHOOT
-	db 10, DITTO
-	db 10, DITTO
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 
 	db -1 ; end

@@ -5,1709 +5,1892 @@ JohtoGrassWildMons:
 	def_grass_wildmons SPROUT_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, HONCHKROW
-	db 4, HONCHKROW
-	db 5, HONCHKROW
-	db 3, HONCHKROW
-	db 6, HONCHKROW
-	db 5, HONCHKROW
-	db 5, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 3, HONCHKROW
-	db 4, HONCHKROW
-	db 5, HONCHKROW
-	db 3, HONCHKROW
-	db 6, HONCHKROW
-	db 5, HONCHKROW
-	db 5, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 3, GASTLY
-	db 4, GASTLY
-	db 5, GASTLY
-	db 3, HONCHKROW
-	db 6, GASTLY
-	db 5, HONCHKROW
-	db 5, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, HONCHKROW
-	db 4, HONCHKROW
-	db 5, HONCHKROW
-	db 3, HONCHKROW
-	db 6, HONCHKROW
-	db 5, HONCHKROW
-	db 5, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 3, HONCHKROW
-	db 4, HONCHKROW
-	db 5, HONCHKROW
-	db 3, HONCHKROW
-	db 6, HONCHKROW
-	db 5, HONCHKROW
-	db 5, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 3, GASTLY
-	db 4, GASTLY
-	db 5, GASTLY
-	db 3, HONCHKROW
-	db 6, GASTLY
-	db 5, HONCHKROW
-	db 5, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_4F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_5F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_6F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_7F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_8F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_9F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, HONCHKROW
-	db 21, HONCHKROW
-	db 22, HONCHKROW
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, HONCHKROW
-	db 23, HONCHKROW
-	db 24, HONCHKROW
-	db 24, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, HONCHKROW
-	db 14, KOFFING
-	db 15, HONCHKROW
-	db 14, ZUBAT
-	db 15, HONCHKROW
-	db 15, MAMOSWINE
-	db 15, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 13, HONCHKROW
-	db 14, KOFFING
-	db 15, HONCHKROW
-	db 14, ZUBAT
-	db 15, HONCHKROW
-	db 15, MAMOSWINE
-	db 15, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 13, HONCHKROW
-	db 14, KOFFING
-	db 15, HONCHKROW
-	db 14, ZUBAT
-	db 15, HONCHKROW
-	db 15, MAMOSWINE
-	db 15, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, HONCHKROW
-	db 14, KOFFING
-	db 16, KOFFING
-	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
-	db 16, WEEZING
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 14, HONCHKROW
-	db 14, KOFFING
-	db 16, KOFFING
-	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
-	db 16, WEEZING
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 14, HONCHKROW
-	db 14, KOFFING
-	db 16, KOFFING
-	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
-	db 16, WEEZING
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, NIDORAN_M
-	db 12, NIDORAN_F
-	db 14, LEDYBA
-	db 13, PIDGEY
-	db 10, CATERPIE
-	db 10, FENNEKIN
-	db 10, FENNEKIN
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 12, NIDORAN_F
-	db 12, NIDORAN_M
-	db 14, SUNKERN
-	db 13, PIDGEY
-	db 10, CATERPIE
-	db 10, FENNEKIN
-	db 10, FENNEKIN
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 12, DEWPIDER
-	db 13, HOOTHOOT
-	db 14, SPINARAK
-	db 15, HOOTHOOT
-	db 10, DUDUNSPARCE
-	db 12, DUDUNSPARCE
-	db 12, DUDUNSPARCE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
-	db 20, SMEARGLE
-	db 22, SMEARGLE
-	db 22, SMEARGLE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
-	db 20, SMEARGLE
-	db 22, SMEARGLE
-	db 22, SMEARGLE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
-	db 22, WOOPER
-	db 22, QUAGSIRE
-	db 22, QUAGSIRE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, GEODUDE
-	db 6, MANKEY
-	db 5, ZUBAT
-	db 4, HONCHKROW
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 6, GEODUDE
-	db 6, MANKEY
-	db 5, ZUBAT
-	db 4, HONCHKROW
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 6, GEODUDE
-	db 6, HONCHKROW
-	db 5, WOOPER
-	db 4, HONCHKROW
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
-	db 8, ONIX
-	db 6, HONCHKROW
-	db 8, HONCHKROW
-	db 8, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
-	db 8, ONIX
-	db 6, HONCHKROW
-	db 8, HONCHKROW
-	db 8, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, WOOPER
-	db 8, ONIX
-	db 6, HONCHKROW
-	db 8, HONCHKROW
-	db 8, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 22, ZUBAT
-	db 21, MAMOSWINE
-	db 20, GEODUDE
-	db 23, ONIX
-	db 23, ONIX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 22, ZUBAT
-	db 21, MAMOSWINE
-	db 20, GEODUDE
-	db 23, ONIX
-	db 23, ONIX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 22, QUAGSIRE
-	db 21, MAMOSWINE
-	db 20, GEODUDE
-	db 23, ONIX
-	db 23, ONIX
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, ZUBAT
-	db 23, ZUBAT
-	db 19, ZUBAT
-	db 21, SLOWPOKE
-	db 23, GOLBAT
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 21, ZUBAT
-	db 23, ZUBAT
-	db 19, ZUBAT
-	db 21, SLOWPOKE
-	db 23, GOLBAT
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 21, ZUBAT
-	db 23, ZUBAT
-	db 19, ZUBAT
-	db 21, SLOWPOKE
-	db 23, GOLBAT
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, CATERPIE
-	db 5, FENNEKIN
-	db 7, METAPOD
-	db 7, BRAIXEN
-	db 7, PIDGEY
-	db 6, PHANTUMP
-	db 6, PHANTUMP
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 5, CATERPIE
-	db 5, FENNEKIN
-	db 7, METAPOD
-	db 7, BRAIXEN
-	db 7, PIDGEY
-	db 6, PHANTUMP
-	db 6, PHANTUMP
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 5, ODDISH
-	db 5, DUDUNSPARCE
-	db 7, ODDISH
-	db 7, DEWPIDER
-	db 7, HOOTHOOT
-	db 6, PHANTUMP
-	db 6, PHANTUMP
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, HONCHKROW
-	db 13, ZUBAT
-	db 14, MACHOP
-	db 13, GOLBAT
-	db 14, GEODUDE
-	db 16, MAMOSWINE
-	db 16, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 14, HONCHKROW
-	db 13, ZUBAT
-	db 14, MACHOP
-	db 13, GOLBAT
-	db 14, GEODUDE
-	db 16, MAMOSWINE
-	db 16, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 14, HONCHKROW
-	db 13, ZUBAT
-	db 14, MARILL
-	db 13, GOLBAT
-	db 14, GEODUDE
-	db 16, MAMOSWINE
-	db 16, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, GEODUDE
-	db 14, HONCHKROW
-	db 15, MACHOP
-	db 14, MAMOSWINE
-	db 15, ZUBAT
-	db 15, GOLBAT
-	db 15, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 13, GEODUDE
-	db 14, HONCHKROW
-	db 15, MACHOP
-	db 14, MAMOSWINE
-	db 15, ZUBAT
-	db 15, GOLBAT
-	db 15, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 13, GEODUDE
-	db 14, HONCHKROW
-	db 15, MAMOSWINE
-	db 14, ZUBAT
-	db 15, MARILL
-	db 15, GOLBAT
-	db 15, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 31, GRAVELER
-	db 32, MACHOKE
-	db 31, GEODUDE
-	db 30, MAMOSWINE
-	db 28, MACHOP
-	db 30, GOLBAT
-	db 30, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 31, GRAVELER
-	db 32, MACHOKE
-	db 31, GEODUDE
-	db 30, MAMOSWINE
-	db 28, MACHOP
-	db 30, GOLBAT
-	db 30, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 31, GRAVELER
-	db 31, GEODUDE
-	db 30, MAMOSWINE
-	db 30, GOLBAT
-	db 28, MARILL
-	db 32, GOLBAT
-	db 32, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
-	db 16, MACHOP
-	db 16, GEODUDE
-	db 18, MAMOSWINE
-	db 18, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
-	db 16, MACHOP
-	db 16, GEODUDE
-	db 18, MAMOSWINE
-	db 18, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
-	db 16, MARILL
-	db 16, GEODUDE
-	db 18, MAMOSWINE
-	db 18, MAMOSWINE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 21, CATERUNG
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, CATERUNG
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 22, CATERUNG
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, CATERUNG
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, SNEASEL
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B2F_MAHOGANY_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 23, CATERUNG
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, CATERUNG
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B2F_BLACKTHORN_SIDE
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 23, CATERUNG
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, CATERUNG
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_B3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 24, CATERUNG
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, CATERUNG
-	db 22, SNEASEL
-	db 24, SNEASEL
-	db 26, SNEASEL
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_NW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, FEEBAS
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_NE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, FEEBAS
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_SW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, FEEBAS
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_CAVE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, FEEBAS
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_SE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, PRIMEAPE
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, PRIMEAPE
-	db 24, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 22, FEEBAS
-	db 23, ZUBAT
-	db 22, FEEBAS
-	db 24, FEEBAS
-	db 25, GOLBAT
-	db 24, GOLBAT
-	db 24, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, FEEBAS
-	db 24, ZUBAT
-	db 23, PRIMEAPE
-	db 25, FEEBAS
-	db 26, GOLBAT
-	db 25, PRIMEAPE
-	db 25, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 23, FEEBAS
-	db 24, ZUBAT
-	db 23, PRIMEAPE
-	db 25, FEEBAS
-	db 26, GOLBAT
-	db 25, PRIMEAPE
-	db 25, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 23, FEEBAS
-	db 24, ZUBAT
-	db 23, FEEBAS
-	db 25, FEEBAS
-	db 26, GOLBAT
-	db 25, GOLBAT
-	db 25, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_B2F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, FEEBAS
-	db 25, ZUBAT
-	db 24, PRIMEAPE
-	db 26, FEEBAS
-	db 27, GOLBAT
-	db 26, PRIMEAPE
-	db 26, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 24, FEEBAS
-	db 25, ZUBAT
-	db 24, PRIMEAPE
-	db 26, FEEBAS
-	db 27, GOLBAT
-	db 26, PRIMEAPE
-	db 26, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 24, FEEBAS
-	db 25, ZUBAT
-	db 24, FEEBAS
-	db 26, FEEBAS
-	db 27, GOLBAT
-	db 26, GOLBAT
-	db 26, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 25, FEEBAS
-	db 26, ZUBAT
-	db 25, PRIMEAPE
-	db 27, FEEBAS
-	db 28, GOLBAT
-	db 27, PRIMEAPE
-	db 27, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 25, FEEBAS
-	db 26, ZUBAT
-	db 25, PRIMEAPE
-	db 27, FEEBAS
-	db 28, GOLBAT
-	db 27, PRIMEAPE
-	db 27, PRIMEAPE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 25, FEEBAS
-	db 26, ZUBAT
-	db 25, FEEBAS
-	db 27, FEEBAS
-	db 28, GOLBAT
-	db 27, GOLBAT
-	db 27, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 43, GRAVELER
-	db 44, URSARING
-	db 42, ONIX
-	db 45, MAGMAR
-	db 45, GOLBAT
-	db 20, LARVITAR
-	db 15, LARVITAR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 43, GRAVELER
-	db 44, URSARING
-	db 42, ONIX
-	db 45, MAGMAR
-	db 45, GOLBAT
-	db 20, LARVITAR
-	db 15, LARVITAR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 43, GRAVELER
-	db 44, GOLBAT
-	db 42, ONIX
-	db 42, GOLBAT
-	db 45, ARAQUANID
-	db 46, GOLBAT
-	db 46, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_2
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
-	db 48, MACHOKE
-	db 47, URSARING
-	db 46, TREVENANT
-	db 48, TREVENANT
-	db 15, LARVITAR
-	db 20, LARVITAR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 48, GOLBAT
-	db 48, MACHOKE
-	db 47, URSARING
-	db 46, TREVENANT
-	db 48, TREVENANT
-	db 15, LARVITAR
-	db 20, LARVITAR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 48, GOLBAT
-	db 48, ARAQUANID
-	db 46, GOLBAT
-	db 46, TREVENANT
-	db 48, TREVENANT
-	db 45, MISDREAVUS
-	db 45, MISDREAVUS
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_3
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 50, URSARING
-	db 20, LARVITAR
-	db 15, LARVITAR
-	db 20, PUPITAR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 50, URSARING
-	db 20, LARVITAR
-	db 15, LARVITAR
-	db 20, PUPITAR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 49, GOLBAT
-	db 45, ARAQUANID
-	db 53, GOLBAT
-	db 53, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ITEM_ROOMS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
-	db 46, TREVENANT
-	db 48, TREVENANT
-	db 50, TREVENANT
-	db 52, TREVENANT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
-	db 46, TREVENANT
-	db 48, TREVENANT
-	db 50, TREVENANT
-	db 52, TREVENANT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 45, MISDREAVUS
-	db 48, GOLBAT
-	db 50, GOLBAT
-	db 46, TREVENANT
-	db 48, TREVENANT
-	db 50, TREVENANT
-	db 52, TREVENANT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
-	db 2, TEDDIURSA
-	db 4, ZUBAT
-	db 4, DUNSPARCE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
-	db 4, DUNSPARCE
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
-	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
-	db 4, DUNSPARCE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, GEODUDE
-	db 23, ZUBAT
-	db 25, GRAVELER
-	db 25, URSARING
-	db 20, TEDDIURSA
-	db 23, GOLBAT
-	db 23, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 23, GEODUDE
-	db 23, ZUBAT
-	db 25, GRAVELER
-	db 25, URSARING
-	db 30, URSARING
-	db 23, GOLBAT
-	db 23, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 23, GEODUDE
-	db 23, ZUBAT
-	db 25, GRAVELER
-	db 20, MISMAGIUS
-	db 25, MISMAGIUS
-	db 23, GOLBAT
-	db 23, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, SENTRET
-	db 3, PIDGEY
-	db 4, SENTRET
-	db 2, PIDGEY
-	db 4, PIDGEY
-	db 3, SENTRET
-	db 3, SENTRET
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 2, SENTRET
-	db 3, PIDGEY
-	db 4, SENTRET
-	db 2, PIDGEY
-	db 4, PIDGEY
-	db 3, SENTRET
-	db 3, SENTRET
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 2, SENTRET
-	db 3, HOOTHOOT
-	db 4, SENTRET
-	db 2, HOOTHOOT
-	db 4, HOOTHOOT
-	db 3, SENTRET
-	db 3, SENTRET
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, CATERPIE
-	db 3, PIDGEY
-	db 4, LEDYBA
-	db 4, SENTRET
-	db 3, HOOTHOOT
-	db 4, SPINARAK
-	db 4, POLIWAG
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 3, CATERPIE
-	db 3, PIDGEY
-	db 4, LEDYBA
-	db 4, SENTRET
-	db 3, HOOTHOOT
-	db 4, SPINARAK
-	db 4, POLIWAG
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 3, SPINARAK
-	db 3, HOOTHOOT
-	db 4, LEDYBA
-	db 4, SENTRET
-	db 3, SPINARAK
-	db 4, POLIWAG
-	db 4, POLIWAG
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, LEDYBA
-	db 4, CATERPIE
-	db 5, HOPPIP
-	db 5, PIDGEY
-	db 4, FENNEKIN
-	db 5, GOOMY
-	db 5, GOOMY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 4, PIDGEY
-	db 4, CATERPIE
-	db 5, HOPPIP
-	db 5, PIDGEY
-	db 4, FENNEKIN
-	db 5, GOOMY
-	db 5, GOOMY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 4, SPINARAK
-	db 4, POLIWAG
-	db 5, HOPPIP
-	db 5, HOOTHOOT
-	db 4, ZUBAT
-	db 5, GASTLY
-	db 5, GASTLY
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
-	db 5, HONCHKROW
-	db 7, HOPPIP
-	db 6, GOOMY
-	db 7, PIDGEY
-	db 7, GOOMY
-	db 7, GOOMY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 4, EKANS
-	db 5, HONCHKROW
-	db 7, HOPPIP
-	db 6, GOOMY
-	db 7, PIDGEY
-	db 7, GOOMY
-	db 7, GOOMY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 4, WOOPER
-	db 5, HONCHKROW
-	db 7, HOPPIP
-	db 6, ZUBAT
-	db 7, HOOTHOOT
-	db 7, GASTLY
-	db 7, GASTLY
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, HONCHKROW
-	db 6, SWABLU
-	db 6, GEODUDE
-	db 6, GOOMY
-	db 7, EKANS
-	db 7, GOOMY
-	db 7, GOOMY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 6, HONCHKROW
-	db 6, SWABLU
-	db 6, GEODUDE
-	db 6, GOOMY
-	db 7, EKANS
-	db 7, GOOMY
-	db 7, GOOMY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 6, HONCHKROW
-	db 6, ZUBAT
-	db 6, GEODUDE
-	db 6, ZUBAT
-	db 7, HONCHKROW
-	db 7, HONCHKROW
-	db 7, HONCHKROW
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, KLEAVOR
-	db 11, HONCHKROW
-	db 12, PIDGEY
-	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 10, KLEAVOR
-	db 11, HONCHKROW
-	db 12, PIDGEY
-	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 12, INKAY
-	db 11, HONCHKROW
-	db 12, HOOTHOOT
-	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, KLEAVOR
-	db 14, PIDGEY
-	db 13, GROWLITHE
-	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 12, YANMA
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 12, KLEAVOR
-	db 14, PIDGEY
-	db 13, GROWLITHE
-	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 12, YANMA
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 12, INKAY
-	db 14, HOOTHOOT
-	db 13, DEWPIDER
-	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 12, YANMA
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_36
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, LEDYBA
-	db 4, PIDGEY
-	db 5, HOPPIP
-	db 5, GROWLITHE
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 4, PIDGEY
-	db 4, PIDGEY
-	db 5, HOPPIP
-	db 5, GROWLITHE
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 4, SPINARAK
-	db 4, HOOTHOOT
-	db 5, HOPPIP
-	db 5, HOOTHOOT
-	db 5, HOOTHOOT
-	db 5, GASTLY
-	db 5, GASTLY
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, LEDYBA
-	db 14, GROWLITHE
-	db 15, PIDGEY
-	db 16, GROWLITHE
-	db 15, PIDGEOTTO
-	db 15, LEDIAN
-	db 15, LEDIAN
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 13, PIDGEY
-	db 14, GROWLITHE
-	db 15, PIDGEY
-	db 16, GROWLITHE
-	db 15, PIDGEOTTO
-	db 15, PIDGEY
-	db 15, PIDGEY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 13, SPINARAK
-	db 14, STANTLER
-	db 15, HOOTHOOT
-	db 16, STANTLER
-	db 15, NOCTOWL
-	db 15, ARIADOS
-	db 15, ARIADOS
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_38
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, HONCHKROW
-	db 16, MAMOSWINE
-	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
-	db 13, GLISCOR
-	db 13, MILTANK
-	db 13, MILTANK
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 16, HONCHKROW
-	db 16, MAMOSWINE
-	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
-	db 13, GLISCOR
-	db 13, MILTANK
-	db 13, MILTANK
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 16, MEOWTH
-	db 16, MAMOSWINE
-	db 16, MAGNEMITE
-	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, HONCHKROW
-	db 16, MAMOSWINE
-	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
-	db 15, MILTANK
-	db 15, GLISCOR
-	db 15, GLISCOR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 16, HONCHKROW
-	db 16, MAMOSWINE
-	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
-	db 15, MILTANK
-	db 15, GLISCOR
-	db 15, GLISCOR
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 16, MEOWTH
-	db 16, MAMOSWINE
-	db 16, MAGNEMITE
-	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MEOWTH
-	db 18, MEOWTH
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, EKANS
-	db 14, SWABLU
-	db 15, HONCHKROW
-	db 16, MAMOSWINE
-	db 15, ARBOK
-	db 16, ALTARIA
-	db 16, ALTARIA
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 13, EKANS
-	db 14, SWABLU
-	db 15, HONCHKROW
-	db 16, MAMOSWINE
-	db 15, ARBOK
-	db 16, ALTARIA
-	db 16, ALTARIA
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 13, HONCHKROW
-	db 14, ZUBAT
-	db 15, MAMOSWINE
-	db 16, GOLBAT
-	db 15, MARILL
-	db 16, GOLBAT
-	db 16, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SENTRET
-	db 16, PIDGEOTTO
-	db 16, MAGNEZONE
-	db 15, FURRET
-	db 17, MAMOSWINE
-	db 17, FURRET
-	db 17, FURRET
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 15, SENTRET
-	db 16, PIDGEOTTO
-	db 16, MAGNEZONE
-	db 15, FURRET
-	db 17, MAMOSWINE
-	db 17, FURRET
-	db 17, FURRET
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 15, DUDUNSPARCE
-	db 16, NOCTOWL
-	db 16, MAMOSWINE
-	db 17, DUDUNSPARCE
-	db 17, MAMOSWINE
-	db 17, CLODSIRE
-	db 17, CLODSIRE
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, RHYPERIOR
-	db 22, FARIGIRAF
-	db 22, HOPPIP
-	db 24, SKIPLOOM
-	db 24, FARIGIRAF
-	db 26, FARIGIRAF
-	db 26, FARIGIRAF
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 23, RHYPERIOR
-	db 22, FARIGIRAF
-	db 22, HOPPIP
-	db 24, SKIPLOOM
-	db 24, FARIGIRAF
-	db 26, FARIGIRAF
-	db 26, FARIGIRAF
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 23, RHYPERIOR
-	db 22, POLIWAG
-	db 22, HOPPIP
-	db 24, SKIPLOOM
-	db 24, POLIWHIRL
-	db 26, POLIWHIRL
-	db 26, POLIWHIRL
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_45
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, GEODUDE
-	db 23, GRAVELER
-	db 24, GLIGAR
-	db 25, DONPHAN
-	db 20, PHANPY
-	db 27, SKARMORY
-	db 27, SKARMORY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 23, GEODUDE
-	db 23, GRAVELER
-	db 24, GLIGAR
-	db 25, DONPHAN
-	db 30, DONPHAN
-	db 27, SKARMORY
-	db 27, SKARMORY
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 23, GEODUDE
-	db 23, GRAVELER
-	db 24, GLIGAR
-	db 25, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
-	db 27, GRAVELER
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, GEODUDE
-	db 2, SWABLU
-	db 3, GEODUDE
-	db 3, PHANPY
-	db 2, GLIGAR
-	db 2, GEODUDE
-	db 2, SWABLU
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 2, GEODUDE
-	db 2, SWABLU
-	db 3, GEODUDE
-	db 3, PHANPY
-	db 2, GLIGAR
-	db 2, GEODUDE
-	db 2, SWABLU
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 2, GEODUDE
-	db 2, SWABLU
-	db 3, GEODUDE
-	db 3, PHANPY
-	db 2, GLIGAR
-	db 2, GEODUDE
-	db 2, SWABLU
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 41, RHYPERIOR
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; day
-	db 41, RHYPERIOR
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	;  %, species,		min, max
+	db 30, SENTRET, 	  3,   6
+	db 30, SENTRET, 	  3,   6
+	db 20, SENTRET, 	  3,   6
+	db 10, SENTRET, 	  3,   6
+	db  5, SENTRET, 	  3,   6
+	db  4, SENTRET, 	  3,   6
+	db  1, SENTRET, 	  3,   6
 	; nite
-	db 41, RHYPERIOR
-	db 42, POLIWHIRL
-	db 42, GOLBAT
-	db 44, POLIWHIRL
-	db 40, GOLBAT
-	db 44, GOLBAT
-	db 44, GOLBAT
+	;  %, species,		min, max
+	db 30, SENTRET,		  3,   6
+	db 30, SENTRET,		  3,   6
+	db 20, SENTRET,		  3,   6
+	db 10, SENTRET, 	  3,   5
+	db  5, SENTRET,		  3,   6
+	db  4, SENTRET, 	  3,   5
+	db  1, SENTRET, 	  3,   5
 	end_grass_wildmons
 
 	db -1 ; end
