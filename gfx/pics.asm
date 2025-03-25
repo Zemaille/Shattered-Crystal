@@ -48,7 +48,7 @@ TyranitarFrontpic:   INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
 MoltresFrontpic:     INCBIN "gfx/pokemon/moltres/front.animated.2bpp.lz"
 ZapdosFrontpic:      INCBIN "gfx/pokemon/zapdos/front.animated.2bpp.lz"
 ArbokFrontpic:       INCBIN "gfx/pokemon/arbok/front.animated.2bpp.lz"
-MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
+DelibirdFrontpic:      INCBIN "gfx/pokemon/delibird/front.animated.2bpp.lz"
 AltariaFrontpic:      INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
 CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
 QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
@@ -460,7 +460,7 @@ SwinubBackpic:       INCBIN "gfx/pokemon/swinub/back.2bpp.lz"
 
 SECTION "Pics 15", ROMX
 
-MewtwoBackpic:       INCBIN "gfx/pokemon/mewtwo/back.2bpp.lz"
+DelibirdBackpic:       INCBIN "gfx/pokemon/delibird/back.2bpp.lz"
 PokemonProfPic:      INCBIN "gfx/trainers/oak.2bpp.lz"
 CalPic:              INCBIN "gfx/trainers/cal.2bpp.lz"
 SwimmerfPic:         INCBIN "gfx/trainers/swimmer_f.2bpp.lz"

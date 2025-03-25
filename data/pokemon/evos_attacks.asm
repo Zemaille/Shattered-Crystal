@@ -1962,7 +1962,7 @@ DragoniteEvosAttacks:
 	db 80, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-MewtwoEvosAttacks:
+DelibirdEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PSYCHIC_M
 	db 1, RECOVER

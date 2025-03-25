@@ -130,7 +130,7 @@ Pokered_MonIndices:
 	db ARAQUANID
 	db MALAMAR
 	db GOLBAT
-	db MEWTWO
+	db DELIBIRD
 	db SNORLAX
 	db MAGIKARP
 	db PORYGON2 ; MISSINGNO.

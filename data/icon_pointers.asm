@@ -151,7 +151,7 @@ IconPointers:
 	dw DratiniIcon
 	dw DragonairIcon
 	dw DragoniteIcon
-	dw MewtwoIcon
+	dw DelibirdIcon
 	dw MewIcon
 	dw ChikoritaIcon
 	dw BayleefIcon

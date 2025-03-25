@@ -301,8 +301,8 @@ PokemonPicPointers::
 	dba DragonairBackpic
 	dba DragoniteFrontpic
 	dba DragoniteBackpic
-	dba MewtwoFrontpic
-	dba MewtwoBackpic
+	dba DelibirdFrontpic
+	dba DelibirdBackpic
 	dba MewFrontpic
 	dba MewBackpic
 	dba ChikoritaFrontpic

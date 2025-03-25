@@ -252,7 +252,7 @@ NewPokedexOrder:
 	db SUICUNE
 	db LUGIA
 	db HO_OH
-	db MEWTWO
+	db DELIBIRD
 	db MEW
 	db CELEBI
 	assert_table_length NUM_POKEMON

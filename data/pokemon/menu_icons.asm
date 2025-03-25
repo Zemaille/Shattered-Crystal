@@ -151,7 +151,7 @@ MonMenuIcons:
 	db ICON_DRATINI    ; 93
 	db ICON_DRAGONAIR  ; 94
 	db ICON_DRAGONITE  ; 95
-	db ICON_MEWTWO     ; 96
+	db ICON_DELIBIRD     ; 96
 	db ICON_MEW        ; 97
 	db ICON_CHIKORITA  ; 98
 	db ICON_BAYLEEF    ; 99

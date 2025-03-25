@@ -149,7 +149,7 @@ AnimationIdlePointers:
 	dw DratiniAnimationIdle
 	dw DragonairAnimationIdle
 	dw DragoniteAnimationIdle
-	dw MewtwoAnimationIdle
+	dw DelibirdAnimationIdle
 	dw MewAnimationIdle
 	dw ChikoritaAnimationIdle
 	dw BayleefAnimationIdle

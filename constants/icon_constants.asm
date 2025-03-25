@@ -150,7 +150,7 @@
 	const ICON_DRATINI    ; 93
 	const ICON_DRAGONAIR  ; 94
 	const ICON_DRAGONITE  ; 95
-	const ICON_MEWTWO     ; 96
+	const ICON_DELIBIRD     ; 96
 	const ICON_MEW        ; 97
 	const ICON_CHIKORITA  ; 98
 	const ICON_BAYLEEF    ; 99

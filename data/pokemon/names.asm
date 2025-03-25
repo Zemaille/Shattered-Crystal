@@ -149,7 +149,7 @@ PokemonNames::
 	db "Dratini@@@"
 	db "Dragonair@"
 	db "Dragonite@"
-	db "Mewtwo@@@@"
+	db "Delibird@@"
 	db "Mew@@@@@@@"
 	db "Chikorita@"
 	db "Bayleef@@@"

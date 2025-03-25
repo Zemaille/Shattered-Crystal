@@ -149,7 +149,7 @@ EvolutionMoves::
 	db NO_MOVE      ; DRATINI    
 	db NO_MOVE      ; DRAGONAIR  
 	db OUTRAGE      ; DRAGONITE  
-	db NO_MOVE      ; MEWTWO     
+	db NO_MOVE      ; DELIBIRD     
 	db NO_MOVE      ; MEW        
 	db NO_MOVE      ; CHIKORITA  
 	db NO_MOVE      ; BAYLEEF    

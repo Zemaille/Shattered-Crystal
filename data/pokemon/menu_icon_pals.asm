@@ -154,7 +154,7 @@ MonMenuIconPals:
 	icon_pals BLUE, TEAL   ; Dratini
 	icon_pals BLUE, TEAL   ; Dragonair
 	icon_pals RED, GREEN   ; Dragonite
-	icon_pals PURPLE, TEAL   ; Mewtwo
+	icon_pals RED, TEAL   ; Delibird
 	icon_pals PINK, BLUE   ; Mew
 	icon_pals GREEN, TEAL   ; Chikorita
 	icon_pals GREEN, TEAL   ; Bayleef
@@ -194,7 +194,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, TEAL   ; Goomy
 	icon_pals PURPLE, TEAL   ; Sliggoo
 	icon_pals PURPLE, TEAL   ; Goodra
-	icon_pals GRAY, TEAL   ; Sneasler
+	icon_pals PURPLE, TEAL   ; Sneasler
 	icon_pals GREEN, TEAL   ; Sunkern
 	icon_pals GREEN, TEAL   ; Sunflora
 	icon_pals PINK, TEAL   ; Yanma

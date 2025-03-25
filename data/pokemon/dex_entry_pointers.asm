@@ -150,7 +150,7 @@ PokedexDataPointerTable:
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
 	dw DragonitePokedexEntry
-	dw MewtwoPokedexEntry
+	dw DelibirdPokedexEntry
 	dw MewPokedexEntry
 	dw ChikoritaPokedexEntry
 	dw BayleefPokedexEntry
