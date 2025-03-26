@@ -327,6 +327,7 @@ ChooseWildEncounter:
 
 .startwildbattle
 	xor a
+	ret
 
 .nowildbattle
 	ld a, 1

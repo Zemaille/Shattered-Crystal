@@ -19,113 +19,113 @@ TreeMons:
 TreeMonSet_City:
 TreeMonSet_Canyon:
 ; common
-	db 50, SWABLU,    10
-	db 15, SWABLU,    10
-	db 15, SWABLU,    10
-	db 10, SNEASLER,      10
-	db  5, SNEASLER,      10
-	db  5, SNEASLER,      10
+	db 35, PINECO,        10
+	db 20, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 20, HOOTHOOT,      10
+	db  5, PHANTUMP,      10
+	db  5, SNEASEL,       10
 	db -1
 ; rare
-	db 50, SWABLU,    10
-	db 15, HERACROSS,  10
-	db 15, HERACROSS,  10
-	db 10, SNEASLER,      10
-	db  5, SNEASLER,      10
-	db  5, SNEASLER,      10
+	db 35, PINECO,        10
+	db 20, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 20, HOOTHOOT,      10
+	db  5, PHANTUMP,      10
+	db  5, SNEASEL,       10
 	db -1
 
 TreeMonSet_Town:
 ; common
-	db 50, SWABLU,    10
-	db 15, EKANS,      10
-	db 15, SWABLU,    10
-	db 10, SNEASLER,      10
-	db  5, SNEASLER,      10
-	db  5, SNEASLER,      10
+	db 35, PINECO,        10
+	db 20, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 20, HOOTHOOT,      10
+	db  5, PHANTUMP,      10
+	db  5, SNEASEL,       10
 	db -1
 ; rare
-	db 50, SWABLU,    10
-	db 15, HERACROSS,  10
-	db 15, HERACROSS,  10
-	db 10, SNEASLER,      10
-	db  5, SNEASLER,      10
-	db  5, SNEASLER,      10
+	db 35, PINECO,        10
+	db 20, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 20, HOOTHOOT,      10
+	db  5, PHANTUMP,      10
+	db  5, SNEASEL,       10
 	db -1
 
 TreeMonSet_Route:
 ; common
-	db 50, HOOTHOOT,   10
-	db 15, SPINARAK,   10
-	db 15, LEDYBA,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 35, PINECO,        10
+	db 20, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 20, HOOTHOOT,      10
+	db  5, PHANTUMP,      10
+	db  5, SNEASEL,       10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 35, PINECO,        10
+	db 20, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 20, HOOTHOOT,      10
+	db  5, PHANTUMP,      10
+	db  5, SNEASEL,       10
 	db -1
 
 TreeMonSet_Kanto:
 ; common
-	db 50, HOOTHOOT,   10
-	db 15, EKANS,      10
-	db 15, HOOTHOOT,   10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 35, CATERPIE,      10
+	db 20, EXEGGCUTE,     10
+	db 15, VENONAT,       10
+	db 20, PIDGEY,        10
+	db  5, SCYTHER,       10
+	db  5, EKANS,         10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 35, CATERPIE,      10
+	db 20, EXEGGCUTE,     10
+	db 15, VENONAT,       10
+	db 20, PIDGEY,        10
+	db  5, SCYTHER,       10
+	db  5, EKANS,         10
 	db -1
 
 TreeMonSet_Lake:
 ; common
-	db 50, HOOTHOOT,   10
-	db 15, DUDUNSPARCE,    10
-	db 15, HOOTHOOT,   10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, PINECO,        10
+	db 15, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 10, PHANTUMP,      10
+	db  5, HOOTHOOT,      10
+	db  5, SNEASEL,       10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, PINECO,        10
+	db 15, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 10, PHANTUMP,      10
+	db  5, HOOTHOOT,      10
+	db  5, SNEASEL,       10
 	db -1
 
 TreeMonSet_Forest:
 ; common
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, NOCTOWL,    10
-	db  5, BUTTERFREE, 10
-	db  5, DELPHOX,   10
+	db 50, PINECO,        10
+	db 15, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 10, PHANTUMP,      10
+	db  5, HOOTHOOT,      10
+	db  5, SNEASEL,       10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, CATERPIE,   10
-	db 15, FENNEKIN,     10
-	db 10, HOOTHOOT,   10
-	db  5, METAPOD,    10
-	db  5, BRAIXEN,     10
+	db 50, PINECO,        10
+	db 15, EXEGGCUTE,     10
+	db 15, HERACROSS,     10
+	db 10, PHANTUMP,      10
+	db  5, HOOTHOOT,      10
+	db  5, SNEASEL,       10
 	db -1
 
 TreeMonSet_Rock:
-	db 90, FEEBAS,     15
-	db 10, SHUCKLE,    15
+	db 50, GEODUDE,     15
+	db 50, SHUCKLE,     15
 	db -1

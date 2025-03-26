@@ -1,9 +1,9 @@
 	db DONPHAN ; 232
 
-	db 115, 131, 131,  87,  50,  50
+	db 90, 120, 120,  50,  60,  60
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, FIGHTING ; type
+	db GROUND, GROUND ; type
 	db 60 ; catch rate
 	db 189 ; base exp
 	db NO_ITEM, NO_ITEM ; items
