@@ -1,13 +1,13 @@
 ContestMons:
-	;   %, species,   min, max
-	db 20, CATERPIE,    7, 18
-	db 20, FENNEKIN,      7, 18
-	db 10, METAPOD,     9, 18
-	db 10, BRAIXEN,      9, 18
-	db  5, BUTTERFREE, 12, 15
-	db  5, DELPHOX,   12, 15
-	db 10, DUDUNSPARCE,    10, 16
-	db 10, PHANTUMP,      10, 17
-	db  5, SCYTHER,    13, 14
-	db  5, YANMEGA,     13, 14
-	db -1, CLODSIRE,   30, 40
+	;   %, species,    min, max
+	db  9, CATERPIE,     2,   6
+	db 10, VENONAT,      2,  18
+	db 10, DEWPIDER,     2,  18
+	db 10, SPINARAK,     2, 18
+	db  9, LEDYBA,       2, 17
+	db  1, LEDIAN,      18, 18
+	db 10, PINECO,       2, 18
+	db  1, BUTTERFREE,  10, 18
+	db 10, SHUCKLE,      2, 18
+	db 10, SCYTHER,      2, 18
+	db -1, CLODSIRE,    30, 40

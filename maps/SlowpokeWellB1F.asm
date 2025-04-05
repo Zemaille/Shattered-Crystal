@@ -122,7 +122,7 @@ SlowpokeWellB1FBoulder:
 	jumpstd StrengthBoulderScript
 
 SlowpokeWellB1FSuperPotion:
-	itemball SUPER_POTION
+	itemball SUN_STONE
 
 KurtSlowpokeWellVictoryMovementData:
 	step LEFT

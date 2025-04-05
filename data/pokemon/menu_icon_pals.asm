@@ -41,8 +41,8 @@ MonMenuIconPals:
 	icon_pals PURPLE, TEAL   ; Nidoking
 	icon_pals PINK, TEAL   ; Clefairy
 	icon_pals PINK, TEAL   ; Clefable
-	icon_pals BLUE, TEAL   ; Vulpix
-	icon_pals BLUE, TEAL   ; Ninetales
+	icon_pals RED, TEAL   ; Vulpix
+	icon_pals RED, TEAL   ; Ninetales
 	icon_pals PINK, TEAL   ; Jigglypuff
 	icon_pals PINK, TEAL   ; Wigglytuff
 	icon_pals TEAL, TEAL   ; Zubat

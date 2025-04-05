@@ -187,7 +187,7 @@ EvolutionMoves::
 	db NO_MOVE      ; SUDOWOODO  
 	db ENERGY_BALL  ; POLITOED   
 	db NO_MOVE      ; GOOMY     
-	db NO_MOVE      ; SLIGGOO   
+	db IRON_TAIL    ; SLIGGOO   
 	db ACID         ; GOODRA   
 	db WATERFALL    ; SNEASLER      
 	db NO_MOVE      ; SUNKERN    

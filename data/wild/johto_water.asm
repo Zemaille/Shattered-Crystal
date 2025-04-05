@@ -5,105 +5,105 @@ JohtoWaterWildMons:
 	def_water_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, DEWPIDER,      3,   6
+	db 40, INKAY,         3,   6
+	db 20, KABUTO,        3,   6
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_1F
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, QUAGSIRE,     23,  27
+	db 30, POLIWHIRL,    23,  27
+	db 30, GOLBAT,       23,  27
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, QUAGSIRE,     23,  27
+	db 30, POLIWHIRL,    23,  27
+	db 30, GOLBAT,       23,  27
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, QUAGSIRE,     23,  27
+	db 30, POLIWHIRL,    23,  27
+	db 30, GOLBAT,       23,  27
 	end_water_wildmons
 
 	def_water_wildmons SLOWPOKE_WELL_B1F
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, SLOWPOKE,     10,  10
+	db 30, SLOWPOKE,     10,  10
+	db 30, SLOWPOKE,     10,  10
 	end_water_wildmons
 
 	def_water_wildmons SLOWPOKE_WELL_B2F
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, SLOWPOKE,     10,  10
+	db 30, SLOWPOKE,     10,  10
+	db 30, SLOWPOKE,     10,  10
 	end_water_wildmons
 
 	def_water_wildmons ILEX_FOREST
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, FEEBAS,        5,   5
+	db 40, FEEBAS,        5,   5
+	db 20, TOTODILE,      5,   5
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 25, AZUMARILL,    23,  26
+	db 50, ARAQUANID,    23,  26
+	db 25, AZUMARILL,    23,  26
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_2F_INSIDE
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, AZUMARILL,    23,  26
+	db 30, GOLBAT,       23,  26
+	db 30, AZUMARILL,    23,  26
 	end_water_wildmons
 
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, AZUMARILL,    23,  26
+	db 30, GOLBAT,       23,  26
+	db 30, AZUMARILL,    23,  26
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_SW
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 60, SEADRA,       30,   36
+	db 35, KABUTO,       30,   36
+	db  5, LAPRAS,       30,   36
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 60, SEADRA,       30,   36
+	db 35, KABUTO,       30,   36
+	db  5, LAPRAS,       30,   36
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 60, SEADRA,       30,   36
+	db 35, KABUTO,       30,   36
+	db  5, LAPRAS,       30,   36
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
@@ -133,17 +133,17 @@ JohtoWaterWildMons:
 	def_water_wildmons DRAGONS_DEN_B1F
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, NOIBAT,        5,   5
+	db 30, GOOMY,         5,   5
+	db 30, DREEPY,        5,   5
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_PORT
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, TENTACOOL,    23,  26
+	db 30, MANTINE,      23,  26
+	db 30, QWILFISH,     23,  26
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_30
@@ -189,17 +189,17 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_40
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, TENTACOOL,    23,  26
+	db 30, MANTINE,      23,  26
+	db 30, QWILFISH,     23,  26
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_41
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, TENTACOOL,    23,  26
+	db 30, MANTINE,      23,  26
+	db 30, QWILFISH,     23,  26
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42
@@ -237,73 +237,73 @@ JohtoWaterWildMons:
 	def_water_wildmons NEW_BARK_TOWN
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, TENTACOOL,    23,  26
+	db 30, MANTINE,      23,  26
+	db 30, QWILFISH,     23,  26
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_CITY
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, TENTACOOL,    23,  26
+	db 30, MANTINE,      23,  26
+	db 30, QWILFISH,     23,  26
 	end_water_wildmons
 
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, POLIWHIRL,    23,  26
+	db 30, ARAQUANID,    23,  26
+	db 30, AZUMARILL,    23,  26
 	end_water_wildmons
 
 	def_water_wildmons CIANWOOD_CITY
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, TENTACOOL,    23,  26
+	db 30, MANTINE,      23,  26
+	db 30, QWILFISH,     23,  26
 	end_water_wildmons
 
 	def_water_wildmons OLIVINE_CITY
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, TENTACOOL,    23,  26
+	db 30, MANTINE,      23,  26
+	db 30, QWILFISH,     23,  26
 	end_water_wildmons
 
 	def_water_wildmons ECRUTEAK_CITY
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, POLIWHIRL,    23,  26
+	db 30, ARAQUANID,    23,  26
+	db 30, AZUMARILL,    23,  26
 	end_water_wildmons
 
 	def_water_wildmons LAKE_OF_RAGE
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, MAGIKARP,      5,   5
+	db 30, MAGIKARP,      5,   5
+	db 30, GYARADOS,     30,  35 
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY
 	db 4 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, QUAGSIRE,     23,  26
+	db 30, AZUMARILL,    23,  26
+	db 30, POLIWHIRIL,   23,  26
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
 	;  %, species,		min, max
-	db 40, MARILL,        3,   6
-	db 30, MARILL,        3,   6
-	db 30, MARILL,        3,   6
+	db 40, VAPOREON,     75,  80
+	db 30, FERALIGATR,   75,  80
+	db 30, BLASTOISE,    75,  80
 	end_water_wildmons
 
 	db -1 ; end

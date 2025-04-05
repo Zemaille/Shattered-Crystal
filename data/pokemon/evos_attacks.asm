@@ -174,6 +174,7 @@ BraixenEvosAttacks:
 
 DelphoxEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, EMBER
 	db 14, FIRE_FANG
 	db 18, PSYBEAM
 	db 22, FIRE_SPIN
@@ -476,10 +477,21 @@ VulpixEvosAttacks:
 
 NinetalesEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SUNNY_DAY
-	db 1, DAZZLE_GLEAM
-	db 1, FLAMETHROWER
-	db 1, PSYCHIC_M
+	db 1, TAIL_WHIP
+	db 1, EMBER
+	db 4, MIST
+	db 8, QUICK_ATTACK
+	db 12, DISARM_VOICE
+	db 16, FIRE_SPIN
+	db 20, CONFUSE_RAY
+	db 24, FIRE_FANG
+	db 28, PSYCHIC_M
+	db 32, FLAMETHROWER
+	db 36, MOONBLAST
+	db 40, SUNNY_DAY
+	db 44, LIGHT_SCREEN
+	db 44, REFLECT
+	db 48, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 JigglypuffEvosAttacks:
@@ -592,6 +604,7 @@ TrevenantEvosAttacks:
 
 DudunsparceEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 32, DOUBLE_EDGE
 	db 36, RECOVER
 	db 40, DRAGON_DANCE
@@ -1485,6 +1498,7 @@ ChanseyEvosAttacks:
 
 RhyperiorEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, ROCK_THROW
 	db 30, ROCK_BLAST
 	db 35, DIG
 	db 40, TAKE_DOWN
@@ -2499,6 +2513,7 @@ GoodraEvosAttacks:
 	db 43, CURSE
 	db 49, DOUBLE_EDGE
 	db 58, HYDRO_PUMP
+	db 63, IRON_HEAD
 	db 67, OUTRAGE
 	db 0 ; no more level-up moves
 

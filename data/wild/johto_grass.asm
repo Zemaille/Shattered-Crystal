@@ -316,62 +316,62 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 25, SLUGMA, 	     15,  18
+	db 25, KOFFING, 	 15,  18
+	db 20, FENNEKIN, 	  5,   5
+	db 20, KITTRING, 	 15,  18
+	db  5, MISDREAVUS, 	 15,  18
+	db  4, MISDREAVUS, 	 15,  18
+	db  1, MISDREAVUS, 	 15,  18
 	; day
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 25, SLUGMA, 	     15,  18
+	db 25, KOFFING, 	 15,  18
+	db 20, FENNEKIN, 	  5,   5
+	db 20, KITTRING, 	 15,  18
+	db  5, MISDREAVUS, 	 15,  18
+	db  4, MISDREAVUS, 	 15,  18
+	db  1, MISDREAVUS, 	 15,  18
 	; nite
 	;  %, species,		min, max
-	db 30, SENTRET,		  3,   6
-	db 30, SENTRET,		  3,   6
-	db 20, SENTRET,		  3,   6
-	db 10, SENTRET, 	  3,   5
-	db  5, SENTRET,		  3,   6
-	db  4, SENTRET, 	  3,   5
-	db  1, SENTRET, 	  3,   5
+	db 25, SLUGMA, 	     15,  18
+	db 25, KOFFING, 	 15,  18
+	db 20, FENNEKIN, 	  5,   5
+	db 20, KITTRING, 	 15,  18
+	db  5, MISDREAVUS, 	 15,  18
+	db  4, MISDREAVUS, 	 15,  18
+	db  1, MISDREAVUS, 	 15,  18
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 25, SLUGMA, 	     15,  18
+	db 25, KOFFING, 	 15,  18
+	db 20, FENNEKIN, 	  5,   5
+	db 20, KITTRING, 	 15,  18
+	db  5, MISDREAVUS, 	 15,  18
+	db  4, MISDREAVUS, 	 15,  18
+	db  1, MISDREAVUS, 	 15,  18
 	; day
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 25, SLUGMA, 	     15,  18
+	db 25, KOFFING, 	 15,  18
+	db 20, FENNEKIN, 	  5,   5
+	db 20, KITTRING, 	 15,  18
+	db  5, MISDREAVUS, 	 15,  18
+	db  4, MISDREAVUS, 	 15,  18
+	db  1, MISDREAVUS, 	 15,  18
 	; nite
 	;  %, species,		min, max
-	db 30, SENTRET,		  3,   6
-	db 30, SENTRET,		  3,   6
-	db 20, SENTRET,		  3,   6
-	db 10, SENTRET, 	  3,   5
-	db  5, SENTRET,		  3,   6
-	db  4, SENTRET, 	  3,   5
-	db  1, SENTRET, 	  3,   5
+	db 25, SLUGMA, 	     15,  18
+	db 25, KOFFING, 	 15,  18
+	db 20, FENNEKIN, 	  5,   5
+	db 20, KITTRING, 	 15,  18
+	db  5, MISDREAVUS, 	 15,  18
+	db  4, MISDREAVUS, 	 15,  18
+	db  1, MISDREAVUS, 	 15,  18
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_PARK
@@ -380,11 +380,11 @@ JohtoGrassWildMons:
 	;  %, species,		min, max
 	db 10, NIDORAN_F, 	 15,  15
 	db 10, NIDORAN_M, 	 15,  15
-	db 20, DODUO,   	 15,  15
-	db 20, PONYTA,  	 15,  15
-	db 20, RHYHORN, 	 15,  15
-	db 10, MANKEY,  	 15,  15
-	db 10, MANKEY,  	 15,  15
+	db 16, DODUO,   	 15,  15
+	db 16, PONYTA,  	 15,  15
+	db 16, RHYHORN, 	 15,  15
+	db 16, MANKEY,  	 15,  15
+	db 16, EEVVEE,  	  5,   5
 	; day
 	;  %, species,		min, max
 	db 10, NIDORAN_F, 	 15,  15
@@ -688,31 +688,31 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 20, HOUNDOUR, 	 18,  23
+	db 20, CUBONE,  	 18,  23
+	db 15, SLUGMA,  	 18,  23
+	db 15, ONIX,    	 18,  23
+	db 10, CLEFAIRY,  	 18,  23
+	db 10, ELECTABUZZ,	 18,  23
+	db 10, MAGMAR,  	 18,  23
 	; day
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 20, HOUNDOUR, 	 18,  23
+	db 20, CUBONE,  	 18,  23
+	db 15, SLUGMA,  	 18,  23
+	db 15, ONIX,    	 18,  23
+	db 10, CLEFAIRY,  	 18,  23
+	db 10, ELECTABUZZ,	 18,  23
+	db 10, MAGMAR,  	 18,  23
 	; nite
 	;  %, species,		min, max
-	db 30, SENTRET,		  3,   6
-	db 30, SENTRET,		  3,   6
-	db 20, SENTRET,		  3,   6
-	db 10, SENTRET, 	  3,   5
-	db  5, SENTRET,		  3,   6
-	db  4, SENTRET, 	  3,   5
-	db  1, SENTRET, 	  3,   5
+	db 20, HOUNDOUR, 	 18,  23
+	db 20, CUBONE,  	 18,  23
+	db 15, SLUGMA,  	 18,  23
+	db 15, ONIX,    	 18,  23
+	db 10, CLEFAIRY,  	 18,  23
+	db 10, ELECTABUZZ,	 18,  23
+	db 10, MAGMAR,  	 18,  23
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_2F_INSIDE
@@ -1531,7 +1531,7 @@ JohtoGrassWildMons:
 	db 15, SWABLU,  	 14,  17
 	db 10, MAREEP,  	 14,  17
 	db  5, HOOTHOOT, 	 14,  17
-	db  5, HONCHKROW, 	 14,  17
+	db  5, MURKROW, 	 14,  17
 	; day
 	;  %, species,		min, max
 	db 30, JIGGLYPUFF, 	 14,  17
@@ -1540,7 +1540,7 @@ JohtoGrassWildMons:
 	db 15, SWABLU,  	 14,  17
 	db 10, MAREEP,  	 14,  17
 	db  5, HOOTHOOT, 	 14,  17
-	db  5, HONCHKROW, 	 14,  17
+	db  5, MURKROW, 	 14,  17
 	; nite
 	;  %, species,		min, max
 	db 30, JIGGLYPUFF, 	 14,  17
@@ -1621,7 +1621,7 @@ JohtoGrassWildMons:
 	db 30, MARILL,  	 14,  17
 	db 30, GROWLITHE, 	 14,  17
 	db 10, STANTLER, 	 14,  17
-	db 10, HONCHKROW,  	 14,  17
+	db 10, MURKROW,  	 14,  17
 	db 10, SENTRET,  	 14,  17
 	db  5, HOOTHOOT, 	 14,  17
 	db  5, SUDOWOODO, 	 14,  17
@@ -1630,7 +1630,7 @@ JohtoGrassWildMons:
 	db 30, MARILL,  	 14,  17
 	db 30, GROWLITHE, 	 14,  17
 	db 10, STANTLER, 	 14,  17
-	db 10, HONCHKROW,  	 14,  17
+	db 10, MURKROW,  	 14,  17
 	db 10, SENTRET,  	 14,  17
 	db  5, HOOTHOOT, 	 14,  17
 	db  5, SUDOWOODO, 	 14,  17
@@ -1639,7 +1639,7 @@ JohtoGrassWildMons:
 	db 30, MARILL,  	 14,  17
 	db 30, GROWLITHE, 	 14,  17
 	db 10, STANTLER, 	 14,  17
-	db 10, HONCHKROW,  	 14,  17
+	db 10, MURKROW,  	 14,  17
 	db 10, HOOTHOOT,  	 14,  17
 	db  5, SENTRET, 	 14,  17
 	db  5, SUDOWOODO, 	 14,  17
@@ -1649,62 +1649,62 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 30, FURRET,  	 17,  22
+	db 30, LEDYBA,  	 17,  17
+	db 10, LEDIAN,  	 18,  22
+	db 10, MILTANK,  	 17,  22
+	db 10, GROWLITHE,  	 17,  22
+	db  5, HOOTHOOT, 	 17,  19
+	db  5, NOCTOWL, 	 20,  22
 	; day
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 30, FURRET,  	 17,  22
+	db 30, LEDYBA,  	 17,  17
+	db 10, LEDIAN,  	 18,  22
+	db 10, MILTANK,  	 17,  22
+	db 10, GROWLITHE,  	 17,  22
+	db  5, HOOTHOOT, 	 17,  19
+	db  5, NOCTOWL, 	 20,  22
 	; nite
 	;  %, species,		min, max
-	db 30, SENTRET,		  3,   6
-	db 30, SENTRET,		  3,   6
-	db 20, SENTRET,		  3,   6
-	db 10, SENTRET, 	  3,   5
-	db  5, SENTRET,		  3,   6
-	db  4, SENTRET, 	  3,   5
-	db  1, SENTRET, 	  3,   5
+	db 30, HOOTHOOT,  	 17,  19
+	db 30, SPINARAK,  	 17,  21
+	db 10, NOCTOWL,  	 20,  22
+	db 10, MILTANK,  	 17,  22
+	db 10, GROWLITHE,  	 17,  22
+	db  5, ARIADOS,  	 22,  22
+	db  5, FURRET,  	 20,  22
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 30, FURRET,  	 17,  22
+	db 30, LEDYBA,  	 17,  17
+	db 10, LEDIAN,  	 18,  22
+	db 10, DITTO,   	 17,  22
+	db 10, GROWLITHE,  	 17,  22
+	db  5, HOOTHOOT, 	 17,  19
+	db  5, NOCTOWL, 	 20,  22
 	; day
 	;  %, species,		min, max
-	db 30, SENTRET, 	  3,   6
-	db 30, SENTRET, 	  3,   6
-	db 20, SENTRET, 	  3,   6
-	db 10, SENTRET, 	  3,   6
-	db  5, SENTRET, 	  3,   6
-	db  4, SENTRET, 	  3,   6
-	db  1, SENTRET, 	  3,   6
+	db 30, FURRET,  	 17,  22
+	db 30, LEDYBA,  	 17,  17
+	db 10, LEDIAN,  	 18,  22
+	db 10, DITTO,   	 17,  22
+	db 10, GROWLITHE,  	 17,  22
+	db  5, HOOTHOOT, 	 17,  19
+	db  5, NOCTOWL, 	 20,  22
 	; nite
 	;  %, species,		min, max
-	db 30, SENTRET,		  3,   6
-	db 30, SENTRET,		  3,   6
-	db 20, SENTRET,		  3,   6
-	db 10, SENTRET, 	  3,   5
-	db  5, SENTRET,		  3,   6
-	db  4, SENTRET, 	  3,   5
-	db  1, SENTRET, 	  3,   5
+	db 30, HOOTHOOT,  	 17,  19
+	db 30, SPINARAK,  	 17,  21
+	db 10, NOCTOWL,  	 20,  22
+	db 10, DITTO,   	 17,  22
+	db 10, GROWLITHE,  	 17,  22
+	db  5, ARIADOS,  	 22,  22
+	db  5, FURRET,  	 20,  22
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_42
