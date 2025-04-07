@@ -295,7 +295,7 @@ JohtoWaterWildMons:
 	;  %, species,		min, max
 	db 40, QUAGSIRE,     23,  26
 	db 30, AZUMARILL,    23,  26
-	db 30, POLIWHIRIL,   23,  26
+	db 30, POLIWHIRL,   23,  26
 	end_water_wildmons
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE

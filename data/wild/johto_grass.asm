@@ -384,7 +384,7 @@ JohtoGrassWildMons:
 	db 16, PONYTA,  	 15,  15
 	db 16, RHYHORN, 	 15,  15
 	db 16, MANKEY,  	 15,  15
-	db 16, EEVVEE,  	  5,   5
+	db 16, EEVEE,  	  5,   5
 	; day
 	;  %, species,		min, max
 	db 10, NIDORAN_F, 	 15,  15

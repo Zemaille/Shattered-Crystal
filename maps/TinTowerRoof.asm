@@ -31,7 +31,7 @@ TinTowerHoOh:
 	closetext
 	setevent EVENT_FOUGHT_HO_OH
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon HO_OH, 60
+	loadwildmon DITTO, 1
 	startbattle
 	disappear TINTOWERROOF_HO_OH
 	reloadmapafterbattle
