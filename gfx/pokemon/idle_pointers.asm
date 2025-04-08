@@ -248,8 +248,8 @@ AnimationIdlePointers:
 	dw LarvitarAnimationIdle
 	dw PupitarAnimationIdle
 	dw TyranitarAnimationIdle
-	dw LugiaAnimationIdle
-	dw HoOhAnimationIdle
+	dw ZoruaAnimationIdle
+	dw ZoroarkAnimationIdle
 	dw CelebiAnimationIdle
 	dw UrsalunaAnimationIdle
 	dw WyrdeerAnimationIdle

@@ -250,8 +250,8 @@ MonMenuIcons:
 	db ICON_LARVITAR   ; f6
 	db ICON_PUPITAR    ; f7
 	db ICON_TYRANITAR  ; f8
-	db ICON_LUGIA      ; f9
-	db ICON_HO_OH      ; fa
+	db ICON_ZORUA      ; f9
+	db ICON_ZOROARK      ; fa
 	db ICON_CELEBI     ; fb
 	db ICON_URSALUNA   
 	db ICON_WYRDEER

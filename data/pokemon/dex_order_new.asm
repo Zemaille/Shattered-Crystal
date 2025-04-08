@@ -250,8 +250,8 @@ NewPokedexOrder:
 	db RAIKOU
 	db ENTEI
 	db SUICUNE
-	db LUGIA
-	db HO_OH
+	db ZORUA
+	db ZOROARK
 	db DELIBIRD
 	db MEW
 	db CELEBI

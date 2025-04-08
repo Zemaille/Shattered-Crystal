@@ -34,6 +34,4 @@ SpriteMons:
 	db MOLTRES
 	db SNORLAX
 	db GYARADOS
-	db LUGIA
-	db HO_OH
 	assert_table_length NUM_POKEMON_SPRITES

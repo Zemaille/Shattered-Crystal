@@ -250,8 +250,8 @@ EvosAttacksPointers::
 	dw LarvitarEvosAttacks
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks
-	dw LugiaEvosAttacks
-	dw HoOhEvosAttacks
+	dw ZoruaEvosAttacks
+	dw ZoroarkEvosAttacks
 	dw CelebiEvosAttacks
 	dw UrsalunaEvosAttacks
 	dw WyrdeerEvosAttacks

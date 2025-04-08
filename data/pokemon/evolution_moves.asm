@@ -248,8 +248,8 @@ EvolutionMoves::
 	db NO_MOVE      ; LARVITAR   
 	db NO_MOVE      ; PUPITAR    
 	db PURSUIT      ; TYRANITAR  
-	db NO_MOVE      ; LUGIA      
-	db NO_MOVE      ; HO_OH      
+	db NO_MOVE      ; ZORUA      
+	db NO_MOVE      ; ZOROARK      
 	db NO_MOVE      ; CELEBI     
 	db NO_MOVE      ; URSALUNA   
 	db PSYHORN_BASH ; WYRDEER

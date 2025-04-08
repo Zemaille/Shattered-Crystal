@@ -250,8 +250,8 @@ IconPointers:
 	dw LarvitarIcon
 	dw PupitarIcon
 	dw TyranitarIcon
-	dw LugiaIcon
-	dw HoOhIcon
+	dw ZoruaIcon
+	dw ZoroarkIcon
 	dw CelebiIcon
 	dw UrsalunaIcon
 	dw WyrdeerIcon

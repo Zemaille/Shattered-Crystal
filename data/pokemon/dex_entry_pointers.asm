@@ -249,8 +249,8 @@ PokedexDataPointerTable:
 	dw LarvitarPokedexEntry
 	dw PupitarPokedexEntry
 	dw TyranitarPokedexEntry
-	dw LugiaPokedexEntry
-	dw HoOhPokedexEntry
+	dw ZoruaPokedexEntry
+	dw ZoroarkPokedexEntry
 	dw CelebiPokedexEntry
 	dw UrsalunaPokedexEntry
 	dw WyrdeerPokedexEntry

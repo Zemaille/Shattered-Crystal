@@ -248,8 +248,8 @@ BitmasksPointers:
 	dw LarvitarBitmasks
 	dw PupitarBitmasks
 	dw TyranitarBitmasks
-	dw LugiaBitmasks
-	dw HoOhBitmasks
+	dw ZoruaBitmasks
+	dw ZoroarkBitmasks
 	dw CelebiBitmasks
 	dw UrsalunaBitmasks
 	dw WyrdeerBitmasks

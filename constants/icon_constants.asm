@@ -249,8 +249,8 @@
 	const ICON_LARVITAR   ; f6
 	const ICON_PUPITAR    ; f7
 	const ICON_TYRANITAR  ; f8
-	const ICON_LUGIA      ; f9
-	const ICON_HO_OH      ; fa
+	const ICON_ZORUA      ; f9
+	const ICON_ZOROARK      ; fa
 	const ICON_CELEBI     ; fb
 	const ICON_URSALUNA   
 	const ICON_WYRDEER

@@ -248,8 +248,8 @@ AnimationPointers:
 	dw LarvitarAnimation
 	dw PupitarAnimation
 	dw TyranitarAnimation
-	dw LugiaAnimation
-	dw HoOhAnimation
+	dw ZoruaAnimation
+	dw ZoroarkAnimation
 	dw CelebiAnimation
 	dw UrsalunaAnimation
 	dw WyrdeerAnimation

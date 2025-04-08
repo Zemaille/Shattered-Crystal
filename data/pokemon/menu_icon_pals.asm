@@ -253,7 +253,7 @@ MonMenuIconPals:
 	icon_pals GREEN, TEAL   ; Larvitar
 	icon_pals GRAY, TEAL   ; Pupitar
 	icon_pals GREEN, TEAL   ; Tyranitar
-	icon_pals BLUE, TEAL   ; Lugia
+	icon_pals RED, TEAL   ; Zorua
 	icon_pals RED, TEAL   ; Ho-Oh
 	icon_pals GREEN, PINK   ; Celebi
 	icon_pals BROWN, TEAL   ; Ursaluna

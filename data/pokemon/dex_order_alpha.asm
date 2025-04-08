@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	db GYARADOS
 	db HAUNTER
 	db HERACROSS
-	db HO_OH
+	db ZOROARK
 	db HONCHKROW
 	db HOOTHOOT
 	db HORSEA
@@ -121,7 +121,7 @@ AlphabeticalPokedexOrder:
 	db LEAFEON
 	db LEDIAN
 	db LEDYBA
-	db LUGIA
+	db ZORUA
 	db MACHAMP
 	db MACHOKE
 	db MACHOP

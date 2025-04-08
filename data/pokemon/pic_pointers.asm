@@ -502,10 +502,10 @@ PokemonPicPointers::
 	dba PupitarBackpic
 	dba TyranitarFrontpic
 	dba TyranitarBackpic
-	dba LugiaFrontpic
-	dba LugiaBackpic
-	dba HoOhFrontpic
-	dba HoOhBackpic
+	dba ZoruaFrontpic
+	dba ZoruaBackpic
+	dba ZoroarkFrontpic
+	dba ZoroarkBackpic
 	dba CelebiFrontpic
 	dba CelebiBackpic
 	dba UrsalunaFrontpic

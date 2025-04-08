@@ -268,8 +268,8 @@ DEF JOHTO_POKEMON EQU const_value
 	const LARVITAR   ; f6
 	const PUPITAR    ; f7
 	const TYRANITAR  ; f8
-	const LUGIA      ; f9
-	const HO_OH      ; fa
+	const ZORUA      ; f9
+	const ZOROARK      ; fa
 	const CELEBI     ; fb
 	const URSALUNA   
 	const WYRDEER

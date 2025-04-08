@@ -248,8 +248,8 @@ FramesPointers:
 	dw LarvitarFrames
 	dw PupitarFrames
 	dw TyranitarFrames
-	dw LugiaFrames
-	dw HoOhFrames
+	dw ZoruaFrames
+	dw ZoroarkFrames
 	dw CelebiFrames
 	dw UrsalunaFrames
 	dw WyrdeerFrames
