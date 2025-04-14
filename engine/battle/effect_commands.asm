@@ -345,13 +345,10 @@ CantMove:
 
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp FLY
+	cp EMPTY
 	jr z, .fly_dig
 
-	cp BOUNCE
-	jr z, .fly_dig
-
-	cp DIG
+	cp EMPTY
 	ret nz
 
 .fly_dig
@@ -1046,12 +1043,12 @@ BattleCommand_DoTurn:
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	cp STRUGGLE
+	cp EMPTY
 	jr z, .mimic
 	ld hl, wWildMonMoves
 	add hl, bc
 	ld a, [hl]
-	cp STRUGGLE
+	cp EMPTY
 	ret z
 
 .mimic
@@ -1080,7 +1077,6 @@ BattleCommand_DoTurn:
 .continuousmoves
 	db EFFECT_SOLARBEAM
 	db EFFECT_FLY
-	db EFFECT_BOUNCE
 	db EFFECT_ROLLOUT
 	db EFFECT_RAMPAGE
 	db -1
@@ -1099,13 +1095,13 @@ CheckMimicUsed:
 
 	ld a, BATTLE_VARS_MOVE
 	call GetBattleVar
-	cp STRUGGLE
+	cp EMPTY
 	jr z, .mimic
 
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	cp STRUGGLE
+	cp EMPTY
 	jr nz, .mimic
 
 	scf
@@ -1907,8 +1903,6 @@ BattleCommand_LowerSub:
 	jr z, .charge_turn
 	cp EFFECT_FLY
 	jr z, .charge_turn
-	cp EFFECT_BOUNCE
-	jr z, .charge_turn
 
 .already_charged
 	call .Rampage
@@ -1996,11 +1990,9 @@ BattleCommand_MoveAnimNoSub:
 
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp FLY
+	cp EMPTY
 	jr z, .clear_sprite
-	cp BOUNCE
-	jr z, .clear_sprite
-	cp DIG
+	cp EMPTY
 	ret nz
 .clear_sprite
 	jp AppearUserLowerSub
@@ -2089,11 +2081,9 @@ BattleCommand_FailureText:
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVarAddr
 
-	cp FLY
+	cp EMPTY
 	jr z, .fly_dig
-	cp BOUNCE
-	jr z, .fly_dig
-	cp DIG
+	cp EMPTY
 	jr z, .fly_dig
 
 ; Move effect:
@@ -2410,7 +2400,7 @@ BattleCommand_CheckFaint:
 	ld [wFXAnimID + 1], a
 	inc a
 	ld [wBattleAnimParam], a
-	ld a, STRUGGLE
+	ld a, EMPTY
 	call LoadAnim
 	call BattleCommand_SwitchTurn
 
@@ -5437,11 +5427,9 @@ BattleCommand_Charge:
 	call LoadMoveAnim
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
-	cp FLY
+	cp EMPTY
 	jr z, .flying
-	cp DIG
-	jr z, .flying
-	cp BOUNCE
+	cp EMPTY
 	jr z, .flying
 	call BattleCommand_RaiseSub
 	jr .not_flying
@@ -5454,11 +5442,9 @@ BattleCommand_Charge:
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
 	ld b, a
-	cp FLY
+	cp EMPTY
 	jr z, .set_flying
-	cp BOUNCE
-	jr z, .set_flying
-	cp DIG
+	cp EMPTY
 	jr nz, .dont_set_digging
 	set SUBSTATUS_UNDERGROUND, [hl]
 	jr .dont_set_digging
@@ -5488,15 +5474,11 @@ BattleCommand_Charge:
 	ld hl, .BattleTookSunlightText
 	jr z, .done
 
-	cp FLY
+	cp EMPTY
 	ld hl, .BattleFlewText
 	jr z, .done
 	
-	cp BOUNCE
-	ld hl, .BattleJumpedText
-	jr z, .done
-
-	cp DIG
+	cp EMPTY
 	ld hl, .BattleDugText
 
 .done
@@ -5520,10 +5502,6 @@ BattleCommand_Charge:
 
 .BattleFlewText:
 	text_far _BattleFlewText
-	text_end
-
-.BattleJumpedText:
-	text_far _BattleJumpedText
 	text_end
 
 .BattleDugText:

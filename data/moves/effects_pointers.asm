@@ -170,7 +170,6 @@ MoveEffectsPointers:
 	dw FlareBlitz
 	dw FireFang
 	dw Hurricane
-	dw Bounce
 	dw IceFang
 	dw PsyhornBash
 	dw CalmMind

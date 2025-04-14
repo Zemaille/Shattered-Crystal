@@ -422,7 +422,7 @@ BattleTowerMons:
 
 	db EXEGGUTOR
 	db KINGS_ROCK
-	db TOXIC, GIGA_DRAIN, THIEF, CONFUSION
+	db TOXIC, GIGA_DRAIN, TACKLE, CONFUSION
 	dw 0 ; OT ID
 	dt 1000 ; Exp
 	; Stat exp
@@ -1546,7 +1546,7 @@ BattleTowerMons:
 
 	db GENGAR
 	db GOLD_BERRY
-	db THIEF, LICK, NO_MOVE, GIGA_DRAIN
+	db TACKLE, LICK, NO_MOVE, GIGA_DRAIN
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp
@@ -1965,7 +1965,7 @@ BattleTowerMons:
 
 	db PORYGON2
 	db NO_ITEM
-	db NO_MOVE, NO_MOVE, PSYBEAM, THIEF
+	db NO_MOVE, NO_MOVE, PSYBEAM, TACKLE
 	dw 0 ; OT ID
 	dt 64000 ; Exp
 	; Stat exp
@@ -4005,7 +4005,7 @@ BattleTowerMons:
 
 	db GENGAR
 	db NO_ITEM
-	db THUNDERBOLT, SHADOW_BALL, CONFUSE_RAY, THIEF
+	db THUNDERBOLT, SHADOW_BALL, CONFUSE_RAY, TACKLE
 	dw 0 ; OT ID
 	dt 512000 ; Exp
 	; Stat exp
@@ -4291,7 +4291,7 @@ BattleTowerMons:
 
 	db DUGTRIO
 	db SCOPE_LENS
-	db SLASH, EARTHQUAKE, THIEF, MUD_SLAP
+	db SLASH, EARTHQUAKE, TACKLE, MUD_SLAP
 	dw 0 ; OT ID
 	dt 512000 ; Exp
 	; Stat exp

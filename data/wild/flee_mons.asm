@@ -2,12 +2,13 @@ FleeMons:
 ; referenced by TryEnemyFlee and FastBallMultiplier
 
 SometimesFleeMons:
-	db EEVEE
 	db UNOWN
 	db -1
 
 OftenFleeMons:
-	db TEDDIURSA
+	db BULBASAUR
+	db CHARMANDER
+	db SQUIRTLE
 	db -1
 
 AlwaysFleeMons:

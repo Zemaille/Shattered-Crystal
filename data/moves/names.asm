@@ -167,7 +167,7 @@ MoveNames::
 	li "Struggle"
 	li "Sketch"
 	li "Dragon Claw"
-	li "Thief"
+	li "EMPTY"
 	li "Spider Web"
 	li "Water Pulse"
 	li "Aura Sphere"

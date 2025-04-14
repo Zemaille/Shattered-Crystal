@@ -227,7 +227,7 @@ DEF TM01 EQU const_value
 	add_tm DARK_PULSE   ; Ice Path B2F
 	add_tm NASTY_PLOT   ; Goldenrod Mart
 	add_tm SNARL        ; Route 32 (Roar NPC)
-	add_tm THIEF        ; Celadon Mansion
+	add_tm ENCORE       ; Celadon Mansion
 	add_tm DRAGON_CLAW  ; Route 27 Dragon's Den
 	add_tm DRAGON_PULSE ; Clair Reward
 	add_tm THUNDER_WAVE ; Union Cave B1F

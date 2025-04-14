@@ -227,7 +227,7 @@ HonchkrowEvosAttacks:
 	db 5, GUST
 	db 11, HAZE
 	db 15, WING_ATTACK
-	db 21, THIEF
+	db 21, FAINT_ATTACK
 	db 25, ENCORE
 	db 31, PURSUIT
 	db 35, AIR_CUTTER
@@ -1189,7 +1189,7 @@ GastlyEvosAttacks:
 	db 1, LICK
 	db 4, SCARY_FACE
 	db 8, LEER
-	db 12, THIEF
+	db 12, FAINT_ATTACK
 	db 16, HYPNOSIS
 	db 20, CURSE
 	db 24, HEX
@@ -1198,7 +1198,7 @@ GastlyEvosAttacks:
 HaunterEvosAttacks:
 	db EVOLVE_TRADE, -1, GENGAR
 	db 0 ; no more evolutions
-	db 12, THIEF
+	db 12, FAINT_ATTACK
 	db 16, HYPNOSIS
 	db 20, CURSE
 	db 24, HEX
@@ -1212,7 +1212,7 @@ HaunterEvosAttacks:
 
 GengarEvosAttacks:
 	db 0 ; no more evolutions
-	db 12, THIEF
+	db 12, FAINT_ATTACK
 	db 16, HYPNOSIS
 	db 20, CURSE
 	db 24, HEX
@@ -1251,7 +1251,7 @@ InkayEvosAttacks:
 	db 1, PECK
 	db 3, HYPNOSIS
 	db 6, WRAP
-	db 9, THIEF
+	db 9, FAINT_ATTACK
 	db 12, HEADBUTT
 	db 15, PSYBEAM
 	db 18, SWAGGER
@@ -1701,7 +1701,7 @@ GliscorEvosAttacks:
 	db 1, POISON_STING
 	db 4, SAND_ATTACK
 	db 7, HARDEN
-	db 10, THIEF
+	db 10, FAINT_ATTACK
 	db 13, QUICK_ATTACK
 	db 16, FURY_SWIPES
 	db 19, POISON_FANG
@@ -1949,6 +1949,7 @@ ArticunoEvosAttacks:
 	db 1, ICE_BEAM
 	db 1, PSYCHIC_M
 	db 1, ANCIENTPOWER
+	db 1, AEROBLAST
 	db 0 ; no more level-up moves
 
 ZapdosEvosAttacks:
@@ -1957,6 +1958,7 @@ ZapdosEvosAttacks:
 	db 1, THUNDER
 	db 1, DRILL_PECK
 	db 1, ANCIENTPOWER
+	db 1, AEROBLAST
 	db 0 ; no more level-up moves
 
 MoltresEvosAttacks:
@@ -1965,6 +1967,7 @@ MoltresEvosAttacks:
 	db 1, FLAMETHROWER
 	db 1, HURRICANE
 	db 1, ANCIENTPOWER
+	db 1, AEROBLAST
 	db 0 ; no more level-up moves
 
 DratiniEvosAttacks:
@@ -2066,8 +2069,9 @@ MeganiumEvosAttacks:
 CyndaquilEvosAttacks:
 	db EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, LEER
+	db 1, BOUNCE
+	db 1, FLY
+	db 1, DIG
 	db 6, EMBER
 	db 10, SMOKESCREEN
 	db 13, QUICK_ATTACK
@@ -2149,7 +2153,7 @@ FurretEvosAttacks:
 	db 4, DEFENSE_CURL
 	db 7, QUICK_ATTACK
 	db 13, FURY_SWIPES
-	db 17, THIEF
+	db 17, FAINT_ATTACK
 	db 21, SWORDS_DANCE
 	db 28, STRENGTH
 	db 32, REST
@@ -2645,7 +2649,7 @@ MurkrowEvosAttacks:
 	db 5, GUST
 	db 11, HAZE
 	db 15, WING_ATTACK
-	db 21, THIEF
+	db 21, FAINT_ATTACK
 	db 25, ENCORE
 	db 31, PURSUIT
 	db 35, AIR_CUTTER
@@ -2764,7 +2768,7 @@ GligarEvosAttacks:
 	db 1, POISON_STING
 	db 4, SAND_ATTACK
 	db 7, HARDEN
-	db 10, THIEF
+	db 10, FAINT_ATTACK
 	db 13, QUICK_ATTACK
 	db 16, FURY_SWIPES
 	db 19, POISON_FANG
@@ -2828,7 +2832,7 @@ SpiritombEvosAttacks:
 	db 1, ASTONISH
 	db 1, CONFUSE_RAY
 	db 10, WILL_O_WISP
-	db 15, THIEF
+	db 15, FAINT_ATTACK
 	db 20, NASTY_PLOT
 	db 25, HEX
 	db 30, SHADOW_CLAW

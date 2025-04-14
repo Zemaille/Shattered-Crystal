@@ -9,5 +9,5 @@ MetronomeExcepts:
 	db MIRROR_COAT
 	db PROTECT
 	db SLEEP_TALK
-	db THIEF
+	db EMPTY
 	db -1

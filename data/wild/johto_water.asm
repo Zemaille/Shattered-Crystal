@@ -286,8 +286,8 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	;  %, species,		min, max
 	db 40, MAGIKARP,      5,   5
-	db 30, MAGIKARP,      5,   5
-	db 30, GYARADOS,     30,  35 
+	db 30, YANMA,        10,  10
+	db 30, GYARADOS,     20,  20
 	end_water_wildmons
 
 	def_water_wildmons BLACKTHORN_CITY
