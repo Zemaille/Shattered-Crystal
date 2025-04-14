@@ -359,7 +359,7 @@ _AskWaterfallText::
 _UseDigText::
 	text_ram wStringBuffer2
 	text " used"
-	line "DIG!"
+	line "BULLDOZE!"
 	done
 
 _UseEscapeRopeText::

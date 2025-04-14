@@ -646,7 +646,7 @@ Route36TrainerTips1Text:
 Route36TrainerTips2Text:
 	text "TRAINER TIPS"
 
-	para "Use DIG to return"
+	para "Use BULLDOZE to return"
 	line "to the entrance of"
 	cont "any place."
 

@@ -90,7 +90,7 @@ MoveNames::
 	li "Rock Throw"
 	li "Earthquake"
 	li "Will-o-Wisp"
-	li "Dig"
+	li "Bulldoze"
 	li "Toxic"
 	li "Confusion"
 	li "Psychic"

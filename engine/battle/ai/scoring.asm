@@ -2289,7 +2289,7 @@ AI_Smart_Magnitude:
 AI_Smart_Earthquake:
 ; Greatly encourage this move if the player is underground and the enemy is faster.
 	ld a, [wLastPlayerCounterMove]
-	cp DIG
+	cp BULLDOZE
 	ret nz
 
 	ld a, [wPlayerSubStatus3]

@@ -96,7 +96,7 @@
 	const ROCK_THROW   ; 58
 	const EARTHQUAKE   ; 59
 	const WILL_O_WISP  ; 5a
-	const DIG          ; 5b
+	const BULLDOZE     ; 5b
 	const TOXIC        ; 5c
 	const CONFUSION    ; 5d
 	const PSYCHIC_M    ; 5e

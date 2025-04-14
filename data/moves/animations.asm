@@ -92,7 +92,7 @@ BattleAnimations::
 	dw BattleAnim_RockThrow
 	dw BattleAnim_Earthquake
 	dw BattleAnim_WillOWisp
-	dw BattleAnim_Dig
+	dw BattleAnim_Bulldoze
 	dw BattleAnim_Toxic
 	dw BattleAnim_Confusion
 	dw BattleAnim_PsychicM
@@ -2054,7 +2054,6 @@ BattleAnim_Splash:
 	anim_ret
 
 
-BattleAnim_Dig:
 BattleAnim_SandAttack:
 	anim_1gfx BATTLE_ANIM_GFX_SAND
 	anim_call BattleAnimSub_SandOrMud
@@ -2142,6 +2141,7 @@ BattleAnim_DoubleEdge:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_Bulldoze:
 BattleAnim_Submission:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_UserObj_1Row

@@ -119,7 +119,7 @@ JackEarthquakeTriviaText:
 	text "Did you know…?"
 
 	para "If your opponent"
-	line "uses DIG, your"
+	line "uses BULLDOZE, your"
 
 	para "EARTHQUAKE becomes"
 	line "more powerful."
@@ -129,7 +129,7 @@ JackMagnitudeTriviaText:
 	text "Did you know…?"
 
 	para "If your opponent"
-	line "uses DIG, your"
+	line "uses BULLDOZE, your"
 
 	para "MAGNITUDE becomes"
 	line "more powerful."

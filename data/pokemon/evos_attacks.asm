@@ -645,7 +645,7 @@ DugtrioEvosAttacks:
 	db 20, FAINT_ATTACK
 	db 24, IRON_HEAD
 	db 30, SANDSTORM
-	db 36, DIG
+	db 36, BULLDOZE
 	db 42, EARTH_POWER
 	db 48, EARTHQUAKE
 	db 54, SAND_SCORCH
@@ -1239,7 +1239,7 @@ OnixEvosAttacks:
 	db 32, SPIKES
 	db 36, STRENGTH
 	db 40, SANDSTORM
-	db 44, DIG
+	db 44, BULLDOZE
 	db 48, IRON_TAIL
 	db 52, STONE_EDGE
 	db 0 ; no more level-up moves
@@ -1361,14 +1361,14 @@ CuboneEvosAttacks:
 	db 11, HEADBUTT
 	db 17, ROCK_SMASH
 	db 21, SCARY_FACE
-	db 23, DIG
+	db 23, BULLDOZE
 	db 27, ROCK_THROW
 	db 0 ; no more level-up moves
 
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCARY_FACE
-	db 1, DIG
+	db 1, BULLDOZE
 	db 1, ROCK_THROW
 	db 1, FIRE_PUNCH
 	db 33, CURSE
@@ -1462,14 +1462,14 @@ RhyhornEvosAttacks:
 	db 20, SCARY_FACE
 	db 25, STOMP
 	db 30, ROCK_BLAST
-	db 35, DIG
+	db 35, BULLDOZE
 	db 40, TAKE_DOWN
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
 	db 0 ; no more evolutions
 	db 30, ROCK_BLAST
-	db 35, DIG
+	db 35, BULLDOZE
 	db 40, TAKE_DOWN
 	db 40, SUBMISSION
 	db 47, EARTHQUAKE
@@ -1500,7 +1500,7 @@ RhyperiorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ROCK_THROW
 	db 30, ROCK_BLAST
-	db 35, DIG
+	db 35, BULLDOZE
 	db 40, TAKE_DOWN
 	db 40, SUBMISSION
 	db 47, EARTHQUAKE
@@ -2071,7 +2071,7 @@ CyndaquilEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BOUNCE
 	db 1, FLY
-	db 1, DIG
+	db 1, BULLDOZE
 	db 6, EMBER
 	db 10, SMOKESCREEN
 	db 13, QUICK_ATTACK
@@ -2759,7 +2759,7 @@ DunsparceEvosAttacks:
 	db 12, GLARE
 	db 16, SCARY_FACE
 	db 20, ANCIENTPOWER
-	db 24, DIG
+	db 24, BULLDOZE
 	db 28, HYPNOSIS
 	db 0 ; no more level-up moves
 
@@ -2796,7 +2796,7 @@ SteelixEvosAttacks:
 	db 32, SPIKES
 	db 36, STRENGTH
 	db 40, SANDSTORM
-	db 44, DIG
+	db 44, BULLDOZE
 	db 48, IRON_TAIL
 	db 52, STONE_EDGE
 	db 0 ; no more level-up moves
@@ -3345,7 +3345,7 @@ LarvitarEvosAttacks:
 	db 8, BITE
 	db 12, HARDEN
 	db 15, ROCK_SLIDE
-	db 18, DIG
+	db 18, BULLDOZE
 	db 21, SCARY_FACE
 	db 24, DARK_PULSE
 	db 27, CRUNCH
@@ -3354,7 +3354,7 @@ LarvitarEvosAttacks:
 PupitarEvosAttacks:
 	db EVOLVE_LEVEL, 55, TYRANITAR
 	db 0 ; no more evolutions
-	db 18, DIG
+	db 18, BULLDOZE
 	db 21, SCARY_FACE
 	db 24, DARK_PULSE
 	db 27, CRUNCH

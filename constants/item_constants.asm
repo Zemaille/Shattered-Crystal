@@ -247,7 +247,7 @@ DEF TM01 EQU const_value
 	add_tm ENERGY_BALL  ; Route 45
 	add_tm GIGA_DRAIN   ; Erika Reward
 	const ITEM_DC 
-	add_tm DIG          ; National Park
+	add_tm BULLDOZE     ; National Park
 	add_tm EARTH_POWER  ; GPC Mart 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 	add_tm EARTHQUAKE   ; Victory Road
 	add_tm ICE_BEAM     ; Pryce Reward

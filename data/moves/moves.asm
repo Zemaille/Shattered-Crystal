@@ -28,7 +28,7 @@ Moves:
 	move ICE_SHARD,    EFFECT_PRIORITY_HIT,       40, ICE,           PHYSICAL, 100, 30,   0
 	move GUNK_SHOT,    EFFECT_POISON_HIT,        120, POISON,        SPECIAL,   80,  5,  30
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,        STATUS,   100, 30,   0
-	move CUT,          EFFECT_NORMAL_HIT,         50, NORMAL,        PHYSICAL,  95, 30,   0
+	move CUT,          EFFECT_NORMAL_HIT,         60, STEEL,         PHYSICAL,  95, 30,   0
 	move GUST,         EFFECT_GUST,               40, FLYING,        SPECIAL,  100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,        PHYSICAL, 100, 35,   0
 	move BOOMBURST,    EFFECT_NORMAL_HIT,        140, NORMAL,        SPECIAL,  100, 10,   0
@@ -104,7 +104,7 @@ Moves:
 	move ROCK_THROW,   EFFECT_NORMAL_HIT,         50, ROCK,          PHYSICAL, 100, 15,   0
 	move EARTHQUAKE,   EFFECT_EARTHQUAKE,        100, GROUND,        PHYSICAL, 100, 10,   0
 	move WILL_O_WISP,  EFFECT_BURN,                0, FIRE,          STATUS,    85, 15,   0
-	move DIG,          EFFECT_NORMAL_HIT,         80, GROUND,        PHYSICAL, 100, 10,   0
+	move BULLDOZE,     EFFECT_SPEED_DOWN_HIT,     60, GROUND,        PHYSICAL, 100, 25, 100
 	move TOXIC,        EFFECT_TOXIC,               0, POISON,        STATUS,    85, 10,   0
 	move CONFUSION,    EFFECT_CONFUSE_HIT,        50, PSYCHIC_TYPE,  SPECIAL,  100, 25,  10
 	move PSYCHIC_M,    EFFECT_SP_DEF_DOWN_HIT,    90, PSYCHIC_TYPE,  SPECIAL,  100, 10,  10

@@ -325,7 +325,7 @@ Edit `GetMapMusic`:
 	const ITEM_C3       ; c3
 	add_tm ROAR         ; c4
 	...
-	add_tm DIG          ; db
+	add_tm BULLDOZE          ; db
 	const ITEM_DC       ; dc
 	add_tm PSYCHIC_M    ; dd
 	...

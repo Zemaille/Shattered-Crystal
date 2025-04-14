@@ -91,7 +91,7 @@ MoveDescriptions::
 	dw RockThrowDescription
 	dw EarthquakeDescription
 	dw WillOWispDescription
-	dw DigDescription
+	dw BulldozeDescription
 	dw ToxicDescription
 	dw ConfusionDescription
 	dw PsychicMDescription
@@ -333,12 +333,8 @@ BoomburstDescription:
 	next "with sound waves.@"
 	
 FlyDescription:
-	db   "1st turn: Fly"
-	next "2nd turn: Attack@"
-
-BounceDescription:
-	db   "1st turn: Jump"
-	next "2nd turn: Attack@"
+	db   "Launch through the"
+	next "air to attack.@"
 
 VineWhipDescription:
 	db   "Whips the foe with"
@@ -575,6 +571,7 @@ FireSpinDescription:
 	db   "Traps foe in fire"
 	next "for 2-5 turns.@"
 
+BounceDescription:
 ThundershockDescription:
 	db   "An attack that may"
 	next "cause paralysis.@"
@@ -603,9 +600,9 @@ WillOWispDescription:
 	db   "A move that may"
 	next "burn the target.@"
 
-DigDescription:
-	db   "1st turn: Burrow"
-	next "2nd turn: Attack@"
+BulldozeDescription:
+	db   "A burrowing attack"
+	next "that slows foes.@"
 
 ToxicDescription:
 	db   "A poison move with"
