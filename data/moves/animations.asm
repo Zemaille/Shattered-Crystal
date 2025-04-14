@@ -169,8 +169,8 @@ BattleAnimations::
 	dw BattleAnim_Struggle
 	dw BattleAnim_Sketch
 	dw BattleAnim_DragonClaw
-	dw BattleAnim_Thief
-	dw BattleAnim_SpiderWeb
+	dw BattleAnim_EMPTY
+	dw BattleAnim_DireClaw
 	dw BattleAnim_WaterPulse
 	dw BattleAnim_AuraSphere
 	dw BattleAnim_FlameWheel
@@ -1541,6 +1541,7 @@ BattleAnim_Cut:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_DireClaw:
 BattleAnim_Slash:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
@@ -3448,60 +3449,7 @@ BattleAnim_DragonClaw:
 	anim_wait 16
 	anim_ret
 
-;BattleAnim_TripleKick:
-;	anim_1gfx BATTLE_ANIM_GFX_HIT
-;	anim_if_param_equal $1, .alternate1
-;	anim_if_param_equal $2, .alternate2
-;	anim_sound 0, 1, SFX_MEGA_KICK
-;	anim_obj BATTLE_ANIM_OBJ_KICK, 144, 48, $0
-;	anim_wait 6
-;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 48, $0
-;	anim_wait 8
-;	anim_ret
-;
-;.alternate1:
-;	anim_sound 0, 1, SFX_DOUBLE_KICK
-;	anim_obj BATTLE_ANIM_OBJ_KICK, 120, 64, $0
-;	anim_wait 6
-;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 64, $0
-;	anim_wait 8
-;	anim_ret
-;
-;.alternate2:
-;	anim_sound 0, 1, SFX_DOUBLE_KICK
-;	anim_obj BATTLE_ANIM_OBJ_KICK, 132, 32, $0
-;	anim_wait 6
-;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 132, 32, $0
-;	anim_wait 8
-;	anim_ret
-
-BattleAnim_Thief:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, BG_EFFECT_USER, $0
-	anim_wait 16
-	anim_sound 0, 1, SFX_THIEF
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 128, 48, $0
-	anim_wait 16
-	anim_call BattleAnim_ShowMon_0
-	anim_wait 1
-	anim_1gfx BATTLE_ANIM_GFX_STATUS
-	anim_sound 0, 1, SFX_THIEF_2
-	anim_obj BATTLE_ANIM_OBJ_THIEF, 120, 76, $1
-	anim_wait 64
-	anim_ret
-
-BattleAnim_SpiderWeb:
-	anim_1gfx BATTLE_ANIM_GFX_WEB
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_SPIDER_WEB, 132, 48, $0
-	anim_sound 6, 2, SFX_SPIDER_WEB
-	anim_obj BATTLE_ANIM_OBJ_STRING_SHOT, 64, 80, $0
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_STRING_SHOT, 64, 88, $0
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_STRING_SHOT, 64, 84, $0
-	anim_wait 64
+BattleAnim_EMPTY:
 	anim_ret
 
 BattleAnim_WaterPulse:

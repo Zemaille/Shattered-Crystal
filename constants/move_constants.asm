@@ -174,7 +174,7 @@
 	const SKETCH       ; a6
 	const DRAGON_CLAW  ; a7
 	const EMPTY        ; a8
-	const SPIDER_WEB   ; a9
+	const DIRE_CLAW    ; a9
 	const WATER_PULSE  ; aa
 	const AURA_SPHERE  ; ab
 	const FLAME_WHEEL  ; ac

@@ -169,7 +169,7 @@ MoveDescriptions::
 	dw SketchDescription
 	dw DragonClawDescription
 	dw ThiefDescription
-	dw SpiderWebDescription
+	dw DireClawDescription
 	dw WaterPulseDescription
 	dw AuraSphereDescription
 	dw FlameWheelDescription
@@ -864,9 +864,9 @@ ThiefDescription:
 	db   "An attack that may"
 	next "steal a held item.@"
 
-SpiderWebDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+DireClawDescription:
+	db   "Can inflict PSN,"
+	next "PAR, or FRZ.@"
 
 FlameWheelDescription:
 	db   "An attack that may"
@@ -1131,4 +1131,4 @@ NastyPlotDescription:
 
 HexDescription:
 	db	 "Doubles damage if"
-	next "foe has status.@"
+	next "foe is statused.@"

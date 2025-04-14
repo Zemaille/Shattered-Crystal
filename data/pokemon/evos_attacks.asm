@@ -2069,9 +2069,8 @@ MeganiumEvosAttacks:
 CyndaquilEvosAttacks:
 	db EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
-	db 1, BOUNCE
-	db 1, FLY
-	db 1, BULLDOZE
+	db 1, TACKLE
+	db 1, LEER
 	db 6, EMBER
 	db 10, SMOKESCREEN
 	db 13, QUICK_ATTACK
@@ -2874,7 +2873,7 @@ ShuckleEvosAttacks:
 	db 35, RECOVER
 	db 40, ROCK_SLIDE
 	db 45, TOXIC
-	db 50, SPIDER_WEB
+	db 50, ENCORE
 	db 55, SHELL_SMASH
 	db 60, STONE_EDGE
 	db 0 ; no more level-up moves

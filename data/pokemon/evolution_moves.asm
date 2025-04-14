@@ -189,7 +189,7 @@ EvolutionMoves::
 	db NO_MOVE      ; GOOMY     
 	db IRON_TAIL    ; SLIGGOO   
 	db ACID         ; GOODRA   
-	db WATERFALL    ; SNEASLER      
+	db DIRE_CLAW    ; SNEASLER      
 	db NO_MOVE      ; SUNKERN    
 	db FLAMETHROWER ; SUNFLORA   
 	db NO_MOVE      ; YANMA      

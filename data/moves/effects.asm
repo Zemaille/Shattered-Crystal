@@ -2389,4 +2389,30 @@ ShellSmash:
 	statupfailtext
 	endmove
 
+DireClaw:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	effectchance
+	poisontarget
+	effectchance
+	paralyzetarget
+	effectchance
+	freezetarget
+	kingsrock
+	endmove
 	

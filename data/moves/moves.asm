@@ -182,7 +182,7 @@ Moves:
 	move SKETCH,       EFFECT_SKETCH,              0, NORMAL,        STATUS,   100,  1,   0
 	move DRAGON_CLAW,  EFFECT_NORMAL_HIT,         80, DRAGON,        PHYSICAL, 100, 15,   0
 	move EMPTY,        EFFECT_FLY,                40, DARK,          PHYSICAL, 100, 10, 100
-	move SPIDER_WEB,   EFFECT_MEAN_LOOK,           0, BUG,           STATUS,   100, 10,   0
+	move DIRE_CLAW,    EFFECT_DIRE_CLAW,          60, POISON,        PHYSICAL, 100, 15,  50
 	move WATER_PULSE,  EFFECT_CONFUSE_HIT,        60, WATER,         SPECIAL,  100, 20,  20
 	move AURA_SPHERE,  EFFECT_ALWAYS_HIT,         80, FIGHTING,      SPECIAL,  100, 20,   0
 	move FLAME_WHEEL,  EFFECT_FLAME_WHEEL,        60, FIRE,          PHYSICAL, 100, 25,  10

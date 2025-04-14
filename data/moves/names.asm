@@ -168,7 +168,7 @@ MoveNames::
 	li "Sketch"
 	li "Dragon Claw"
 	li "EMPTY"
-	li "Spider Web"
+	li "Dire Claw"
 	li "Water Pulse"
 	li "Aura Sphere"
 	li "Flame Wheel"

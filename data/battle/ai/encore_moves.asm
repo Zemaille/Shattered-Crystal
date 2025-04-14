@@ -13,7 +13,6 @@ EncoreMoves:
 	db SCREECH
 	db HAZE
 	db SPLASH
-	db SPIDER_WEB
 	db TOXIC
 	db SPORE
 	db THUNDER_WAVE
