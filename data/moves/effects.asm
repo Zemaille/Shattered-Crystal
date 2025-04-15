@@ -2408,11 +2408,7 @@ DireClaw:
 	checkfaint
 	buildopponentrage
 	effectchance
-	poisontarget
-	effectchance
-	paralyzetarget
-	effectchance
-	freezetarget
+	direclaw
 	kingsrock
 	endmove
 	

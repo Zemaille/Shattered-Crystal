@@ -4671,6 +4671,24 @@ BattleCommand_TriStatusChance:
 	dw BattleCommand_FreezeTarget ; freeze
 	dw BattleCommand_BurnTarget ; burn
 
+BattleCommand_DireClaw:
+	call BattleCommand_EffectChance
+.loop
+	; 1/3 chance of each status
+	call BattleRandom
+	swap a
+	and %11
+	jr z, .loop
+	dec a
+	ld hl, .DireClawStatus
+	rst JumpTable
+	ret
+
+.DireClawStatus:
+	dw BattleCommand_PoisonTarget 
+	dw BattleCommand_ParalyzeTarget
+	dw BattleCommand_SleepTarget
+
 BattleCommand_Curl:
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
