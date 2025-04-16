@@ -184,7 +184,6 @@ SECTION "Pics 8", ROMX
 PrimeapeFrontpic:        INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 CrobatFrontpic:      INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lz"
 ChanseyFrontpic:     INCBIN "gfx/pokemon/chansey/front.animated.2bpp.lz"
-KleavorFrontpic:    INCBIN "gfx/pokemon/kleavor/front.animated.2bpp.lz"
 TogekissFrontpic:    INCBIN "gfx/pokemon/togekiss/front.animated.2bpp.lz"
 MiltankFrontpic:     INCBIN "gfx/pokemon/miltank/front.animated.2bpp.lz"
 HaunterFrontpic:     INCBIN "gfx/pokemon/haunter/front.animated.2bpp.lz"
@@ -723,6 +722,7 @@ MarowakFrontpic:     INCBIN "gfx/pokemon/marowak/front.animated.2bpp.lz"
 TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
 VoltorbFrontpic:     INCBIN "gfx/pokemon/voltorb/front.animated.2bpp.lz"
 HoppipFrontpic:      INCBIN "gfx/pokemon/hoppip/front.animated.2bpp.lz"
+KleavorFrontpic:    INCBIN "gfx/pokemon/kleavor/front.animated.2bpp.lz"
 
 
 SECTION "Pics 21", ROMX

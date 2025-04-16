@@ -1008,7 +1008,7 @@ RapidashEvosAttacks:
 
 SlowpokeEvosAttacks:
 	db EVOLVE_LEVEL, 37, SLOWBRO
-	db EVOLVE_TRADE, KINGS_ROCK, SLOWKING
+	db EVOLVE_ITEM, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, CURSE
@@ -1225,7 +1225,7 @@ GengarEvosAttacks:
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
-	db EVOLVE_TRADE, METAL_COAT, STEELIX
+	db EVOLVE_ITEM, METAL_COAT, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HARDEN
@@ -1542,12 +1542,12 @@ HorseaEvosAttacks:
 	db 0 ; no more level-up moves
 
 SeadraEvosAttacks:
-	db EVOLVE_TRADE, DRAGON_SCALE, KINGDRA
+	db EVOLVE_ITEM, DRAGON_SCALE, KINGDRA
 	db 0 ; no more evolutions
-	db 15, DISABLE
-	db 20, AURORA_BEAM
-	db 25, BUBBLEBEAM
-	db 30, AGILITY
+	db 1, DISABLE
+	db 1, AURORA_BEAM
+	db 1, BUBBLEBEAM
+	db 1, AGILITY
 	db 37, WATER_PULSE
 	db 44, DRAGON_PULSE
 	db 51, HYDRO_PUMP
@@ -1618,7 +1618,8 @@ MrMimeEvosAttacks:
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
-	db EVOLVE_TRADE, METAL_COAT, SCIZOR
+	db EVOLVE_ITEM, METAL_COAT, SCIZOR
+	db EVOLVE_ITEM, KINGS_ROCK, KLEAVOR
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, QUICK_ATTACK
@@ -2763,6 +2764,7 @@ DunsparceEvosAttacks:
 	db 0 ; no more level-up moves
 
 GligarEvosAttacks:
+	db EVOLVE_ITEM, KINGS_ROCK, GLISCOR
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 4, SAND_ATTACK
@@ -2926,11 +2928,12 @@ TeddiursaEvosAttacks:
 	db 0 ; no more level-up moves
 
 UrsaringEvosAttacks:
+	db EVOLVE_ITEM, KINGS_ROCK, URSALUNA
 	db 0 ; no more evolutions
-	db 15, BITE
-	db 22, CHARM
-	db 25, BODY_SLAM
-	db 29, SLASH
+	db 1, BITE
+	db 1, CHARM
+	db 1, BODY_SLAM
+	db 1, SLASH
 	db 30, CLOSE_COMBAT
 	db 38, SCARY_FACE
 	db 47, REST
