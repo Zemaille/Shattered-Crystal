@@ -135,7 +135,7 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw TeruSama9Desc
+	dw DubiousDiscDesc
 	dw TeruSama10Desc
 	dw TeruSama11Desc
 	dw CharcoalDesc
@@ -788,8 +788,9 @@ PassDesc:
 	db   "A ticket for the"
 	next "MAGNET TRAIN.@"
 
-TeruSama9Desc:
-	db   "?@"
+DubiousDiscDesc:
+	db   "An disc marked"
+	next "with Porygon2.@"
 
 TeruSama10Desc:
 	db   "?@"
@@ -924,7 +925,7 @@ TeruSama22Desc:
 
 UpGradeDesc:
 	db   "A mysterious box"
-	next "made by SILPH CO.@"
+	next "made by Silph Co.@"
 
 BerryDesc:
 	db   "A self-restore"

@@ -141,7 +141,7 @@ MonMenuIconPals:
 	icon_pals BLUE, PINK   ; Vaporeon
 	icon_pals BROWN, TEAL   ; Jolteon
 	icon_pals RED, TEAL   ; Flareon
-	icon_pals PINK, TEAL   ; Porygon
+	icon_pals BLUE, TEAL   ; Porygon
 	icon_pals RED, TEAL   ; Venonat
 	icon_pals PURPLE, TEAL   ; Venomoth
 	icon_pals BROWN, TEAL   ; Kabuto
@@ -237,14 +237,14 @@ MonMenuIconPals:
 	icon_pals BLUE, TEAL   ; Kingdra
 	icon_pals BLUE, TEAL   ; Phanpy
 	icon_pals BLUE, TEAL   ; Donphan
-	icon_pals PINK, TEAL   ; Porygon2
+	icon_pals BLUE, TEAL   ; Porygon2
 	icon_pals BROWN, TEAL   ; Stantler
 	icon_pals BROWN, TEAL   ; Smeargle
 	icon_pals TEAL, TEAL   ; Dreepy
 	icon_pals TEAL, TEAL   ; Drakloak
 	icon_pals TEAL, TEAL   ; Dragapult
 	icon_pals PINK, TEAL   ; Weavile
-	icon_pals RED, TEAL   ; Porygon-Z
+	icon_pals BLUE, TEAL   ; Porygon-Z
 	icon_pals PINK, TEAL   ; Miltank
 	icon_pals PINK, TEAL   ; Blissey
 	icon_pals BROWN, TEAL   ; Raikou

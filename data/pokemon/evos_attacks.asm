@@ -1839,7 +1839,7 @@ FlareonEvosAttacks:
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
-	db EVOLVE_TRADE, UP_GRADE, PORYGON2
+	db EVOLVE_ITEM, UP_GRADE, PORYGON2
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, DISABLE
@@ -3163,6 +3163,7 @@ DonphanEvosAttacks:
 	db 0 ; no more level-up moves
 
 Porygon2EvosAttacks:
+	db EVOLVE_ITEM, DUBIOUS_DISC, PORYGON_Z
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, DISABLE

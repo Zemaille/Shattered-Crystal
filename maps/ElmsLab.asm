@@ -161,8 +161,8 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic WOOPER
-	cry WOOPER
+	pokepic PORYGON2
+	cry PORYGON2
 	waitbutton
 	closepokepic
 	opentext
@@ -174,12 +174,12 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, WOOPER
+	getmonname STRING_BUFFER_3, PORYGON2
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke WOOPER, 5, BERRY
+	givepoke PORYGON2, 5, BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
@@ -474,7 +474,7 @@ AideScript_GivePotion:
 	opentext
 	writetext AideText_GiveYouPotion
 	promptbutton
-	verbosegiveitem TOXIC_GUNK
+	verbosegiveitem DUBIOUS_DISC
 	writetext AideText_AlwaysBusy
 	waitbutton
 	closetext

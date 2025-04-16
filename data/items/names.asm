@@ -134,7 +134,7 @@ ItemNames::
 	li "Star Piece"
 	li "Basement Key"
 	li "Pass"
-	li "TERU-SAMA"
+	li "Dubious Disc"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "Charcoal"
