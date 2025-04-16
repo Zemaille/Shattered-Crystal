@@ -56,13 +56,13 @@ MartViolet:
 	db POKE_BALL
 	db POTION
 	db ESCAPE_ROPE
+	db BERRY
+	db PSNCUREBERRY
+	db MINT_BERRY
+	db FLOWER_MAIL
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db X_DEFEND
-	db X_ATTACK
-	db X_SPEED
-	db FLOWER_MAIL
 	db -1 ; end
 
 MartAzalea:
@@ -72,10 +72,10 @@ MartAzalea:
 	db POTION
 	db SUPER_POTION
 	db ESCAPE_ROPE
-	db REPEL
+	db BERRY
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db FLOWER_MAIL
+	db AWAKENING
 	db -1 ; end
 
 MartCianwood:
@@ -102,32 +102,35 @@ MartGoldenrod2F2:
 	db 8 ; # items
 	db POKE_BALL
 	db GREAT_BALL
+	db ULTRA_BALL
+	db DUSK_BALL
 	db ESCAPE_ROPE
-	db REPEL
 	db REVIVE
 	db FULL_HEAL
 	db POKE_DOLL
-	db FLOWER_MAIL
 	db -1 ; end
 
 MartGoldenrod3F:
-	db 7 ; # items
-	db X_SPEED
-	db X_SPECIAL
-	db X_DEFEND
-	db X_ATTACK
-	db DIRE_HIT
-	db GUARD_SPEC
-	db X_ACCURACY
+	db 9 ; # items
+	db WATER_STONE
+	db FIRE_STONE
+	db THUNDERSTONE
+	db LEAF_STONE
+	db MOON_STONE
+	db SUN_STONE
+	db DUSK_STONE
+	db ICE_STONE
+	db WARPED_STONE
 	db -1 ; end
 
 MartGoldenrod4F:
-	db 5 ; # items
-	db PROTEIN
-	db IRON
-	db CARBOS
-	db CALCIUM
-	db HP_UP
+	db 6 ; # items
+	db KINGS_ROCK
+	db METAL_COAT
+	db DRAGON_SCALE
+	db UP_GRADE
+	db DUBIOUS_DISC
+	db TOXIC_GUNK
 	db -1 ; end
 
 MartGoldenrod5F:
@@ -141,14 +144,14 @@ MartGoldenrod5F:
 MartOlivine:
 	db 9 ; # items
 	db GREAT_BALL
+	db LURE_BALL
+	db MYSTIC_WATER
 	db SUPER_POTION
 	db HYPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
 	db ICE_HEAL
-	db SUPER_REPEL
-	db SURF_MAIL
 	db -1 ; end
 
 MartEcruteak:
