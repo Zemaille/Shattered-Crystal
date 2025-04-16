@@ -219,7 +219,7 @@ MonMenuIconPals:
 	icon_pals RED, TEAL   ; Scizor
 	icon_pals RED, TEAL   ; Shuckle
 	icon_pals BLUE, TEAL   ; Heracross
-	icon_pals BLUE, TEAL   ; Sneasel
+	icon_pals PINK, TEAL   ; Sneasel
 	icon_pals BROWN, TEAL   ; Teddiursa
 	icon_pals BROWN, TEAL   ; Ursaring
 	icon_pals RED, TEAL   ; Slugma
@@ -227,7 +227,7 @@ MonMenuIconPals:
 	icon_pals BROWN, TEAL   ; Swinub
 	icon_pals BROWN, TEAL   ; Piloswine
 	icon_pals PINK, TEAL   ; Corsola
-	icon_pals GRAY, TEAL   ; Cursola
+	icon_pals PURPLE, TEAL   ; Cursola
 	icon_pals BLUE, TEAL   ; Kittring
 	icon_pals BLUE, TEAL   ; Caterung
 	icon_pals BLUE, TEAL   ; Mantine
@@ -243,7 +243,7 @@ MonMenuIconPals:
 	icon_pals TEAL, TEAL   ; Dreepy
 	icon_pals TEAL, TEAL   ; Drakloak
 	icon_pals TEAL, TEAL   ; Dragapult
-	icon_pals BLUE, TEAL   ; Weavile
+	icon_pals PINK, TEAL   ; Weavile
 	icon_pals RED, TEAL   ; Porygon-Z
 	icon_pals PINK, TEAL   ; Miltank
 	icon_pals PINK, TEAL   ; Blissey

@@ -803,7 +803,7 @@ AbraEvosAttacks:
 	db 0 ; no more level-up moves
 
 KadabraEvosAttacks:
-	db EVOLVE_TRADE, -1, ALAKAZAM
+	db EVOLVE_ITEM, WARPED_STONE, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, CONFUSION
 	db 20, PSYBEAM
@@ -840,7 +840,7 @@ MachopEvosAttacks:
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
-	db EVOLVE_TRADE, -1, MACHAMP
+	db EVOLVE_ITEM, WARPED_STONE, MACHAMP
 	db 0 ; no more evolutions
 	db 12, KARATE_CHOP
 	db 16, FAINT_ATTACK
@@ -1196,7 +1196,7 @@ GastlyEvosAttacks:
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
-	db EVOLVE_TRADE, -1, GENGAR
+	db EVOLVE_ITEM, WARPED_STONE, GENGAR
 	db 0 ; no more evolutions
 	db 12, FAINT_ATTACK
 	db 16, HYPNOSIS
@@ -1766,8 +1766,11 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, VAPOREON
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
-	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
-	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
+	db EVOLVE_ITEM, SUN_STONE, ESPEON
+	db EVOLVE_ITEM, DUSK_STONE, UMBREON
+	db EVOLVE_ITEM, ICE_STONE, GLACEON
+	db EVOLVE_ITEM, LEAF_STONE, LEAFEON
+	db EVOLVE_ITEM, MOON_STONE, SYLVEON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
@@ -2585,6 +2588,7 @@ YanmaEvosAttacks:
 
 WooperEvosAttacks:
 	db EVOLVE_LEVEL, 20, QUAGSIRE
+	db EVOLVE_ITEM, TOXIC_GUNK, CLODSIRE
 	db 0 ; no more evolutions
 	db 1, TAIL_WHIP
 	db 1, BUBBLE
@@ -2900,6 +2904,8 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
+	db EVOLVE_ITEM, ICE_STONE, WEAVILE
+	db EVOLVE_ITEM, KINGS_ROCK, SNEASLER
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
@@ -2981,6 +2987,7 @@ SwinubEvosAttacks:
 	db 0 ; no more level-up moves
 
 PiloswineEvosAttacks:
+	db EVOLVE_ITEM, ICE_STONE, MAMOSWINE
 	db 0 ; no more evolutions
 	db 10, TAKE_DOWN
 	db 15, ICE_SHARD
@@ -2995,6 +3002,7 @@ PiloswineEvosAttacks:
 	db 0 ; no more level-up moves
 
 CorsolaEvosAttacks:
+	db EVOLVE_ITEM, TOXIC_GUNK, CURSOLA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HARDEN

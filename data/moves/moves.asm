@@ -209,7 +209,7 @@ Moves:
 	move BULLET_PUNCH, EFFECT_PRIORITY_HIT,       40, STEEL,         PHYSICAL, 100, 40,   0
 	move WILD_CHARGE,  EFFECT_RECOIL_HIT,         90, ELECTRIC,      PHYSICAL, 100, 15,   0
 	move PERISH_SONG,  EFFECT_PERISH_SONG,         0, NORMAL,        STATUS,   100,  5,   0
-	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,           SPECIAL,   95, 15, 100
+	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,           SPECIAL,  100, 15, 100
 	move DETECT,       EFFECT_PROTECT,             0, FIGHTING,      STATUS,   100,  5,   0
 	move CLOSE_COMBAT, EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL, 100,  5,   0
 	move JAW_ROLL,     EFFECT_JAW_ROLL,           75, WATER,         PHYSICAL,  95, 10,   0

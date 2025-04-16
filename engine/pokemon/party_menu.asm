@@ -405,7 +405,7 @@ PlacePartyMonEvoStoneCompatibility:
 	ld l, a
 	ld de, wStringBuffer1
 	ld a, BANK("Evolutions and Attacks")
-	ld bc, STRING_BUFFER_LENGTH
+	ld bc, 23
 	call FarCopyBytes
 	ld hl, wStringBuffer1
 .loop2

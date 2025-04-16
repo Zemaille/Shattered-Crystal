@@ -50,13 +50,13 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw TeruSama4Desc
+	dw WarpedStoneDesc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
 	dw CoinCaseDesc
 	dw ItemfinderDesc
-	dw TeruSama5Desc
+	dw PokeFluteDesc
 	dw ExpShareDesc
 	dw OldRodDesc
 	dw GoodRodDesc
@@ -90,7 +90,7 @@ ItemDescriptions:
 	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
-	dw TeruSama6Desc
+	dw IceStoneDesc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
@@ -100,7 +100,7 @@ ItemDescriptions:
 	dw WhtApricornDesc
 	dw BlackbeltDesc
 	dw BlkApricornDesc
-	dw TeruSama7Desc
+	dw DuskStoneDesc
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
@@ -120,7 +120,7 @@ ItemDescriptions:
 	dw MiracleSeedDesc
 	dw ThickClubDesc
 	dw FocusBandDesc
-	dw TeruSama8Desc
+	dw ToxicGunkDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -454,8 +454,9 @@ XAttackDesc:
 	db   "Raises Attack."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
+WarpedStoneDesc:
+	db   "Evolves certain"
+	next "kinds of Pokémon.@"
 
 XDefendDesc:
 	db   "Raises Defense."
@@ -477,11 +478,12 @@ ItemfinderDesc:
 	db   "Checks for unseen"
 	next "items in the area.@"
 
-TeruSama5Desc:
-	db   "?@"
+PokeFluteDesc:
+	db   "How did you get"
+	next "this?@"
 
 ExpShareDesc:
-	db   "Shares battle EXP."
+	db   "Shares battle Exp."
 	next "Points.@"
 
 OldRodDesc:
@@ -529,8 +531,8 @@ SSTicketDesc:
 	next "S.S.AQUA.@"
 
 MysteryEggDesc:
-	db   "An EGG obtained"
-	next "from MR.Pokémon.@"
+	db   "An egg obtained"
+	next "from Mr.Pokémon.@"
 
 ClearBellDesc:
 	db   "Makes a gentle"
@@ -610,8 +612,9 @@ SilverPowderDesc:
 BluApricornDesc:
 	db   "A blue APRICORN.@"
 
-TeruSama6Desc:
-	db   "?@"
+IceStoneDesc:
+	db   "Evolves certain"
+	next "kinds of Pokémon.@"
 
 AmuletCoinDesc:
 	db   "Doubles monetary"
@@ -646,8 +649,9 @@ BlkApricornDesc:
 	db   "A black APRICORN."
 	next "@"
 
-TeruSama7Desc:
-	db   "?@"
+DuskStoneDesc:
+	db   "Evolves certain"
+	next "kinds of Pokémon.@"
 
 PnkApricornDesc:
 	db   "A pink APRICORN."
@@ -725,8 +729,9 @@ FocusBandDesc:
 	db   "May prevent faint-"
 	next "ing. (HOLD)@"
 
-TeruSama8Desc:
-	db   "?@"
+ToxicGunkDesc:
+	db   "Evolves certain"
+	next "kinds of Pokémon.@"
 
 EnergyPowderDesc:
 	db   "Restores Pokémon"
