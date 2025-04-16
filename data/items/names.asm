@@ -44,7 +44,7 @@ ItemNames::
 	li "SUPER REPEL"
 	li "MAX REPEL"
 	li "DIRE HIT"
-	li "TERU-SAMA"
+	li "Dusk Ball"
 	li "Fresh Water"
 	li "Soda Pop"
 	li "Lemonade"
