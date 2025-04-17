@@ -64,9 +64,9 @@ MoomooScript:
 	writetext Route39BarnAskGiveBerryText
 	yesorno
 	iffalse .Refused
-	checkitem BERRY
+	checkitem ORAN_BERRY
 	iffalse .NoBerriesInBag
-	takeitem BERRY
+	takeitem ORAN_BERRY
 	readmem wMooMooBerries
 	addval 1
 	writemem wMooMooBerries
@@ -150,13 +150,13 @@ MoomooHappyMooText:
 	done
 
 Route39BarnAskGiveBerryText:
-	text "Give a BERRY to"
-	line "MILTANK?"
+	text "Give an Oran Berry"
+	line "to Miltank?"
 	done
 
 Route39BarnGaveBerryText:
-	text "<PLAYER> gave a"
-	line "BERRY to MILTANK."
+	text "<PLAYER> gave an"
+	line "Oran Berry."
 	done
 
 Route39BarnLittleHealthierText:
@@ -181,7 +181,7 @@ Route39BarnNoBerriesText:
 
 Route39BarnRefusedBerryText:
 	text "<PLAYER> wouldn't"
-	line "give a BERRY."
+	line "give a berry."
 
 	para "MILTANK looks sad."
 	done

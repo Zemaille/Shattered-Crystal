@@ -70,9 +70,6 @@ INCLUDE "engine/events/elevator.asm"
 INCLUDE "engine/events/bug_contest/contest.asm"
 INCLUDE "engine/events/hidden_item.asm"
 INCLUDE "engine/events/std_collision.asm"
-INCLUDE "engine/events/bug_contest/judging.asm"
-INCLUDE "engine/events/pokerus/apply_pokerus_tick.asm"
-INCLUDE "engine/events/bug_contest/contest_2.asm"
 INCLUDE "engine/pokemon/correct_party_errors.asm"
 INCLUDE "engine/math/get_square_root.asm"
 
@@ -542,6 +539,9 @@ INCLUDE "mobile/mobile_46.asm"
 SECTION "Battle Tower", ROMX
 
 INCLUDE "engine/events/battle_tower/trainer_text.asm"
+INCLUDE "engine/events/bug_contest/judging.asm"
+INCLUDE "engine/events/pokerus/apply_pokerus_tick.asm"
+INCLUDE "engine/events/bug_contest/contest_2.asm"
 
 
 SECTION "bank5B", ROMX

@@ -15,7 +15,7 @@ MonMenuOptionStrings:
 	li "Stats"
 	li "Switch"
 	li "Item"
-	li "Cancel"
+	li "CANCEL"
 	li "Move"
 	li "Mail"
 	li "ERROR!"
