@@ -118,6 +118,8 @@ UseRegisteredItem:
 	ld a, [wItemAttributeValue]
 	ld hl, .SwitchTo
 	rst JumpTable
+	xor a
+	ld [wUsingHMItem], a
 	ret
 
 .SwitchTo:
@@ -172,7 +174,11 @@ UseRegisteredItem:
 	call RefreshScreen
 
 ._cantuse
+	ld a, [wUsingHMItem]
+	and a
+	jr nz, .skip_oak
 	call CantUseItem
+.skip_oak
 	call CloseText
 	and a
 	ret

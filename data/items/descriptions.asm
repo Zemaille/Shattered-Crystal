@@ -136,7 +136,7 @@ ItemDescriptions:
 	dw BasementKeyDesc
 	dw PassDesc
 	dw DubiousDiscDesc
-	dw TeruSama10Desc
+	dw HatchetDesc
 	dw TeruSama11Desc
 	dw CharcoalDesc
 	dw BerryJuiceDesc
@@ -792,8 +792,9 @@ DubiousDiscDesc:
 	db   "An disc marked"
 	next "with Porygon2.@"
 
-TeruSama10Desc:
-	db   "?@"
+HatchetDesc:
+	db   "Cuts down pesky"
+	next "plants.@"
 
 TeruSama11Desc:
 	db   "?@"

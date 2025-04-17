@@ -204,7 +204,6 @@ Script_CutFromMenu:
 	special UpdateTimePals
 
 Script_Cut:
-	callasm GetPartyNickname
 	writetext UseCutText
 	reloadmappart
 	callasm CutDownTreeOrGrass
@@ -1759,13 +1758,21 @@ GotOffBikeText:
 	text_end
 
 TryCutOW::
+	ld de, ENGINE_HIVEBADGE
+	call CheckEngineFlag
+	jr c, .cant_cut
+
+	ld a, HATCHET
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .can_cut
+
 	ld d, CUT
 	call CheckPartyMove
 	jr c, .cant_cut
 
-	ld de, ENGINE_HIVEBADGE
-	call CheckEngineFlag
-	jr c, .cant_cut
+.can_cut
 
 	ld a, BANK(AskCutScript)
 	ld hl, AskCutScript

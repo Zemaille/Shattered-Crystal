@@ -149,7 +149,7 @@ ItemEffects:
 	dw BasementKeyEffect   ; BASEMENT_KEY
 	dw NoEffect            ; PASS
 	dw EvoStoneEffect      ; Dubious Disc
-	dw NoEffect            ; ITEM_88
+	dw HatchetEffect       ; Hatchet
 	dw NoEffect            ; ITEM_89
 	dw NoEffect            ; CHARCOAL
 	dw RestoreHPEffect     ; BERRY_JUICE
@@ -2954,4 +2954,10 @@ GetMthMoveOfCurrentMon:
 	ld c, a
 	ld b, 0
 	add hl, bc
+	ret
+
+HatchetEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall CutFunction
 	ret

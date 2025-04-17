@@ -135,7 +135,7 @@ ItemNames::
 	li "Basement Key"
 	li "Pass"
 	li "Dubious Disc"
-	li "TERU-SAMA"
+	li "Hatchet"
 	li "TERU-SAMA"
 	li "Charcoal"
 	li "Berry Juice"
