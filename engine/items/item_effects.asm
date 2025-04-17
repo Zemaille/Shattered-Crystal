@@ -150,7 +150,7 @@ ItemEffects:
 	dw NoEffect            ; PASS
 	dw EvoStoneEffect      ; Dubious Disc
 	dw HatchetEffect       ; Hatchet
-	dw NoEffect            ; ITEM_89
+	dw TorchEffect		   ; Torch
 	dw NoEffect            ; CHARCOAL
 	dw RestoreHPEffect     ; BERRY_JUICE
 	dw NoEffect            ; SCOPE_LENS
@@ -2960,4 +2960,10 @@ HatchetEffect:
 	ld a, 1
 	ld [wUsingHMItem], a
 	farcall CutFunction
+	ret
+
+TorchEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall FlashFunction
 	ret

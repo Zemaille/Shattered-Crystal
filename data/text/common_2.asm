@@ -311,8 +311,8 @@ _CutNothingText::
 	prompt
 
 _BlindingFlashText::
-	text "A blinding FLASH"
-	line "lights the area!@"
+	text "A blinding light"
+	line "fills the area!@"
 	text_promptbutton
 	text_end
 

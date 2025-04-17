@@ -137,7 +137,7 @@ ItemDescriptions:
 	dw PassDesc
 	dw DubiousDiscDesc
 	dw HatchetDesc
-	dw TeruSama11Desc
+	dw TorchDesc
 	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
@@ -796,8 +796,9 @@ HatchetDesc:
 	db   "Cuts down pesky"
 	next "plants.@"
 
-TeruSama11Desc:
-	db   "?@"
+TorchDesc:
+	db   "Lights up dark"
+	next "caves.@"
 
 CharcoalDesc:
 	db   "Powers up fire-"

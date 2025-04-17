@@ -142,7 +142,7 @@
 	const PASS         ; 86
 	const DUBIOUS_DISC ; 87
 	const HATCHET      ; 88
-	const ITEM_89      ; 89
+	const TORCH        ; 89
 	const CHARCOAL     ; 8a
 	const BERRY_JUICE  ; 8b
 	const SCOPE_LENS   ; 8c

@@ -136,7 +136,7 @@ ItemNames::
 	li "Pass"
 	li "Dubious Disc"
 	li "Hatchet"
-	li "TERU-SAMA"
+	li "Torch"
 	li "Charcoal"
 	li "Berry Juice"
 	li "Scope Lens"
