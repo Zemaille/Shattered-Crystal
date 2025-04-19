@@ -2201,10 +2201,10 @@ Pyroclasm:
 	applydamage
 	criticaltext
 	supereffectivetext
+	startsandstorm
 	checkfaint
 	buildopponentrage
 	kingsrock
-	startsandstorm
 	endmove
 
 Burn:
