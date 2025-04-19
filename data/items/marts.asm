@@ -59,7 +59,7 @@ MartViolet:
 	db ORAN_BERRY
 	db PECHA_BERRY
 	db CHESTO_BERRY
-	db FLOWER_MAIL
+	db PERSIM_BERRY
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
@@ -69,13 +69,13 @@ MartAzalea:
 	db 9 ; # items
 	db CHARCOAL
 	db POKE_BALL
-	db POTION
-	db SUPER_POTION
-	db ESCAPE_ROPE
-	db ORAN_BERRY
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
+	db HATCHET
+	db TORCH
+	db BIRD_WHISTLE
+	db HYDROJET
+	db VORTEX_DRIVE
+	db LIFTING_BELT
+	db LOCH_FLUTE
 	db -1 ; end
 
 MartCianwood:

@@ -141,14 +141,14 @@ ItemDescriptions:
 	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
-	dw TeruSama12Desc
-	dw TeruSama13Desc
+	dw LochFluteDesc
+	dw LiftingBeltDesc
 	dw MetalCoatDesc
 	dw DragonFangDesc
-	dw TeruSama14Desc
+	dw VortexDriveDesc
 	dw LeftoversDesc
-	dw TeruSama15Desc
-	dw TeruSama16Desc
+	dw HydroJetDesc
+	dw BirdWhistleDesc
 	dw TeruSama17Desc
 	dw MysteryBerryDesc
 	dw DragonScaleDesc
@@ -812,11 +812,13 @@ ScopeLensDesc:
 	db   "Raises critical"
 	next "hit ratio. (HOLD)@"
 
-TeruSama12Desc:
-	db   "?@"
+LochFluteDesc:
+	db   "Calls a Lapras to"
+	next "Surf for you.@"
 
-TeruSama13Desc:
-	db   "?@"
+LiftingBeltDesc:
+	db   "Lets you move"
+	next "heavy boulders.@"
 
 MetalCoatDesc:
 	db   "Powers up steel-"
@@ -826,18 +828,21 @@ DragonFangDesc:
 	db   "Powers up dragon-"
 	next "type moves. (HOLD)@"
 
-TeruSama14Desc:
-	db   "?@"
+VortexDriveDesc:
+	db   "Shuts off pesky"
+	next "whirlpools.@"
 
 LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
 
-TeruSama15Desc:
-	db   "?@"
+HydroJetDesc:
+	db   "SilphCo. tech to"
+	next "ride waterfalls.@"
 
-TeruSama16Desc:
-	db   "?@"
+BirdWhistleDesc:
+	db   "Calls a Skarmory"
+	next "to use Fly.@"
 
 TeruSama17Desc:
 	db   "?@"

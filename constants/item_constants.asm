@@ -146,14 +146,14 @@
 	const CHARCOAL     ; 8a
 	const BERRY_JUICE  ; 8b
 	const SCOPE_LENS   ; 8c
-	const ITEM_8D      ; 8d
-	const ITEM_8E      ; 8e
+	const LOCH_FLUTE   ; 8d
+	const LIFTING_BELT ; 8e
 	const METAL_COAT   ; 8f
 	const DRAGON_FANG  ; 90
-	const ITEM_91      ; 91
+	const VORTEX_DRIVE ; 91
 	const LEFTOVERS    ; 92
-	const ITEM_93      ; 93
-	const ITEM_94      ; 94
+	const HYDROJET     ; 93
+	const BIRD_WHISTLE ; 94
 	const ITEM_95      ; 95
 	const LEPPA_BERRY  ; 96
 	const DRAGON_SCALE ; 97

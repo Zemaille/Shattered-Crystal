@@ -579,7 +579,7 @@ VileplumeEvosAttacks:
 	db 0 ; no more level-up moves
 
 PhantumpEvosAttacks:
-	db EVOLVE_LEVEL, 24, TREVENANT
+	db EVOLVE_ITEM, LEAF_STONE, TREVENANT
 	db 0 ; no more evolutions
 	db 1, ASTONISH
 	db 4, VINE_WHIP
@@ -1148,9 +1148,9 @@ NoibatEvosAttacks:
 
 NoivernEvosAttacks:
 	db 0 ; no more evolutions
-	db 36, AIR_SLASH
-	db 40, NASTY_PLOT
-	db 44, RECOVER
+	db 1, AIR_SLASH
+	db 1, NASTY_PLOT
+	db 1, RECOVER
 	db 51, HURRICANE
 	db 56, BOOMBURST
 	db 0 ; no more level-up moves
@@ -2340,7 +2340,7 @@ SylveonEvosAttacks:
 	db 0 ; no more level-up moves
 
 TogepiEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
+	db EVOLVE_LEVEL, 10, TOGETIC
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, POUND
@@ -3020,7 +3020,6 @@ CorsolaEvosAttacks:
 	db 0 ; no more level-up moves
 
 CursolaEvosAttacks:
-	db EVOLVE_LEVEL, 25, KITTRING
 	db 0 ; no more evolutions
 	db 1, PERISH_SONG
 	db 1, BUBBLEBEAM

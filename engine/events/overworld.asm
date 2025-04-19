@@ -502,10 +502,17 @@ TrySurfOW::
 	call CheckEngineFlag
 	jr c, .quit
 
+	ld a, LOCH_FLUTE
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .itemsurf
+
 	ld d, SURF
 	call CheckPartyMove
 	jr c, .quit
-
+	
+.itemsurf
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
 	jr nz, .quit
@@ -588,11 +595,29 @@ FlyFunction:
 
 .illegal
 	call CloseWindow
+	ld a, [wFlyingWithHMItem]
+	and a
+	jr z, .done_tiles
+	ld a, [wUsingItemWithSelect]
+	and a
+	jr nz, .overworld
+	farcall Pack_InitGFX ; gets the pack GFX when exiting out of Fly by pressing B
+	farcall WaitBGMap_DrawPackGFX
+	farcall Pack_InitColors
+.done_tiles
 	call WaitBGMap
 	ld a, $80
 	ret
 
+.overworld
+	call ExitFlyMap
+	jr .done_tiles
 .DoFly:
+	ld a, [wUsingItemWithSelect]
+	and a
+	jr z, .done_select
+	call ExitFlyMap
+.done_select
 	ld hl, .FlyScript
 	call QueueScript
 	ld a, $81
@@ -701,14 +726,24 @@ Script_UsedWaterfall:
 	text_end
 
 TryWaterfallOW::
-	ld d, WATERFALL
-	call CheckPartyMove
-	jr c, .failed
 	ld de, ENGINE_RISINGBADGE
 	call CheckEngineFlag
 	jr c, .failed
+
 	call CheckMapCanWaterfall
 	jr c, .failed
+
+	ld a, HYDROJET
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .hydrojet
+
+	ld d, WATERFALL
+	call CheckPartyMove
+	jr c, .failed
+
+.hydrojet
 	ld a, BANK(Script_AskWaterfall)
 	ld hl, Script_AskWaterfall
 	call CallScript
@@ -1052,14 +1087,21 @@ BouldersMayMoveText:
 	text_end
 
 TryStrengthOW:
-	ld d, STRENGTH
-	call CheckPartyMove
-	jr c, .nope
-
 	ld de, ENGINE_PLAINBADGE
 	call CheckEngineFlag
 	jr c, .nope
 
+	ld a, LIFTING_BELT
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .can_push
+
+	ld d, STRENGTH
+	call CheckPartyMove
+	jr c, .nope
+
+.can_push
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_STRENGTH_ACTIVE_F, [hl]
 	jr z, .already_using
@@ -1186,14 +1228,24 @@ DisappearWhirlpool:
 	ret
 
 TryWhirlpoolOW::
-	ld d, WHIRLPOOL
-	call CheckPartyMove
-	jr c, .failed
 	ld de, ENGINE_GLACIERBADGE
 	call CheckEngineFlag
 	jr c, .failed
+
 	call TryWhirlpoolMenu
+	jr c, .failed	
+
+	ld a, VORTEX_DRIVE
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr c, .calmwaters
+
+	ld d, WHIRLPOOL
+	call CheckPartyMove
 	jr c, .failed
+	
+.calmwaters
 	ld a, BANK(Script_AskWhirlpoolOW)
 	ld hl, Script_AskWhirlpoolOW
 	call CallScript

@@ -154,14 +154,14 @@ ItemEffects:
 	dw NoEffect            ; CHARCOAL
 	dw RestoreHPEffect     ; BERRY_JUICE
 	dw NoEffect            ; SCOPE_LENS
-	dw NoEffect            ; ITEM_8D
-	dw NoEffect            ; ITEM_8E
+	dw LochFluteEffect	   ; Loch Flute
+	dw LiftingBeltEffect   ; Lifting Belt
 	dw EvoStoneEffect      ; METAL_COAT
 	dw NoEffect            ; DRAGON_FANG
-	dw NoEffect            ; ITEM_91
+	dw VortexDriveEffect   ; Vortex Drive
 	dw NoEffect            ; LEFTOVERS
-	dw NoEffect            ; ITEM_93
-	dw NoEffect            ; ITEM_94
+	dw HydroJetEffect	   ; HydroJet
+	dw BirdWhistleEffect   ; Bird Whistle
 	dw NoEffect            ; ITEM_95
 	dw RestorePPEffect     ; LEPPA_BERRY
 	dw EvoStoneEffect      ; DRAGON_SCALE
@@ -2966,4 +2966,50 @@ TorchEffect:
 	ld a, 1
 	ld [wUsingHMItem], a
 	farcall FlashFunction
+	ret
+LochFluteEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall SurfFunction
+	ret
+
+LiftingBeltEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall StrengthFunction
+	ret
+
+VortexDriveEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall WhirlpoolFunction
+	ret
+
+HydroJetEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall WaterfallFunction
+	ret
+
+BirdWhistleEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	ld [wFlyingWithHMItem], a
+	farcall FlyFunction
+	ld a, [wFieldMoveSucceeded]
+	cp $2
+	jr z, .Fail
+	cp $0
+	jr z, .Error
+	farcall StubbedTrainerRankings_Fly
+	ld b, $4
+	ld a, $2
+	ret
+
+.Fail:
+	ld a, $3
+	ret
+
+.Error:
+	ld a, $0
 	ret
