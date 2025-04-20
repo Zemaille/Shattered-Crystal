@@ -12,7 +12,7 @@ ItemNames::
 	li "Burn Heal"
 	li "Ice Heal"
 	li "Awakening"
-	li "Para Heal"
+	li "PRZ Heal"
 	li "Full Restore"
 	li "Max Potion"
 	li "Hyper Potion"
