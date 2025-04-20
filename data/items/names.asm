@@ -148,7 +148,7 @@ ItemNames::
 	li "Leftovers"
 	li "HydroJet"
 	li "Bird Whistle"
-	li "TERU-SAMA"
+	li "Teleporter"
 	li "Leppa Berry"
 	li "Dragon Scale"
 	li "Berserk Gene"

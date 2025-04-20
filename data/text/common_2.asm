@@ -354,14 +354,13 @@ _AskWaterfallText::
 	done
 
 _UseDigText::
-	text_ram wStringBuffer2
-	text " used"
+	text "Someone used"
 	line "Bulldoze!"
 	done
 
 _UseEscapeRopeText::
-	text "<PLAYER> used an"
-	line "ESCAPE ROPE."
+	text "<PLAYER> used the"
+	line "Escape Rope."
 	done
 
 _CantUseDigText::
@@ -371,7 +370,7 @@ _CantUseDigText::
 
 _TeleportReturnText::
 	text "Return to the last"
-	line "#MON CENTER."
+	line "PokéCenter."
 	done
 
 _CantUseTeleportText::

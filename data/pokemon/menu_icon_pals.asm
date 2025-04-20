@@ -58,8 +58,8 @@ MonMenuIconPals:
 	icon_pals BROWN, TEAL   ; Dugtrio
 	icon_pals BROWN, TEAL   ; Meowth
 	icon_pals BROWN, TEAL   ; Persian
-	icon_pals GREEN, TEAL   ; Dewpider
-	icon_pals GREEN, TEAL   ; Araquanid
+	icon_pals BLUE, TEAL   ; Dewpider
+	icon_pals BLUE, TEAL   ; Araquanid
 	icon_pals BLUE, TEAL   ; Tangela
 	icon_pals BLUE, TEAL   ; Tangrowth
 	icon_pals RED, TEAL   ; Growlithe

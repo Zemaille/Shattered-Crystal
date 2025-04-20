@@ -859,7 +859,7 @@ EscapeRopeOrDig:
 	ret
 
 .UseDigText:
-	text_far _UseDigText
+	text_far _UseEscapeRopeText
 	text_end
 
 .UseEscapeRopeText:

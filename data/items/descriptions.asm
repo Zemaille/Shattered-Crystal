@@ -149,7 +149,7 @@ ItemDescriptions:
 	dw LeftoversDesc
 	dw HydroJetDesc
 	dw BirdWhistleDesc
-	dw TeruSama17Desc
+	dw TeleporterDesc
 	dw MysteryBerryDesc
 	dw DragonScaleDesc
 	dw BerserkGeneDesc
@@ -844,8 +844,9 @@ BirdWhistleDesc:
 	db   "Calls a Skarmory"
 	next "to use Fly.@"
 
-TeruSama17Desc:
-	db   "?@"
+TeleporterDesc:
+	db   "Returns you to the"
+	next "last PokéCenter.@"
 
 MysteryBerryDesc:
 	db   "A self-restore"

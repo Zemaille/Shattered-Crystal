@@ -162,7 +162,7 @@ ItemEffects:
 	dw NoEffect            ; LEFTOVERS
 	dw HydroJetEffect	   ; HydroJet
 	dw BirdWhistleEffect   ; Bird Whistle
-	dw NoEffect            ; ITEM_95
+	dw TeleporterEffect	   ; Teleporter
 	dw RestorePPEffect     ; LEPPA_BERRY
 	dw EvoStoneEffect      ; DRAGON_SCALE
 	dw NoEffect            ; BERSERK_GENE
@@ -2086,16 +2086,6 @@ Softboiled_MilkDrinkFunction:
 	text_far _ItemCantUseOnMonText
 	text_end
 
-EscapeRopeEffect:
-	xor a
-	ld [wItemEffectSucceeded], a
-	farcall EscapeRopeFunction
-
-	ld a, [wItemEffectSucceeded]
-	cp 1
-	call z, UseDisposableItem
-	ret
-
 RepelEffect:
 	ld b, 1
 	ld a, [wRepelEffect]
@@ -2989,6 +2979,18 @@ HydroJetEffect:
 	ld a, 1
 	ld [wUsingHMItem], a
 	farcall WaterfallFunction
+	ret
+
+EscapeRopeEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall DigFunction
+	ret
+
+TeleporterEffect:
+	ld a, 1
+	ld [wUsingHMItem], a
+	farcall TeleportFunction
 	ret
 
 BirdWhistleEffect:

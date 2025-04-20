@@ -89,7 +89,7 @@
 	const POISON_BARB  ; 51
 	const KINGS_ROCK   ; 52
 	const PERSIM_BERRY ; 53
-	const CHESTO_BERRY   ; 54
+	const CHESTO_BERRY ; 54
 	const RED_APRICORN ; 55
 	const TINYMUSHROOM ; 56
 	const BIG_MUSHROOM ; 57
@@ -154,7 +154,7 @@
 	const LEFTOVERS    ; 92
 	const HYDROJET     ; 93
 	const BIRD_WHISTLE ; 94
-	const ITEM_95      ; 95
+	const TELEPORTER   ; 95
 	const LEPPA_BERRY  ; 96
 	const DRAGON_SCALE ; 97
 	const BERSERK_GENE ; 98

@@ -48,7 +48,7 @@ MartCherrygroveDex:
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db AWAKENING
+	db TELEPORTER
 	db -1 ; end
 
 MartViolet:
