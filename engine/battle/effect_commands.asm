@@ -5643,7 +5643,6 @@ BattleCommand_TrapTarget:
 	dbw CLAMP,       ClampedByText       ; 'was Clamped by'
 	dbw WHIRLPOOL,   WhirlpoolTrapText   ; 'was trapped!'
 	dbw INFESTATION, InfestationTrapText ; 'became infested!'
-	dbw JAW_ROLL,    FireSpinTrapText
 
 INCLUDE "engine/battle/move_effects/mist.asm"
 

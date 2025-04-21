@@ -474,7 +474,7 @@ AideScript_GivePotion:
 	opentext
 	writetext AideText_GiveYouPotion
 	promptbutton
-	verbosegiveitem RARE_CANDY
+	verbosegiveitem CANDY_BAG
 	writetext AideText_AlwaysBusy
 	waitbutton
 	closetext
@@ -501,7 +501,7 @@ AideScript_GiveYouBalls:
 	promptbutton
 	getitemname STRING_BUFFER_4, POKE_BALL
 	scall AideScript_ReceiveTheBalls
-	giveitem POKE_BALL, 5
+	giveitem POKE_BALL, 12
 	writetext AideText_ExplainBalls
 	promptbutton
 	itemnotify

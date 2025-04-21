@@ -2122,19 +2122,18 @@ CroconawEvosAttacks:
 	db 1, LEER
 	db 6, BUBBLE
 	db 9, BITE
-	db 13, SCARY_FACE
+	db 13, CLAMP
 	db 21, ICE_FANG
-	db 24, CLAMP
-	db 30, CRUNCH
+	db 24, SCARY_FACE
 	db 0 ; no more level-up moves
 
 FeraligatrEvosAttacks:
 	db 0 ; no more evolutions
-	db 21, ICE_FANG
-	db 24, CLAMP
-	db 30, CRUNCH
-	db 30, JAW_ROLL
-	db 37, SLASH
+	db 1, CLAMP
+	db 1, ICE_FANG
+	db 1, SCARY_FACE
+	db 30, AMBUSH
+	db 37, CRUNCH
 	db 44, SWORDS_DANCE
 	db 51, WATERFALL
 	db 59, NIGHT_SLASH

@@ -220,8 +220,8 @@ TrainerGruntM19:
 	end
 
 RocketElectrode1:
-	cry MAGNEZONE
-	loadwildmon MAGNEZONE, 23
+	cry ELECTRODE
+	loadwildmon ELECTRODE, 23
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE1
@@ -238,8 +238,8 @@ RocketElectrode1:
 	sjump RocketBaseElectrodeScript
 
 RocketElectrode2:
-	cry MAGNEZONE
-	loadwildmon MAGNEZONE, 23
+	cry ELECTRODE
+	loadwildmon ELECTRODE, 23
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE2
@@ -256,8 +256,8 @@ RocketElectrode2:
 	sjump RocketBaseElectrodeScript
 
 RocketElectrode3:
-	cry MAGNEZONE
-	loadwildmon MAGNEZONE, 23
+	cry ELECTRODE
+	loadwildmon ELECTRODE, 23
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE3

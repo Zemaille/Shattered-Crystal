@@ -159,7 +159,7 @@ EvolutionMoves::
 	db PYROCLASM    ; TYPHLOSION 
 	db NO_MOVE      ; TOTODILE   
 	db NO_MOVE      ; CROCONAW   
-	db JAW_ROLL     ; FERALIGATR 
+	db AMBUSH       ; FERALIGATR 
 	db NO_MOVE      ; SENTRET    
 	db AGILITY      ; FURRET     
 	db NO_MOVE      ; HOOTHOOT   

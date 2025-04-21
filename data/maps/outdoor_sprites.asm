@@ -30,6 +30,7 @@ OutdoorSprites:
 	dw NewBarkGroupSprites
 	dw SaffronGroupSprites
 	dw CherrygroveGroupSprites
+	dw GlobalTerminalSprites
 	assert_table_length NUM_MAP_GROUPS
 
 PalletGroupSprites:
@@ -457,6 +458,7 @@ AzaleaGroupSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SLOWPOKE
 
+GlobalTerminalSprites:
 GoldenrodGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY

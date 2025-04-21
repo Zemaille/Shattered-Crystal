@@ -1045,3 +1045,14 @@ BetaBlank_Blocks: ; unreferenced
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.blk"
+
+SECTION "Map Blocks 4", ROMX
+
+GlobalTerminalOutside_Blocks:
+	INCBIN "maps/GlobalTerminalOutside.blk"
+
+GlobalTerminal1F_Blocks:
+	INCBIN "maps/GlobalTerminal1F.blk"
+
+IlexForestHeart_Blocks:
+	INCBIN "maps/IlexForestHeart.blk"

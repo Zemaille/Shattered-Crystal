@@ -173,7 +173,6 @@ MoveEffectsPointers:
 	dw IceFang
 	dw PsyhornBash
 	dw CalmMind
-	dw JawRoll
 	dw ShellSmash
 	dw DireClaw
 	assert_table_length NUM_MOVE_EFFECTS

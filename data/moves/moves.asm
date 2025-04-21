@@ -130,7 +130,7 @@ Moves:
 	move HAZE,         EFFECT_RESET_STATS,         0, ICE,           STATUS,   100, 30,   0
 	move REFLECT,      EFFECT_REFLECT,             0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
 	move IRON_HEAD,    EFFECT_FLINCH_HIT,         80, STEEL,         PHYSICAL, 100, 15,  30
-	move POLTERGEIST,  EFFECT_THIEF,             110, GHOST,         PHYSICAL,  90,  5, 100
+	move POLTERGEIST,  EFFECT_THIEF,             110, GHOST,         PHYSICAL, 100,  1, 100
 	move METRONOME,    EFFECT_METRONOME,           0, NORMAL,        STATUS,   100, 10,   0
 	move DRAGON_DARTS, EFFECT_DOUBLE_HIT,         50, DRAGON,        PHYSICAL, 100, 10,   0
 	move PSYHORN_BASH, EFFECT_PSYHORN_BASH,       70, PSYCHIC_TYPE,  PHYSICAL,  90, 10,   0
@@ -141,7 +141,7 @@ Moves:
 	move DRAIN_PUNCH,  EFFECT_LEECH_HIT,          75, FIGHTING,      PHYSICAL, 100, 10,   0
 	move FIRE_BLAST,   EFFECT_BURN_HIT,          110, FIRE,          SPECIAL,   85,  5,  10
 	move WATERFALL,    EFFECT_NORMAL_HIT,         80, WATER,         PHYSICAL, 100, 15,   0
-	move CLAMP,        EFFECT_TRAP_TARGET,        35, WATER,         PHYSICAL,  85, 15,   0
+	move CLAMP,        EFFECT_TRAP_TARGET,        40, WATER,         PHYSICAL,  90, 15,   0
 	move SWIFT,        EFFECT_ALWAYS_HIT,         60, NORMAL,        SPECIAL,  100, 20,   0
 	move CALM_MIND,    EFFECT_CALM_MIND,         100, PSYCHIC_TYPE,  STATUS,   100, 20,   0
 	move SPIKE_CANNON, EFFECT_MULTI_HIT,          20, NORMAL,        PHYSICAL, 100, 15,   0
@@ -212,7 +212,7 @@ Moves:
 	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,           SPECIAL,  100, 15, 100
 	move DETECT,       EFFECT_PROTECT,             0, FIGHTING,      STATUS,   100,  5,   0
 	move CLOSE_COMBAT, EFFECT_CLOSE_COMBAT,      120, FIGHTING,      PHYSICAL, 100,  5,   0
-	move JAW_ROLL,     EFFECT_JAW_ROLL,           75, WATER,         PHYSICAL,  95, 10,   0
+	move AMBUSH,       EFFECT_PRIORITY_HIT,       70, WATER,         PHYSICAL, 100,  5,   0
 	move OUTRAGE,      EFFECT_RAMPAGE,           120, DRAGON,        PHYSICAL, 100, 15,   0
 	move SANDSTORM,    EFFECT_SANDSTORM,           0, ROCK,          STATUS,   100, 10,   0
 	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          75, GRASS,         SPECIAL,  100, 10,   0

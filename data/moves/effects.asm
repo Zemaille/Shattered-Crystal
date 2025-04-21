@@ -2349,29 +2349,6 @@ CalmMind:
 	statupfailtext
 	endmove
 
-JawRoll:
-	checkobedience
-	usedmovetext
-	doturn
-	checkhit
-	critical
-	damagestats
-	damagecalc
-	stab
-	damagevariation
-	clearmissdamage
-	moveanim
-	failuretext
-	applydamage
-	criticaltext
-	supereffectivetext
-	checkfaint
-	buildopponentrage
-	traptarget
-	defensedown
-	statdownmessage
-	endmove
-	
 ShellSmash:
 	checkobedience
 	usedmovetext

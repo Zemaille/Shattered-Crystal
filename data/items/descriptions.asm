@@ -153,7 +153,7 @@ ItemDescriptions:
 	dw MysteryBerryDesc
 	dw DragonScaleDesc
 	dw BerserkGeneDesc
-	dw TeruSama18Desc
+	dw CandyBagDesc
 	dw TeruSama19Desc
 	dw TeruSama20Desc
 	dw SacredAshDesc
@@ -383,8 +383,8 @@ CalciumDesc:
 	next "of one Pokémon.@"
 
 RareCandyDesc:
-	db   "Raises level of a"
-	next "Pokémon by one.@"
+	db   "Forces a Pokémon"
+	next "to level up.@"
 
 XAccuracyDesc:
 	db   "Raises accuracy."
@@ -860,8 +860,9 @@ BerserkGeneDesc:
 	db   "Boosts Attack but"
 	next "causes confusion.@"
 
-TeruSama18Desc:
-	db   "?@"
+CandyBagDesc:
+	db   "Small candies that"
+	next "can level Pokémon.@"
 
 TeruSama19Desc:
 	db   "?@"

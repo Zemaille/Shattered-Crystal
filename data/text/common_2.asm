@@ -324,7 +324,7 @@ _UsedSurfText::
 	done
 
 _CantSurfText::
-	text "You can't Surf`"
+	text "You can't Surf"
 	line "here."
 	prompt
 

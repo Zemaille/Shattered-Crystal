@@ -484,3 +484,6 @@ SECTION "Map Scripts 25", ROMX
 
 INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
+INCLUDE "maps/GlobalTerminalOutside.asm"
+INCLUDE "maps/GlobalTerminal1F.asm"
+INCLUDE "maps/IlexForestHeart.asm"

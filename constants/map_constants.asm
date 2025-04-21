@@ -115,6 +115,7 @@ ENDM
 	map_const TEAM_ROCKET_BASE_B2F,                        15,  9 ; 50
 	map_const TEAM_ROCKET_BASE_B3F,                        15,  9 ; 51
 	map_const ILEX_FOREST,                                 15, 27 ; 52
+	map_const ILEX_FOREST_HEART,						   27, 15 ; Heart
 	map_const GOLDENROD_UNDERGROUND,                       15, 18 ; 53
 	map_const GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES, 15, 18 ; 54
 	map_const GOLDENROD_DEPT_STORE_B1F,                    10,  9 ; 55
@@ -500,5 +501,10 @@ ENDM
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	endgroup
+	
+	newgroup GLOBAL_TERMINAL                                      ; 27
+	map_const GLOBAL_TERMINAL_OUTSIDE,                     10, 13 ;  1
+	map_const GLOBAL_TERMINAL_1F,                           9,  6 ;  2
+	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 26
+DEF NUM_MAP_GROUPS EQU const_value ; 27
