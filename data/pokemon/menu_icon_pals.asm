@@ -5,15 +5,15 @@ ENDM
 MonMenuIconPals:
 	table_width 1, MonMenuIconPals
 	;         normal, shiny
-	icon_pals TEAL, TEAL   ; Bulbasaur
-	icon_pals TEAL, TEAL   ; Ivysaur
-	icon_pals TEAL, TEAL   ; Venusaur
-	icon_pals RED, TEAL   ; Charmander
-	icon_pals RED, TEAL   ; Charmeleon
-	icon_pals RED, TEAL   ; Charizard
+	icon_pals GREEN, TEAL   ; Bulbasaur
+	icon_pals GREEN, TEAL   ; Ivysaur
+	icon_pals GREEN, TEAL   ; Venusaur
+	icon_pals RED, PINK   ; Charmander
+	icon_pals RED, PINK   ; Charmeleon
+	icon_pals RED, PURPLE   ; Charizard
 	icon_pals BLUE, TEAL   ; Squirtle
-	icon_pals BLUE, TEAL   ; Wartortle
-	icon_pals BLUE, TEAL   ; Blastoise
+	icon_pals BLUE, PURPLE   ; Wartortle
+	icon_pals BLUE, PURPLE   ; Blastoise
 	icon_pals GREEN, TEAL   ; Caterpie
 	icon_pals GREEN, TEAL   ; Metapod
 	icon_pals GREEN, TEAL   ; Butterfree
@@ -151,8 +151,8 @@ MonMenuIconPals:
 	icon_pals BLUE, TEAL   ; Articuno
 	icon_pals BROWN, TEAL   ; Zapdos
 	icon_pals RED, TEAL   ; Moltres
-	icon_pals BLUE, TEAL   ; Dratini
-	icon_pals BLUE, TEAL   ; Dragonair
+	icon_pals BLUE, PURPLE   ; Dratini
+	icon_pals BLUE, PURPLE   ; Dragonair
 	icon_pals RED, GREEN   ; Dragonite
 	icon_pals RED, TEAL   ; Delibird
 	icon_pals PINK, BLUE   ; Mew
@@ -251,8 +251,8 @@ MonMenuIconPals:
 	icon_pals RED, TEAL   ; Entei
 	icon_pals BLUE, TEAL   ; Suicune
 	icon_pals GREEN, TEAL   ; Larvitar
-	icon_pals GRAY, TEAL   ; Pupitar
-	icon_pals GREEN, TEAL   ; Tyranitar
+	icon_pals GRAY, PURPLE   ; Pupitar
+	icon_pals GREEN, PURPLE   ; Tyranitar
 	icon_pals RED, TEAL   ; Zorua
 	icon_pals RED, TEAL   ; Ho-Oh
 	icon_pals GREEN, PINK   ; Celebi

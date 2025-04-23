@@ -58,6 +58,14 @@ JohtoWaterWildMons:
 	db 20, TOTODILE,      5,   5
 	end_water_wildmons
 
+	def_water_wildmons ILEX_FOREST_HEART
+	db 2 percent ; encounter rate
+	;  %, species,		min, max
+	db 40, FEEBAS,        5,   5
+	db 40, FEEBAS,        5,   5
+	db 20, TOTODILE,      5,   5
+	end_water_wildmons
+
 	def_water_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 4 percent ; encounter rate
 	;  %, species,		min, max

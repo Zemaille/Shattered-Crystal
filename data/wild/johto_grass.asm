@@ -653,6 +653,37 @@ JohtoGrassWildMons:
 	db 10, SHUCKLE, 	 13,  16
 	end_grass_wildmons
 
+	def_grass_wildmons ILEX_FOREST_HEART
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	;  %, species,		min, max
+	db 20, SPINARAK, 	 13,  16
+	db 20, ODDISH,  	 13,  16
+	db 20, PHANTUMP, 	 13,  16
+	db 10, TANGELA, 	 13,  16
+	db 10, STANTLER, 	 13,  16
+	db 10, MURKROW, 	 13,  16
+	db 10, SHUCKLE, 	 13,  16
+	; day
+	;  %, species,		min, max
+	db 20, SPINARAK, 	 13,  16
+	db 20, ODDISH,  	 13,  16
+	db 20, PHANTUMP, 	 13,  16
+	db 10, TANGELA, 	 13,  16
+	db 10, STANTLER, 	 13,  16
+	db 10, MURKROW, 	 13,  16
+	db 10, SHUCKLE, 	 13,  16
+	; nite
+	;  %, species,		min, max
+	db 20, SPINARAK, 	 13,  16
+	db 20, ODDISH,  	 13,  16
+	db 20, PHANTUMP, 	 13,  16
+	db 10, TANGELA, 	 13,  16
+	db 10, STANTLER, 	 13,  16
+	db 10, MURKROW, 	 13,  16
+	db 10, SHUCKLE, 	 13,  16
+	end_grass_wildmons
+
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn

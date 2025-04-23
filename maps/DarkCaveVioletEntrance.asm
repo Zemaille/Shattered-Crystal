@@ -1,9 +1,5 @@
 	object_const_def
 	const DARKCAVEVIOLETENTRANCE_POKE_BALL1
-	const DARKCAVEVIOLETENTRANCE_ROCK1
-	const DARKCAVEVIOLETENTRANCE_ROCK2
-	const DARKCAVEVIOLETENTRANCE_ROCK3
-	const DARKCAVEVIOLETENTRANCE_ROCK4
 	const DARKCAVEVIOLETENTRANCE_POKE_BALL2
 	const DARKCAVEVIOLETENTRANCE_POKE_BALL3
 	const DARKCAVEVIOLETENTRANCE_POKE_BALL4
@@ -23,13 +19,89 @@ DarkCaveVioletEntranceHyperPotion:
 	itemball TORCH
 
 DarkCaveVioletEntranceDireHit:
-	itemball PROTEIN
+	itemball RARE_CANDY
 
-DarkCaveVioletEntranceRock:
-	jumpstd SmashRockScript
 
 DarkCaveVioletEntranceHiddenElixer:
-	hiddenitem ELIXER, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXER
+	hiddenitem PROTEIN, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXER
+
+TrainerHikerKarl:
+	trainer HIKER, KARL, EVENT_BEAT_HIKER_KARL, HikerKarlSeenText, HikerKarlBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext HikerKarlAfterText
+	waitbutton
+	closetext
+	end
+
+HikerKarlSeenText:
+	text "It's so dark"
+	line "in here!"
+	done
+	
+HikerKarlBeatenText:
+	text "Blinded by"
+	line "the light!"
+	done
+
+HikerKarlAfterText:
+	text "If only I"
+	line "didn't need"
+	cont "Flash."
+	done
+
+TrainerCamperHarvey:
+	trainer CAMPER, HARVEY, EVENT_BEAT_CAMPER_HARVEY, CamperHarveySeenText, CamperHarveyBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext CamperHarveyAfterText
+	waitbutton
+	closetext
+	end
+
+CamperHarveySeenText:
+	text "Oh hey, you"
+	line "beat Falkner?"
+	done
+	
+CamperHarveyBeatenText:
+	text "My team isn't"
+	line "balanced…"
+	done
+
+CamperHarveyAfterText:
+	text "Pikachu…"
+	done
+
+TrainerMediumBethany:
+	trainer MEDIUM, BETHANY, EVENT_BEAT_MEDIUM_BETHANY, MediumBethanySeenText, MediumBethanyBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext MediumBethanyAfterText
+	waitbutton
+	closetext
+	end
+
+MediumBethanySeenText:
+	text "There's some-"
+	line "thing here!"
+	done
+	
+MediumBethanyBeatenText:
+	text "I think it's"
+	line "gone now."
+	done
+
+MediumBethanyAfterText:
+	text "There are no"
+	line "ghosts here."
+	done
 
 DarkCaveVioletEntrance_MapEvents:
 	db 0, 0 ; filler
@@ -42,14 +114,13 @@ DarkCaveVioletEntrance_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event 26,  3, BGEVENT_ITEM, DarkCaveVioletEntranceHiddenElixer
+	bg_event 31, 27, BGEVENT_ITEM, DarkCaveVioletEntranceHiddenElixer
 
 	def_object_events
 	object_event  6,  8, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveVioletEntrancePotion, EVENT_DARK_CAVE_VIOLET_ENTRANCE_POTION
-	object_event 36, 11, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DarkCaveVioletEntranceRock, -1
-	object_event 37, 11, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DarkCaveVioletEntranceRock, -1
-	object_event 29, 14, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DarkCaveVioletEntranceRock, -1
-	object_event 36, 31, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DarkCaveVioletEntranceRock, -1
-	object_event 24,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveVioletEntranceFullHeal, EVENT_DARK_CAVE_VIOLET_ENTRANCE_FULL_HEAL
-	object_event 35,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveVioletEntranceHyperPotion, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HYPER_POTION
-	object_event 30, 28, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveVioletEntranceDireHit, EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
+	object_event 24,  6, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveVioletEntranceFullHeal, EVENT_DARK_CAVE_VIOLET_ENTRANCE_FULL_HEAL
+	object_event 36, 33, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveVioletEntranceHyperPotion, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HYPER_POTION
+	object_event 36,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DarkCaveVioletEntranceDireHit, EVENT_DARK_CAVE_VIOLET_ENTRANCE_DIRE_HIT
+	object_event 12, 24, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerHikerKarl, -1
+	object_event 36, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCamperHarvey, -1
+	object_event 37, 25, SPRITE_GRANNY,    SPRITEMOVEDATA_STANDING_LEFT,  0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerMediumBethany, -1

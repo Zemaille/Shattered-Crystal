@@ -489,6 +489,7 @@ DEF KRIS EQU __trainer_class__
 	const PARRY3
 	const ANTHONY4
 	const ANTHONY5
+	const KARL
 
 	trainerclass BIKER ; 2d
 	const BIKER_BENNY ; unused
@@ -631,7 +632,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass MEDIUM ; 39
 	const MARTHA
 	const GRACE
-	const BETHANY ; unused
+	const BETHANY
 	const MARGRET ; unused
 	const ETHEL ; unused
 	const REBECCA
