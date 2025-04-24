@@ -209,7 +209,7 @@ DEF KRIS EQU __trainer_class__
 	const BLAKE
 	const BRIAN
 	const ERICK
-	const ANDY ; unused
+	const ANDY 
 	const TYLER ; unused
 	const SEAN
 	const KEVIN
@@ -325,6 +325,7 @@ DEF KRIS EQU __trainer_class__
 	const COLETTE
 	const HILLARY
 	const SHIRLEY
+	const MIRIAM
 
 	trainerclass SABRINA ; 23
 	const SABRINA1
@@ -388,10 +389,10 @@ DEF KRIS EQU __trainer_class__
 	const BERKE
 	const KIRK
 	const MATHEW
-	const HAL ; unused
+	const HAL
 	const PATON ; unused
 	const DARYL ; unused
-	const WALTER ; unused
+	const WALTER
 	const TONY ; unused
 	const JEROME
 	const TUCKER
@@ -411,9 +412,9 @@ DEF KRIS EQU __trainer_class__
 	const KARA
 	const WENDY
 	const LISA ; unused
-	const JILL ; unused
+	const JILL
 	const MARY ; unused
-	const KATIE ; unused
+	const KATIE
 	const DAWN
 	const TARA ; unused
 	const NICOLE
@@ -441,7 +442,7 @@ DEF KRIS EQU __trainer_class__
 	trainerclass SUPER_NERD ; 29
 	const STAN
 	const ERIC
-	const GREGG ; unused
+	const GREGG 
 	const JAY ; unused
 	const DAVE ; unused
 	const SAM
@@ -512,7 +513,7 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass FIREBREATHER ; 30
 	const OTIS
-	const DICK ; unused
+	const DICK
 	const NED ; unused
 	const BURT
 	const BILL
@@ -538,6 +539,7 @@ DEF KRIS EQU __trainer_class__
 	const LUNG
 	const KENJI3
 	const WAI
+	const LEE
 
 	trainerclass EXECUTIVEM ; 33
 	const EXECUTIVEM_1

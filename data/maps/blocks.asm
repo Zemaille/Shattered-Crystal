@@ -1056,3 +1056,6 @@ GlobalTerminal1F_Blocks:
 
 IlexForestHeart_Blocks:
 	INCBIN "maps/IlexForestHeart.blk"
+
+MountMortarStrengthPuzzle_Blocks:
+	INCBIN "maps/MountMortarStrengthPuzzle.blk"

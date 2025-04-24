@@ -124,6 +124,8 @@ MountMortar1FInside_MapEvents:
 	warp_event 33, 41, MOUNT_MORTAR_1F_OUTSIDE, 9
 	warp_event  3, 19, MOUNT_MORTAR_B1F, 1
 	warp_event  9,  9, MOUNT_MORTAR_2F_INSIDE, 2
+	warp_event 31, 21, MOUNT_MORTAR_STRENGTH_PUZZLE, 1
+
 
 	def_coord_events
 

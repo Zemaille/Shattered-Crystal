@@ -540,6 +540,13 @@ GolbatEvosAttacks:
 	db 10, QUICK_ATTACK
 	db 15, POISON_FANG
 	db 20, DETECT
+	db 23, CROSS_POISON
+	db 27, AIR_CUTTER
+	db 34, BITE
+	db 41, HAZE
+	db 48, CONFUSE_RAY
+	db 52, AIR_SLASH
+	db 69, LEECH_LIFE
 	db 0 ; no more level-up moves
 
 OddishEvosAttacks:
@@ -2051,6 +2058,7 @@ BayleefEvosAttacks:
 	db 9, POISONPOWDER
 	db 12, SYNTHESIS
 	db 18, REFLECT
+	db 18, LIGHT_SCREEN
 	db 22, DISARM_VOICE
 	db 26, LEECH_SEED
 	db 0 ; no more level-up moves
@@ -2063,7 +2071,7 @@ MeganiumEvosAttacks:
 	db 26, LEECH_SEED
 	db 32, CHLOROBLAST
 	db 34, PLAY_ROUGH
-	db 40, LIGHT_SCREEN
+	db 40, CURSE
 	db 46, BODY_SLAM
 	db 54, MOONBLAST
 	db 60, GIGA_DRAIN
@@ -2954,7 +2962,7 @@ SlugmaEvosAttacks:
 	db 6, EMBER
 	db 8, ROCK_THROW
 	db 13, HARDEN
-	db 20, SMOKESCREEN
+	db 20, HYPNOSIS
 	db 22, ANCIENTPOWER
 	db 27, FLAME_WHEEL
 	db 29, ROCK_SLIDE
